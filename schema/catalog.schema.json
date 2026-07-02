@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://soylentaquamarine.github.io/AI-Model-Catalog/schema/catalog.schema.json",
+  "title": "AI Model Catalog",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "models"],
+  "properties": {
+    "schemaVersion": { "type": "string" },
+    "generatedAt": { "type": "string" },
+    "providers": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "models": {
+      "type": "array",
+      "items": { "$ref": "model.schema.json" }
+    }
+  },
+  "additionalProperties": true
+}
