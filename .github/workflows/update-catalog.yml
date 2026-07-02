@@ -24,14 +24,14 @@ jobs:
         run: |
           python scripts/update_openrouter.py
 
-      - name: Build catalog
+      - name: Provider summary
         run: python scripts/build_catalog.py
 
       - name: Validate JSON
         run: python scripts/validate.py
 
-      - name: Commit generated updates
+      - name: Commit provider updates
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update generated model catalog
-          file_pattern: data/**/*.json
+          commit_message: Update provider model catalog
+          file_pattern: providers/*.json
