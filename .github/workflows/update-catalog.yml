@@ -1,0 +1,37 @@
+name: Update Catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 0'
+
+permissions:
+  contents: write
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run provider updater placeholders
+        run: |
+          python scripts/update_openrouter.py
+
+      - name: Build catalog
+        run: python scripts/build_catalog.py
+
+      - name: Validate JSON
+        run: python scripts/validate.py
+
+      - name: Commit generated updates
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update generated model catalog
+          file_pattern: data/**/*.json
