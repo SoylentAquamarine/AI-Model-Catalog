@@ -1,9 +1,0 @@
-{
-  "schemaVersion": "0.1.0",
-  "schemas": {
-    "catalog": "schema/catalog.schema.json",
-    "provider": "schema/provider.schema.json",
-    "model": "schema/model.schema.json"
-  },
-  "notes": "Canonical schemas live under /schema. This file is provided for consumers using the /data endpoint layout."
-}
