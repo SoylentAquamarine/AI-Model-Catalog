@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0.0",
+  "provider": {
+    "id": "cerebras",
+    "displayName": "Cerebras",
+    "homepage": "https://cerebras.ai",
+    "apiBase": "https://api.cerebras.ai/v1",
+    "apiType": "openai-compatible",
+    "auth": {
+      "scheme": "bearer",
+      "name": null,
+      "extraHeaders": null
+    },
+    "notes": "Cerebras documents a rate-limited free tier for its inference API.",
+    "lastChecked": null
+  },
+  "models": []
+}

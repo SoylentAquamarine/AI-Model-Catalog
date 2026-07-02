@@ -58,19 +58,102 @@ jobs:
               body,
             });
 
-      - name: Run provider updaters
+      # One step per provider, each tolerant of that provider's outage:
+      # a failed updater keeps the existing file and the rest still update.
+      # Missing keys are a clean skip inside the script itself.
+
+      - name: Update openrouter (public, no key)
+        continue-on-error: true
+        run: python scripts/update_openrouter.py
+
+      - name: Update pollinations (public, no key)
+        continue-on-error: true
+        run: python scripts/update_pollinations.py
+
+      - name: Update openai
+        continue-on-error: true
         env:
           OPENAI_API_KEY_FREE: ${{ secrets.OPENAI_API_KEY_FREE }}
-          GROQ_API_KEY_FREE: ${{ secrets.GROQ_API_KEY_FREE }}
-          GEMINI_API_KEY_FREE: ${{ secrets.GEMINI_API_KEY_FREE }}
+        run: python scripts/update_openai.py
+
+      - name: Update anthropic
+        continue-on-error: true
+        env:
           ANTHROPIC_API_KEY_FREE: ${{ secrets.ANTHROPIC_API_KEY_FREE }}
-        run: |
-          python scripts/update_openrouter.py
-          python scripts/update_openai.py
-          python scripts/update_groq.py
-          python scripts/update_gemini.py
-          python scripts/update_anthropic.py
-          python scripts/update_ollama.py
+        run: python scripts/update_anthropic.py
+
+      - name: Update gemini
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY_FREE: ${{ secrets.GEMINI_API_KEY_FREE }}
+        run: python scripts/update_gemini.py
+
+      - name: Update groq
+        continue-on-error: true
+        env:
+          GROQ_API_KEY_FREE: ${{ secrets.GROQ_API_KEY_FREE }}
+        run: python scripts/update_groq.py
+
+      - name: Update mistral
+        continue-on-error: true
+        env:
+          MISTRAL_API_KEY_FREE: ${{ secrets.MISTRAL_API_KEY_FREE }}
+        run: python scripts/update_mistral.py
+
+      - name: Update together
+        continue-on-error: true
+        env:
+          TOGETHER_API_KEY_FREE: ${{ secrets.TOGETHER_API_KEY_FREE }}
+        run: python scripts/update_together.py
+
+      - name: Update cohere
+        continue-on-error: true
+        env:
+          COHERE_API_KEY_FREE: ${{ secrets.COHERE_API_KEY_FREE }}
+        run: python scripts/update_cohere.py
+
+      - name: Update cerebras
+        continue-on-error: true
+        env:
+          CEREBRAS_API_KEY_FREE: ${{ secrets.CEREBRAS_API_KEY_FREE }}
+        run: python scripts/update_cerebras.py
+
+      - name: Update deepseek
+        continue-on-error: true
+        env:
+          DEEPSEEK_API_KEY_FREE: ${{ secrets.DEEPSEEK_API_KEY_FREE }}
+        run: python scripts/update_deepseek.py
+
+      - name: Update fireworks
+        continue-on-error: true
+        env:
+          FIREWORKS_API_KEY_FREE: ${{ secrets.FIREWORKS_API_KEY_FREE }}
+        run: python scripts/update_fireworks.py
+
+      - name: Update sambanova
+        continue-on-error: true
+        env:
+          SAMBANOVA_API_KEY_FREE: ${{ secrets.SAMBANOVA_API_KEY_FREE }}
+        run: python scripts/update_sambanova.py
+
+      - name: Update huggingface
+        continue-on-error: true
+        env:
+          HUGGINGFACE_API_KEY_FREE: ${{ secrets.HUGGINGFACE_API_KEY_FREE }}
+        run: python scripts/update_huggingface.py
+
+      - name: Update cloudflare
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_KEY_FREE: ${{ secrets.CLOUDFLARE_API_KEY_FREE }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: python scripts/update_cloudflare.py
+
+      - name: Update ollama (local runtime, contract only)
+        continue-on-error: true
+        run: python scripts/update_ollama.py
+
+      # Build and validation stay strict: broken output must never publish.
 
       - name: Build catalog index
         run: python scripts/build_catalog.py

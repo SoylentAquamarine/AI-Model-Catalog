@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "provider": {
+    "id": "pollinations",
+    "displayName": "Pollinations",
+    "homepage": "https://pollinations.ai",
+    "apiBase": "https://text.pollinations.ai/openai",
+    "apiType": "openai-compatible",
+    "auth": {
+      "scheme": "none",
+      "name": null,
+      "extraHeaders": null
+    },
+    "notes": "Free, keyless service; an optional token/referrer raises rate limits. apiBase is the OpenAI-compatible text endpoint.",
+    "lastChecked": "2026-07-02T18:09:07Z"
+  },
+  "models": [
+    {
+      "id": "openai-fast",
+      "providerModelId": "openai-fast",
+      "displayName": "GPT-OSS 20B Reasoning LLM (OVH)",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "pollinations_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:09:07Z"
+        },
+        "vision": {
+          "value": false,
+          "source": "pollinations_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:09:07Z"
+        },
+        "reasoning": {
+          "value": true,
+          "source": "pollinations_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:09:07Z"
+        }
+      },
+      "status": "available",
+      "source": "pollinations_models_api",
+      "lastChecked": "2026-07-02T18:09:07Z"
+    }
+  ]
+}

@@ -9,8 +9,10 @@ from __future__ import annotations
 import os
 
 SECRET_NAMES = [
+    "ANTHROPIC_API_KEY_FREE",
     "CEREBRAS_API_KEY_FREE",
     "CLOUDFLARE_API_KEY_FREE",
+    "CLOUDFLARE_ACCOUNT_ID",
     "COHERE_API_KEY_FREE",
     "DEEPSEEK_API_KEY_FREE",
     "FIREWORKS_API_KEY_FREE",

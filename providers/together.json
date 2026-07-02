@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0.0",
+  "provider": {
+    "id": "together",
+    "displayName": "Together AI",
+    "homepage": "https://together.ai",
+    "apiBase": "https://api.together.xyz/v1",
+    "apiType": "openai-compatible",
+    "auth": {
+      "scheme": "bearer",
+      "name": null,
+      "extraHeaders": null
+    },
+    "notes": "Together offers a small set of zero-cost models alongside paid ones; pricing comes from the models API.",
+    "lastChecked": null
+  },
+  "models": []
+}

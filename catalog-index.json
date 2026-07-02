@@ -1,11 +1,46 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-02T18:01:38Z",
+  "generatedAt": "2026-07-02T18:09:09Z",
   "providers": [
     {
       "id": "anthropic",
       "file": "providers/anthropic.json",
       "apiType": "anthropic",
+      "modelCount": 0,
+      "lastChecked": null
+    },
+    {
+      "id": "cerebras",
+      "file": "providers/cerebras.json",
+      "apiType": "openai-compatible",
+      "modelCount": 0,
+      "lastChecked": null
+    },
+    {
+      "id": "cloudflare",
+      "file": "providers/cloudflare.json",
+      "apiType": "openai-compatible",
+      "modelCount": 0,
+      "lastChecked": null
+    },
+    {
+      "id": "cohere",
+      "file": "providers/cohere.json",
+      "apiType": "openai-compatible",
+      "modelCount": 0,
+      "lastChecked": null
+    },
+    {
+      "id": "deepseek",
+      "file": "providers/deepseek.json",
+      "apiType": "openai-compatible",
+      "modelCount": 0,
+      "lastChecked": null
+    },
+    {
+      "id": "fireworks",
+      "file": "providers/fireworks.json",
+      "apiType": "openai-compatible",
       "modelCount": 0,
       "lastChecked": null
     },
@@ -22,6 +57,20 @@
       "apiType": "openai-compatible",
       "modelCount": 17,
       "lastChecked": "2026-07-02T18:01:38Z"
+    },
+    {
+      "id": "huggingface",
+      "file": "providers/huggingface.json",
+      "apiType": "openai-compatible",
+      "modelCount": 0,
+      "lastChecked": null
+    },
+    {
+      "id": "mistral",
+      "file": "providers/mistral.json",
+      "apiType": "openai-compatible",
+      "modelCount": 0,
+      "lastChecked": null
     },
     {
       "id": "ollama",
@@ -43,6 +92,27 @@
       "apiType": "openai-compatible",
       "modelCount": 340,
       "lastChecked": "2026-07-02T18:01:37Z"
+    },
+    {
+      "id": "pollinations",
+      "file": "providers/pollinations.json",
+      "apiType": "openai-compatible",
+      "modelCount": 1,
+      "lastChecked": "2026-07-02T18:09:07Z"
+    },
+    {
+      "id": "sambanova",
+      "file": "providers/sambanova.json",
+      "apiType": "openai-compatible",
+      "modelCount": 0,
+      "lastChecked": null
+    },
+    {
+      "id": "together",
+      "file": "providers/together.json",
+      "apiType": "openai-compatible",
+      "modelCount": 0,
+      "lastChecked": null
     }
   ]
 }

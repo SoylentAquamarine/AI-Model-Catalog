@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0.0",
+  "provider": {
+    "id": "cloudflare",
+    "displayName": "Cloudflare Workers AI",
+    "homepage": "https://developers.cloudflare.com/workers-ai/",
+    "apiBase": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1",
+    "apiType": "openai-compatible",
+    "auth": {
+      "scheme": "bearer",
+      "name": null,
+      "extraHeaders": null
+    },
+    "notes": "Account-scoped API: consumers must substitute their own {account_id} in apiBase. Workers AI documents a daily free allocation.",
+    "lastChecked": null
+  },
+  "models": []
+}

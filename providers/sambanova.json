@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0.0",
+  "provider": {
+    "id": "sambanova",
+    "displayName": "SambaNova Cloud",
+    "homepage": "https://cloud.sambanova.ai",
+    "apiBase": "https://api.sambanova.ai/v1",
+    "apiType": "openai-compatible",
+    "auth": {
+      "scheme": "bearer",
+      "name": null,
+      "extraHeaders": null
+    },
+    "notes": "SambaNova documents a rate-limited free tier on SambaNova Cloud.",
+    "lastChecked": null
+  },
+  "models": []
+}

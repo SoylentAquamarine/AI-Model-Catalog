@@ -77,6 +77,50 @@ def capability(value, source: str, confidence: str, notes: str | None = None) ->
     return cap
 
 
+def update_openai_style(
+    provider_id: str,
+    models_url: str,
+    env_var: str,
+    cost_class: str,
+    source: str,
+) -> int:
+    """Shared flow for providers whose models endpoint is plain OpenAI-shaped:
+    GET {models_url} with a bearer key -> {"data": [{"id": ...}, ...]}.
+    Records model presence honestly; leaves capabilities empty rather than
+    guessing what the endpoint does not state."""
+    key = optional_key(env_var, provider_id)
+    if key is None:
+        return 0
+
+    payload = http_get_json(models_url, headers={"Authorization": f"Bearer {key}"})
+    entries = payload.get("data") if isinstance(payload, dict) else payload
+    if not entries:
+        raise SystemExit(f"{provider_id}: models API returned no data; aborting.")
+
+    models = []
+    for entry in entries:
+        model_id = entry.get("id")
+        if not model_id:
+            continue
+        models.append(
+            {
+                "id": model_id,
+                "providerModelId": model_id,
+                "displayName": entry.get("display_name") or model_id,
+                "costClass": cost_class,
+                "pricing": None,
+                "limits": None,
+                "capabilities": {},
+                "status": "available",
+                "source": source,
+                "lastChecked": now_iso(),
+            }
+        )
+
+    finish(provider_id, models)
+    return 0
+
+
 def finish(provider_id: str, models: list[dict]) -> None:
     """Write the provider file with refreshed models, keeping the provider block."""
     if not models:

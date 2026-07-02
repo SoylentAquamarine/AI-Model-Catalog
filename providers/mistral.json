@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0.0",
+  "provider": {
+    "id": "mistral",
+    "displayName": "Mistral AI",
+    "homepage": "https://mistral.ai",
+    "apiBase": "https://api.mistral.ai/v1",
+    "apiType": "openai-compatible",
+    "auth": {
+      "scheme": "bearer",
+      "name": null,
+      "extraHeaders": null
+    },
+    "notes": "Mistral documents a rate-limited free tier on La Plateforme.",
+    "lastChecked": null
+  },
+  "models": []
+}

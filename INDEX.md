@@ -16,10 +16,20 @@ AI-Model-Catalog/
 
   providers/                # the published data, one file per provider
     openrouter.json
+    pollinations.json
     openai.json
+    anthropic.json
     gemini.json
     groq.json
-    anthropic.json
+    mistral.json
+    together.json
+    cohere.json
+    cerebras.json
+    deepseek.json
+    fireworks.json
+    sambanova.json
+    huggingface.json
+    cloudflare.json
     ollama.json
 
   schema/                   # machine-readable contract; CI validates against these
@@ -41,10 +51,20 @@ AI-Model-Catalog/
   scripts/
     catalog_lib.py          # shared helpers for the scripts below
     update_openrouter.py    # one updater per provider
+    update_pollinations.py
     update_openai.py
+    update_anthropic.py
     update_gemini.py
     update_groq.py
-    update_anthropic.py
+    update_mistral.py
+    update_together.py
+    update_cohere.py
+    update_cerebras.py
+    update_deepseek.py
+    update_fireworks.py
+    update_sambanova.py
+    update_huggingface.py
+    update_cloudflare.py
     update_ollama.py
     build_catalog.py        # generates catalog-index.json + summary
     validate.py             # schema validation (jsonschema, structural fallback)
