@@ -1,5 +1,0 @@
-{
-  "schemaVersion": "0.1.0",
-  "overrides": [],
-  "notes": "Manual capability overrides. Each override should include providerId, model id or baseModelRef, capability name, value, source, confidence, notes, and lastChecked."
-}
