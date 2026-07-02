@@ -1,0 +1,5 @@
+{
+  "schemaVersion": "0.1.0",
+  "overrides": [],
+  "notes": "Manual pricing overrides. Use when provider APIs do not expose pricing or pricing needs correction. Include source and lastChecked."
+}
