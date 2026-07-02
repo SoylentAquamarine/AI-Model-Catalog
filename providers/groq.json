@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "0.1.0",
+  "provider": {
+    "id": "groq",
+    "displayName": "Groq",
+    "homepage": "https://groq.com",
+    "apiBase": "https://api.groq.com/openai/v1",
+    "lastChecked": null
+  },
+  "models": []
+}
