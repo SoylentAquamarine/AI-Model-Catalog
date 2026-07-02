@@ -37,10 +37,21 @@ Every imported or curated claim should track source metadata when possible.
 }
 ```
 
-## Manual Overrides
+## Current Updaters
 
-Provider APIs often omit important facts.
+One script per provider under `scripts/`:
 
-Use the files in `overrides/` for manually curated pricing, capability, and deprecation corrections.
+```text
+update_openrouter.py   public models API, no key needed
+update_openai.py       needs OPENAI_API_KEY_FREE
+update_groq.py         needs GROQ_API_KEY_FREE
+update_gemini.py       needs GEMINI_API_KEY_FREE
+update_anthropic.py    needs ANTHROPIC_API_KEY_FREE
+update_ollama.py       no fetch; local runtime, connection contract only
+```
 
-Manual overrides must include notes and source information.
+Key-based updaters skip gracefully when their key is missing, keeping the existing file. An updater that fetches zero models aborts rather than wiping a good file.
+
+## Manual Curation (planned)
+
+Provider APIs often omit important facts — pricing pages especially. A curated-overrides lane (merged at build time, with notes and source information required) is planned; it was removed from the MVP and will return once the fetched lane is stable.

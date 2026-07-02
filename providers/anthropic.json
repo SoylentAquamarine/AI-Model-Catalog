@@ -1,10 +1,19 @@
 {
-  "schemaVersion": "0.1.0",
+  "schemaVersion": "1.0.0",
   "provider": {
     "id": "anthropic",
     "displayName": "Anthropic",
     "homepage": "https://anthropic.com",
-    "apiBase": "https://api.anthropic.com",
+    "apiBase": "https://api.anthropic.com/v1",
+    "apiType": "anthropic",
+    "auth": {
+      "scheme": "header",
+      "name": "x-api-key",
+      "extraHeaders": {
+        "anthropic-version": "2023-06-01"
+      }
+    },
+    "notes": null,
     "lastChecked": null
   },
   "models": []

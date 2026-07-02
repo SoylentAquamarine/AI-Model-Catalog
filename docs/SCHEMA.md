@@ -1,72 +1,116 @@
 # Schema
 
-The catalog schema is designed to be generic and reusable.
+The machine-readable truth lives in `schema/`:
+
+```text
+schema/provider.schema.json        validates providers/<id>.json
+schema/catalog-index.schema.json   validates catalog-index.json
+```
+
+CI validates every file against these before anything publishes. This document is the human-readable companion.
 
 ## Main Concepts
 
 ```text
 provider
-  the company or service offering model access
+  the company or service offering model access, plus HOW to talk to it
+  (apiType, apiBase, auth)
 
-baseModel
-  the underlying model identity
-
-offering
-  a provider-specific version of a model
+model (offering)
+  a provider-specific model entry: cost class, pricing, limits, capabilities
 
 capability
-  a task or interface the model/offering supports
+  a task or interface the model supports, always with evidence
 
 evidence
-  how the catalog knows a field is true, false, likely, or unknown
+  how the catalog knows a claim is true, false, likely, or unknown
 ```
 
-## Provider Offering
+## Provider File Shape
 
-A provider offering should include:
+```json
+{
+  "schemaVersion": "1.0.0",
+  "provider": {
+    "id": "anthropic",
+    "displayName": "Anthropic",
+    "homepage": "https://anthropic.com",
+    "apiBase": "https://api.anthropic.com/v1",
+    "apiType": "anthropic",
+    "auth": {
+      "scheme": "header",
+      "name": "x-api-key",
+      "extraHeaders": { "anthropic-version": "2023-06-01" }
+    },
+    "notes": null,
+    "lastChecked": "2026-07-02T17:53:48Z"
+  },
+  "models": [ ... ]
+}
+```
+
+### apiType
+
+Which client driver a consumer should use:
 
 ```text
-id
-providerId
-providerModelId
-displayName
-baseModelRef
-status
-cost
-limits
-capabilities
-source
+openai-compatible   /chat/completions style (OpenAI, Groq, OpenRouter, many others)
+anthropic           Anthropic Messages API
+gemini              Google Generative Language API
+ollama              local Ollama runtime
+```
+
+New values are additive (minor version bump). A consumer that implements these drivers can talk to any provider in the catalog without provider-specific code.
+
+### auth
+
+How to present a credential — never the credential itself:
+
+```text
+bearer   Authorization: Bearer <key>
+header   <auth.name>: <key>, plus auth.extraHeaders sent verbatim
+query    ?<auth.name>=<key>
+none     no credential required
+```
+
+## Model Entry Shape
+
+```json
+{
+  "id": "example/model-id",
+  "providerModelId": "example/model-id",
+  "displayName": "Example Model",
+  "costClass": "free",
+  "pricing": { "currency": "USD", "inputPerMTokens": 0.0, "outputPerMTokens": 0.0 },
+  "limits": { "contextTokens": 32768, "maxOutputTokens": 8192 },
+  "capabilities": { "chat": { "value": true, "source": "openrouter_models_api", "confidence": "high", "lastChecked": "..." } },
+  "status": "available",
+  "source": "openrouter_models_api",
+  "lastChecked": "2026-07-02T17:53:48Z"
+}
+```
+
+```text
+costClass    free | paid | trial | local | unknown   (docs/FREE-PAID-CLASSIFICATION.md)
+pricing      USD per million tokens, when known; null when not
+limits       token limits, when known; null when not
+status       available | preview | deprecated | unknown
+capabilities keys from docs/CAPABILITY-FLAGS.md; absent key = no claim made
 ```
 
 ## Capability Values
 
-Capabilities should not be plain booleans only.
-
-Use:
+Capabilities are never plain booleans:
 
 ```text
-true
-false
-unknown
-likely
-partial
+true      confirmed supported
+false     confirmed not supported
+unknown   no good information yet
+likely    inferred but not confirmed
+partial   supported with limits or caveats
 ```
 
-Every capability should include:
-
-```text
-value
-source
-confidence
-lastChecked
-notes
-```
-
-## Source and Confidence
-
-Every important claim should say where it came from and how reliable it is.
-
-Example:
+Every capability carries evidence:
 
 ```json
 {
@@ -77,3 +121,9 @@ Example:
   "notes": "Provider endpoint has not confirmed this feature."
 }
 ```
+
+See `docs/CONFIDENCE-LEVELS.md`. The integrity rule: a guessed value with high confidence is worse than an honest unknown.
+
+## Forward Compatibility
+
+Consumers must ignore fields they do not recognize. Schemas set `additionalProperties: true` on purpose — new fields arrive as minor versions. See `docs/VERSIONING.md`.

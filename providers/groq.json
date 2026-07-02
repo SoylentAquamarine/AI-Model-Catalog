@@ -1,10 +1,17 @@
 {
-  "schemaVersion": "0.1.0",
+  "schemaVersion": "1.0.0",
   "provider": {
     "id": "groq",
     "displayName": "Groq",
     "homepage": "https://groq.com",
     "apiBase": "https://api.groq.com/openai/v1",
+    "apiType": "openai-compatible",
+    "auth": {
+      "scheme": "bearer",
+      "name": null,
+      "extraHeaders": null
+    },
+    "notes": "Groq documents a rate-limited free tier covering its API models.",
     "lastChecked": null
   },
   "models": []

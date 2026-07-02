@@ -17,11 +17,14 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Validate JSON
+      - name: Install validation dependency
+        run: pip install jsonschema
+
+      - name: Validate committed files
         run: python scripts/validate.py
 
-      - name: Build catalog
+      - name: Rebuild catalog index
         run: python scripts/build_catalog.py
 
-      - name: Validate generated JSON
+      - name: Validate rebuilt output
         run: python scripts/validate.py

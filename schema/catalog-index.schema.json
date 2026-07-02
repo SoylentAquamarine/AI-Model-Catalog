@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/schema/catalog-index.schema.json",
+  "title": "AI Model Catalog index",
+  "description": "The discovery entry point. Consumers fetch this first, then the provider files it lists. Consumers must ignore fields they do not recognize.",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "providers"],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "generatedAt": {
+      "type": "string",
+      "description": "UTC ISO 8601 timestamp of the build that produced this index. Consumers can compare it to their last sync and skip downloads when unchanged."
+    },
+    "providers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "file", "apiType"],
+        "properties": {
+          "id": { "type": "string" },
+          "file": {
+            "type": "string",
+            "description": "Repo-relative path, e.g. providers/openai.json"
+          },
+          "apiType": { "type": "string" },
+          "modelCount": { "type": "integer" },
+          "lastChecked": { "type": ["string", "null"] }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

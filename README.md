@@ -2,40 +2,49 @@
 
 A public, normalized JSON catalog of AI providers, models, pricing, free/paid status, capabilities, limits, and source confidence.
 
+## Consuming the Catalog
+
+Two files kinds, plain HTTPS, no account needed:
+
+```bash
+# which providers exist, when the catalog was built
+curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/catalog-index.json
+
+# a provider's models, pricing, capabilities, and how to talk to its API
+curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/providers/openrouter.json
+```
+
+Start with `docs/CONSUMING.md`. The contract: files validate against `schema/`, versioned by semver (`docs/VERSIONING.md`), consumers ignore unknown fields. Everything else in this repo is maintenance machinery.
+
 ## Goal
 
 AI providers expose model information in different ways. Some publish model lists. Some publish pricing. Some publish capabilities. Some expose almost nothing in a clean machine-readable format.
 
 This project normalizes that information into simple provider JSON files that can be consumed by many tools and projects.
 
-## MVP Direction
-
-Keep the first version simple.
+## How It Updates
 
 ```text
 providers/
-  openrouter.json
-  openai.json
-  gemini.json
-  groq.json
-  anthropic.json
-  ollama.json
+  openrouter.json   public models API - richest data, no key needed
+  openai.json       models API (key) - model presence; pricing curated later
+  gemini.json       models API (key) - token limits, generation methods
+  groq.json         models API (key) - context windows, free tier
+  anthropic.json    models API (key) - model presence
+  ollama.json       local runtime - connection contract only
 ```
 
-Each provider file tracks that provider's model offerings.
+One updater script per provider (`scripts/update_<provider>.py`). They run weekly via GitHub Actions, on demand from the Actions tab, and on provider announcement emails via `repository_dispatch` — see `docs/EMAIL-TRIGGERS.md`. Key-based updaters skip gracefully when their key is not configured.
 
-The first useful target is:
+Each provider file records:
 
 ```text
-model id
-display name
+how to talk to the provider: apiType, apiBase, auth shape (never a key)
+model id and display name
 free/paid/trial/local/unknown
-pricing when known
+pricing when known (USD per million tokens)
 context limits when known
-basic capabilities, especially for free models
-source
-confidence
-last checked
+capabilities with evidence: value, source, confidence, lastChecked
 ```
 
 ## Core Idea

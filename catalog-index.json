@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-02T17:57:08Z",
+  "providers": [
+    {
+      "id": "anthropic",
+      "file": "providers/anthropic.json",
+      "apiType": "anthropic",
+      "modelCount": 0,
+      "lastChecked": null
+    },
+    {
+      "id": "gemini",
+      "file": "providers/gemini.json",
+      "apiType": "gemini",
+      "modelCount": 0,
+      "lastChecked": null
+    },
+    {
+      "id": "groq",
+      "file": "providers/groq.json",
+      "apiType": "openai-compatible",
+      "modelCount": 0,
+      "lastChecked": null
+    },
+    {
+      "id": "ollama",
+      "file": "providers/ollama.json",
+      "apiType": "ollama",
+      "modelCount": 0,
+      "lastChecked": null
+    },
+    {
+      "id": "openai",
+      "file": "providers/openai.json",
+      "apiType": "openai-compatible",
+      "modelCount": 0,
+      "lastChecked": null
+    },
+    {
+      "id": "openrouter",
+      "file": "providers/openrouter.json",
+      "apiType": "openai-compatible",
+      "modelCount": 340,
+      "lastChecked": "2026-07-02T17:53:48Z"
+    }
+  ]
+}

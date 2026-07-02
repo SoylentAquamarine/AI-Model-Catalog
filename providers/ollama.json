@@ -1,10 +1,17 @@
 {
-  "schemaVersion": "0.1.0",
+  "schemaVersion": "1.0.0",
   "provider": {
     "id": "ollama",
     "displayName": "Ollama",
     "homepage": "https://ollama.com",
     "apiBase": "http://localhost:11434",
+    "apiType": "ollama",
+    "auth": {
+      "scheme": "none",
+      "name": null,
+      "extraHeaders": null
+    },
+    "notes": "Local runtime. Which models exist depends on what each user has pulled, so this catalog publishes only the connection contract. Consumers should enumerate models at runtime from the local instance (GET /api/tags).",
     "lastChecked": null
   },
   "models": []

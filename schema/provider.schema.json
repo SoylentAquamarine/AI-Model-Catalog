@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/schema/provider.schema.json",
+  "title": "AI Model Catalog provider file",
+  "description": "One file per AI provider: how to talk to it (apiType, auth, apiBase) and what it offers (models with pricing, limits, and evidence-backed capabilities). Consumers must ignore fields they do not recognize.",
+  "type": "object",
+  "required": ["schemaVersion", "provider", "models"],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "description": "Semver of the provider-file schema. Major bump = breaking change."
+    },
+    "provider": {
+      "type": "object",
+      "required": ["id", "displayName", "apiBase", "apiType"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$",
+          "description": "Stable lowercase identifier. Matches the filename: providers/<id>.json"
+        },
+        "displayName": { "type": "string" },
+        "homepage": { "type": ["string", "null"] },
+        "apiBase": {
+          "type": "string",
+          "description": "Base URL for API calls. Consumers may override locally (e.g. proxies, self-hosted)."
+        },
+        "apiType": {
+          "type": "string",
+          "enum": ["openai-compatible", "anthropic", "gemini", "ollama"],
+          "description": "Which API shape / client driver to use. Consumers wire one driver per apiType; this field selects it."
+        },
+        "auth": {
+          "type": ["object", "null"],
+          "required": ["scheme"],
+          "description": "How to present a credential. The credential itself never appears in the catalog.",
+          "properties": {
+            "scheme": {
+              "type": "string",
+              "enum": ["bearer", "header", "query", "none"],
+              "description": "bearer = Authorization: Bearer <key>; header = custom header named by 'name'; query = query parameter named by 'name'; none = no credential required."
+            },
+            "name": {
+              "type": ["string", "null"],
+              "description": "Header or query-parameter name when scheme is 'header' or 'query'."
+            },
+            "extraHeaders": {
+              "type": ["object", "null"],
+              "additionalProperties": { "type": "string" },
+              "description": "Static headers every request must include (e.g. anthropic-version)."
+            }
+          },
+          "additionalProperties": true
+        },
+        "notes": { "type": ["string", "null"] },
+        "lastChecked": {
+          "type": ["string", "null"],
+          "description": "UTC ISO 8601 timestamp of the last successful updater run for this provider."
+        }
+      },
+      "additionalProperties": true
+    },
+    "models": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/model" }
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "model": {
+      "type": "object",
+      "required": ["id", "costClass"],
+      "properties": {
+        "id": { "type": "string" },
+        "providerModelId": {
+          "type": ["string", "null"],
+          "description": "Exact model identifier to send to the provider API, when it differs from id."
+        },
+        "displayName": { "type": ["string", "null"] },
+        "costClass": {
+          "type": "string",
+          "enum": ["free", "paid", "trial", "local", "unknown"],
+          "description": "See docs/FREE-PAID-CLASSIFICATION.md. Free does not mean unlimited."
+        },
+        "pricing": {
+          "type": ["object", "null"],
+          "properties": {
+            "currency": { "type": "string" },
+            "inputPerMTokens": { "type": ["number", "null"] },
+            "outputPerMTokens": { "type": ["number", "null"] }
+          },
+          "additionalProperties": true
+        },
+        "limits": {
+          "type": ["object", "null"],
+          "properties": {
+            "contextTokens": { "type": ["integer", "null"] },
+            "maxOutputTokens": { "type": ["integer", "null"] }
+          },
+          "additionalProperties": true
+        },
+        "capabilities": {
+          "type": ["object", "null"],
+          "description": "Keys from docs/CAPABILITY-FLAGS.md. Every claim carries evidence.",
+          "additionalProperties": { "$ref": "#/$defs/capability" }
+        },
+        "status": {
+          "type": "string",
+          "enum": ["available", "preview", "deprecated", "unknown"],
+          "default": "available"
+        },
+        "source": {
+          "type": ["string", "null"],
+          "description": "Where this model entry came from, e.g. openrouter_models_api."
+        },
+        "lastChecked": { "type": ["string", "null"] },
+        "notes": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "capability": {
+      "type": "object",
+      "required": ["value"],
+      "properties": {
+        "value": {
+          "enum": [true, false, "unknown", "likely", "partial"],
+          "description": "Never present guessed data as confirmed. See docs/CAPABILITY-FLAGS.md."
+        },
+        "source": { "type": ["string", "null"] },
+        "confidence": {
+          "type": ["string", "null"],
+          "enum": ["high", "medium", "low", "unknown", null]
+        },
+        "lastChecked": { "type": ["string", "null"] },
+        "notes": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    }
+  }
+}

@@ -1,10 +1,17 @@
 {
-  "schemaVersion": "0.1.0",
+  "schemaVersion": "1.0.0",
   "provider": {
     "id": "gemini",
     "displayName": "Google Gemini",
     "homepage": "https://ai.google.dev",
-    "apiBase": "https://generativelanguage.googleapis.com",
+    "apiBase": "https://generativelanguage.googleapis.com/v1beta",
+    "apiType": "gemini",
+    "auth": {
+      "scheme": "query",
+      "name": "key",
+      "extraHeaders": null
+    },
+    "notes": "Google documents a rate-limited free tier for Gemini and Gemma API models.",
     "lastChecked": null
   },
   "models": []
