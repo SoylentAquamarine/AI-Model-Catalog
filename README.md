@@ -6,32 +6,41 @@ A public, normalized JSON catalog of AI providers, models, pricing, free/paid st
 
 AI providers expose model information in different ways. Some publish model lists. Some publish pricing. Some publish capabilities. Some expose almost nothing in a clean machine-readable format.
 
-This project normalizes that information into reusable JSON files that can be consumed by many tools and projects.
+This project normalizes that information into simple provider JSON files that can be consumed by many tools and projects.
 
-## Public Data Goals
+## MVP Direction
 
-The catalog is intended to track:
+Keep the first version simple.
 
 ```text
-providers
-models
-base models
-provider-specific offerings
-free/paid/trial/local/unknown cost class
-pricing
-context limits
-output limits
-capabilities
-modalities
-status
-source evidence
+providers/
+  openrouter.json
+  openai.json
+  gemini.json
+  groq.json
+  anthropic.json
+  ollama.json
+```
+
+Each provider file tracks that provider's model offerings.
+
+The first useful target is:
+
+```text
+model id
+display name
+free/paid/trial/local/unknown
+pricing when known
+context limits when known
+basic capabilities, especially for free models
+source
 confidence
-last checked timestamps
+last checked
 ```
 
 ## Core Idea
 
-Separate the base model from the provider offering.
+Separate the base model from the provider offering as the catalog matures.
 
 ```text
 Base model:
@@ -42,7 +51,7 @@ Provider offering:
   limits, API features, free tier status, and availability
 ```
 
-This matters because the same base model may be offered by multiple providers with different prices, context limits, API features, rate limits, and access rules.
+For the MVP, provider files can carry the important fields directly.
 
 ## Important Rule
 
@@ -56,29 +65,6 @@ Capabilities should include evidence and confidence.
   "source": "inferred_from_base_model",
   "confidence": "medium"
 }
-```
-
-## Data Layout
-
-```text
-data/
-  catalog.json
-  free.json
-  schema.json
-  providers/
-    openrouter.json
-    openai.json
-    gemini.json
-    groq.json
-    anthropic.json
-    ollama.json
-  base-models/
-  indexes/
-    free-chat.json
-    free-json.json
-    free-code.json
-    vision.json
-    embeddings.json
 ```
 
 ## Intended Consumers
