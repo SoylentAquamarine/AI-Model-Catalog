@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": null,
+  "filter": {
+    "cost.class": "free",
+    "capabilities.chat.value": [true, "likely", "partial"]
+  },
+  "models": []
+}
