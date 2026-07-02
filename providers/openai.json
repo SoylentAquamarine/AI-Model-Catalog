@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": null,
-    "lastChecked": "2026-07-02T17:59:15Z"
+    "lastChecked": "2026-07-02T18:01:38Z"
   },
   "models": [
     {
@@ -25,7 +25,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "chat-latest",
@@ -37,7 +37,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "chatgpt-image-latest",
@@ -49,7 +49,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "davinci-002",
@@ -61,7 +61,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-3.5-turbo",
@@ -73,7 +73,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-3.5-turbo-0125",
@@ -85,7 +85,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-3.5-turbo-1106",
@@ -97,7 +97,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-3.5-turbo-16k",
@@ -109,7 +109,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-3.5-turbo-instruct",
@@ -121,7 +121,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-3.5-turbo-instruct-0914",
@@ -133,7 +133,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4",
@@ -145,7 +145,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4-0613",
@@ -157,7 +157,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4-turbo",
@@ -169,7 +169,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4-turbo-2024-04-09",
@@ -181,7 +181,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4.1",
@@ -193,7 +193,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4.1-2025-04-14",
@@ -205,7 +205,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4.1-mini",
@@ -217,7 +217,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4.1-mini-2025-04-14",
@@ -229,7 +229,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4.1-nano",
@@ -241,7 +241,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4.1-nano-2025-04-14",
@@ -253,7 +253,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o",
@@ -265,7 +265,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-2024-05-13",
@@ -277,7 +277,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-2024-08-06",
@@ -289,7 +289,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-2024-11-20",
@@ -301,7 +301,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-mini",
@@ -313,7 +313,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-mini-2024-07-18",
@@ -325,7 +325,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-mini-search-preview",
@@ -337,7 +337,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-mini-search-preview-2025-03-11",
@@ -349,7 +349,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-mini-transcribe",
@@ -361,7 +361,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-mini-transcribe-2025-03-20",
@@ -373,7 +373,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-mini-transcribe-2025-12-15",
@@ -385,7 +385,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-mini-tts",
@@ -397,7 +397,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-mini-tts-2025-03-20",
@@ -409,7 +409,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-mini-tts-2025-12-15",
@@ -421,7 +421,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-search-preview",
@@ -433,7 +433,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-search-preview-2025-03-11",
@@ -445,7 +445,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-transcribe",
@@ -457,7 +457,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-4o-transcribe-diarize",
@@ -469,7 +469,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5",
@@ -481,7 +481,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5-2025-08-07",
@@ -493,7 +493,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5-chat-latest",
@@ -505,7 +505,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5-codex",
@@ -517,7 +517,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5-mini",
@@ -529,7 +529,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5-mini-2025-08-07",
@@ -541,7 +541,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5-nano",
@@ -553,7 +553,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5-nano-2025-08-07",
@@ -565,7 +565,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5-pro",
@@ -577,7 +577,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5-pro-2025-10-06",
@@ -589,7 +589,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5-search-api",
@@ -601,7 +601,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5-search-api-2025-10-14",
@@ -613,7 +613,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.1",
@@ -625,7 +625,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.1-2025-11-13",
@@ -637,7 +637,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.1-chat-latest",
@@ -649,7 +649,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.1-codex",
@@ -661,7 +661,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.1-codex-max",
@@ -673,7 +673,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.1-codex-mini",
@@ -685,7 +685,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.2",
@@ -697,7 +697,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.2-2025-12-11",
@@ -709,7 +709,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.2-chat-latest",
@@ -721,7 +721,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.2-codex",
@@ -733,7 +733,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.2-pro",
@@ -745,7 +745,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.2-pro-2025-12-11",
@@ -757,7 +757,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.3-chat-latest",
@@ -769,7 +769,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.3-codex",
@@ -781,7 +781,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.4",
@@ -793,7 +793,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.4-2026-03-05",
@@ -805,7 +805,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.4-mini",
@@ -817,7 +817,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.4-mini-2026-03-17",
@@ -829,7 +829,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.4-nano",
@@ -841,7 +841,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.4-nano-2026-03-17",
@@ -853,7 +853,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.4-pro",
@@ -865,7 +865,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.4-pro-2026-03-05",
@@ -877,7 +877,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.5",
@@ -889,7 +889,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.5-2026-04-23",
@@ -901,7 +901,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.5-pro",
@@ -913,7 +913,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-5.5-pro-2026-04-23",
@@ -925,7 +925,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-audio",
@@ -937,7 +937,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-audio-1.5",
@@ -949,7 +949,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-audio-2025-08-28",
@@ -961,7 +961,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-audio-mini",
@@ -973,7 +973,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-audio-mini-2025-10-06",
@@ -985,7 +985,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-audio-mini-2025-12-15",
@@ -997,7 +997,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-image-1",
@@ -1009,7 +1009,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-image-1-mini",
@@ -1021,7 +1021,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-image-1.5",
@@ -1033,7 +1033,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-image-2",
@@ -1045,7 +1045,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-image-2-2026-04-21",
@@ -1057,7 +1057,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-realtime",
@@ -1069,7 +1069,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-realtime-1.5",
@@ -1081,7 +1081,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-realtime-2",
@@ -1093,7 +1093,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-realtime-2025-08-28",
@@ -1105,7 +1105,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-realtime-mini",
@@ -1117,7 +1117,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-realtime-mini-2025-10-06",
@@ -1129,7 +1129,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-realtime-mini-2025-12-15",
@@ -1141,7 +1141,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-realtime-translate",
@@ -1153,7 +1153,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "gpt-realtime-whisper",
@@ -1165,7 +1165,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "o1",
@@ -1177,7 +1177,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "o1-2024-12-17",
@@ -1189,7 +1189,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "o1-pro",
@@ -1201,7 +1201,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "o1-pro-2025-03-19",
@@ -1213,7 +1213,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "o3",
@@ -1225,7 +1225,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "o3-2025-04-16",
@@ -1237,7 +1237,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "o3-mini",
@@ -1249,7 +1249,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "o3-mini-2025-01-31",
@@ -1261,7 +1261,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "o4-mini",
@@ -1273,7 +1273,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "o4-mini-2025-04-16",
@@ -1285,7 +1285,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "o4-mini-deep-research",
@@ -1297,7 +1297,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "o4-mini-deep-research-2025-06-26",
@@ -1309,7 +1309,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "omni-moderation-2024-09-26",
@@ -1321,7 +1321,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "omni-moderation-latest",
@@ -1333,7 +1333,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "sora-2",
@@ -1345,7 +1345,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "sora-2-pro",
@@ -1357,7 +1357,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "text-embedding-3-large",
@@ -1369,7 +1369,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "text-embedding-3-small",
@@ -1381,7 +1381,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "text-embedding-ada-002",
@@ -1393,7 +1393,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "tts-1",
@@ -1405,7 +1405,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "tts-1-1106",
@@ -1417,7 +1417,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "tts-1-hd",
@@ -1429,7 +1429,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "tts-1-hd-1106",
@@ -1441,7 +1441,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     },
     {
       "id": "whisper-1",
@@ -1453,7 +1453,7 @@
       "capabilities": {},
       "status": "available",
       "source": "openai_models_api",
-      "lastChecked": "2026-07-02T17:59:15Z"
+      "lastChecked": "2026-07-02T18:01:38Z"
     }
   ]
 }
