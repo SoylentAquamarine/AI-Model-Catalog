@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-02T18:10:09Z",
+  "generatedAt": "2026-07-02T18:17:48Z",
   "providers": [
     {
       "id": "anthropic",
@@ -14,63 +14,63 @@
       "file": "providers/cerebras.json",
       "apiType": "openai-compatible",
       "modelCount": 3,
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "cloudflare",
       "file": "providers/cloudflare.json",
       "apiType": "openai-compatible",
-      "modelCount": 0,
-      "lastChecked": null
+      "modelCount": 60,
+      "lastChecked": "2026-07-02T18:17:48Z"
     },
     {
       "id": "cohere",
       "file": "providers/cohere.json",
       "apiType": "openai-compatible",
       "modelCount": 31,
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "deepseek",
       "file": "providers/deepseek.json",
       "apiType": "openai-compatible",
       "modelCount": 2,
-      "lastChecked": "2026-07-02T18:10:08Z"
+      "lastChecked": "2026-07-02T18:17:45Z"
     },
     {
       "id": "fireworks",
       "file": "providers/fireworks.json",
       "apiType": "openai-compatible",
       "modelCount": 7,
-      "lastChecked": "2026-07-02T18:10:08Z"
+      "lastChecked": "2026-07-02T18:17:45Z"
     },
     {
       "id": "gemini",
       "file": "providers/gemini.json",
       "apiType": "gemini",
       "modelCount": 54,
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:42Z"
     },
     {
       "id": "groq",
       "file": "providers/groq.json",
       "apiType": "openai-compatible",
       "modelCount": 17,
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "huggingface",
       "file": "providers/huggingface.json",
       "apiType": "openai-compatible",
-      "modelCount": 123,
-      "lastChecked": "2026-07-02T18:10:09Z"
+      "modelCount": 122,
+      "lastChecked": "2026-07-02T18:17:45Z"
     },
     {
       "id": "mistral",
       "file": "providers/mistral.json",
       "apiType": "openai-compatible",
       "modelCount": 74,
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "ollama",
@@ -84,35 +84,35 @@
       "file": "providers/openai.json",
       "apiType": "openai-compatible",
       "modelCount": 120,
-      "lastChecked": "2026-07-02T18:10:05Z"
+      "lastChecked": "2026-07-02T18:17:42Z"
     },
     {
       "id": "openrouter",
       "file": "providers/openrouter.json",
       "apiType": "openai-compatible",
       "modelCount": 340,
-      "lastChecked": "2026-07-02T18:10:04Z"
+      "lastChecked": "2026-07-02T18:17:40Z"
     },
     {
       "id": "pollinations",
       "file": "providers/pollinations.json",
       "apiType": "openai-compatible",
       "modelCount": 1,
-      "lastChecked": "2026-07-02T18:10:04Z"
+      "lastChecked": "2026-07-02T18:17:41Z"
     },
     {
       "id": "sambanova",
       "file": "providers/sambanova.json",
       "apiType": "openai-compatible",
       "modelCount": 6,
-      "lastChecked": "2026-07-02T18:10:08Z"
+      "lastChecked": "2026-07-02T18:17:45Z"
     },
     {
       "id": "together",
       "file": "providers/together.json",
       "apiType": "openai-compatible",
       "modelCount": 271,
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     }
   ]
 }

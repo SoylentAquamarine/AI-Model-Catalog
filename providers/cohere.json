@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "apiBase is Cohere's OpenAI-compatible endpoint; the native Cohere API differs. Cohere trial keys are free with rate limits.",
-    "lastChecked": "2026-07-02T18:10:07Z"
+    "lastChecked": "2026-07-02T18:17:44Z"
   },
   "models": [
     {
@@ -30,24 +30,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "c4ai-aya-vision-32b",
@@ -64,24 +64,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "cohere-transcribe-03-2026",
@@ -98,24 +98,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "command-a-03-2025",
@@ -132,24 +132,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "command-a-plus-05-2026",
@@ -166,24 +166,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "command-a-reasoning-08-2025",
@@ -200,24 +200,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "command-a-translate-08-2025",
@@ -234,24 +234,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "command-a-vision-07-2025",
@@ -268,24 +268,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "command-r-08-2024",
@@ -302,24 +302,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "command-r-plus-08-2024",
@@ -336,24 +336,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "command-r7b-12-2024",
@@ -370,24 +370,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "command-r7b-arabic-02-2025",
@@ -404,24 +404,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "embed-english-light-v3.0",
@@ -438,24 +438,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "embed-english-light-v3.0-image",
@@ -469,24 +469,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "embed-english-v3.0",
@@ -503,24 +503,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "embed-english-v3.0-image",
@@ -534,24 +534,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "embed-multilingual-light-v3.0",
@@ -568,24 +568,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "embed-multilingual-light-v3.0-image",
@@ -599,24 +599,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "embed-multilingual-v3.0",
@@ -633,24 +633,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "embed-multilingual-v3.0-image",
@@ -664,24 +664,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "embed-v4.0",
@@ -698,24 +698,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "north-mini-code-1-0",
@@ -732,24 +732,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "rerank-english-v3.0",
@@ -766,24 +766,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "rerank-multilingual-v3.0",
@@ -800,24 +800,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "rerank-v3.5",
@@ -834,24 +834,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "rerank-v4.0-fast",
@@ -868,24 +868,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "rerank-v4.0-pro",
@@ -902,24 +902,24 @@
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "tiny-aya-earth",
@@ -936,24 +936,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "tiny-aya-fire",
@@ -970,24 +970,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "tiny-aya-global",
@@ -1004,24 +1004,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
       "id": "tiny-aya-water",
@@ -1038,24 +1038,24 @@
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:10:07Z"
+          "lastChecked": "2026-07-02T18:17:44Z"
         }
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-02T18:10:07Z"
+      "lastChecked": "2026-07-02T18:17:44Z"
     }
   ]
 }

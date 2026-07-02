@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "Groq documents a rate-limited free tier covering its API models.",
-    "lastChecked": "2026-07-02T18:10:06Z"
+    "lastChecked": "2026-07-02T18:17:43Z"
   },
   "models": [
     {
@@ -28,7 +28,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "canopylabs/orpheus-arabic-saudi",
@@ -43,7 +43,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "canopylabs/orpheus-v1-english",
@@ -58,7 +58,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "groq/compound",
@@ -73,7 +73,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "groq/compound-mini",
@@ -88,7 +88,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "llama-3.1-8b-instant",
@@ -103,7 +103,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "llama-3.3-70b-versatile",
@@ -118,7 +118,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "meta-llama/llama-4-scout-17b-16e-instruct",
@@ -133,7 +133,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "meta-llama/llama-prompt-guard-2-22m",
@@ -148,7 +148,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "meta-llama/llama-prompt-guard-2-86m",
@@ -163,7 +163,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "openai/gpt-oss-120b",
@@ -178,7 +178,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "openai/gpt-oss-20b",
@@ -193,7 +193,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "openai/gpt-oss-safeguard-20b",
@@ -208,7 +208,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "qwen/qwen3-32b",
@@ -223,7 +223,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "qwen/qwen3.6-27b",
@@ -238,7 +238,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "whisper-large-v3",
@@ -253,7 +253,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
       "id": "whisper-large-v3-turbo",
@@ -268,7 +268,7 @@
       "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-02T18:10:06Z"
+      "lastChecked": "2026-07-02T18:17:43Z"
     }
   ]
 }

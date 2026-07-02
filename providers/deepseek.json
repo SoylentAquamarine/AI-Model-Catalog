@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": null,
-    "lastChecked": "2026-07-02T18:10:08Z"
+    "lastChecked": "2026-07-02T18:17:45Z"
   },
   "models": [
     {
@@ -25,7 +25,7 @@
       "capabilities": {},
       "status": "available",
       "source": "deepseek_models_api",
-      "lastChecked": "2026-07-02T18:10:08Z"
+      "lastChecked": "2026-07-02T18:17:45Z"
     },
     {
       "id": "deepseek-v4-pro",
@@ -37,7 +37,7 @@
       "capabilities": {},
       "status": "available",
       "source": "deepseek_models_api",
-      "lastChecked": "2026-07-02T18:10:08Z"
+      "lastChecked": "2026-07-02T18:17:45Z"
     }
   ]
 }

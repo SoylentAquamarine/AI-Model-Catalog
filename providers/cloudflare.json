@@ -12,7 +12,1166 @@
       "extraHeaders": null
     },
     "notes": "Account-scoped API: consumers must substitute their own {account_id} in apiBase. Workers AI documents a daily free allocation.",
-    "lastChecked": null
+    "lastChecked": "2026-07-02T18:17:48Z"
   },
-  "models": []
+  "models": [
+    {
+      "id": "@cf/ai4bharat/indictrans2-en-indic-1B",
+      "providerModelId": "@cf/ai4bharat/indictrans2-en-indic-1B",
+      "displayName": "@cf/ai4bharat/indictrans2-en-indic-1B",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Translation"
+    },
+    {
+      "id": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
+      "providerModelId": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
+      "displayName": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/baai/bge-base-en-v1.5",
+      "providerModelId": "@cf/baai/bge-base-en-v1.5",
+      "displayName": "@cf/baai/bge-base-en-v1.5",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "embeddings": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Embeddings"
+    },
+    {
+      "id": "@cf/baai/bge-large-en-v1.5",
+      "providerModelId": "@cf/baai/bge-large-en-v1.5",
+      "displayName": "@cf/baai/bge-large-en-v1.5",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "embeddings": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Embeddings"
+    },
+    {
+      "id": "@cf/baai/bge-m3",
+      "providerModelId": "@cf/baai/bge-m3",
+      "displayName": "@cf/baai/bge-m3",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "embeddings": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Embeddings"
+    },
+    {
+      "id": "@cf/baai/bge-reranker-base",
+      "providerModelId": "@cf/baai/bge-reranker-base",
+      "displayName": "@cf/baai/bge-reranker-base",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Classification"
+    },
+    {
+      "id": "@cf/baai/bge-small-en-v1.5",
+      "providerModelId": "@cf/baai/bge-small-en-v1.5",
+      "displayName": "@cf/baai/bge-small-en-v1.5",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "embeddings": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Embeddings"
+    },
+    {
+      "id": "@cf/black-forest-labs/flux-1-schnell",
+      "providerModelId": "@cf/black-forest-labs/flux-1-schnell",
+      "displayName": "@cf/black-forest-labs/flux-1-schnell",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Image"
+    },
+    {
+      "id": "@cf/black-forest-labs/flux-2-dev",
+      "providerModelId": "@cf/black-forest-labs/flux-2-dev",
+      "displayName": "@cf/black-forest-labs/flux-2-dev",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Image"
+    },
+    {
+      "id": "@cf/black-forest-labs/flux-2-klein-4b",
+      "providerModelId": "@cf/black-forest-labs/flux-2-klein-4b",
+      "displayName": "@cf/black-forest-labs/flux-2-klein-4b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Image"
+    },
+    {
+      "id": "@cf/black-forest-labs/flux-2-klein-9b",
+      "providerModelId": "@cf/black-forest-labs/flux-2-klein-9b",
+      "displayName": "@cf/black-forest-labs/flux-2-klein-9b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Image"
+    },
+    {
+      "id": "@cf/bytedance/stable-diffusion-xl-lightning",
+      "providerModelId": "@cf/bytedance/stable-diffusion-xl-lightning",
+      "displayName": "@cf/bytedance/stable-diffusion-xl-lightning",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Image"
+    },
+    {
+      "id": "@cf/deepgram/aura-1",
+      "providerModelId": "@cf/deepgram/aura-1",
+      "displayName": "@cf/deepgram/aura-1",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Speech"
+    },
+    {
+      "id": "@cf/deepgram/aura-2-en",
+      "providerModelId": "@cf/deepgram/aura-2-en",
+      "displayName": "@cf/deepgram/aura-2-en",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Speech"
+    },
+    {
+      "id": "@cf/deepgram/aura-2-es",
+      "providerModelId": "@cf/deepgram/aura-2-es",
+      "displayName": "@cf/deepgram/aura-2-es",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Speech"
+    },
+    {
+      "id": "@cf/deepgram/flux",
+      "providerModelId": "@cf/deepgram/flux",
+      "displayName": "@cf/deepgram/flux",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "speech_to_text": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Automatic Speech Recognition"
+    },
+    {
+      "id": "@cf/deepgram/nova-3",
+      "providerModelId": "@cf/deepgram/nova-3",
+      "displayName": "@cf/deepgram/nova-3",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "speech_to_text": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Automatic Speech Recognition"
+    },
+    {
+      "id": "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
+      "providerModelId": "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
+      "displayName": "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/google/embeddinggemma-300m",
+      "providerModelId": "@cf/google/embeddinggemma-300m",
+      "displayName": "@cf/google/embeddinggemma-300m",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "embeddings": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Embeddings"
+    },
+    {
+      "id": "@cf/google/gemma-2b-it-lora",
+      "providerModelId": "@cf/google/gemma-2b-it-lora",
+      "displayName": "@cf/google/gemma-2b-it-lora",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/google/gemma-4-26b-a4b-it",
+      "providerModelId": "@cf/google/gemma-4-26b-a4b-it",
+      "displayName": "@cf/google/gemma-4-26b-a4b-it",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/google/gemma-7b-it-lora",
+      "providerModelId": "@cf/google/gemma-7b-it-lora",
+      "displayName": "@cf/google/gemma-7b-it-lora",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/huggingface/distilbert-sst-2-int8",
+      "providerModelId": "@cf/huggingface/distilbert-sst-2-int8",
+      "displayName": "@cf/huggingface/distilbert-sst-2-int8",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Classification"
+    },
+    {
+      "id": "@cf/ibm-granite/granite-4.0-h-micro",
+      "providerModelId": "@cf/ibm-granite/granite-4.0-h-micro",
+      "displayName": "@cf/ibm-granite/granite-4.0-h-micro",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/leonardo/lucid-origin",
+      "providerModelId": "@cf/leonardo/lucid-origin",
+      "displayName": "@cf/leonardo/lucid-origin",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Image"
+    },
+    {
+      "id": "@cf/leonardo/phoenix-1.0",
+      "providerModelId": "@cf/leonardo/phoenix-1.0",
+      "displayName": "@cf/leonardo/phoenix-1.0",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Image"
+    },
+    {
+      "id": "@cf/llava-hf/llava-1.5-7b-hf",
+      "providerModelId": "@cf/llava-hf/llava-1.5-7b-hf",
+      "displayName": "@cf/llava-hf/llava-1.5-7b-hf",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "vision": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Image-to-Text"
+    },
+    {
+      "id": "@cf/lykon/dreamshaper-8-lcm",
+      "providerModelId": "@cf/lykon/dreamshaper-8-lcm",
+      "displayName": "@cf/lykon/dreamshaper-8-lcm",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Image"
+    },
+    {
+      "id": "@cf/meta-llama/llama-2-7b-chat-hf-lora",
+      "providerModelId": "@cf/meta-llama/llama-2-7b-chat-hf-lora",
+      "displayName": "@cf/meta-llama/llama-2-7b-chat-hf-lora",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/meta/llama-3.1-8b-instruct-fp8",
+      "providerModelId": "@cf/meta/llama-3.1-8b-instruct-fp8",
+      "displayName": "@cf/meta/llama-3.1-8b-instruct-fp8",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/meta/llama-3.2-11b-vision-instruct",
+      "providerModelId": "@cf/meta/llama-3.2-11b-vision-instruct",
+      "displayName": "@cf/meta/llama-3.2-11b-vision-instruct",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/meta/llama-3.2-1b-instruct",
+      "providerModelId": "@cf/meta/llama-3.2-1b-instruct",
+      "displayName": "@cf/meta/llama-3.2-1b-instruct",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/meta/llama-3.2-3b-instruct",
+      "providerModelId": "@cf/meta/llama-3.2-3b-instruct",
+      "displayName": "@cf/meta/llama-3.2-3b-instruct",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "providerModelId": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "displayName": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/meta/llama-4-scout-17b-16e-instruct",
+      "providerModelId": "@cf/meta/llama-4-scout-17b-16e-instruct",
+      "displayName": "@cf/meta/llama-4-scout-17b-16e-instruct",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/meta/llama-guard-3-8b",
+      "providerModelId": "@cf/meta/llama-guard-3-8b",
+      "displayName": "@cf/meta/llama-guard-3-8b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/meta/m2m100-1.2b",
+      "providerModelId": "@cf/meta/m2m100-1.2b",
+      "displayName": "@cf/meta/m2m100-1.2b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Translation"
+    },
+    {
+      "id": "@cf/microsoft/resnet-50",
+      "providerModelId": "@cf/microsoft/resnet-50",
+      "displayName": "@cf/microsoft/resnet-50",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Image Classification"
+    },
+    {
+      "id": "@cf/mistral/mistral-7b-instruct-v0.2-lora",
+      "providerModelId": "@cf/mistral/mistral-7b-instruct-v0.2-lora",
+      "displayName": "@cf/mistral/mistral-7b-instruct-v0.2-lora",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+      "providerModelId": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+      "displayName": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/moonshotai/kimi-k2.6",
+      "providerModelId": "@cf/moonshotai/kimi-k2.6",
+      "displayName": "@cf/moonshotai/kimi-k2.6",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/moonshotai/kimi-k2.7-code",
+      "providerModelId": "@cf/moonshotai/kimi-k2.7-code",
+      "displayName": "@cf/moonshotai/kimi-k2.7-code",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/myshell-ai/melotts",
+      "providerModelId": "@cf/myshell-ai/melotts",
+      "displayName": "@cf/myshell-ai/melotts",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Speech"
+    },
+    {
+      "id": "@cf/nvidia/nemotron-3-120b-a12b",
+      "providerModelId": "@cf/nvidia/nemotron-3-120b-a12b",
+      "displayName": "@cf/nvidia/nemotron-3-120b-a12b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/openai/gpt-oss-120b",
+      "providerModelId": "@cf/openai/gpt-oss-120b",
+      "displayName": "@cf/openai/gpt-oss-120b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/openai/gpt-oss-20b",
+      "providerModelId": "@cf/openai/gpt-oss-20b",
+      "displayName": "@cf/openai/gpt-oss-20b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/openai/whisper",
+      "providerModelId": "@cf/openai/whisper",
+      "displayName": "@cf/openai/whisper",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "speech_to_text": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Automatic Speech Recognition"
+    },
+    {
+      "id": "@cf/openai/whisper-large-v3-turbo",
+      "providerModelId": "@cf/openai/whisper-large-v3-turbo",
+      "displayName": "@cf/openai/whisper-large-v3-turbo",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "speech_to_text": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Automatic Speech Recognition"
+    },
+    {
+      "id": "@cf/openai/whisper-tiny-en",
+      "providerModelId": "@cf/openai/whisper-tiny-en",
+      "displayName": "@cf/openai/whisper-tiny-en",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "speech_to_text": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Automatic Speech Recognition"
+    },
+    {
+      "id": "@cf/pfnet/plamo-embedding-1b",
+      "providerModelId": "@cf/pfnet/plamo-embedding-1b",
+      "displayName": "@cf/pfnet/plamo-embedding-1b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "embeddings": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Embeddings"
+    },
+    {
+      "id": "@cf/pipecat-ai/smart-turn-v2",
+      "providerModelId": "@cf/pipecat-ai/smart-turn-v2",
+      "displayName": "@cf/pipecat-ai/smart-turn-v2",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Dumb Pipe"
+    },
+    {
+      "id": "@cf/qwen/qwen2.5-coder-32b-instruct",
+      "providerModelId": "@cf/qwen/qwen2.5-coder-32b-instruct",
+      "displayName": "@cf/qwen/qwen2.5-coder-32b-instruct",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "providerModelId": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "displayName": "@cf/qwen/qwen3-30b-a3b-fp8",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/qwen/qwen3-embedding-0.6b",
+      "providerModelId": "@cf/qwen/qwen3-embedding-0.6b",
+      "displayName": "@cf/qwen/qwen3-embedding-0.6b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "embeddings": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Embeddings"
+    },
+    {
+      "id": "@cf/qwen/qwq-32b",
+      "providerModelId": "@cf/qwen/qwq-32b",
+      "displayName": "@cf/qwen/qwq-32b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/runwayml/stable-diffusion-v1-5-img2img",
+      "providerModelId": "@cf/runwayml/stable-diffusion-v1-5-img2img",
+      "displayName": "@cf/runwayml/stable-diffusion-v1-5-img2img",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Image"
+    },
+    {
+      "id": "@cf/runwayml/stable-diffusion-v1-5-inpainting",
+      "providerModelId": "@cf/runwayml/stable-diffusion-v1-5-inpainting",
+      "displayName": "@cf/runwayml/stable-diffusion-v1-5-inpainting",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Image"
+    },
+    {
+      "id": "@cf/stabilityai/stable-diffusion-xl-base-1.0",
+      "providerModelId": "@cf/stabilityai/stable-diffusion-xl-base-1.0",
+      "displayName": "@cf/stabilityai/stable-diffusion-xl-base-1.0",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text-to-Image"
+    },
+    {
+      "id": "@cf/zai-org/glm-4.7-flash",
+      "providerModelId": "@cf/zai-org/glm-4.7-flash",
+      "displayName": "@cf/zai-org/glm-4.7-flash",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    },
+    {
+      "id": "@cf/zai-org/glm-5.2",
+      "providerModelId": "@cf/zai-org/glm-5.2",
+      "displayName": "@cf/zai-org/glm-5.2",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "cloudflare_models_search_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:17:48Z"
+        }
+      },
+      "status": "available",
+      "source": "cloudflare_models_search_api",
+      "lastChecked": "2026-07-02T18:17:48Z",
+      "notes": "Workers AI task: Text Generation"
+    }
+  ]
 }
