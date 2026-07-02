@@ -1,8 +1,0 @@
-{
-  "schemaVersion": "0.1.0",
-  "generatedAt": null,
-  "filter": {
-    "capabilities.embeddings.value": [true, "likely", "partial"]
-  },
-  "models": []
-}
