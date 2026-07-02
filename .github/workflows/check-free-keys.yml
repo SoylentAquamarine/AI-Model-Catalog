@@ -1,0 +1,34 @@
+name: Check Free Provider Keys
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-free-keys:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check configured free-key secrets
+        env:
+          CEREBRAS_API_KEY_FREE: ${{ secrets.CEREBRAS_API_KEY_FREE }}
+          CLOUDFLARE_API_KEY_FREE: ${{ secrets.CLOUDFLARE_API_KEY_FREE }}
+          COHERE_API_KEY_FREE: ${{ secrets.COHERE_API_KEY_FREE }}
+          DEEPSEEK_API_KEY_FREE: ${{ secrets.DEEPSEEK_API_KEY_FREE }}
+          FIREWORKS_API_KEY_FREE: ${{ secrets.FIREWORKS_API_KEY_FREE }}
+          GEMINI_API_KEY_FREE: ${{ secrets.GEMINI_API_KEY_FREE }}
+          GROQ_API_KEY_FREE: ${{ secrets.GROQ_API_KEY_FREE }}
+          HUGGINGFACE_API_KEY_FREE: ${{ secrets.HUGGINGFACE_API_KEY_FREE }}
+          MISTRAL_API_KEY_FREE: ${{ secrets.MISTRAL_API_KEY_FREE }}
+          OPENAI_API_KEY_FREE: ${{ secrets.OPENAI_API_KEY_FREE }}
+          OPENROUTER_API_KEY_FREE: ${{ secrets.OPENROUTER_API_KEY_FREE }}
+          POLLINATIONS_API_KEY_FREE: ${{ secrets.POLLINATIONS_API_KEY_FREE }}
+          SAMBANOVA_API_KEY_FREE: ${{ secrets.SAMBANOVA_API_KEY_FREE }}
+          TOGETHER_API_KEY_FREE: ${{ secrets.TOGETHER_API_KEY_FREE }}
+        run: python scripts/check_provider_secrets.py
