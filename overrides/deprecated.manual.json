@@ -1,5 +1,0 @@
-{
-  "schemaVersion": "0.1.0",
-  "overrides": [],
-  "notes": "Manual deprecation/status overrides. Use when provider APIs lag behind announcements or documentation."
-}
