@@ -42,9 +42,22 @@ def build_model(entry: dict) -> dict | None:
     def api_cap(value) -> dict:
         return lib.capability(value, SOURCE, "high")
 
+    # Absence of streamGenerateContent in the method list is NOT proof that
+    # streaming is unsupported (Google's listings have omitted it for models
+    # that do stream), so absence maps to an honest unknown, never false.
+    if "streamGenerateContent" in methods:
+        streaming = api_cap(True)
+    else:
+        streaming = lib.capability(
+            "unknown",
+            "not_confirmed",
+            "unknown",
+            "Model method list did not mention streamGenerateContent.",
+        )
+
     capabilities = {
         "chat": api_cap("generateContent" in methods),
-        "streaming": api_cap("streamGenerateContent" in methods),
+        "streaming": streaming,
         "embeddings": api_cap(bool({"embedContent", "embedText"} & methods)),
     }
 
