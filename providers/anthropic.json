@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "0.1.0",
+  "provider": {
+    "id": "anthropic",
+    "displayName": "Anthropic",
+    "homepage": "https://anthropic.com",
+    "apiBase": "https://api.anthropic.com",
+    "lastChecked": null
+  },
+  "models": []
+}
