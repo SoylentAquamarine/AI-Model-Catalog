@@ -1,0 +1,8 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": null,
+  "filter": {
+    "capabilities.vision.value": [true, "likely", "partial"]
+  },
+  "models": []
+}
