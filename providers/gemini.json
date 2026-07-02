@@ -12,7 +12,1844 @@
       "extraHeaders": null
     },
     "notes": "Google documents a rate-limited free tier for Gemini and Gemma API models.",
-    "lastChecked": null
+    "lastChecked": "2026-07-02T17:59:16Z"
   },
-  "models": []
+  "models": [
+    {
+      "id": "antigravity-preview-05-2026",
+      "providerModelId": "models/antigravity-preview-05-2026",
+      "displayName": "Antigravity Agent Preview",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "aqa",
+      "providerModelId": "models/aqa",
+      "displayName": "Model that performs Attributed Question Answering.",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 7168,
+        "maxOutputTokens": 1024
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "deep-research-max-preview-04-2026",
+      "providerModelId": "models/deep-research-max-preview-04-2026",
+      "displayName": "Deep Research Max Preview (Apr-21-2026)",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "deep-research-preview-04-2026",
+      "providerModelId": "models/deep-research-preview-04-2026",
+      "displayName": "Deep Research Preview (Apr-21-2026)",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "deep-research-pro-preview-12-2025",
+      "providerModelId": "models/deep-research-pro-preview-12-2025",
+      "displayName": "Deep Research Pro Preview (Dec-12-2025)",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.0-flash",
+      "providerModelId": "models/gemini-2.0-flash",
+      "displayName": "Gemini 2.0 Flash",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.0-flash-001",
+      "providerModelId": "models/gemini-2.0-flash-001",
+      "displayName": "Gemini 2.0 Flash 001",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.0-flash-lite",
+      "providerModelId": "models/gemini-2.0-flash-lite",
+      "displayName": "Gemini 2.0 Flash-Lite",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.0-flash-lite-001",
+      "providerModelId": "models/gemini-2.0-flash-lite-001",
+      "displayName": "Gemini 2.0 Flash-Lite 001",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.5-computer-use-preview-10-2025",
+      "providerModelId": "models/gemini-2.5-computer-use-preview-10-2025",
+      "displayName": "Gemini 2.5 Computer Use Preview 10-2025",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "providerModelId": "models/gemini-2.5-flash",
+      "displayName": "Gemini 2.5 Flash",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.5-flash-image",
+      "providerModelId": "models/gemini-2.5-flash-image",
+      "displayName": "Nano Banana",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": 32768
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.5-flash-lite",
+      "providerModelId": "models/gemini-2.5-flash-lite",
+      "displayName": "Gemini 2.5 Flash-Lite",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.5-flash-native-audio-latest",
+      "providerModelId": "models/gemini-2.5-flash-native-audio-latest",
+      "displayName": "Gemini 2.5 Flash Native Audio Latest",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.5-flash-native-audio-preview-09-2025",
+      "providerModelId": "models/gemini-2.5-flash-native-audio-preview-09-2025",
+      "displayName": "Gemini 2.5 Flash Native Audio Preview 09-2025",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "providerModelId": "models/gemini-2.5-flash-native-audio-preview-12-2025",
+      "displayName": "Gemini 2.5 Flash Native Audio Preview 12-2025",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.5-flash-preview-tts",
+      "providerModelId": "models/gemini-2.5-flash-preview-tts",
+      "displayName": "Gemini 2.5 Flash Preview TTS",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": 16384
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.5-pro",
+      "providerModelId": "models/gemini-2.5-pro",
+      "displayName": "Gemini 2.5 Pro",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-2.5-pro-preview-tts",
+      "providerModelId": "models/gemini-2.5-pro-preview-tts",
+      "displayName": "Gemini 2.5 Pro Preview TTS",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": 16384
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3-flash-preview",
+      "providerModelId": "models/gemini-3-flash-preview",
+      "displayName": "Gemini 3 Flash Preview",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3-pro-image",
+      "providerModelId": "models/gemini-3-pro-image",
+      "displayName": "Nano Banana Pro",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 32768
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3-pro-image-preview",
+      "providerModelId": "models/gemini-3-pro-image-preview",
+      "displayName": "Nano Banana Pro",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 32768
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3-pro-preview",
+      "providerModelId": "models/gemini-3-pro-preview",
+      "displayName": "Gemini 3 Pro Preview",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3.1-flash-image",
+      "providerModelId": "models/gemini-3.1-flash-image",
+      "displayName": "Nano Banana 2",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 65536,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3.1-flash-image-preview",
+      "providerModelId": "models/gemini-3.1-flash-image-preview",
+      "displayName": "Nano Banana 2",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 65536,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3.1-flash-lite",
+      "providerModelId": "models/gemini-3.1-flash-lite",
+      "displayName": "Gemini 3.1 Flash Lite",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3.1-flash-lite-image",
+      "providerModelId": "models/gemini-3.1-flash-lite-image",
+      "displayName": "Nano Banana 2 Lite",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 65536,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3.1-flash-lite-preview",
+      "providerModelId": "models/gemini-3.1-flash-lite-preview",
+      "displayName": "Gemini 3.1 Flash Lite Preview",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3.1-flash-live-preview",
+      "providerModelId": "models/gemini-3.1-flash-live-preview",
+      "displayName": "Gemini 3.1 Flash Live Preview",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3.1-flash-tts-preview",
+      "providerModelId": "models/gemini-3.1-flash-tts-preview",
+      "displayName": "Gemini 3.1 Flash TTS Preview",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": 16384
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3.1-pro-preview",
+      "providerModelId": "models/gemini-3.1-pro-preview",
+      "displayName": "Gemini 3.1 Pro Preview",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3.1-pro-preview-customtools",
+      "providerModelId": "models/gemini-3.1-pro-preview-customtools",
+      "displayName": "Gemini 3.1 Pro Preview Custom Tools",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3.5-flash",
+      "providerModelId": "models/gemini-3.5-flash",
+      "displayName": "Gemini 3.5 Flash",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-3.5-live-translate-preview",
+      "providerModelId": "models/gemini-3.5-live-translate-preview",
+      "displayName": "Gemini 3.5 Live Translate Preview",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": 32768
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-embedding-001",
+      "providerModelId": "models/gemini-embedding-001",
+      "displayName": "Gemini Embedding 001",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 2048,
+        "maxOutputTokens": 1
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-embedding-2",
+      "providerModelId": "models/gemini-embedding-2",
+      "displayName": "Gemini Embedding 2",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": 1
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-embedding-2-preview",
+      "providerModelId": "models/gemini-embedding-2-preview",
+      "displayName": "Gemini Embedding 2 Preview",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": 1
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-flash-latest",
+      "providerModelId": "models/gemini-flash-latest",
+      "displayName": "Gemini Flash Latest",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-flash-lite-latest",
+      "providerModelId": "models/gemini-flash-lite-latest",
+      "displayName": "Gemini Flash-Lite Latest",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-omni-flash-preview",
+      "providerModelId": "models/gemini-omni-flash-preview",
+      "displayName": "Gemini Omni Flash Preview",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-pro-latest",
+      "providerModelId": "models/gemini-pro-latest",
+      "displayName": "Gemini Pro Latest",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-robotics-er-1.5-preview",
+      "providerModelId": "models/gemini-robotics-er-1.5-preview",
+      "displayName": "Gemini Robotics-ER 1.5 Preview",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemini-robotics-er-1.6-preview",
+      "providerModelId": "models/gemini-robotics-er-1.6-preview",
+      "displayName": "Gemini Robotics-ER 1.6 Preview",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemma-4-26b-a4b-it",
+      "providerModelId": "models/gemma-4-26b-a4b-it",
+      "displayName": "Gemma 4 26B A4B IT",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": 32768
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "gemma-4-31b-it",
+      "providerModelId": "models/gemma-4-31b-it",
+      "displayName": "Gemma 4 31B IT",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": 32768
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "imagen-4.0-fast-generate-001",
+      "providerModelId": "models/imagen-4.0-fast-generate-001",
+      "displayName": "Imagen 4 Fast",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 480,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "imagen-4.0-generate-001",
+      "providerModelId": "models/imagen-4.0-generate-001",
+      "displayName": "Imagen 4",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 480,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "imagen-4.0-ultra-generate-001",
+      "providerModelId": "models/imagen-4.0-ultra-generate-001",
+      "displayName": "Imagen 4 Ultra",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 480,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "lyria-3-clip-preview",
+      "providerModelId": "models/lyria-3-clip-preview",
+      "displayName": "Lyria 3 Clip Preview",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "lyria-3-pro-preview",
+      "providerModelId": "models/lyria-3-pro-preview",
+      "displayName": "Lyria 3 Pro Preview",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "nano-banana-pro-preview",
+      "providerModelId": "models/nano-banana-pro-preview",
+      "displayName": "Nano Banana Pro",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 32768
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "veo-3.1-fast-generate-preview",
+      "providerModelId": "models/veo-3.1-fast-generate-preview",
+      "displayName": "Veo 3.1 fast",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 480,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "veo-3.1-generate-preview",
+      "providerModelId": "models/veo-3.1-generate-preview",
+      "displayName": "Veo 3.1",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 480,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "veo-3.1-lite-generate-preview",
+      "providerModelId": "models/veo-3.1-lite-generate-preview",
+      "displayName": "Veo 3.1 lite",
+      "costClass": "unknown",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 480,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        },
+        "embeddings": {
+          "value": false,
+          "source": "gemini_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T17:59:16Z"
+        }
+      },
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    }
+  ]
 }

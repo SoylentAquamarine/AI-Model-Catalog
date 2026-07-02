@@ -12,7 +12,263 @@
       "extraHeaders": null
     },
     "notes": "Groq documents a rate-limited free tier covering its API models.",
-    "lastChecked": null
+    "lastChecked": "2026-07-02T17:59:16Z"
   },
-  "models": []
+  "models": [
+    {
+      "id": "allam-2-7b",
+      "providerModelId": "allam-2-7b",
+      "displayName": "allam-2-7b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 4096,
+        "maxOutputTokens": 4096
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "canopylabs/orpheus-arabic-saudi",
+      "providerModelId": "canopylabs/orpheus-arabic-saudi",
+      "displayName": "canopylabs/orpheus-arabic-saudi",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 4000,
+        "maxOutputTokens": 50000
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "canopylabs/orpheus-v1-english",
+      "providerModelId": "canopylabs/orpheus-v1-english",
+      "displayName": "canopylabs/orpheus-v1-english",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 4000,
+        "maxOutputTokens": 50000
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "groq/compound",
+      "providerModelId": "groq/compound",
+      "displayName": "groq/compound",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "groq/compound-mini",
+      "providerModelId": "groq/compound-mini",
+      "displayName": "groq/compound-mini",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "llama-3.1-8b-instant",
+      "providerModelId": "llama-3.1-8b-instant",
+      "displayName": "llama-3.1-8b-instant",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 131072
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "llama-3.3-70b-versatile",
+      "providerModelId": "llama-3.3-70b-versatile",
+      "displayName": "llama-3.3-70b-versatile",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 32768
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "providerModelId": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "displayName": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 8192
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "meta-llama/llama-prompt-guard-2-22m",
+      "providerModelId": "meta-llama/llama-prompt-guard-2-22m",
+      "displayName": "meta-llama/llama-prompt-guard-2-22m",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 512,
+        "maxOutputTokens": 512
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "meta-llama/llama-prompt-guard-2-86m",
+      "providerModelId": "meta-llama/llama-prompt-guard-2-86m",
+      "displayName": "meta-llama/llama-prompt-guard-2-86m",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 512,
+        "maxOutputTokens": 512
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "providerModelId": "openai/gpt-oss-120b",
+      "displayName": "openai/gpt-oss-120b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "providerModelId": "openai/gpt-oss-20b",
+      "displayName": "openai/gpt-oss-20b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "openai/gpt-oss-safeguard-20b",
+      "providerModelId": "openai/gpt-oss-safeguard-20b",
+      "displayName": "openai/gpt-oss-safeguard-20b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 65536
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "qwen/qwen3-32b",
+      "providerModelId": "qwen/qwen3-32b",
+      "displayName": "qwen/qwen3-32b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 40960
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "qwen/qwen3.6-27b",
+      "providerModelId": "qwen/qwen3.6-27b",
+      "displayName": "qwen/qwen3.6-27b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": 32768
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "whisper-large-v3",
+      "providerModelId": "whisper-large-v3",
+      "displayName": "whisper-large-v3",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": 448
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    },
+    {
+      "id": "whisper-large-v3-turbo",
+      "providerModelId": "whisper-large-v3-turbo",
+      "displayName": "whisper-large-v3-turbo",
+      "costClass": "free",
+      "pricing": null,
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": 448
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "groq_models_api",
+      "lastChecked": "2026-07-02T17:59:16Z"
+    }
+  ]
 }
