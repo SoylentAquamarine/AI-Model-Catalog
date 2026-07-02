@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Basic JSON validation for repository catalog files."""
+"""Basic JSON validation for provider catalog files."""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from pathlib import Path
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECK_DIRS = [ROOT / "data", ROOT / "schema", ROOT / "overrides"]
+CHECK_DIRS = [ROOT / "providers"]
 
 
 def load_json(path: Path) -> object:
@@ -34,7 +34,7 @@ def main() -> int:
             print(error, file=sys.stderr)
         return 1
 
-    print("JSON validation passed.")
+    print("Provider JSON validation passed.")
     return 0
 
 
