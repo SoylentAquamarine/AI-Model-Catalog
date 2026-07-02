@@ -12,7 +12,44 @@
       "extraHeaders": null
     },
     "notes": "Cerebras documents a rate-limited free tier for its inference API.",
-    "lastChecked": null
+    "lastChecked": "2026-07-02T18:10:07Z"
   },
-  "models": []
+  "models": [
+    {
+      "id": "gemma-4-31b",
+      "providerModelId": "gemma-4-31b",
+      "displayName": "gemma-4-31b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "cerebras_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "gpt-oss-120b",
+      "providerModelId": "gpt-oss-120b",
+      "displayName": "gpt-oss-120b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "cerebras_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "zai-glm-4.7",
+      "providerModelId": "zai-glm-4.7",
+      "displayName": "zai-glm-4.7",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "cerebras_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    }
+  ]
 }

@@ -12,7 +12,92 @@
       "extraHeaders": null
     },
     "notes": null,
-    "lastChecked": null
+    "lastChecked": "2026-07-02T18:10:08Z"
   },
-  "models": []
+  "models": [
+    {
+      "id": "accounts/fireworks/models/deepseek-v4-pro",
+      "providerModelId": "accounts/fireworks/models/deepseek-v4-pro",
+      "displayName": "accounts/fireworks/models/deepseek-v4-pro",
+      "costClass": "paid",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "fireworks_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    },
+    {
+      "id": "accounts/fireworks/models/flux-1-schnell-fp8",
+      "providerModelId": "accounts/fireworks/models/flux-1-schnell-fp8",
+      "displayName": "accounts/fireworks/models/flux-1-schnell-fp8",
+      "costClass": "paid",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "fireworks_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    },
+    {
+      "id": "accounts/fireworks/models/glm-5p1",
+      "providerModelId": "accounts/fireworks/models/glm-5p1",
+      "displayName": "accounts/fireworks/models/glm-5p1",
+      "costClass": "paid",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "fireworks_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    },
+    {
+      "id": "accounts/fireworks/models/glm-5p2",
+      "providerModelId": "accounts/fireworks/models/glm-5p2",
+      "displayName": "accounts/fireworks/models/glm-5p2",
+      "costClass": "paid",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "fireworks_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    },
+    {
+      "id": "accounts/fireworks/models/gpt-oss-120b",
+      "providerModelId": "accounts/fireworks/models/gpt-oss-120b",
+      "displayName": "accounts/fireworks/models/gpt-oss-120b",
+      "costClass": "paid",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "fireworks_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    },
+    {
+      "id": "accounts/fireworks/models/kimi-k2p5",
+      "providerModelId": "accounts/fireworks/models/kimi-k2p5",
+      "displayName": "accounts/fireworks/models/kimi-k2p5",
+      "costClass": "paid",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "fireworks_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    },
+    {
+      "id": "accounts/fireworks/models/kimi-k2p6",
+      "providerModelId": "accounts/fireworks/models/kimi-k2p6",
+      "displayName": "accounts/fireworks/models/kimi-k2p6",
+      "costClass": "paid",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "fireworks_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    }
+  ]
 }

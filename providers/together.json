@@ -12,7 +12,6546 @@
       "extraHeaders": null
     },
     "notes": "Together offers a small set of zero-cost models alongside paid ones; pricing comes from the models API.",
-    "lastChecked": null
+    "lastChecked": "2026-07-02T18:10:07Z"
   },
-  "models": []
+  "models": [
+    {
+      "id": "BAAI/bge-base-en-v1.5",
+      "providerModelId": "BAAI/bge-base-en-v1.5",
+      "displayName": "BAAI-Bge-Base-1.5",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.008,
+        "outputPerMTokens": 0.008
+      },
+      "limits": {
+        "contextTokens": 512,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "embeddings": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "ByteDance-Seed/Seedream-3.0",
+      "providerModelId": "ByteDance-Seed/Seedream-3.0",
+      "displayName": "ByteDance Seedream 3.0",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "ByteDance-Seed/Seedream-4.0",
+      "providerModelId": "ByteDance-Seed/Seedream-4.0",
+      "displayName": "ByteDance Seedream 4.0",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "ByteDance/Seedance-1.0-lite",
+      "providerModelId": "ByteDance/Seedance-1.0-lite",
+      "displayName": "ByteDance Seedance 1.0 Lite",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "ByteDance/Seedance-1.0-pro",
+      "providerModelId": "ByteDance/Seedance-1.0-pro",
+      "displayName": "ByteDance Seedance 1.0 Pro",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "ByteDance/Seedance-2.0",
+      "providerModelId": "ByteDance/Seedance-2.0",
+      "displayName": "ByteDance Seedance 2.0",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "ByteDance/Seedream-5.0-lite",
+      "providerModelId": "ByteDance/Seedream-5.0-lite",
+      "displayName": "ByteDance Seedream 5.0 Lite",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "HappyHorse/HappyHorse-1.0-T2V",
+      "providerModelId": "HappyHorse/HappyHorse-1.0-T2V",
+      "displayName": "HappyHorse/HappyHorse-1.0-T2V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Hcompany/Holo3-35B-A3B",
+      "providerModelId": "Hcompany/Holo3-35B-A3B",
+      "displayName": "Holo3 35B A3b",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "LiquidAI/LFM2-24B-A2B",
+      "providerModelId": "LiquidAI/LFM2-24B-A2B",
+      "displayName": "LFM2-24B-A2B",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.030000000000000002,
+        "outputPerMTokens": 0.12000000000000001
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-M1-40k",
+      "providerModelId": "MiniMaxAI/MiniMax-M1-40k",
+      "displayName": "Minimax M1 40K",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-M1-80k",
+      "providerModelId": "MiniMaxAI/MiniMax-M1-80k",
+      "displayName": "Minimax M1 80K",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-M2",
+      "providerModelId": "MiniMaxAI/MiniMax-M2",
+      "displayName": "MiniMax M2",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 196608,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-M2.5-FP4",
+      "providerModelId": "MiniMaxAI/MiniMax-M2.5-FP4",
+      "displayName": "MiniMax M2.5 FP4",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-M2.7",
+      "providerModelId": "MiniMaxAI/MiniMax-M2.7",
+      "displayName": "MiniMax M2.7 FP4",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.3,
+        "outputPerMTokens": 1.2
+      },
+      "limits": {
+        "contextTokens": 196608,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-M3",
+      "providerModelId": "MiniMaxAI/MiniMax-M3",
+      "displayName": "MiniMax M3",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.3,
+        "outputPerMTokens": 1.2
+      },
+      "limits": {
+        "contextTokens": 524288,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+      "providerModelId": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+      "displayName": "Nous Hermes 2 Mixtral 8X7B Dpo",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.6,
+        "outputPerMTokens": 0.6
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/QwQ-32B",
+      "providerModelId": "Qwen/QwQ-32B",
+      "displayName": "Qwen QwQ-32B",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.2,
+        "outputPerMTokens": 1.2
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen-Image",
+      "providerModelId": "Qwen/Qwen-Image",
+      "displayName": "Qwen Image",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen-Image-2.0",
+      "providerModelId": "Qwen/Qwen-Image-2.0",
+      "displayName": "Qwen Image 2.0",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen-Image-2.0-Pro",
+      "providerModelId": "Qwen/Qwen-Image-2.0-Pro",
+      "displayName": "Qwen Image 2.0 Pro",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2-1.5B",
+      "providerModelId": "Qwen/Qwen2-1.5B",
+      "displayName": "Qwen 2 (1.5B)",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2-1.5B-Instruct",
+      "providerModelId": "Qwen/Qwen2-1.5B-Instruct",
+      "displayName": "Qwen 2 Instruct (1.5B)",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.02,
+        "outputPerMTokens": 0.02
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2-72B",
+      "providerModelId": "Qwen/Qwen2-72B",
+      "displayName": "Qwen 2 (72B)",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2-72B-Instruct",
+      "providerModelId": "Qwen/Qwen2-72B-Instruct",
+      "displayName": "Qwen2 72B Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.9,
+        "outputPerMTokens": 0.9
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2-7B",
+      "providerModelId": "Qwen/Qwen2-7B",
+      "displayName": "Qwen 2 (7B)",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2-VL-72B-Instruct",
+      "providerModelId": "Qwen/Qwen2-VL-72B-Instruct",
+      "displayName": "Qwen2-VL (72B) Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.2,
+        "outputPerMTokens": 1.2
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-1.5B",
+      "providerModelId": "Qwen/Qwen2.5-1.5B",
+      "displayName": "Qwen2.5 1.5B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "providerModelId": "Qwen/Qwen2.5-1.5B-Instruct",
+      "displayName": "Qwen2.5 1.5B Instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-14B",
+      "providerModelId": "Qwen/Qwen2.5-14B",
+      "displayName": "Qwen2.5 14B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-14B-Instruct",
+      "providerModelId": "Qwen/Qwen2.5-14B-Instruct",
+      "displayName": "Qwen 2.5 14B Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.8,
+        "outputPerMTokens": 0.8
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-32B",
+      "providerModelId": "Qwen/Qwen2.5-32B",
+      "displayName": "Qwen2.5 32B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-32B-Instruct",
+      "providerModelId": "Qwen/Qwen2.5-32B-Instruct",
+      "displayName": "Qwen2.5 32B Instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-3B-Instruct",
+      "providerModelId": "Qwen/Qwen2.5-3B-Instruct",
+      "displayName": "Qwen2.5 3B Instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-72B",
+      "providerModelId": "Qwen/Qwen2.5-72B",
+      "displayName": "Qwen2.5 72B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-72B-Instruct",
+      "providerModelId": "Qwen/Qwen2.5-72B-Instruct",
+      "displayName": "Qwen2.5 72B Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.2,
+        "outputPerMTokens": 1.2
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "providerModelId": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "displayName": "Qwen2.5 72B Instruct Turbo",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.2,
+        "outputPerMTokens": 1.2
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-7B",
+      "providerModelId": "Qwen/Qwen2.5-7B",
+      "displayName": "Qwen2.5 7B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "providerModelId": "Qwen/Qwen2.5-7B-Instruct",
+      "displayName": "Qwen2.5 7B Instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+      "providerModelId": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+      "displayName": "Qwen2.5 7B Instruct Turbo",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.3,
+        "outputPerMTokens": 0.3
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "providerModelId": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "displayName": "Qwen 2.5 Coder 32B Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.8,
+        "outputPerMTokens": 0.8
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen2.5-VL-72B-Instruct",
+      "providerModelId": "Qwen/Qwen2.5-VL-72B-Instruct",
+      "displayName": "Qwen2.5-VL (72B) Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.95,
+        "outputPerMTokens": 8
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-0.6B",
+      "providerModelId": "Qwen/Qwen3-0.6B",
+      "displayName": "Qwen3 0.6B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 40960,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-0.6B-Base",
+      "providerModelId": "Qwen/Qwen3-0.6B-Base",
+      "displayName": "Qwen3 0.6B Base",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-1.7B",
+      "providerModelId": "Qwen/Qwen3-1.7B",
+      "displayName": "Qwen3 1.7B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 40960,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-1.7B-Base",
+      "providerModelId": "Qwen/Qwen3-1.7B-Base",
+      "displayName": "Qwen3 1.7B Base",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-14B",
+      "providerModelId": "Qwen/Qwen3-14B",
+      "displayName": "Qwen3 14B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 2048,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-14B-Base",
+      "providerModelId": "Qwen/Qwen3-14B-Base",
+      "displayName": "Qwen3 14B Base",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
+      "providerModelId": "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
+      "displayName": "Qwen3 235B A22b Instruct 2507 Fp8",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-tput",
+      "providerModelId": "Qwen/Qwen3-235B-A22B-Instruct-2507-tput",
+      "displayName": "Qwen3 235B A22B Instruct 2507 FP8 Throughput",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.2,
+        "outputPerMTokens": 0.6
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-30B-A3B",
+      "providerModelId": "Qwen/Qwen3-30B-A3B",
+      "displayName": "Qwen3 30B A3b",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 40960,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-30B-A3B-Base",
+      "providerModelId": "Qwen/Qwen3-30B-A3B-Base",
+      "displayName": "Qwen3 30B A3b Base",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-30B-A3B-Instruct-2507-Lora",
+      "providerModelId": "Qwen/Qwen3-30B-A3B-Instruct-2507-Lora",
+      "displayName": "Qwen3 30B A3B Instruct 2507 Lora",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-32B",
+      "providerModelId": "Qwen/Qwen3-32B",
+      "displayName": "Qwen3 32B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 40960,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-4B-Base",
+      "providerModelId": "Qwen/Qwen3-4B-Base",
+      "displayName": "Qwen3 4B Base",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-4B-Instruct-2507",
+      "providerModelId": "Qwen/Qwen3-4B-Instruct-2507",
+      "displayName": "Qwen3 4B Instruct 2507",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-8B",
+      "providerModelId": "Qwen/Qwen3-8B",
+      "displayName": "Qwen3 8B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 40960,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-8B-Base",
+      "providerModelId": "Qwen/Qwen3-8B-Base",
+      "displayName": "Qwen3 8B Base",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-8B-Lora",
+      "providerModelId": "Qwen/Qwen3-8B-Lora",
+      "displayName": "Qwen3 8B Lora",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 40960,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "providerModelId": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "displayName": "Qwen3 Coder 30B A3b Instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
+      "providerModelId": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
+      "displayName": "Qwen3 Coder 480B A35B Instruct Fp8",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 2,
+        "outputPerMTokens": 2
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-Next-FP8",
+      "providerModelId": "Qwen/Qwen3-Coder-Next-FP8",
+      "displayName": "Qwen3 Coder Next Fp8",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.5,
+        "outputPerMTokens": 1.2
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "providerModelId": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "displayName": "Qwen3 Next 80B A3b Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.15,
+        "outputPerMTokens": 1.5
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-Next-80B-A3B-Instruct-FP8",
+      "providerModelId": "Qwen/Qwen3-Next-80B-A3B-Instruct-FP8",
+      "displayName": "Qwen3 Next 80B A3b Instruct Fp8",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+      "providerModelId": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+      "displayName": "Qwen3 Next 80B A3b Thinking",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.15,
+        "outputPerMTokens": 1.5
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+      "providerModelId": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+      "displayName": "Qwen3-VL-235B-A22B-Instruct-FP8",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-32B-Instruct",
+      "providerModelId": "Qwen/Qwen3-VL-32B-Instruct",
+      "displayName": "Qwen3-VL-32B-Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.5,
+        "outputPerMTokens": 1.5
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-8B-Instruct",
+      "providerModelId": "Qwen/Qwen3-VL-8B-Instruct",
+      "displayName": "Qwen3-VL-8B-Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.18000000000000002,
+        "outputPerMTokens": 0.68
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3.5-122B-A10B-FP8",
+      "providerModelId": "Qwen/Qwen3.5-122B-A10B-FP8",
+      "displayName": "Qwen3.5 122B A10b Fp8",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3.5-2B-Lora",
+      "providerModelId": "Qwen/Qwen3.5-2B-Lora",
+      "displayName": "Qwen3.5 2B Lora",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3.5-35B-A3B",
+      "providerModelId": "Qwen/Qwen3.5-35B-A3B",
+      "displayName": "Qwen3.5 35B A3b",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3.5-35B-A3B-Lora",
+      "providerModelId": "Qwen/Qwen3.5-35B-A3B-Lora",
+      "displayName": "Qwen3.5 35B A3B Lora",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3.5-397B-A17B",
+      "providerModelId": "Qwen/Qwen3.5-397B-A17B",
+      "displayName": "Qwen3.5 397B A17b",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.6,
+        "outputPerMTokens": 3.6
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3.5-9B",
+      "providerModelId": "Qwen/Qwen3.5-9B",
+      "displayName": "Qwen3.5 9B FP8",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.17,
+        "outputPerMTokens": 0.25
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3.5-9B-FP8",
+      "providerModelId": "Qwen/Qwen3.5-9B-FP8",
+      "displayName": "Qwen3.5 9B Fp8",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "providerModelId": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "displayName": "Qwen3.6 35B A3b Fp8",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3.6-35B-A3B-Lora",
+      "providerModelId": "Qwen/Qwen3.6-35B-A3B-Lora",
+      "displayName": "Qwen3.6 35B A3B Lora",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3.6-Plus",
+      "providerModelId": "Qwen/Qwen3.6-Plus",
+      "displayName": "Qwen3.6 Plus",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.5,
+        "outputPerMTokens": 3
+      },
+      "limits": {
+        "contextTokens": 1000000,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3.7-Max",
+      "providerModelId": "Qwen/Qwen3.7-Max",
+      "displayName": "Qwen3.7 Max",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.25,
+        "outputPerMTokens": 3.75
+      },
+      "limits": {
+        "contextTokens": 1000000,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Qwen/Qwen3.7-Plus",
+      "providerModelId": "Qwen/Qwen3.7-Plus",
+      "displayName": "Qwen3.7 Plus",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.32,
+        "outputPerMTokens": 1.28
+      },
+      "limits": {
+        "contextTokens": 1000000,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "RunDiffusion/Juggernaut-pro-flux",
+      "providerModelId": "RunDiffusion/Juggernaut-pro-flux",
+      "displayName": "Juggernaut Pro Flux by RunDiffusion 1.0.0",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Rundiffusion/Juggernaut-Lightning-Flux",
+      "providerModelId": "Rundiffusion/Juggernaut-Lightning-Flux",
+      "displayName": "Juggernaut Lightning Flux by RunDiffusion",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Salesforce/Llama-Rank-V1",
+      "providerModelId": "Salesforce/Llama-Rank-V1",
+      "displayName": "Salesforce Llama Rank V1 (8B)",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.1,
+        "outputPerMTokens": 0.1
+      },
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "rerank": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Wan-AI/Wan2.2-I2V-A14B",
+      "providerModelId": "Wan-AI/Wan2.2-I2V-A14B",
+      "displayName": "Wan 2.2 I2V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Wan-AI/Wan2.2-T2V-A14B",
+      "providerModelId": "Wan-AI/Wan2.2-T2V-A14B",
+      "displayName": "Wan 2.2 T2V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Wan-AI/Wan2.6-image",
+      "providerModelId": "Wan-AI/Wan2.6-image",
+      "displayName": "Wan 2.6 Image",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Wan-AI/wan2.7-i2v",
+      "providerModelId": "Wan-AI/wan2.7-i2v",
+      "displayName": "Wan 2.7 I2V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Wan-AI/wan2.7-r2v",
+      "providerModelId": "Wan-AI/wan2.7-r2v",
+      "displayName": "Wan 2.7 R2V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "Wan-AI/wan2.7-t2v",
+      "providerModelId": "Wan-AI/wan2.7-t2v",
+      "displayName": "Wan 2.7 T2V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "agentica-org/DeepCoder-14B-Preview",
+      "providerModelId": "agentica-org/DeepCoder-14B-Preview",
+      "displayName": "Deepcoder 14B Preview",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "alibaba/happyhorse-1.0-i2v",
+      "providerModelId": "alibaba/happyhorse-1.0-i2v",
+      "displayName": "HappyHorse 1.0 I2V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "alibaba/happyhorse-1.0-r2v",
+      "providerModelId": "alibaba/happyhorse-1.0-r2v",
+      "displayName": "HappyHorse 1.0 R2V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "alibaba/happyhorse-1.0-t2v",
+      "providerModelId": "alibaba/happyhorse-1.0-t2v",
+      "displayName": "HappyHorse 1.0 T2V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "alibaba/happyhorse-1.1-i2v",
+      "providerModelId": "alibaba/happyhorse-1.1-i2v",
+      "displayName": "HappyHorse 1.1 I2V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "alibaba/happyhorse-1.1-r2v",
+      "providerModelId": "alibaba/happyhorse-1.1-r2v",
+      "displayName": "HappyHorse 1.1 R2V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "alibaba/happyhorse-1.1-t2v",
+      "providerModelId": "alibaba/happyhorse-1.1-t2v",
+      "displayName": "HappyHorse 1.1 T2V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "allenai/Molmo-7B-D-0924",
+      "providerModelId": "allenai/Molmo-7B-D-0924",
+      "displayName": "Molmo 7B D 0924",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 4096,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "arcee-ai/trinity-mini",
+      "providerModelId": "arcee-ai/trinity-mini",
+      "displayName": "Trinity Mini",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.045000000000000005,
+        "outputPerMTokens": 0.15
+      },
+      "limits": {
+        "contextTokens": 128000,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "arize-ai/qwen-2-1.5b-instruct",
+      "providerModelId": "arize-ai/qwen-2-1.5b-instruct",
+      "displayName": "Arize AI Qwen 2 1.5B Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.1,
+        "outputPerMTokens": 0.1
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "black-forest-labs/FLUX.1-kontext-max",
+      "providerModelId": "black-forest-labs/FLUX.1-kontext-max",
+      "displayName": "FLUX.1 Kontext [max]",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "black-forest-labs/FLUX.1-kontext-pro",
+      "providerModelId": "black-forest-labs/FLUX.1-kontext-pro",
+      "displayName": "FLUX.1 Kontext [pro]",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "black-forest-labs/FLUX.1-schnell",
+      "providerModelId": "black-forest-labs/FLUX.1-schnell",
+      "displayName": "FLUX.1 Schnell",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "black-forest-labs/FLUX.1.1-pro",
+      "providerModelId": "black-forest-labs/FLUX.1.1-pro",
+      "displayName": "FLUX1.1 [pro]",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "black-forest-labs/FLUX.2-dev",
+      "providerModelId": "black-forest-labs/FLUX.2-dev",
+      "displayName": "FLUX.2 [dev]",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "black-forest-labs/FLUX.2-flex",
+      "providerModelId": "black-forest-labs/FLUX.2-flex",
+      "displayName": "FLUX.2 [flex]",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "black-forest-labs/FLUX.2-max",
+      "providerModelId": "black-forest-labs/FLUX.2-max",
+      "displayName": "FLUX.2 [max]",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "black-forest-labs/FLUX.2-pro",
+      "providerModelId": "black-forest-labs/FLUX.2-pro",
+      "displayName": "FLUX.2 [pro]",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "canopylabs/orpheus-3b-0.1-ft",
+      "providerModelId": "canopylabs/orpheus-3b-0.1-ft",
+      "displayName": "Orpheus 3B 0.1 FT",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 15,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "cartesia/sonic",
+      "providerModelId": "cartesia/sonic",
+      "displayName": "Cartesia Sonic",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 65,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "cartesia/sonic-2",
+      "providerModelId": "cartesia/sonic-2",
+      "displayName": "Cartesia Sonic 2",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 65,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "cartesia/sonic-3",
+      "providerModelId": "cartesia/sonic-3",
+      "displayName": "Cartesia Sonic 3",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 65,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "cartesia/sonic-3.5",
+      "providerModelId": "cartesia/sonic-3.5",
+      "displayName": "Cartesia Sonic 3.5",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepcogito/cogito-v1-preview-llama-70B",
+      "providerModelId": "deepcogito/cogito-v1-preview-llama-70B",
+      "displayName": "Cogito V1 Preview Llama 70B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepcogito/cogito-v1-preview-llama-70B-Turbo",
+      "providerModelId": "deepcogito/cogito-v1-preview-llama-70B-Turbo",
+      "displayName": "Cogito V1 Preview Llama 70B Turbo",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepcogito/cogito-v1-preview-llama-8B",
+      "providerModelId": "deepcogito/cogito-v1-preview-llama-8B",
+      "displayName": "Cogito V1 Preview Llama 8B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepcogito/cogito-v1-preview-qwen-14B",
+      "providerModelId": "deepcogito/cogito-v1-preview-qwen-14B",
+      "displayName": "Cogito V1 Preview Qwen 14B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepcogito/cogito-v1-preview-qwen-32B",
+      "providerModelId": "deepcogito/cogito-v1-preview-qwen-32B",
+      "displayName": "Cogito V1 Preview Qwen 32B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepcogito/cogito-v2-1-671b",
+      "providerModelId": "deepcogito/cogito-v2-1-671b",
+      "displayName": "Cogito v2.1 671B",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.25,
+        "outputPerMTokens": 1.25
+      },
+      "limits": {
+        "contextTokens": 163840,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepgram/aura-2",
+      "providerModelId": "deepgram/aura-2",
+      "displayName": "Deepgram Aura 2",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepgram/flux",
+      "providerModelId": "deepgram/flux",
+      "displayName": "Deepgram Flux",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "speech_to_text": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepgram/nova-3-en",
+      "providerModelId": "deepgram/nova-3-en",
+      "displayName": "Deepgram Nova 3",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "speech_to_text": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepgram/nova-3-multi",
+      "providerModelId": "deepgram/nova-3-multi",
+      "displayName": "Deepgram Nova 3 Multilingual",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "speech_to_text": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-OCR-2",
+      "providerModelId": "deepseek-ai/DeepSeek-OCR-2",
+      "displayName": "Deepseek OCR 2",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1-0528",
+      "providerModelId": "deepseek-ai/DeepSeek-R1-0528",
+      "displayName": "DeepSeek R1 0528 NVFP4",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 3,
+        "outputPerMTokens": 7
+      },
+      "limits": {
+        "contextTokens": 163840,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "providerModelId": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "displayName": "DeepSeek R1 Distill Llama 70B",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 2,
+        "outputPerMTokens": 2
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+      "providerModelId": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+      "displayName": "DeepSeek R1 Distill Qwen 1.5B",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.18000000000000002,
+        "outputPerMTokens": 0.18000000000000002
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+      "providerModelId": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+      "displayName": "DeepSeek R1 Distill Qwen 14B",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.6,
+        "outputPerMTokens": 1.6
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "providerModelId": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "displayName": "DeepSeek R1 Distill Qwen 7B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.1",
+      "providerModelId": "deepseek-ai/DeepSeek-V3.1",
+      "displayName": "Deepseek V3.1 NVFP4",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.6,
+        "outputPerMTokens": 1.7
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Pro",
+      "providerModelId": "deepseek-ai/DeepSeek-V4-Pro",
+      "displayName": "Deepseek V4 Pro",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.74,
+        "outputPerMTokens": 3.48
+      },
+      "limits": {
+        "contextTokens": 512000,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "deepseek-ai/deepseek-coder-33b-instruct",
+      "providerModelId": "deepseek-ai/deepseek-coder-33b-instruct",
+      "displayName": "Deepseek Coder 33B Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.8,
+        "outputPerMTokens": 0.8
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "facebook/cwm",
+      "providerModelId": "facebook/cwm",
+      "displayName": "Facebook CWM",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/flash-image-2.5",
+      "providerModelId": "google/flash-image-2.5",
+      "displayName": "Gemini Flash Image 2.5 (Nano Banana)",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/flash-image-3.1",
+      "providerModelId": "google/flash-image-3.1",
+      "displayName": "Gemini 3.1 Flash Image (Nano Banana 2)",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/flash-image-3.1-lite",
+      "providerModelId": "google/flash-image-3.1-lite",
+      "displayName": "Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite)",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemini-3-pro-image",
+      "providerModelId": "google/gemini-3-pro-image",
+      "displayName": "Gemini 3 (Nano Banana Pro)",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-2-27b-it",
+      "providerModelId": "google/gemma-2-27b-it",
+      "displayName": "Gemma-2 Instruct (27B)",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.8,
+        "outputPerMTokens": 0.8
+      },
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-2-9b-it",
+      "providerModelId": "google/gemma-2-9b-it",
+      "displayName": "Gemma 2 9B It",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-2b-it",
+      "providerModelId": "google/gemma-2b-it",
+      "displayName": "Gemma 2B It",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-3-1b-it",
+      "providerModelId": "google/gemma-3-1b-it",
+      "displayName": "Gemma 3 1b it",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-3-1b-pt",
+      "providerModelId": "google/gemma-3-1b-pt",
+      "displayName": "Gemma 3 1B Pt",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-3-270m-it",
+      "providerModelId": "google/gemma-3-270m-it",
+      "displayName": "Gemma 3 270M It",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-3-270m-it-lora",
+      "providerModelId": "google/gemma-3-270m-it-lora",
+      "displayName": "Gemma 3 270M It Lora",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-3-27b-it",
+      "providerModelId": "google/gemma-3-27b-it",
+      "displayName": "Gemma 3 27B It",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 65536,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-3-27b-it-lora",
+      "providerModelId": "google/gemma-3-27b-it-lora",
+      "displayName": "Gemma 3 27B It Lora",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-3-27b-pt",
+      "providerModelId": "google/gemma-3-27b-pt",
+      "displayName": "Gemma 3 27B Pt",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-3-4b-it",
+      "providerModelId": "google/gemma-3-4b-it",
+      "displayName": "Gemma 3 4b it",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 65536,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-3n-E4B-it",
+      "providerModelId": "google/gemma-3n-E4B-it",
+      "displayName": "Gemma 3N E4B Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.060000000000000005,
+        "outputPerMTokens": 0.12000000000000001
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-4-26B-A4B-it",
+      "providerModelId": "google/gemma-4-26B-A4B-it",
+      "displayName": "Gemma 4 26B A4b It",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-4-31B-it",
+      "providerModelId": "google/gemma-4-31B-it",
+      "displayName": "Gemma 4 31B-it FP8",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.39,
+        "outputPerMTokens": 0.9700000000000001
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-4-31B-it-lora",
+      "providerModelId": "google/gemma-4-31B-it-lora",
+      "displayName": "Gemma 4 31B It Lora",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-4-E2B-it",
+      "providerModelId": "google/gemma-4-E2B-it",
+      "displayName": "Gemma 4 E2B-it",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/gemma-4-E4B-it",
+      "providerModelId": "google/gemma-4-E4B-it",
+      "displayName": "Gemma 4 E4B-it",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/imagen-4.0-fast",
+      "providerModelId": "google/imagen-4.0-fast",
+      "displayName": "Google Imagen 4.0 Fast",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/imagen-4.0-preview",
+      "providerModelId": "google/imagen-4.0-preview",
+      "displayName": "Google Imagen 4.0 Preview",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/imagen-4.0-ultra",
+      "providerModelId": "google/imagen-4.0-ultra",
+      "displayName": "Google Imagen 4.0 Ultra",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/medgemma-27b-text-it",
+      "providerModelId": "google/medgemma-27b-text-it",
+      "displayName": "Medgemma 27B Text It",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/veo-2.0",
+      "providerModelId": "google/veo-2.0",
+      "displayName": "Google Veo 2.0",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/veo-3.0",
+      "providerModelId": "google/veo-3.0",
+      "displayName": "Duplicate Test",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/veo-3.0-audio",
+      "providerModelId": "google/veo-3.0-audio",
+      "displayName": "Google Veo 3.0 + Audio",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/veo-3.0-fast",
+      "providerModelId": "google/veo-3.0-fast",
+      "displayName": "Google Veo 3.0 Fast",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/veo-3.0-fast-audio",
+      "providerModelId": "google/veo-3.0-fast-audio",
+      "displayName": "Google Veo 3.0 Fast + Audio",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/veo-3.1",
+      "providerModelId": "google/veo-3.1",
+      "displayName": "Veo 3.1",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/veo-3.1-lite",
+      "providerModelId": "google/veo-3.1-lite",
+      "displayName": "Veo 3.1 Lite",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "google/veo-3.1-test-debug",
+      "providerModelId": "google/veo-3.1-test-debug",
+      "displayName": "Veo 3.1 Debug Test",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "hexgrad/Kokoro-82M",
+      "providerModelId": "hexgrad/Kokoro-82M",
+      "displayName": "Kokoro 82M",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 4,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "ideogram/ideogram-3.0",
+      "providerModelId": "ideogram/ideogram-3.0",
+      "displayName": "Ideogram 3.0",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "ideogram/ideogram-4.0",
+      "providerModelId": "ideogram/ideogram-4.0",
+      "displayName": "Ideogram 4.0",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "intfloat/multilingual-e5-large-instruct",
+      "providerModelId": "intfloat/multilingual-e5-large-instruct",
+      "displayName": "Multilingual E5 Large Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.02,
+        "outputPerMTokens": 0.02
+      },
+      "limits": {
+        "contextTokens": 514,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "embeddings": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "kwaivgI/kling-1.6-standard",
+      "providerModelId": "kwaivgI/kling-1.6-standard",
+      "displayName": "Kling 1.6 Standard",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "kwaivgI/kling-2.1-master",
+      "providerModelId": "kwaivgI/kling-2.1-master",
+      "displayName": "Kling 2.1 Master",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "kwaivgI/kling-2.1-pro",
+      "providerModelId": "kwaivgI/kling-2.1-pro",
+      "displayName": "Kling 2.1 Pro",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "kwaivgI/kling-2.1-standard",
+      "providerModelId": "kwaivgI/kling-2.1-standard",
+      "displayName": "Kling 2.1 Standard",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-2-7b-chat-hf",
+      "providerModelId": "meta-llama/Llama-2-7b-chat-hf",
+      "displayName": "meta-llama/Llama-2-7b-chat-hf",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 4096,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-3-8b-chat-hf",
+      "providerModelId": "meta-llama/Llama-3-8b-chat-hf",
+      "displayName": "Meta Llama 3 8B Instruct Reference",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.2,
+        "outputPerMTokens": 0.2
+      },
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-3.1-405B",
+      "providerModelId": "meta-llama/Llama-3.1-405B",
+      "displayName": "Llama 3.1 405B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-3.1-405B-Instruct",
+      "providerModelId": "meta-llama/Llama-3.1-405B-Instruct",
+      "displayName": "Meta Llama 3.1 405B Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 3.5,
+        "outputPerMTokens": 3.5
+      },
+      "limits": {
+        "contextTokens": 4096,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-3.2-1B",
+      "providerModelId": "meta-llama/Llama-3.2-1B",
+      "displayName": "Llama 3.2 1B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-3.2-1B-Instruct",
+      "providerModelId": "meta-llama/Llama-3.2-1B-Instruct",
+      "displayName": "Meta Llama 3.2 1B Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.060000000000000005,
+        "outputPerMTokens": 0.060000000000000005
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-3.2-3B",
+      "providerModelId": "meta-llama/Llama-3.2-3B",
+      "displayName": "Meta Llama 3.2 3B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "providerModelId": "meta-llama/Llama-3.2-3B-Instruct",
+      "displayName": "Meta Llama 3.2 3B Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.060000000000000005,
+        "outputPerMTokens": 0.060000000000000005
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-3.3-70B-Instruct",
+      "providerModelId": "meta-llama/Llama-3.3-70B-Instruct",
+      "displayName": "Meta Llama 3.3 70B Instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-3.3-70B-Instruct-FP8-Lora",
+      "providerModelId": "meta-llama/Llama-3.3-70B-Instruct-FP8-Lora",
+      "displayName": "Llama 3.3 70B Instruct FP8 Lora",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "providerModelId": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "displayName": "Meta Llama 3.3 70B Instruct Turbo",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.0399999999999998,
+        "outputPerMTokens": 1.0399999999999998
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4",
+      "providerModelId": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4",
+      "displayName": "Llama 4 Maverick 17B 128E Instruct Nvfp4",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-4-Scout-17B-16E",
+      "providerModelId": "meta-llama/Llama-4-Scout-17B-16E",
+      "displayName": "Llama 4 Scout (17Bx16E)",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "providerModelId": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "displayName": "Llama 4 Scout Instruct (17Bx16E)",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.18000000000000002,
+        "outputPerMTokens": 0.5900000000000001
+      },
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora",
+      "providerModelId": "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora",
+      "displayName": "Llama 4 Scout 17B 16E Instruct Fp8 Lora",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 10485760,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Llama-Guard-4-12B",
+      "providerModelId": "meta-llama/Llama-Guard-4-12B",
+      "displayName": "Llama Guard 4 12B",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.2,
+        "outputPerMTokens": 0.2
+      },
+      "limits": {
+        "contextTokens": 1048576,
+        "maxOutputTokens": null
+      },
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+      "providerModelId": "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+      "displayName": "Meta Llama 3 70B Instruct Turbo",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.88,
+        "outputPerMTokens": 0.88
+      },
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "providerModelId": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "displayName": "Meta Llama 3 8B Instruct",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.2,
+        "outputPerMTokens": 0.2
+      },
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+      "providerModelId": "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+      "displayName": "Meta Llama 3 8B Instruct Lite",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.13999999999999999,
+        "outputPerMTokens": 0.13999999999999999
+      },
+      "limits": {
+        "contextTokens": 8192,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3.1-70B",
+      "providerModelId": "meta-llama/Meta-Llama-3.1-70B",
+      "displayName": "Llama 3.1 70B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+      "providerModelId": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+      "displayName": "Meta Llama 3.1 70B Instruct Turbo",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.88,
+        "outputPerMTokens": 0.88
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3.1-8B",
+      "providerModelId": "meta-llama/Meta-Llama-3.1-8B",
+      "displayName": "Meta Llama 3.1 8B",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.2,
+        "outputPerMTokens": 0.2
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+      "providerModelId": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+      "displayName": "Meta Llama 3.1 8B Instruct Turbo",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.18000000000000002,
+        "outputPerMTokens": 0.18000000000000002
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "minimax/hailuo-02",
+      "providerModelId": "minimax/hailuo-02",
+      "displayName": "MiniMax Hailuo 02",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "minimax/speech-2.6-turbo",
+      "providerModelId": "minimax/speech-2.6-turbo",
+      "displayName": "Minimax Speech 2.6 Turbo",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "minimax/speech-2.8-turbo",
+      "providerModelId": "minimax/speech-2.8-turbo",
+      "displayName": "Minimax Speech 2.8 Turbo",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "minimax/video-01-director",
+      "providerModelId": "minimax/video-01-director",
+      "displayName": "MiniMax 01 Director",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "mistralai/Devstral-Small-2505",
+      "providerModelId": "mistralai/Devstral-Small-2505",
+      "displayName": "Devstral Small 2505",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "mistralai/Magistral-Small-2506",
+      "providerModelId": "mistralai/Magistral-Small-2506",
+      "displayName": "Magistral Small 2506",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 40960,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "mistralai/Ministral-3-14B-Instruct-2512",
+      "providerModelId": "mistralai/Ministral-3-14B-Instruct-2512",
+      "displayName": "Ministral 3 14B Instruct 2512",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.2,
+        "outputPerMTokens": 0.2
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "mistralai/Mistral-7B-Instruct-v0.1",
+      "providerModelId": "mistralai/Mistral-7B-Instruct-v0.1",
+      "displayName": "Mistral (7B) Instruct v0.1",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.2,
+        "outputPerMTokens": 0.2
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "providerModelId": "mistralai/Mistral-7B-Instruct-v0.3",
+      "displayName": "Mistral (7B) Instruct v0.3",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.2,
+        "outputPerMTokens": 0.2
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "mistralai/Mistral-7B-v0.1",
+      "providerModelId": "mistralai/Mistral-7B-v0.1",
+      "displayName": "Mistral 7B v0.1",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "mistralai/Mistral-Small-24B-Instruct-2501",
+      "providerModelId": "mistralai/Mistral-Small-24B-Instruct-2501",
+      "displayName": "Mistral Small (24B) Instruct 25.01",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.1,
+        "outputPerMTokens": 0.3
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+      "providerModelId": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+      "displayName": "Mixtral 8X22b Instruct V0.1",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 65536,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "providerModelId": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "displayName": "Mixtral-8x7B Instruct v0.1",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.6,
+        "outputPerMTokens": 0.6
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1-FP8-Lora",
+      "providerModelId": "mistralai/Mixtral-8x7B-Instruct-v0.1-FP8-Lora",
+      "displayName": "Mixtral 8x7B Instruct V0.1 FP8 Lora",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "mistralai/Mixtral-8x7B-v0.1",
+      "providerModelId": "mistralai/Mixtral-8x7B-v0.1",
+      "displayName": "Mixtral 8X7b V0.1",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "completion": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "mixedbread-ai/mxbai-rerank-large-v2",
+      "providerModelId": "mixedbread-ai/mxbai-rerank-large-v2",
+      "displayName": "Mxbai Rerank Large V2",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "rerank": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "moonshotai/Kimi-K2.5-fp4",
+      "providerModelId": "moonshotai/Kimi-K2.5-fp4",
+      "displayName": "Kimi K2.5 Fp4",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.5,
+        "outputPerMTokens": 2.8
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "moonshotai/Kimi-K2.6",
+      "providerModelId": "moonshotai/Kimi-K2.6",
+      "displayName": "Kimi K2.6 Fp4",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.2,
+        "outputPerMTokens": 4.5
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "moonshotai/Kimi-K2.7-Code",
+      "providerModelId": "moonshotai/Kimi-K2.7-Code",
+      "displayName": "Kimi K2.7 Code",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.95,
+        "outputPerMTokens": 4
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nim/meta/llama-3.1-70b-instruct",
+      "providerModelId": "nim/meta/llama-3.1-70b-instruct",
+      "displayName": "nim/meta/llama-3.1-70b-instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nim/meta/llama-3.1-8b-instruct",
+      "providerModelId": "nim/meta/llama-3.1-8b-instruct",
+      "displayName": "nim/meta/llama-3.1-8b-instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nim/meta/llama-3.2-11b-vision-instruct",
+      "providerModelId": "nim/meta/llama-3.2-11b-vision-instruct",
+      "displayName": "nim/meta/llama-3.2-11b-vision-instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nim/meta/llama-3.2-90b-vision-instruct",
+      "providerModelId": "nim/meta/llama-3.2-90b-vision-instruct",
+      "displayName": "nim/meta/llama-3.2-90b-vision-instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nim/meta/llama-3.3-70b-instruct",
+      "providerModelId": "nim/meta/llama-3.3-70b-instruct",
+      "displayName": "nim/meta/llama-3.3-70b-instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nim/mistralai/mixtral-8x22b-instruct-v01",
+      "providerModelId": "nim/mistralai/mixtral-8x22b-instruct-v01",
+      "displayName": "nim/mistralai/mixtral-8x22b-instruct-v01",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nim/mistralai/mixtral-8x7b-instruct-v01",
+      "providerModelId": "nim/mistralai/mixtral-8x7b-instruct-v01",
+      "displayName": "nim/mistralai/mixtral-8x7b-instruct-v01",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nim/nv-mistralai/mistral-nemo-12b-instruct",
+      "providerModelId": "nim/nv-mistralai/mistral-nemo-12b-instruct",
+      "displayName": "nim/nv-mistralai/mistral-nemo-12b-instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nim/nvidia/llama-3.1-nemotron-70b-instruct",
+      "providerModelId": "nim/nvidia/llama-3.1-nemotron-70b-instruct",
+      "displayName": "nim/nvidia/llama-3.1-nemotron-70b-instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nim/nvidia/llama-3.3-nemotron-super-49b-v1",
+      "providerModelId": "nim/nvidia/llama-3.3-nemotron-super-49b-v1",
+      "displayName": "nim/nvidia/llama-3.3-nemotron-super-49b-v1",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 16384,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+      "providerModelId": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+      "displayName": "Llama 3.1 Nemotron 70B Instruct HF",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.88,
+        "outputPerMTokens": 0.88
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+      "providerModelId": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+      "displayName": "Nvidia Nemotron 3 Nano 30B A3b Bf16",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "providerModelId": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "displayName": "Nvidia Nemotron 3 Super 120B A12b Bf16",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+      "providerModelId": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+      "displayName": "Nvidia Nemotron 3 Super 120B A12b Fp8",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "providerModelId": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "displayName": "Nvidia Nemotron Nano 9B V2",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.060000000000000005,
+        "outputPerMTokens": 0.25
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nvidia/nemotron-3-asr-streaming-0.6b",
+      "providerModelId": "nvidia/nemotron-3-asr-streaming-0.6b",
+      "displayName": "Nvidia Nemotron 3 ASR Streaming 0.6B",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.45,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "speech_to_text": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-fp8",
+      "providerModelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-fp8",
+      "displayName": "Nemotron 3 Nano Omni 30B A3b Reasoning Fp8",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "providerModelId": "nvidia/nemotron-3-ultra-550b-a55b",
+      "displayName": "NVIDIA Nemotron 3 Ultra 550B A55B NVFP4",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.6,
+        "outputPerMTokens": 3.6
+      },
+      "limits": {
+        "contextTokens": 512288,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "providerModelId": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "displayName": "Nvidia Nemotron 3.5 ASR Streaming 0.6B",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "speech_to_text": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "nvidia/parakeet-tdt-0.6b-v3",
+      "providerModelId": "nvidia/parakeet-tdt-0.6b-v3",
+      "displayName": "Nvidia Parakeet TDT 0.6B V3",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "speech_to_text": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "openai/gpt-image-1.5",
+      "providerModelId": "openai/gpt-image-1.5",
+      "displayName": "GPT Image 1.5",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "openai/gpt-image-2",
+      "providerModelId": "openai/gpt-image-2",
+      "displayName": "GPT Image 2",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "providerModelId": "openai/gpt-oss-120b",
+      "displayName": "OpenAI GPT-OSS 120B",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.15,
+        "outputPerMTokens": 0.6
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "providerModelId": "openai/gpt-oss-20b",
+      "displayName": "OpenAI GPT-OSS 20B",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.05,
+        "outputPerMTokens": 0.2
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "openai/sora-2",
+      "providerModelId": "openai/sora-2",
+      "displayName": "Sora 2",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "openai/sora-2-pro",
+      "providerModelId": "openai/sora-2-pro",
+      "displayName": "Sora 2 Pro",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "openai/whisper-large-v3",
+      "providerModelId": "openai/whisper-large-v3",
+      "displayName": "Whisper large-v3",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.27,
+        "outputPerMTokens": 0.85
+      },
+      "limits": {
+        "contextTokens": 1,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "speech_to_text": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "pearl-ai/gemma-4-31b-it",
+      "providerModelId": "pearl-ai/gemma-4-31b-it",
+      "displayName": "Pearl-ai Gemma-4-31B-it-pearl",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.27999999999999997,
+        "outputPerMTokens": 0.86
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "pixverse/pixverse-v5",
+      "providerModelId": "pixverse/pixverse-v5",
+      "displayName": "PixVerse v5",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "pixverse/pixverse-v5.6",
+      "providerModelId": "pixverse/pixverse-v5.6",
+      "displayName": "PixVerse v5.6",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "pixverse/pixverse-v6",
+      "providerModelId": "pixverse/pixverse-v6",
+      "displayName": "PixVerse v6",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "rime-labs/rime-arcana-v2",
+      "providerModelId": "rime-labs/rime-arcana-v2",
+      "displayName": "Rime Labs Arcana v2",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.27,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "rime-labs/rime-arcana-v3",
+      "providerModelId": "rime-labs/rime-arcana-v3",
+      "displayName": "Rime Labs Arcana v3",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "rime-labs/rime-arcana-v3-turbo",
+      "providerModelId": "rime-labs/rime-arcana-v3-turbo",
+      "displayName": "Rime Labs Arcana v3 Turbo",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "rime-labs/rime-mist-v2",
+      "providerModelId": "rime-labs/rime-mist-v2",
+      "displayName": "Rime Labs Mist v2",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "rime-labs/rime-mist-v3",
+      "providerModelId": "rime-labs/rime-mist-v3",
+      "displayName": "Rime Labs Mist v3",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "rime-labs/rime-mist-v3-omni",
+      "providerModelId": "rime-labs/rime-mist-v3-omni",
+      "displayName": "Rime Labs Mist v3 Omni",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 448,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "text_to_speech": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "sarvamai/sarvam-m",
+      "providerModelId": "sarvamai/sarvam-m",
+      "displayName": "Sarvam M",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "stabilityai/stable-diffusion-xl-base-1.0",
+      "providerModelId": "stabilityai/stable-diffusion-xl-base-1.0",
+      "displayName": "SD XL",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {
+        "image_generation": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "togethercomputer/EssentialAI-RNJ-1-Instruct",
+      "providerModelId": "togethercomputer/EssentialAI-RNJ-1-Instruct",
+      "displayName": "EssentialAI Rnj-1 Instruct",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 32768,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "togethercomputer/meta-llama-3.1-8B-Instruct-AWQ-INT4",
+      "providerModelId": "togethercomputer/meta-llama-3.1-8B-Instruct-AWQ-INT4",
+      "displayName": "Meta Llama 3.1 8B Instruct Awq Int4",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "vidu/vidu-2.0",
+      "providerModelId": "vidu/vidu-2.0",
+      "displayName": "Vidu 2.0",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "vidu/vidu-q1",
+      "providerModelId": "vidu/vidu-q1",
+      "displayName": "Vidu Q1",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "vidu/vidu-q3",
+      "providerModelId": "vidu/vidu-q3",
+      "displayName": "Vidu Q3",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "vidu/vidu-q3-turbo",
+      "providerModelId": "vidu/vidu-q3-turbo",
+      "displayName": "Vidu Q3 Turbo",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "zai-org/GLM-4.5-Air-FP8",
+      "providerModelId": "zai-org/GLM-4.5-Air-FP8",
+      "displayName": "Glm 4.5 Air Fp8",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.2,
+        "outputPerMTokens": 1.1
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "zai-org/GLM-4.5V",
+      "providerModelId": "zai-org/GLM-4.5V",
+      "displayName": "GLM 4.5V",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 65536,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "zai-org/GLM-4.6",
+      "providerModelId": "zai-org/GLM-4.6",
+      "displayName": "GLM 4.6 Fp8",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.6,
+        "outputPerMTokens": 2.2
+      },
+      "limits": {
+        "contextTokens": 202752,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "zai-org/GLM-4.7",
+      "providerModelId": "zai-org/GLM-4.7",
+      "displayName": "GLM 4.7 FP8",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0.45,
+        "outputPerMTokens": 2
+      },
+      "limits": {
+        "contextTokens": 202752,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "zai-org/GLM-4.7-FP8",
+      "providerModelId": "zai-org/GLM-4.7-FP8",
+      "displayName": "Glm 4.7 Fp8",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 202752,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "zai-org/GLM-4.7-fp4",
+      "providerModelId": "zai-org/GLM-4.7-fp4",
+      "displayName": "GLM 4.7 FP4",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 202752,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "zai-org/GLM-5",
+      "providerModelId": "zai-org/GLM-5",
+      "displayName": "GLM 5 Fp4",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1,
+        "outputPerMTokens": 3.2
+      },
+      "limits": {
+        "contextTokens": 202752,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "zai-org/GLM-5-FP4",
+      "providerModelId": "zai-org/GLM-5-FP4",
+      "displayName": "GLM 5 Fp4",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 202752,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "zai-org/GLM-5.1",
+      "providerModelId": "zai-org/GLM-5.1",
+      "displayName": "GLM 5.1 FP4",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.4,
+        "outputPerMTokens": 4.4
+      },
+      "limits": {
+        "contextTokens": 202752,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "zai-org/GLM-5.2",
+      "providerModelId": "zai-org/GLM-5.2",
+      "displayName": "GLM 5.2",
+      "costClass": "paid",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 1.4,
+        "outputPerMTokens": 4.4
+      },
+      "limits": {
+        "contextTokens": 262144,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    },
+    {
+      "id": "zai-org/GLM-OCR",
+      "providerModelId": "zai-org/GLM-OCR",
+      "displayName": "GLM OCR",
+      "costClass": "free",
+      "pricing": {
+        "currency": "USD",
+        "inputPerMTokens": 0,
+        "outputPerMTokens": 0
+      },
+      "limits": {
+        "contextTokens": 131072,
+        "maxOutputTokens": null
+      },
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "together_models_api",
+          "confidence": "high",
+          "lastChecked": "2026-07-02T18:10:07Z"
+        }
+      },
+      "status": "available",
+      "source": "together_models_api",
+      "lastChecked": "2026-07-02T18:10:07Z"
+    }
+  ]
 }

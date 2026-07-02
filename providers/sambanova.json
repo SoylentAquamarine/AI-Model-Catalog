@@ -12,7 +12,80 @@
       "extraHeaders": null
     },
     "notes": "SambaNova documents a rate-limited free tier on SambaNova Cloud.",
-    "lastChecked": null
+    "lastChecked": "2026-07-02T18:10:08Z"
   },
-  "models": []
+  "models": [
+    {
+      "id": "DeepSeek-V3.1",
+      "providerModelId": "DeepSeek-V3.1",
+      "displayName": "DeepSeek-V3.1",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "sambanova_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    },
+    {
+      "id": "DeepSeek-V3.2",
+      "providerModelId": "DeepSeek-V3.2",
+      "displayName": "DeepSeek-V3.2",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "sambanova_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    },
+    {
+      "id": "Meta-Llama-3.3-70B-Instruct",
+      "providerModelId": "Meta-Llama-3.3-70B-Instruct",
+      "displayName": "Meta-Llama-3.3-70B-Instruct",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "sambanova_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    },
+    {
+      "id": "MiniMax-M2.7",
+      "providerModelId": "MiniMax-M2.7",
+      "displayName": "MiniMax-M2.7",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "sambanova_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    },
+    {
+      "id": "gemma-4-31B-it",
+      "providerModelId": "gemma-4-31B-it",
+      "displayName": "gemma-4-31B-it",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "sambanova_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    },
+    {
+      "id": "gpt-oss-120b",
+      "providerModelId": "gpt-oss-120b",
+      "displayName": "gpt-oss-120b",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "sambanova_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    }
+  ]
 }

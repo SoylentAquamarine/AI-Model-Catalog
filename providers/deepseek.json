@@ -12,7 +12,32 @@
       "extraHeaders": null
     },
     "notes": null,
-    "lastChecked": null
+    "lastChecked": "2026-07-02T18:10:08Z"
   },
-  "models": []
+  "models": [
+    {
+      "id": "deepseek-v4-flash",
+      "providerModelId": "deepseek-v4-flash",
+      "displayName": "deepseek-v4-flash",
+      "costClass": "paid",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "deepseek_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "providerModelId": "deepseek-v4-pro",
+      "displayName": "deepseek-v4-pro",
+      "costClass": "paid",
+      "pricing": null,
+      "limits": null,
+      "capabilities": {},
+      "status": "available",
+      "source": "deepseek_models_api",
+      "lastChecked": "2026-07-02T18:10:08Z"
+    }
+  ]
 }
