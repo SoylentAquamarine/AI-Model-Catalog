@@ -35,5 +35,8 @@ Announce breaking changes in the release notes.
 
 ```text
 provider files   1.0.0   (schema/provider.schema.json)
-catalog index    1.0.0   (schema/catalog-index.schema.json)
+catalog index    1.1.0   (schema/catalog-index.schema.json)
+                         1.1.0 added totalModels, totalFreeModels,
+                         and per-provider freeModelCount - additive,
+                         safe for 1.0.0 consumers to ignore
 ```

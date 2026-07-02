@@ -3,38 +3,240 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI Model Catalog</title>
+  <title>AI Model Catalog — free, normalized JSON data on AI providers and models</title>
+  <meta name="description" content="A public, normalized JSON catalog of AI providers and models: pricing, free/paid status, capabilities with evidence, context limits, and how to connect. Plain HTTPS, no account, no API key.">
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, sans-serif; max-width: 980px; margin: 40px auto; padding: 0 20px; line-height: 1.55; }
-    code, pre { background: #f4f4f4; border-radius: 6px; }
-    code { padding: 2px 5px; }
-    pre { padding: 14px; overflow-x: auto; }
-    a { color: #075eb5; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
-    .card { border: 1px solid #ddd; border-radius: 10px; padding: 14px; }
+    :root {
+      --ink: #1c2733; --muted: #5b6b7b; --line: #dde4ea; --bg: #ffffff;
+      --panel: #f5f8fa; --accent: #075eb5; --good: #157347; --code-bg: #0f1720; --code-ink: #dbe6f1;
+    }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); background: var(--bg);
+           max-width: 1020px; margin: 0 auto; padding: 36px 20px 80px; line-height: 1.6; }
+    h1 { font-size: 2rem; margin: 0 0 4px; }
+    h2 { margin-top: 2.4em; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    .tagline { color: var(--muted); font-size: 1.08rem; margin-top: 0; }
+    .stats { display: flex; gap: 12px; flex-wrap: wrap; margin: 22px 0; }
+    .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 18px; }
+    .stat b { display: block; font-size: 1.5rem; }
+    .stat span { color: var(--muted); font-size: .85rem; }
+    code { background: var(--panel); border-radius: 5px; padding: 2px 6px; font-size: .92em; }
+    pre { background: var(--code-bg); color: var(--code-ink); border-radius: 10px; padding: 16px; overflow-x: auto; font-size: .88rem; line-height: 1.5; }
+    pre code { background: none; padding: 0; color: inherit; }
+    table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: .93rem; }
+    th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+    th { background: var(--panel); }
+    td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    .free { color: var(--good); font-weight: 600; }
+    .pill { display: inline-block; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; font-size: .8rem; }
+    .note { background: var(--panel); border-left: 4px solid var(--accent); border-radius: 6px; padding: 10px 14px; }
+    .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; }
+    footer { margin-top: 60px; border-top: 1px solid var(--line); padding-top: 16px; color: var(--muted); font-size: .9rem; }
+    #load-error { display: none; }
   </style>
 </head>
 <body>
-  <h1>AI Model Catalog</h1>
-  <p>A public, normalized JSON catalog of AI providers, models, pricing, free/paid status, capabilities, limits, and source confidence.</p>
 
-  <h2>Provider JSON</h2>
-  <div class="grid">
-    <div class="card"><strong>OpenRouter</strong><br><a href="providers/openrouter.json">providers/openrouter.json</a></div>
-    <div class="card"><strong>OpenAI</strong><br><a href="providers/openai.json">providers/openai.json</a></div>
-    <div class="card"><strong>Gemini</strong><br><a href="providers/gemini.json">providers/gemini.json</a></div>
-    <div class="card"><strong>Groq</strong><br><a href="providers/groq.json">providers/groq.json</a></div>
-  </div>
+<h1>AI Model Catalog</h1>
+<p class="tagline">A public, normalized JSON catalog of AI providers and models: pricing, free/paid status,
+capabilities with evidence, context limits — and exactly how to connect to each provider. Plain HTTPS. No account, no API key, no rate-limit games.</p>
 
-  <h2>Design Rule</h2>
-  <pre>Keep the first version simple.
-One provider JSON file per provider.
-Never present guessed data as confirmed data.</pre>
+<div class="stats" id="stats">
+  <div class="stat"><b id="stat-providers">–</b><span>providers</span></div>
+  <div class="stat"><b id="stat-models">–</b><span>models</span></div>
+  <div class="stat"><b id="stat-free" class="free">–</b><span>free models</span></div>
+  <div class="stat"><b id="stat-updated">–</b><span>last updated (UTC)</span></div>
+</div>
 
-  <h2>Use Case</h2>
-  <p>Apps, MCP tools, routers, and dashboards can use this catalog to find models by provider, cost class, capability, context size, and confidence level.</p>
+<h2 id="situation">The situation this solves</h2>
+<p>Every AI provider publishes model information differently. Some have clean model APIs, some publish pricing
+only on web pages, some expose almost nothing machine-readable. Anyone building an app that talks to more than
+one provider ends up re-scraping and re-guessing the same facts: <em>which models exist, what they cost, which are
+free, what they can do, and how to call them.</em></p>
+<p>This project does that work once, in public. GitHub Actions checks the providers
+(weekly, on demand, and when providers email announcements), normalizes what they expose into one schema,
+validates it, and publishes plain JSON files anyone can download. Two integrity rules govern the data:</p>
+<ul>
+  <li><strong>Never present guessed data as confirmed.</strong> Every capability claim carries its evidence:
+      <code>value</code>, <code>source</code>, <code>confidence</code>, <code>lastChecked</code>.
+      Values can be <code>true</code>, <code>false</code>, <code>"likely"</code>, <code>"partial"</code>, or an honest <code>"unknown"</code>.</li>
+  <li><strong>No user data, ever.</strong> The catalog describes providers. Your API keys, account state, and preferences stay on your machine.</li>
+</ul>
 
-  <h2>Repository</h2>
-  <p><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog">GitHub: SoylentAquamarine/AI-Model-Catalog</a></p>
+<h2 id="files">The files — direct links</h2>
+<p>Fetch the index first; it tells you what exists and when the catalog was last built. Then fetch the provider files you care about.
+Every link below comes in two flavors: <strong>raw</strong> (canonical for apps) and <strong>view</strong> (this site).</p>
+
+<table>
+  <thead><tr><th>Entry point</th><th>Purpose</th><th>Links</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><code>catalog-index.json</code></td>
+      <td>Start here: provider list, model counts, build timestamp</td>
+      <td><a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/catalog-index.json">raw</a> · <a href="catalog-index.json">view</a></td>
+    </tr>
+    <tr>
+      <td><code>schema/provider.schema.json</code></td>
+      <td>JSON Schema every provider file validates against</td>
+      <td><a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/schema/provider.schema.json">raw</a> · <a href="schema/provider.schema.json">view</a></td>
+    </tr>
+    <tr>
+      <td><code>schema/catalog-index.schema.json</code></td>
+      <td>JSON Schema for the index</td>
+      <td><a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/schema/catalog-index.schema.json">raw</a> · <a href="schema/catalog-index.schema.json">view</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<table id="provider-table">
+  <thead>
+    <tr><th>Provider</th><th>API type</th><th class="num">Models</th><th class="num">Free</th><th>Last checked</th><th>Links</th></tr>
+  </thead>
+  <tbody id="provider-rows">
+    <tr><td colspan="6">Loading provider list from <code>catalog-index.json</code>…</td></tr>
+  </tbody>
+</table>
+<p id="load-error" class="note">Could not load <code>catalog-index.json</code> dynamically. Browse the files directly:
+<a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/tree/main/providers">providers/ on GitHub</a> or the
+<a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/catalog-index.json">raw index</a>.</p>
+<p class="note">This table renders live from the same <code>catalog-index.json</code> your app would fetch —
+what you see here is exactly what consumers get. Providers showing 0 models either publish no machine-readable
+list (Ollama is a local runtime — enumerate models from your own instance) or are awaiting an API key in this repo's updater configuration.</p>
+
+<h2 id="quickstart">Quick start</h2>
+<pre><code># 1. What exists, and when was the catalog last built?
+curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/catalog-index.json
+
+# 2. Everything about one provider: models, pricing, capabilities, how to connect
+curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/providers/openrouter.json</code></pre>
+<p>That is the entire consumption surface. The scripts, workflows, and docs in the repo are maintenance machinery — consumers never need them.</p>
+
+<h2 id="use">Using the files in your app</h2>
+<p>Each provider file answers two questions: <strong>how do I talk to this provider</strong>, and <strong>what does it offer</strong>.</p>
+
+<div class="cols">
+<div>
+<h3>1. How to connect: <code>apiType</code> + <code>auth</code></h3>
+<p>Implement one client driver per <code>apiType</code> and you can talk to every provider in the catalog with zero provider-specific code:</p>
+<pre><code>openai-compatible  POST {apiBase}/chat/completions
+anthropic          POST {apiBase}/messages
+gemini             POST {apiBase}/models/{model}:generateContent
+ollama             POST {apiBase}/api/chat  (local runtime)</code></pre>
+<p>The <code>auth</code> block says how to attach <em>your</em> key (the catalog never contains keys):</p>
+<pre><code>"auth": { "scheme": "bearer" }          → Authorization: Bearer &lt;key&gt;
+"auth": { "scheme": "header",
+          "name": "x-api-key",
+          "extraHeaders": {...} }        → x-api-key: &lt;key&gt; + extras verbatim
+"auth": { "scheme": "query",
+          "name": "key" }                → ?key=&lt;key&gt;
+"auth": { "scheme": "none" }            → no credential needed</code></pre>
+</div>
+<div>
+<h3>2. What it offers: <code>models[]</code></h3>
+<p>Route work using the model entries:</p>
+<pre><code>costClass    free | paid | trial | local | unknown
+pricing      USD per million tokens, when known
+limits       contextTokens / maxOutputTokens
+status       available | preview | deprecated
+capabilities chat, vision, tools, json,
+             reasoning, embeddings, ... each with
+             { value, source, confidence, lastChecked }</code></pre>
+<p>Treat capability values honestly: <code>"likely"</code> and <code>"unknown"</code> are not <code>true</code>.
+A free-model router, for example, filters <code>costClass == "free"</code> and
+<code>capabilities.chat.value === true</code>.</p>
+</div>
+</div>
+
+<h3>3. Merge with your own local state</h3>
+<p>The catalog knows what exists publicly. It cannot know what <em>your</em> key can access, your rate-limit state,
+or which providers you have enabled. Keep those in your own config files, keyed by provider <code>id</code>, and merge at load time.
+Pattern that works well: store downloaded catalog files read-only (overwrite them wholesale on refresh) and keep a small
+local per-provider file next to them holding your key reference, an enabled flag, and a default model — refreshes can then never destroy local settings.</p>
+
+<h2 id="updater">Building an updater into your app</h2>
+<p>Syncing is four steps — fetch the index, compare, download, swap:</p>
+<pre><code>const BASE = "https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/";
+
+async function syncCatalog(store) {                     // store = your app's persistence
+  const index = await (await fetch(BASE + "catalog-index.json")).json();
+
+  if (index.generatedAt === store.lastSync) return;     // nothing new: one ~1 KB request, done
+
+  const major = parseInt(index.schemaVersion, 10);
+  if (major > 1) {                                      // newer breaking schema than this code knows
+    console.warn("catalog schema " + index.schemaVersion + " is newer; keeping cached copy");
+    return;                                             // degrade gracefully, never crash
+  }
+
+  for (const p of index.providers) {
+    const file = await (await fetch(BASE + p.file)).json();
+    await store.writeTemp(p.id, file);                  // download everything first...
+  }
+  await store.swapTempIntoPlace();                      // ...then swap atomically: never half-updated
+  store.lastSync = index.generatedAt;
+}</code></pre>
+<p>The same flow is a dozen lines in Python or Go. Rules that keep you unbreakable:</p>
+<ul>
+  <li><strong>Ignore fields you don't recognize.</strong> New fields arrive as minor versions; well-behaved consumers never notice.</li>
+  <li><strong>Check the major version.</strong> On a newer major, keep your cached copy and warn — don't fail hard.</li>
+  <li><strong>Fail safe.</strong> No internet or GitHub down? Your app keeps running on the files it already has.</li>
+</ul>
+<p><strong>Cadence:</strong> the upstream catalog regenerates weekly, plus on-demand runs and provider announcement
+emails. Checking on app startup, or daily, is plenty — the index fetch costs ~1 KB, so even hourly checks are harmless.
+Pin to a <a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/releases">release tag</a> instead of <code>main</code> if you need reproducible data.</p>
+
+<h2 id="docs">Full documentation</h2>
+<ul>
+  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/CONSUMING.md">CONSUMING.md</a> — the complete consumer guide</li>
+  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/SCHEMA.md">SCHEMA.md</a> — every field, human-readable</li>
+  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/VERSIONING.md">VERSIONING.md</a> — the semver contract</li>
+  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/CAPABILITY-FLAGS.md">CAPABILITY-FLAGS.md</a> and
+      <a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/CONFIDENCE-LEVELS.md">CONFIDENCE-LEVELS.md</a> — how claims are graded</li>
+  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/EMAIL-TRIGGERS.md">EMAIL-TRIGGERS.md</a> — how provider announcement emails trigger refreshes</li>
+  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a> — add a provider or fix data (evidence required)</li>
+</ul>
+
+<footer>
+  <p><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog">github.com/SoylentAquamarine/AI-Model-Catalog</a> ·
+  Code Apache-2.0 · Data CC BY 4.0 — if you redistribute the data, credit "AI Model Catalog".</p>
+</footer>
+
+<script>
+(async function () {
+  const RAW = "https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/";
+  const rows = document.getElementById("provider-rows");
+  try {
+    const index = await (await fetch("catalog-index.json", { cache: "no-cache" })).json();
+    const providers = (index.providers || []).slice().sort((a, b) => (b.modelCount || 0) - (a.modelCount || 0));
+
+    const total = index.totalModels ?? providers.reduce((n, p) => n + (p.modelCount || 0), 0);
+    const free = index.totalFreeModels ?? providers.reduce((n, p) => n + (p.freeModelCount || 0), 0);
+    document.getElementById("stat-providers").textContent = providers.length;
+    document.getElementById("stat-models").textContent = total.toLocaleString();
+    document.getElementById("stat-free").textContent = free.toLocaleString();
+    document.getElementById("stat-updated").textContent = (index.generatedAt || "").slice(0, 10);
+
+    rows.innerHTML = "";
+    for (const p of providers) {
+      const tr = document.createElement("tr");
+      const checked = p.lastChecked ? p.lastChecked.slice(0, 10) : "—";
+      tr.innerHTML =
+        "<td><strong>" + p.id + "</strong></td>" +
+        '<td><span class="pill">' + (p.apiType || "?") + "</span></td>" +
+        '<td class="num">' + (p.modelCount ?? 0) + "</td>" +
+        '<td class="num free">' + (p.freeModelCount ?? "—") + "</td>" +
+        "<td>" + checked + "</td>" +
+        '<td><a href="' + RAW + p.file + '">raw</a> · <a href="' + p.file + '">view</a></td>';
+      rows.appendChild(tr);
+    }
+  } catch (err) {
+    rows.innerHTML = "";
+    document.getElementById("load-error").style.display = "block";
+  }
+})();
+</script>
+
 </body>
 </html>

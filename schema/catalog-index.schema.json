@@ -14,6 +14,14 @@
       "type": "string",
       "description": "UTC ISO 8601 timestamp of the build that produced this index. Consumers can compare it to their last sync and skip downloads when unchanged."
     },
+    "totalModels": {
+      "type": "integer",
+      "description": "Sum of modelCount across all providers (added in 1.1.0)."
+    },
+    "totalFreeModels": {
+      "type": "integer",
+      "description": "Count of models with costClass=free across all providers (added in 1.1.0)."
+    },
     "providers": {
       "type": "array",
       "items": {
@@ -27,6 +35,10 @@
           },
           "apiType": { "type": "string" },
           "modelCount": { "type": "integer" },
+          "freeModelCount": {
+            "type": "integer",
+            "description": "Models with costClass=free in this provider file (added in 1.1.0)."
+          },
           "lastChecked": { "type": ["string", "null"] }
         },
         "additionalProperties": true
