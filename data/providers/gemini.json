@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "0.1.0",
+  "provider": {
+    "id": "gemini",
+    "displayName": "Google Gemini",
+    "homepage": "https://ai.google.dev",
+    "apiBase": "https://generativelanguage.googleapis.com",
+    "lastChecked": null
+  },
+  "models": []
+}
