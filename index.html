@@ -18,20 +18,21 @@
   <h1>AI Model Catalog</h1>
   <p>A public, normalized JSON catalog of AI providers, models, pricing, free/paid status, capabilities, limits, and source confidence.</p>
 
-  <h2>Public JSON</h2>
+  <h2>Provider JSON</h2>
   <div class="grid">
-    <div class="card"><strong>Full catalog</strong><br><a href="data/catalog.json">data/catalog.json</a></div>
-    <div class="card"><strong>Free models</strong><br><a href="data/free.json">data/free.json</a></div>
-    <div class="card"><strong>Schema</strong><br><a href="data/schema.json">data/schema.json</a></div>
-    <div class="card"><strong>Providers</strong><br><a href="data/providers/openrouter.json">OpenRouter</a> · <a href="data/providers/openai.json">OpenAI</a> · <a href="data/providers/gemini.json">Gemini</a></div>
+    <div class="card"><strong>OpenRouter</strong><br><a href="providers/openrouter.json">providers/openrouter.json</a></div>
+    <div class="card"><strong>OpenAI</strong><br><a href="providers/openai.json">providers/openai.json</a></div>
+    <div class="card"><strong>Gemini</strong><br><a href="providers/gemini.json">providers/gemini.json</a></div>
+    <div class="card"><strong>Groq</strong><br><a href="providers/groq.json">providers/groq.json</a></div>
   </div>
 
   <h2>Design Rule</h2>
-  <pre>Never present guessed data as confirmed data.
-Track value, source, confidence, and lastChecked.</pre>
+  <pre>Keep the first version simple.
+One provider JSON file per provider.
+Never present guessed data as confirmed data.</pre>
 
   <h2>Use Case</h2>
-  <p>Apps, MCP tools, routers, and dashboards can use this catalog to find models by cost class, capability, context size, modality, provider, and confidence level.</p>
+  <p>Apps, MCP tools, routers, and dashboards can use this catalog to find models by provider, cost class, capability, context size, and confidence level.</p>
 
   <h2>Repository</h2>
   <p><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog">GitHub: SoylentAquamarine/AI-Model-Catalog</a></p>
