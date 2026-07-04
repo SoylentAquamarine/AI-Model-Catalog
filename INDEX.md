@@ -30,7 +30,6 @@ AI-Model-Catalog/
     sambanova.json
     huggingface.json
     cloudflare.json
-    ollama.json
 
   schema/                   # machine-readable contract; CI validates against these
     provider.schema.json
@@ -65,7 +64,6 @@ AI-Model-Catalog/
     update_sambanova.py
     update_huggingface.py
     update_cloudflare.py
-    update_ollama.py
     build_catalog.py        # generates catalog-index.json + summary
     validate.py             # schema validation (jsonschema, structural fallback)
     check_provider_secrets.py

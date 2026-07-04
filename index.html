@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI Model Catalog — free, normalized JSON data on AI providers and models</title>
-  <meta name="description" content="A public, normalized JSON catalog of AI providers and models: pricing, free/paid status, capabilities with evidence, context limits, and how to connect. Plain HTTPS, no account, no API key.">
+  <title>AI Model Catalog — standardized, always-updated config for the free AI providers</title>
+  <meta name="description" content="Free AI standardization: one always-updated set of config files for the free AI providers — which models are free, what they can do, and exactly how to connect. Every provider is checked with free-tier keys only, so it's a live map of what you can actually use for free. Plain JSON, no account, no API key.">
   <style>
     :root {
       --ink: #1c2733; --muted: #5b6b7b; --line: #dde4ea; --bg: #ffffff;
@@ -12,13 +12,15 @@
     }
     * { box-sizing: border-box; }
     body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); background: var(--bg);
-           max-width: 1020px; margin: 0 auto; padding: 36px 20px 80px; line-height: 1.6; }
-    h1 { font-size: 2rem; margin: 0 0 4px; }
-    h2 { margin-top: 2.4em; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
-    h3 { margin-top: 1.6em; }
+           max-width: 900px; margin: 0 auto; padding: 40px 20px 80px; line-height: 1.65; }
+    h1 { font-size: 2.1rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+    h2 { margin-top: 2.6em; border-bottom: 1px solid var(--line); padding-bottom: 6px; font-size: 1.45rem; }
+    h3 { margin-top: 1.7em; font-size: 1.12rem; }
+    p { margin: 0.8em 0; }
     a { color: var(--accent); }
-    .tagline { color: var(--muted); font-size: 1.08rem; margin-top: 0; }
-    .stats { display: flex; gap: 12px; flex-wrap: wrap; margin: 22px 0; }
+    .tagline { color: var(--muted); font-size: 1.18rem; margin-top: 0; line-height: 1.5; }
+    .lead { font-size: 1.06rem; }
+    .stats { display: flex; gap: 12px; flex-wrap: wrap; margin: 26px 0; }
     .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 18px; }
     .stat b { display: block; font-size: 1.5rem; }
     .stat span { color: var(--muted); font-size: .85rem; }
@@ -32,7 +34,26 @@
     .free { color: var(--good); font-weight: 600; }
     .pill { display: inline-block; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; font-size: .8rem; }
     .note { background: var(--panel); border-left: 4px solid var(--accent); border-radius: 6px; padding: 10px 14px; }
-    .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 18px 0; }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; }
+    .card h3 { margin: 0 0 6px; font-size: 1rem; }
+    .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+    .beforeafter { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin: 18px 0; }
+    .beforeafter > div { border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; }
+    .beforeafter .before { background: #fff7f5; border-color: #f3d6cf; }
+    .beforeafter .after  { background: #f2faf5; border-color: #cfe9d8; }
+    .beforeafter h3 { margin-top: 0; }
+    .beforeafter ul { margin: 8px 0 0; padding-left: 20px; }
+    .beforeafter li { margin: 4px 0; }
+    ol.steps { counter-reset: step; list-style: none; padding-left: 0; }
+    ol.steps > li { position: relative; padding-left: 46px; margin: 18px 0; }
+    ol.steps > li::before { counter-increment: step; content: counter(step); position: absolute; left: 0; top: -2px;
+      width: 30px; height: 30px; background: var(--accent); color: #fff; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: .95rem; }
+    ol.steps h3 { margin: 0 0 4px; }
+    details { border: 1px solid var(--line); border-radius: 10px; padding: 4px 18px; margin: 16px 0; background: var(--panel); }
+    details[open] { padding-bottom: 14px; }
+    summary { cursor: pointer; font-weight: 600; padding: 12px 0; }
     footer { margin-top: 60px; border-top: 1px solid var(--line); padding-top: 16px; color: var(--muted); font-size: .9rem; }
     #load-error { display: none; }
   </style>
@@ -40,8 +61,8 @@
 <body>
 
 <h1>AI Model Catalog</h1>
-<p class="tagline">A public, normalized JSON catalog of AI providers and models: pricing, free/paid status,
-capabilities with evidence, context limits — and exactly how to connect to each provider. Plain HTTPS. No account, no API key, no rate-limit games.</p>
+<p class="tagline">Free AI, standardized. One always-updated set of config files for the free AI providers —
+which models are free, what they can do, and exactly how to connect — so you can skip writing that plumbing yourself.</p>
 
 <div class="stats" id="stats">
   <div class="stat"><b id="stat-providers">–</b><span>providers</span></div>
@@ -50,81 +71,140 @@ capabilities with evidence, context limits — and exactly how to connect to eac
   <div class="stat"><b id="stat-updated">–</b><span>last updated (UTC)</span></div>
 </div>
 
-<h2 id="situation">The situation this solves</h2>
-<p>Every AI provider publishes model information differently. Some have clean model APIs, some publish pricing
-only on web pages, some expose almost nothing machine-readable. Anyone building an app that talks to more than
-one provider ends up re-scraping and re-guessing the same facts: <em>which models exist, what they cost, which are
-free, what they can do, and how to call them.</em></p>
-<p>This project does that work once, in public. GitHub Actions checks the providers
-(weekly, on demand, and when providers email announcements), normalizes what they expose into one schema,
-validates it, and publishes plain JSON files anyone can download. Two integrity rules govern the data:</p>
-<ul>
-  <li><strong>Never present guessed data as confirmed.</strong> Every capability claim carries its evidence:
-      <code>value</code>, <code>source</code>, <code>confidence</code>, <code>lastChecked</code>.
-      Values can be <code>true</code>, <code>false</code>, <code>"likely"</code>, <code>"partial"</code>, or an honest <code>"unknown"</code>.</li>
-  <li><strong>No user data, ever.</strong> The catalog describes providers. Your API keys, account state, and preferences stay on your machine.</li>
-</ul>
+<h2 id="what">What this is, in one sentence</h2>
+<p class="lead">It's a big, tidy phone book of the <strong>free</strong> AI providers. For every one — Groq,
+Google Gemini, Mistral, Cerebras, OpenRouter, and a dozen more — it lists their models, which are free, what
+each one can do, and the exact address and rules for calling it. The whole thing is kept up to date automatically
+and published as plain config files anyone can download — <strong>no account, no API key, no sign-up.</strong>
+The goal is simple: make the scattered world of free AI easy to use, in one standard format.</p>
 
-<h2 id="files">The files — direct links</h2>
-<p>Fetch the index first; it tells you what exists and when the catalog was last built. Then fetch the provider files you care about.
-Every link below comes in two flavors: <strong>raw</strong> (canonical for apps) and <strong>view</strong> (this site).</p>
+<p class="note"><strong>How we know what's actually free:</strong> this project pays for nothing. Every provider is
+checked with a <strong>free-tier or keyless account only</strong> — never a paid plan — so the catalog is a live
+map of what you can genuinely reach and run for free right now. Paid models that show up are still listed and
+clearly flagged, so you see the whole picture — but the mission is the free tier.</p>
 
-<table>
-  <thead><tr><th>Entry point</th><th>Purpose</th><th>Links</th></tr></thead>
-  <tbody>
-    <tr>
-      <td><code>catalog-index.json</code></td>
-      <td>Start here: provider list, model counts, build timestamp</td>
-      <td><a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/catalog-index.json">raw</a> · <a href="catalog-index.json">view</a></td>
-    </tr>
-    <tr>
-      <td><code>schema/provider.schema.json</code></td>
-      <td>JSON Schema every provider file validates against</td>
-      <td><a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/schema/provider.schema.json">raw</a> · <a href="schema/provider.schema.json">view</a></td>
-    </tr>
-    <tr>
-      <td><code>schema/catalog-index.schema.json</code></td>
-      <td>JSON Schema for the index</td>
-      <td><a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/schema/catalog-index.schema.json">raw</a> · <a href="schema/catalog-index.schema.json">view</a></td>
-    </tr>
-  </tbody>
-</table>
+<h2 id="problem">The problem it solves</h2>
+<p>Say you're building something that uses AI — a chatbot, a tool, an app with a "pick a model" dropdown.
+The moment you want to support more than one provider, you hit the same wall everyone hits:
+<em>every provider describes its models differently.</em></p>
+<p>One publishes a clean list of models. Another puts its prices on a marketing web page you'd have to scrape.
+A third barely tells you anything a computer can read. So every developer ends up doing the same tedious detective
+work over and over — hunting down which models exist, what they cost, which are free, what they can do,
+and how to actually call them.</p>
+<p>And if you're trying to build on AI <em>without a budget</em>, there's an extra headache: which providers even
+have a free tier, which models on it are actually usable, and how do you connect to each one? This project answers
+exactly that — and hands you standardized, always-current config so you can delete that whole chunk of setup code.</p>
+
+<div class="beforeafter">
+  <div class="before">
+    <h3>Without this catalog</h3>
+    <ul>
+      <li>Visit 15 different provider websites</li>
+      <li>Copy prices and model names by hand</li>
+      <li>Guess at what each model can do</li>
+      <li>Re-check it all every few weeks as things change</li>
+      <li>Repeat for every project you build</li>
+    </ul>
+  </div>
+  <div class="after">
+    <h3>With this catalog</h3>
+    <ul>
+      <li>Download one small file to see every provider</li>
+      <li>Download one file per provider for the details</li>
+      <li>Prices, free/paid, and capabilities already sorted</li>
+      <li>Kept current for you, automatically</li>
+      <li>Reuse it across every project — it's just data</li>
+    </ul>
+  </div>
+</div>
+
+<p>This project does that detective work <strong>once, in public.</strong> A robot (GitHub Actions) checks the
+providers on a schedule, tidies everything into one consistent format, double-checks it, and publishes the result
+as plain files. You just download them.</p>
+
+<h3>Two promises about the data</h3>
+<p><strong>1. It never fakes certainty.</strong> If we know a model supports something because the provider says so,
+it's marked confident. If it's an educated guess, it's marked as a guess. Every capability comes with its evidence —
+where the fact came from and how sure we are — so you can trust it or verify it, but you're never misled.</p>
+<p><strong>2. It never touches your private stuff.</strong> The catalog only describes providers that are public.
+Your API keys, your account, your usage — all of that stays on your own machine. There's nothing personal in here.</p>
+
+<h2 id="who">Who it's for</h2>
+<div class="cards">
+  <div class="card"><h3>App builders</h3><p>Anyone who needs a "choose a model" menu and doesn't want to hand-maintain the list.</p></div>
+  <div class="card"><h3>AI routers &amp; tools</h3><p>Software that picks the best (or cheapest, or free) model for a job automatically.</p></div>
+  <div class="card"><h3>Bargain hunters</h3><p>People who just want to find the free models, or compare prices across providers.</p></div>
+  <div class="card"><h3>The curious</h3><p>Anyone who wants an honest, current snapshot of what's out there — no marketing spin.</p></div>
+</div>
+
+<h2 id="live">What's in the catalog right now</h2>
+<p>This table is loaded live from the very same file your app would download — so what you see here is exactly
+what you'd get.</p>
 
 <table id="provider-table">
   <thead>
-    <tr><th>Provider</th><th>API type</th><th class="num">Models</th><th class="num">Free</th><th>Last checked</th><th>Links</th></tr>
+    <tr><th>Provider</th><th>API type</th><th class="num">Models</th><th class="num">Free</th><th>Last checked</th><th>Files</th></tr>
   </thead>
   <tbody id="provider-rows">
-    <tr><td colspan="6">Loading provider list from <code>catalog-index.json</code>…</td></tr>
+    <tr><td colspan="6">Loading the provider list…</td></tr>
   </tbody>
 </table>
-<p id="load-error" class="note">Could not load <code>catalog-index.json</code> dynamically. Browse the files directly:
+<p id="load-error" class="note">Couldn't load the list automatically. You can still browse the files directly:
 <a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/tree/main/providers">providers/ on GitHub</a> or the
 <a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/catalog-index.json">raw index</a>.</p>
-<p class="note">This table renders live from the same <code>catalog-index.json</code> your app would fetch —
-what you see here is exactly what consumers get. Providers showing 0 models either publish no machine-readable
-list (Ollama is a local runtime — enumerate models from your own instance) or are awaiting an API key in this repo's updater configuration.</p>
+<p class="note">A provider showing <strong>0 models</strong> either doesn't publish a machine-readable model list,
+or is waiting on an API key to be configured in this project's automation. It doesn't mean the provider is unavailable.</p>
 
-<h2 id="quickstart">Quick start</h2>
-<pre><code># 1. What exists, and when was the catalog last built?
-curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/catalog-index.json
+<h2 id="how">How to use it</h2>
+<p>There are three levels, from "just look" to "build it into your app." Pick the one that fits.</p>
 
-# 2. Everything about one provider: models, pricing, capabilities, how to connect
-curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/providers/openrouter.json</code></pre>
-<p>That is the entire consumption surface. The scripts, workflows, and docs in the repo are maintenance machinery — consumers never need them.</p>
+<ol class="steps">
+  <li>
+    <h3>Just browse it</h3>
+    <p>You're already doing it — the table above is the catalog. Click any <strong>view</strong> link to read a
+    provider's full file in your browser, or <strong>raw</strong> to grab the plain data.</p>
+  </li>
+  <li>
+    <h3>Download it from the command line</h3>
+    <p>Two files are all you ever need. First, the index — it lists which providers exist and when the catalog
+    was last built:</p>
+<pre><code>curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/catalog-index.json</code></pre>
+    <p>Then a single provider's file — everything about its models, prices, capabilities, and how to connect:</p>
+<pre><code>curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/providers/openrouter.json</code></pre>
+    <p>That's the whole thing. Everything else in the project is behind-the-scenes machinery you never have to touch.</p>
+  </li>
+  <li>
+    <h3>Build it into your app</h3>
+    <p>Each provider file answers two questions: <strong>how do I connect to this provider,</strong> and
+    <strong>what does it offer?</strong> The details are just below.</p>
+  </li>
+</ol>
 
-<h2 id="use">Using the files in your app</h2>
-<p>Each provider file answers two questions: <strong>how do I talk to this provider</strong>, and <strong>what does it offer</strong>.</p>
+<h3>Reading a provider file</h3>
+<p>The two parts of every file:</p>
+<div class="cards">
+  <div class="card">
+    <h3>How to connect</h3>
+    <p style="color:var(--ink)"><code>apiType</code> tells you which style of API it speaks, and <code>auth</code>
+    tells you how to attach <em>your</em> key. Write one small piece of code per <code>apiType</code> and you can
+    talk to every provider that uses it — no per-provider special-casing.</p>
+  </div>
+  <div class="card">
+    <h3>What it offers</h3>
+    <p style="color:var(--ink)">The <code>models</code> list gives each model's cost (<code>costClass</code>:
+    free / paid / trial / local), price when known, size limits, and capabilities like chat, vision, tools, and
+    JSON — each tagged with how confident we are.</p>
+  </div>
+</div>
 
-<div class="cols">
-<div>
-<h3>1. How to connect: <code>apiType</code> + <code>auth</code></h3>
-<p>Implement one client driver per <code>apiType</code> and you can talk to every provider in the catalog with zero provider-specific code:</p>
+<details>
+  <summary>The exact connection rules (for developers)</summary>
+  <p>Three API styles cover every provider in the catalog (a fourth, <code>ollama</code>, is supported for
+  local models — see below):</p>
 <pre><code>openai-compatible  POST {apiBase}/chat/completions
 anthropic          POST {apiBase}/messages
-gemini             POST {apiBase}/models/{model}:generateContent
-ollama             POST {apiBase}/api/chat  (local runtime)</code></pre>
-<p>The <code>auth</code> block says how to attach <em>your</em> key (the catalog never contains keys):</p>
+gemini             POST {apiBase}/models/{model}:generateContent</code></pre>
+  <p>The <code>auth</code> block says how to attach your key. The catalog never contains keys — only the shape:</p>
 <pre><code>"auth": { "scheme": "bearer" }          → Authorization: Bearer &lt;key&gt;
 "auth": { "scheme": "header",
           "name": "x-api-key",
@@ -132,31 +212,55 @@ ollama             POST {apiBase}/api/chat  (local runtime)</code></pre>
 "auth": { "scheme": "query",
           "name": "key" }                → ?key=&lt;key&gt;
 "auth": { "scheme": "none" }            → no credential needed</code></pre>
-</div>
-<div>
-<h3>2. What it offers: <code>models[]</code></h3>
-<p>Route work using the model entries:</p>
+  <p>And the fields on each model entry:</p>
 <pre><code>costClass    free | paid | trial | local | unknown
 pricing      USD per million tokens, when known
 limits       contextTokens / maxOutputTokens
 status       available | preview | deprecated
-capabilities chat, vision, tools, json,
-             reasoning, embeddings, ... each with
-             { value, source, confidence, lastChecked }</code></pre>
-<p>Treat capability values honestly: <code>"likely"</code> and <code>"unknown"</code> are not <code>true</code>.
-A free-model router, for example, filters <code>costClass == "free"</code> and
-<code>capabilities.chat.value === true</code>.</p>
-</div>
-</div>
+capabilities chat, vision, tools, json, reasoning, embeddings, …
+             each with { value, source, confidence, lastChecked }</code></pre>
+  <p>Treat the capability values honestly: <code>"likely"</code> and <code>"unknown"</code> are <em>not</em>
+  the same as <code>true</code>. A free-model router, for instance, would keep only models where
+  <code>costClass == "free"</code> and <code>capabilities.chat.value === true</code>.</p>
+</details>
 
-<h3>3. Merge with your own local state</h3>
-<p>The catalog knows what exists publicly. It cannot know what <em>your</em> key can access, your rate-limit state,
-or which providers you have enabled. Keep those in your own config files, keyed by provider <code>id</code>, and merge at load time.
-Pattern that works well: store downloaded catalog files read-only (overwrite them wholesale on refresh) and keep a small
-local per-provider file next to them holding your key reference, an enabled flag, and a default model — refreshes can then never destroy local settings.</p>
+<details>
+  <summary>Using a local model with Ollama (not in the catalog)</summary>
+  <p><a href="https://ollama.com">Ollama</a> runs AI models on your own computer. It's deliberately
+  <strong>not</strong> in the catalog table above, and never appears in the model tests — because which models
+  it has depends entirely on what <em>you've</em> pulled onto your machine, so a public list can't know and can't
+  verify it. What the catalog <em>does</em> keep is the ability to connect to it: <code>ollama</code> is a
+  supported <code>apiType</code>, so you can wire your local Ollama in right alongside the hosted providers.</p>
+  <p>You describe it yourself, in your own local config, using the same shape as a catalog provider (this entry
+  never comes from the catalog — you add it):</p>
+<pre><code>{
+  "id": "ollama",
+  "displayName": "Ollama (local)",
+  "apiBase": "http://localhost:11434",
+  "apiType": "ollama",
+  "auth": { "scheme": "none" }
+}</code></pre>
+  <p>Then ask your running Ollama what models it currently has, and chat with one — models change as you pull or
+  remove them, so always read the list at runtime rather than hard-coding it:</p>
+<pre><code>GET   http://localhost:11434/api/tags     → the models installed right now
+POST  http://localhost:11434/api/chat     → chat with one (the "ollama" driver)</code></pre>
+  <p>Keep this entry in your own local config next to the downloaded catalog files (see the next section), and your
+  app can treat it as just one more provider — a catalog refresh will never touch it, and it keeps working with no
+  internet at all.</p>
+</details>
 
-<h2 id="updater">Building an updater into your app</h2>
-<p>Syncing is four steps — fetch the index, compare, download, swap:</p>
+<details>
+  <summary>Keeping your own settings separate from the catalog</summary>
+  <p>The catalog knows what exists publicly. It can't know what <em>your</em> key can access, your rate-limit
+  state, or which providers you've turned on. Keep those in your own config, keyed by each provider's
+  <code>id</code>, and combine them when your app loads. A pattern that works well: store the downloaded catalog
+  files as read-only (overwrite them wholesale on each refresh) and keep a small file of your own settings next to
+  them — your key reference, an on/off flag, a default model. That way a refresh can never wipe out your settings.</p>
+</details>
+
+<details>
+  <summary>Auto-syncing the catalog inside your app</summary>
+  <p>Staying up to date is four steps — fetch the index, check if it changed, download, swap:</p>
 <pre><code>const BASE = "https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/";
 
 async function syncCatalog(store) {                     // store = your app's persistence
@@ -165,7 +269,7 @@ async function syncCatalog(store) {                     // store = your app's pe
   if (index.generatedAt === store.lastSync) return;     // nothing new: one ~1 KB request, done
 
   const major = parseInt(index.schemaVersion, 10);
-  if (major > 1) {                                      // newer breaking schema than this code knows
+  if (major > 1) {                                      // newer breaking format than this code knows
     console.warn("catalog schema " + index.schemaVersion + " is newer; keeping cached copy");
     return;                                             // degrade gracefully, never crash
   }
@@ -174,27 +278,56 @@ async function syncCatalog(store) {                     // store = your app's pe
     const file = await (await fetch(BASE + p.file)).json();
     await store.writeTemp(p.id, file);                  // download everything first...
   }
-  await store.swapTempIntoPlace();                      // ...then swap atomically: never half-updated
+  await store.swapTempIntoPlace();                      // ...then swap in one go: never half-updated
   store.lastSync = index.generatedAt;
 }</code></pre>
-<p>The same flow is a dozen lines in Python or Go. Rules that keep you unbreakable:</p>
-<ul>
-  <li><strong>Ignore fields you don't recognize.</strong> New fields arrive as minor versions; well-behaved consumers never notice.</li>
-  <li><strong>Check the major version.</strong> On a newer major, keep your cached copy and warn — don't fail hard.</li>
-  <li><strong>Fail safe.</strong> No internet or GitHub down? Your app keeps running on the files it already has.</li>
-</ul>
-<p><strong>Cadence:</strong> the upstream catalog regenerates weekly, plus on-demand runs and provider announcement
-emails. Checking on app startup, or daily, is plenty — the index fetch costs ~1 KB, so even hourly checks are harmless.
-Pin to a <a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/releases">release tag</a> instead of <code>main</code> if you need reproducible data.</p>
+  <p>Three rules keep your app unbreakable:</p>
+  <ul>
+    <li><strong>Ignore fields you don't recognize.</strong> New fields arrive in minor updates; well-behaved apps never notice.</li>
+    <li><strong>Check the major version.</strong> If it jumps to a newer major than your code knows, keep your cached copy and warn — don't fail hard.</li>
+    <li><strong>Fail safe.</strong> No internet, or GitHub down? Your app keeps running on the files it already has.</li>
+  </ul>
+  <p><strong>How often to check:</strong> the catalog regenerates weekly, plus on-demand and when providers announce
+  changes. Checking on app startup, or once a day, is plenty — the index is only ~1 KB, so even hourly is harmless.
+  Want reproducible data? Pin to a
+  <a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/releases">release tag</a> instead of <code>main</code>.</p>
+</details>
+
+<h2 id="files">The files, if you want the direct links</h2>
+<table>
+  <thead><tr><th>File</th><th>What it's for</th><th>Links</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><code>catalog-index.json</code></td>
+      <td>Start here — the provider list, model counts, and build timestamp</td>
+      <td><a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/catalog-index.json">raw</a> · <a href="catalog-index.json">view</a></td>
+    </tr>
+    <tr>
+      <td><code>providers/&lt;name&gt;.json</code></td>
+      <td>One provider's full details (see the table above for every provider)</td>
+      <td><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/tree/main/providers">browse all</a></td>
+    </tr>
+    <tr>
+      <td><code>schema/provider.schema.json</code></td>
+      <td>The exact rules every provider file follows (for validation)</td>
+      <td><a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/schema/provider.schema.json">raw</a> · <a href="schema/provider.schema.json">view</a></td>
+    </tr>
+    <tr>
+      <td><code>schema/catalog-index.schema.json</code></td>
+      <td>The rules the index file follows</td>
+      <td><a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/schema/catalog-index.schema.json">raw</a> · <a href="schema/catalog-index.schema.json">view</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="docs">Full documentation</h2>
 <ul>
-  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/CONSUMING.md">CONSUMING.md</a> — the complete consumer guide</li>
-  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/SCHEMA.md">SCHEMA.md</a> — every field, human-readable</li>
-  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/VERSIONING.md">VERSIONING.md</a> — the semver contract</li>
+  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/CONSUMING.md">CONSUMING.md</a> — the complete guide for using the catalog</li>
+  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/SCHEMA.md">SCHEMA.md</a> — every field explained in plain terms</li>
+  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/VERSIONING.md">VERSIONING.md</a> — how versions and updates work</li>
   <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/CAPABILITY-FLAGS.md">CAPABILITY-FLAGS.md</a> and
       <a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/CONFIDENCE-LEVELS.md">CONFIDENCE-LEVELS.md</a> — how claims are graded</li>
-  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/EMAIL-TRIGGERS.md">EMAIL-TRIGGERS.md</a> — how provider announcement emails trigger refreshes</li>
+  <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/docs/EMAIL-TRIGGERS.md">EMAIL-TRIGGERS.md</a> — how provider announcements trigger a refresh</li>
   <li><a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a> — add a provider or fix data (evidence required)</li>
 </ul>
 

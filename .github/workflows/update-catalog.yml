@@ -149,10 +149,6 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: python scripts/update_cloudflare.py
 
-      - name: Update ollama (local runtime, contract only)
-        continue-on-error: true
-        run: python scripts/update_ollama.py
-
       # Build and validation stay strict: broken output must never publish.
 
       - name: Build catalog index

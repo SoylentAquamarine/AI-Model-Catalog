@@ -12,7 +12,6 @@ OpenAI model API and documentation
 Google Gemini model API and documentation
 Groq model list and documentation
 Anthropic model documentation
-Ollama local model metadata
 LiteLLM model pricing/context data where license-compatible
 manual project-maintained overrides
 ```

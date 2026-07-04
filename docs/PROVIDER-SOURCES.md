@@ -18,7 +18,7 @@ Provider source adapters should prefer official machine-readable APIs when avail
 openrouter    pollinations    openai      anthropic
 gemini        groq            mistral     together
 cohere        cerebras        deepseek    fireworks
-sambanova     huggingface     cloudflare  ollama
+sambanova     huggingface     cloudflare
 ```
 
 ## Source Metadata
@@ -55,7 +55,6 @@ update_fireworks.py     needs FIREWORKS_API_KEY_FREE
 update_sambanova.py     needs SAMBANOVA_API_KEY_FREE
 update_huggingface.py   needs HUGGINGFACE_API_KEY_FREE
 update_cloudflare.py    needs CLOUDFLARE_API_KEY_FREE + CLOUDFLARE_ACCOUNT_ID
-update_ollama.py        no fetch; local runtime, connection contract only
 ```
 
 Key-based updaters skip gracefully when their key is missing, keeping the existing file. An updater that fetches zero models aborts rather than wiping a good file. In the update workflow each provider runs as its own tolerant step, so one provider's outage never blocks the rest.

@@ -1,6 +1,8 @@
 # AI Model Catalog
 
-A public, normalized JSON catalog of AI providers, models, pricing, free/paid status, capabilities, limits, and source confidence.
+**Free AI, standardized.** A public, always-updated catalog of the free AI providers — which models are free, what they can do, and exactly how to connect — normalized into simple JSON config files carrying pricing, free/paid status, capabilities, limits, and source confidence. Download the config, skip writing that plumbing yourself.
+
+**This project pays for nothing.** Every provider is checked with a free-tier or keyless account only — never a paid plan — so the catalog is a live map of what you can genuinely reach and run for free. Paid models that surface are still listed and clearly flagged, so you see the whole picture, but the mission is the free tier.
 
 ## Consuming the Catalog
 
@@ -18,9 +20,9 @@ Start with `docs/CONSUMING.md`. The contract: files validate against `schema/`, 
 
 ## Goal
 
-AI providers expose model information in different ways. Some publish model lists. Some publish pricing. Some publish capabilities. Some expose almost nothing in a clean machine-readable format.
+The free AI landscape is scattered and inconsistent. Every provider exposes model information differently — some publish model lists, some publish pricing, some publish capabilities, some expose almost nothing machine-readable — and it's rarely obvious which providers even have a usable free tier.
 
-This project normalizes that information into simple provider JSON files that can be consumed by many tools and projects.
+This project standardizes that: it normalizes the free providers into simple, consistent JSON config files that any tool or project can consume, and keeps them current automatically. The point is to cut out the tedious, repeated setup work of discovering and wiring up free AI, so developers can build on the free tier without a budget.
 
 ## How It Updates
 
@@ -41,7 +43,6 @@ providers/
   sambanova.json     models API (key) - model presence, free tier
   huggingface.json   router models API (key) - model presence
   cloudflare.json    Workers AI search API (key + account id)
-  ollama.json        local runtime - connection contract only
 ```
 
 One updater script per provider (`scripts/update_<provider>.py`). They run weekly via GitHub Actions, on demand from the Actions tab, and on provider announcement emails via `repository_dispatch` — see `docs/EMAIL-TRIGGERS.md`. Key-based updaters skip gracefully when their key is not configured.

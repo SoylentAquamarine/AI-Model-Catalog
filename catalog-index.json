@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-07-02T22:28:02Z",
+  "generatedAt": "2026-07-04T17:06:07Z",
   "totalModels": 1108,
   "totalFreeModels": 415,
   "providers": [
@@ -83,14 +83,6 @@
       "modelCount": 74,
       "freeModelCount": 74,
       "lastChecked": "2026-07-02T18:17:43Z"
-    },
-    {
-      "id": "ollama",
-      "file": "providers/ollama.json",
-      "apiType": "ollama",
-      "modelCount": 0,
-      "freeModelCount": 0,
-      "lastChecked": null
     },
     {
       "id": "openai",
