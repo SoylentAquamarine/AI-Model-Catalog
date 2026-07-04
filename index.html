@@ -180,6 +180,63 @@ or is waiting on an API key to be configured in this project's automation. It do
   </li>
 </ol>
 
+<h2 id="byok">Bring your own key</h2>
+<p>Be clear on one thing: <strong>the catalog is free to download, but it doesn't come with API keys — and most
+providers require one.</strong> The "no account, no key" promise is about getting the catalog itself. To actually
+<em>call</em> a provider, you sign up with that provider (almost always free), generate <em>your own</em> API key,
+and attach it using the <code>auth</code> shape the catalog hands you. <strong>The catalog never contains keys and
+never will</strong> — that's your private data and it stays on your machine.</p>
+
+<p>Two exceptions worth knowing:</p>
+<ul>
+  <li><strong>Keyless providers</strong> — a few (like Pollinations) use <code>"auth": { "scheme": "none" }</code> and need no key at all.</li>
+  <li><strong>Local models</strong> — a local Ollama runs on your own machine with no key (see the Ollama section below).</li>
+</ul>
+
+<p>For everything else, the code is the same shape for every provider — that's the whole point of standardizing it:</p>
+<ol>
+  <li>Read the provider's <code>apiType</code> and <code>auth</code> from its catalog file.</li>
+  <li>Look up <em>your</em> key for that provider from your own secure storage (never the catalog).</li>
+  <li>Attach it the way <code>auth.scheme</code> says — bearer header, custom header, or query parameter.</li>
+  <li>Send the request to the endpoint for that <code>apiType</code>.</li>
+</ol>
+
+<details>
+  <summary>Storing your keys safely on Windows (DPAPI)</summary>
+  <p>Never hard-code an API key or commit it to source control. On Windows the simplest secure-at-rest option is
+  <strong>DPAPI</strong> (the Data Protection API). It encrypts data so only the current Windows user (or machine)
+  can decrypt it — you manage no encryption keys of your own, and a stolen file is useless on another machine.</p>
+  <p><strong>C#</strong> — <code>System.Security.Cryptography.ProtectedData</code>:</p>
+<pre><code>using System.Security.Cryptography;
+using System.Text;
+
+// Encrypt once (e.g. when the user pastes their key), then save the bytes to disk:
+byte[] Protect(string apiKey) =>
+    ProtectedData.Protect(
+        Encoding.UTF8.GetBytes(apiKey),
+        optionalEntropy: null,
+        scope: DataProtectionScope.CurrentUser);   // only this Windows user can read it back
+
+// Decrypt in memory, right before you make the call:
+string Unprotect(byte[] blob) =>
+    Encoding.UTF8.GetString(
+        ProtectedData.Unprotect(blob, null, DataProtectionScope.CurrentUser));</code></pre>
+  <p>Store the encrypted blob next to your local provider settings (keyed by provider <code>id</code>), and only
+  ever decrypt it into memory at the moment you send a request.</p>
+  <p><strong>PowerShell</strong> — same DPAPI underneath:</p>
+<pre><code># Encrypt and save
+Read-Host "Groq API key" -AsSecureString |
+  ConvertFrom-SecureString | Set-Content "$env:APPDATA\MyApp\groq.key"
+
+# Load and use
+$secure = Get-Content "$env:APPDATA\MyApp\groq.key" | ConvertTo-SecureString
+$key = [Runtime.InteropServices.Marshal]::PtrToStringAuto(
+  [Runtime.InteropServices.Marshal]::SecureStringToBSTR($secure))</code></pre>
+  <p>DPAPI ties the encrypted data to the current Windows user and machine, so the file can't be decrypted if it's
+  copied elsewhere — exactly what you want for a personal key. Building cross-platform? Use the OS keychain instead
+  (macOS Keychain, libsecret on Linux) or a dedicated secrets manager.</p>
+</details>
+
 <h3>Reading a provider file</h3>
 <p>The two parts of every file:</p>
 <div class="cards">
