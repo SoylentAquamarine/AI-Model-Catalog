@@ -1,8 +1,9 @@
 {
-  "schemaVersion": "1.1.0",
-  "generatedAt": "2026-07-04T17:06:07Z",
+  "schemaVersion": "1.2.0",
+  "generatedAt": "2026-07-05T04:54:06Z",
   "totalModels": 1108,
   "totalFreeModels": 415,
+  "totalTrialModels": 153,
   "providers": [
     {
       "id": "anthropic",
@@ -10,6 +11,7 @@
       "apiType": "anthropic",
       "modelCount": 0,
       "freeModelCount": 0,
+      "trialModelCount": 0,
       "lastChecked": null
     },
     {
@@ -18,6 +20,7 @@
       "apiType": "openai-compatible",
       "modelCount": 3,
       "freeModelCount": 3,
+      "trialModelCount": 0,
       "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
@@ -26,6 +29,7 @@
       "apiType": "openai-compatible",
       "modelCount": 60,
       "freeModelCount": 60,
+      "trialModelCount": 0,
       "lastChecked": "2026-07-02T18:17:48Z"
     },
     {
@@ -34,6 +38,7 @@
       "apiType": "openai-compatible",
       "modelCount": 31,
       "freeModelCount": 0,
+      "trialModelCount": 31,
       "lastChecked": "2026-07-02T18:17:44Z"
     },
     {
@@ -42,6 +47,7 @@
       "apiType": "openai-compatible",
       "modelCount": 2,
       "freeModelCount": 0,
+      "trialModelCount": 0,
       "lastChecked": "2026-07-02T18:17:45Z"
     },
     {
@@ -50,6 +56,7 @@
       "apiType": "openai-compatible",
       "modelCount": 7,
       "freeModelCount": 0,
+      "trialModelCount": 0,
       "lastChecked": "2026-07-02T18:17:45Z"
     },
     {
@@ -58,6 +65,7 @@
       "apiType": "gemini",
       "modelCount": 54,
       "freeModelCount": 40,
+      "trialModelCount": 0,
       "lastChecked": "2026-07-02T18:17:42Z"
     },
     {
@@ -66,6 +74,7 @@
       "apiType": "openai-compatible",
       "modelCount": 17,
       "freeModelCount": 17,
+      "trialModelCount": 0,
       "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
@@ -74,6 +83,7 @@
       "apiType": "openai-compatible",
       "modelCount": 122,
       "freeModelCount": 0,
+      "trialModelCount": 122,
       "lastChecked": "2026-07-02T18:17:45Z"
     },
     {
@@ -82,6 +92,7 @@
       "apiType": "openai-compatible",
       "modelCount": 74,
       "freeModelCount": 74,
+      "trialModelCount": 0,
       "lastChecked": "2026-07-02T18:17:43Z"
     },
     {
@@ -90,6 +101,7 @@
       "apiType": "openai-compatible",
       "modelCount": 120,
       "freeModelCount": 0,
+      "trialModelCount": 0,
       "lastChecked": "2026-07-02T18:17:42Z"
     },
     {
@@ -98,6 +110,7 @@
       "apiType": "openai-compatible",
       "modelCount": 340,
       "freeModelCount": 26,
+      "trialModelCount": 0,
       "lastChecked": "2026-07-02T18:17:40Z"
     },
     {
@@ -106,6 +119,7 @@
       "apiType": "openai-compatible",
       "modelCount": 1,
       "freeModelCount": 1,
+      "trialModelCount": 0,
       "lastChecked": "2026-07-02T18:17:41Z"
     },
     {
@@ -114,6 +128,7 @@
       "apiType": "openai-compatible",
       "modelCount": 6,
       "freeModelCount": 6,
+      "trialModelCount": 0,
       "lastChecked": "2026-07-02T18:17:45Z"
     },
     {
@@ -122,6 +137,7 @@
       "apiType": "openai-compatible",
       "modelCount": 271,
       "freeModelCount": 188,
+      "trialModelCount": 0,
       "lastChecked": "2026-07-02T18:17:44Z"
     }
   ]

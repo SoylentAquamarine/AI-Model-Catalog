@@ -22,6 +22,10 @@
       "type": "integer",
       "description": "Count of models with costClass=free across all providers (added in 1.1.0)."
     },
+    "totalTrialModels": {
+      "type": "integer",
+      "description": "Count of models with costClass=trial (free to start, rate-limited) across all providers (added in 1.2.0)."
+    },
     "providers": {
       "type": "array",
       "items": {
@@ -38,6 +42,10 @@
           "freeModelCount": {
             "type": "integer",
             "description": "Models with costClass=free in this provider file (added in 1.1.0)."
+          },
+          "trialModelCount": {
+            "type": "integer",
+            "description": "Models with costClass=trial (free to start, rate-limited) in this provider file (added in 1.2.0)."
           },
           "lastChecked": { "type": ["string", "null"] }
         },

@@ -32,6 +32,7 @@
     th { background: var(--panel); }
     td.num { text-align: right; font-variant-numeric: tabular-nums; }
     .free { color: var(--good); font-weight: 600; }
+    .trial { color: #b5730f; font-weight: 600; }
     .pill { display: inline-block; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; font-size: .8rem; }
     .note { background: var(--panel); border-left: 4px solid var(--accent); border-radius: 6px; padding: 10px 14px; }
     .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 18px 0; }
@@ -68,6 +69,7 @@ which models are free, what they can do, and exactly how to connect — so you c
   <div class="stat"><b id="stat-providers">–</b><span>providers</span></div>
   <div class="stat"><b id="stat-models">–</b><span>models</span></div>
   <div class="stat"><b id="stat-free" class="free">–</b><span>free models</span></div>
+  <div class="stat"><b id="stat-trial" class="trial">–</b><span>trial (free to start)</span></div>
   <div class="stat"><b id="stat-updated">–</b><span>last updated (UTC)</span></div>
 </div>
 
@@ -143,17 +145,21 @@ what you'd get.</p>
 
 <table id="provider-table">
   <thead>
-    <tr><th>Provider</th><th>API type</th><th class="num">Models</th><th class="num">Free</th><th>Last checked</th><th>Files</th></tr>
+    <tr><th>Provider</th><th>API type</th><th class="num">Models</th><th class="num">Free</th><th class="num">Trial</th><th>Last checked</th><th>Files</th></tr>
   </thead>
   <tbody id="provider-rows">
-    <tr><td colspan="6">Loading the provider list…</td></tr>
+    <tr><td colspan="7">Loading the provider list…</td></tr>
   </tbody>
 </table>
 <p id="load-error" class="note">Couldn't load the list automatically. You can still browse the files directly:
 <a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/tree/main/providers">providers/ on GitHub</a> or the
 <a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/catalog-index.json">raw index</a>.</p>
-<p class="note">A provider showing <strong>0 models</strong> either doesn't publish a machine-readable model list,
-or is waiting on an API key to be configured in this project's automation. It doesn't mean the provider is unavailable.</p>
+<p class="note"><strong>Free</strong> means usable at no cost. <strong>Trial</strong> means free to start but
+rate-limited (a free-tier key or a monthly allowance) — still no payment needed to try it, which is why cohere and
+huggingface show a Trial count rather than Free. A provider with <strong>0 in both</strong> columns is either
+pay-as-you-go with no standing free tier (listed for completeness, e.g. openai, deepseek, fireworks) or is waiting
+on an API key in this project's automation. A provider showing <strong>0 models</strong> doesn't publish a
+machine-readable list, or hasn't been keyed yet — it doesn't mean the provider is unavailable.</p>
 
 <h2 id="how">How to use it</h2>
 <p>There are three levels, from "just look" to "build it into your app." Pick the one that fits.</p>
@@ -403,9 +409,11 @@ async function syncCatalog(store) {                     // store = your app's pe
 
     const total = index.totalModels ?? providers.reduce((n, p) => n + (p.modelCount || 0), 0);
     const free = index.totalFreeModels ?? providers.reduce((n, p) => n + (p.freeModelCount || 0), 0);
+    const trial = index.totalTrialModels ?? providers.reduce((n, p) => n + (p.trialModelCount || 0), 0);
     document.getElementById("stat-providers").textContent = providers.length;
     document.getElementById("stat-models").textContent = total.toLocaleString();
     document.getElementById("stat-free").textContent = free.toLocaleString();
+    document.getElementById("stat-trial").textContent = trial.toLocaleString();
     document.getElementById("stat-updated").textContent = (index.generatedAt || "").slice(0, 10);
 
     rows.innerHTML = "";
@@ -417,6 +425,7 @@ async function syncCatalog(store) {                     // store = your app's pe
         '<td><span class="pill">' + (p.apiType || "?") + "</span></td>" +
         '<td class="num">' + (p.modelCount ?? 0) + "</td>" +
         '<td class="num free">' + (p.freeModelCount ?? "—") + "</td>" +
+        '<td class="num trial">' + (p.trialModelCount ?? "—") + "</td>" +
         "<td>" + checked + "</td>" +
         '<td><a href="' + RAW + p.file + '">raw</a> · <a href="' + p.file + '">view</a></td>';
       rows.appendChild(tr);
