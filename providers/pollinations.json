@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "Free, keyless service; an optional token/referrer raises rate limits. apiBase is the OpenAI-compatible text endpoint.",
-    "lastChecked": "2026-07-02T18:17:41Z"
+    "lastChecked": "2026-07-05T05:29:27Z"
   },
   "models": [
     {
@@ -27,24 +27,24 @@
           "value": true,
           "source": "pollinations_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:41Z"
+          "lastChecked": "2026-07-05T05:29:27Z"
         },
         "vision": {
           "value": false,
           "source": "pollinations_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:41Z"
+          "lastChecked": "2026-07-05T05:29:27Z"
         },
         "reasoning": {
           "value": true,
           "source": "pollinations_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:41Z"
+          "lastChecked": "2026-07-05T05:29:27Z"
         }
       },
       "status": "available",
       "source": "pollinations_models_api",
-      "lastChecked": "2026-07-02T18:17:41Z"
+      "lastChecked": "2026-07-05T05:29:27Z"
     }
   ]
 }

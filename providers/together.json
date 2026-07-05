@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "Together offers a small set of zero-cost models alongside paid ones; pricing comes from the models API.",
-    "lastChecked": "2026-07-02T18:17:44Z"
+    "lastChecked": "2026-07-05T05:29:29Z"
   },
   "models": [
     {
@@ -34,12 +34,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "ByteDance-Seed/Seedream-3.0",
@@ -57,12 +57,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "ByteDance-Seed/Seedream-4.0",
@@ -80,12 +80,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "ByteDance/Seedance-1.0-lite",
@@ -101,7 +101,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "ByteDance/Seedance-1.0-pro",
@@ -117,7 +117,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "ByteDance/Seedance-2.0",
@@ -133,7 +133,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "ByteDance/Seedream-5.0-lite",
@@ -151,12 +151,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "HappyHorse/HappyHorse-1.0-T2V",
@@ -172,7 +172,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Hcompany/Holo3-35B-A3B",
@@ -193,12 +193,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "LiquidAI/LFM2-24B-A2B",
@@ -219,12 +219,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "MiniMaxAI/MiniMax-M1-40k",
@@ -245,12 +245,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "MiniMaxAI/MiniMax-M1-80k",
@@ -271,12 +271,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "MiniMaxAI/MiniMax-M2",
@@ -297,12 +297,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "MiniMaxAI/MiniMax-M2.5-FP4",
@@ -323,12 +323,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "MiniMaxAI/MiniMax-M2.7",
@@ -349,12 +349,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "MiniMaxAI/MiniMax-M3",
@@ -375,12 +375,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
@@ -401,12 +401,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/QwQ-32B",
@@ -427,12 +427,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen-Image",
@@ -450,12 +450,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen-Image-2.0",
@@ -473,12 +473,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen-Image-2.0-Pro",
@@ -496,12 +496,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2-1.5B",
@@ -522,12 +522,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2-1.5B-Instruct",
@@ -548,12 +548,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2-72B",
@@ -574,12 +574,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2-72B-Instruct",
@@ -600,12 +600,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2-7B",
@@ -626,12 +626,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2-VL-72B-Instruct",
@@ -652,12 +652,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-1.5B",
@@ -678,12 +678,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-1.5B-Instruct",
@@ -704,12 +704,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-14B",
@@ -730,12 +730,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-14B-Instruct",
@@ -756,12 +756,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-32B",
@@ -782,12 +782,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-32B-Instruct",
@@ -808,12 +808,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-3B-Instruct",
@@ -834,12 +834,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-72B",
@@ -860,12 +860,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-72B-Instruct",
@@ -886,12 +886,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-72B-Instruct-Turbo",
@@ -912,12 +912,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-7B",
@@ -938,12 +938,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-7B-Instruct",
@@ -964,12 +964,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-7B-Instruct-Turbo",
@@ -990,12 +990,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-Coder-32B-Instruct",
@@ -1016,12 +1016,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen2.5-VL-72B-Instruct",
@@ -1042,12 +1042,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-0.6B",
@@ -1068,12 +1068,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-0.6B-Base",
@@ -1094,12 +1094,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-1.7B",
@@ -1120,12 +1120,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-1.7B-Base",
@@ -1146,12 +1146,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-14B",
@@ -1172,12 +1172,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-14B-Base",
@@ -1198,12 +1198,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
@@ -1224,12 +1224,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-tput",
@@ -1250,12 +1250,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-30B-A3B",
@@ -1276,12 +1276,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-30B-A3B-Base",
@@ -1302,12 +1302,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-30B-A3B-Instruct-2507-Lora",
@@ -1328,12 +1328,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-32B",
@@ -1354,12 +1354,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-4B-Base",
@@ -1380,12 +1380,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-4B-Instruct-2507",
@@ -1406,12 +1406,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-8B",
@@ -1432,12 +1432,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-8B-Base",
@@ -1458,12 +1458,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-8B-Lora",
@@ -1484,12 +1484,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
@@ -1510,12 +1510,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
@@ -1536,12 +1536,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-Coder-Next-FP8",
@@ -1562,12 +1562,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
@@ -1588,12 +1588,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-Next-80B-A3B-Instruct-FP8",
@@ -1611,12 +1611,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
@@ -1637,12 +1637,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
@@ -1663,12 +1663,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-VL-32B-Instruct",
@@ -1689,12 +1689,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3-VL-8B-Instruct",
@@ -1715,12 +1715,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3.5-122B-A10B-FP8",
@@ -1741,12 +1741,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3.5-2B-Lora",
@@ -1767,12 +1767,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3.5-35B-A3B",
@@ -1793,12 +1793,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3.5-35B-A3B-Lora",
@@ -1819,12 +1819,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3.5-397B-A17B",
@@ -1845,12 +1845,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3.5-9B",
@@ -1871,12 +1871,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3.5-9B-FP8",
@@ -1897,12 +1897,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3.6-35B-A3B-FP8",
@@ -1923,12 +1923,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3.6-35B-A3B-Lora",
@@ -1949,12 +1949,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3.6-Plus",
@@ -1975,12 +1975,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3.7-Max",
@@ -2001,12 +2001,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Qwen/Qwen3.7-Plus",
@@ -2027,12 +2027,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "RunDiffusion/Juggernaut-pro-flux",
@@ -2050,12 +2050,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Rundiffusion/Juggernaut-Lightning-Flux",
@@ -2073,12 +2073,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Salesforce/Llama-Rank-V1",
@@ -2099,12 +2099,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Wan-AI/Wan2.2-I2V-A14B",
@@ -2120,7 +2120,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Wan-AI/Wan2.2-T2V-A14B",
@@ -2136,7 +2136,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Wan-AI/Wan2.6-image",
@@ -2154,12 +2154,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Wan-AI/wan2.7-i2v",
@@ -2175,7 +2175,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Wan-AI/wan2.7-r2v",
@@ -2191,7 +2191,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "Wan-AI/wan2.7-t2v",
@@ -2207,7 +2207,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "agentica-org/DeepCoder-14B-Preview",
@@ -2228,12 +2228,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "alibaba/happyhorse-1.0-i2v",
@@ -2249,7 +2249,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "alibaba/happyhorse-1.0-r2v",
@@ -2265,7 +2265,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "alibaba/happyhorse-1.0-t2v",
@@ -2281,7 +2281,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "alibaba/happyhorse-1.1-i2v",
@@ -2297,7 +2297,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "alibaba/happyhorse-1.1-r2v",
@@ -2313,7 +2313,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "alibaba/happyhorse-1.1-t2v",
@@ -2329,7 +2329,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "allenai/Molmo-7B-D-0924",
@@ -2350,12 +2350,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "arcee-ai/trinity-mini",
@@ -2376,12 +2376,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "arize-ai/qwen-2-1.5b-instruct",
@@ -2402,12 +2402,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "black-forest-labs/FLUX.1-kontext-max",
@@ -2425,12 +2425,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "black-forest-labs/FLUX.1-kontext-pro",
@@ -2448,12 +2448,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "black-forest-labs/FLUX.1-schnell",
@@ -2471,12 +2471,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "black-forest-labs/FLUX.1.1-pro",
@@ -2494,12 +2494,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "black-forest-labs/FLUX.2-dev",
@@ -2517,12 +2517,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "black-forest-labs/FLUX.2-flex",
@@ -2540,12 +2540,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "black-forest-labs/FLUX.2-max",
@@ -2563,12 +2563,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "black-forest-labs/FLUX.2-pro",
@@ -2586,12 +2586,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "canopylabs/orpheus-3b-0.1-ft",
@@ -2609,12 +2609,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "cartesia/sonic",
@@ -2632,12 +2632,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "cartesia/sonic-2",
@@ -2658,12 +2658,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "cartesia/sonic-3",
@@ -2684,12 +2684,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "cartesia/sonic-3.5",
@@ -2710,12 +2710,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepcogito/cogito-v1-preview-llama-70B",
@@ -2736,12 +2736,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepcogito/cogito-v1-preview-llama-70B-Turbo",
@@ -2762,12 +2762,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepcogito/cogito-v1-preview-llama-8B",
@@ -2788,12 +2788,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepcogito/cogito-v1-preview-qwen-14B",
@@ -2814,12 +2814,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepcogito/cogito-v1-preview-qwen-32B",
@@ -2840,12 +2840,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepcogito/cogito-v2-1-671b",
@@ -2866,12 +2866,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepgram/aura-2",
@@ -2892,12 +2892,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepgram/flux",
@@ -2918,12 +2918,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepgram/nova-3-en",
@@ -2944,12 +2944,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepgram/nova-3-multi",
@@ -2970,12 +2970,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepseek-ai/DeepSeek-OCR-2",
@@ -2996,12 +2996,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-0528",
@@ -3022,12 +3022,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
@@ -3048,12 +3048,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
@@ -3074,12 +3074,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
@@ -3100,12 +3100,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
@@ -3126,12 +3126,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepseek-ai/DeepSeek-V3.1",
@@ -3152,12 +3152,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Pro",
@@ -3178,12 +3178,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "deepseek-ai/deepseek-coder-33b-instruct",
@@ -3204,12 +3204,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "facebook/cwm",
@@ -3228,7 +3228,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/flash-image-2.5",
@@ -3246,12 +3246,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/flash-image-3.1",
@@ -3269,12 +3269,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/flash-image-3.1-lite",
@@ -3292,12 +3292,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemini-3-pro-image",
@@ -3315,12 +3315,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-2-27b-it",
@@ -3341,12 +3341,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-2-9b-it",
@@ -3367,12 +3367,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-2b-it",
@@ -3393,12 +3393,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-3-1b-it",
@@ -3419,12 +3419,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-3-1b-pt",
@@ -3445,12 +3445,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-3-270m-it",
@@ -3471,12 +3471,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-3-270m-it-lora",
@@ -3497,12 +3497,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-3-27b-it",
@@ -3523,12 +3523,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-3-27b-it-lora",
@@ -3546,12 +3546,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-3-27b-pt",
@@ -3569,12 +3569,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-3-4b-it",
@@ -3595,12 +3595,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-3n-E4B-it",
@@ -3621,12 +3621,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-4-26B-A4B-it",
@@ -3647,12 +3647,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-4-31B-it",
@@ -3673,12 +3673,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-4-31B-it-lora",
@@ -3699,12 +3699,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-4-E2B-it",
@@ -3725,12 +3725,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/gemma-4-E4B-it",
@@ -3751,12 +3751,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/imagen-4.0-fast",
@@ -3774,12 +3774,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/imagen-4.0-preview",
@@ -3797,12 +3797,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/imagen-4.0-ultra",
@@ -3820,12 +3820,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/medgemma-27b-text-it",
@@ -3846,12 +3846,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/veo-2.0",
@@ -3867,7 +3867,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/veo-3.0",
@@ -3883,7 +3883,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/veo-3.0-audio",
@@ -3899,7 +3899,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/veo-3.0-fast",
@@ -3915,7 +3915,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/veo-3.0-fast-audio",
@@ -3931,7 +3931,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/veo-3.1",
@@ -3947,7 +3947,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/veo-3.1-lite",
@@ -3963,7 +3963,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "google/veo-3.1-test-debug",
@@ -3979,7 +3979,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "hexgrad/Kokoro-82M",
@@ -3997,12 +3997,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "ideogram/ideogram-3.0",
@@ -4020,12 +4020,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "ideogram/ideogram-4.0",
@@ -4043,12 +4043,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "intfloat/multilingual-e5-large-instruct",
@@ -4069,12 +4069,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "kwaivgI/kling-1.6-standard",
@@ -4090,7 +4090,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "kwaivgI/kling-2.1-master",
@@ -4106,7 +4106,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "kwaivgI/kling-2.1-pro",
@@ -4122,7 +4122,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "kwaivgI/kling-2.1-standard",
@@ -4138,7 +4138,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-2-7b-chat-hf",
@@ -4159,12 +4159,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-3-8b-chat-hf",
@@ -4185,12 +4185,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-3.1-405B",
@@ -4211,12 +4211,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-3.1-405B-Instruct",
@@ -4237,12 +4237,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-3.2-1B",
@@ -4263,12 +4263,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-3.2-1B-Instruct",
@@ -4289,12 +4289,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-3.2-3B",
@@ -4315,12 +4315,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-3.2-3B-Instruct",
@@ -4341,12 +4341,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -4367,12 +4367,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-3.3-70B-Instruct-FP8-Lora",
@@ -4393,12 +4393,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
@@ -4419,12 +4419,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4",
@@ -4445,12 +4445,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-4-Scout-17B-16E",
@@ -4471,12 +4471,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
@@ -4497,12 +4497,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora",
@@ -4523,12 +4523,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Llama-Guard-4-12B",
@@ -4547,7 +4547,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
@@ -4568,12 +4568,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
@@ -4594,12 +4594,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
@@ -4620,12 +4620,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Meta-Llama-3.1-70B",
@@ -4646,12 +4646,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
@@ -4672,12 +4672,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Meta-Llama-3.1-8B",
@@ -4698,12 +4698,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
@@ -4724,12 +4724,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "minimax/hailuo-02",
@@ -4745,7 +4745,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "minimax/speech-2.6-turbo",
@@ -4766,12 +4766,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "minimax/speech-2.8-turbo",
@@ -4792,12 +4792,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "minimax/video-01-director",
@@ -4813,7 +4813,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "mistralai/Devstral-Small-2505",
@@ -4834,12 +4834,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "mistralai/Magistral-Small-2506",
@@ -4860,12 +4860,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "mistralai/Ministral-3-14B-Instruct-2512",
@@ -4886,12 +4886,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "mistralai/Mistral-7B-Instruct-v0.1",
@@ -4912,12 +4912,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -4938,12 +4938,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "mistralai/Mistral-7B-v0.1",
@@ -4964,12 +4964,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "mistralai/Mistral-Small-24B-Instruct-2501",
@@ -4990,12 +4990,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
@@ -5016,12 +5016,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
@@ -5042,12 +5042,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "mistralai/Mixtral-8x7B-Instruct-v0.1-FP8-Lora",
@@ -5068,12 +5068,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "mistralai/Mixtral-8x7B-v0.1",
@@ -5094,12 +5094,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "mixedbread-ai/mxbai-rerank-large-v2",
@@ -5120,12 +5120,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "moonshotai/Kimi-K2.5-fp4",
@@ -5146,12 +5146,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "moonshotai/Kimi-K2.6",
@@ -5172,12 +5172,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "moonshotai/Kimi-K2.7-Code",
@@ -5198,12 +5198,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nim/meta/llama-3.1-70b-instruct",
@@ -5224,12 +5224,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nim/meta/llama-3.1-8b-instruct",
@@ -5250,12 +5250,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nim/meta/llama-3.2-11b-vision-instruct",
@@ -5276,12 +5276,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nim/meta/llama-3.2-90b-vision-instruct",
@@ -5302,12 +5302,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nim/meta/llama-3.3-70b-instruct",
@@ -5328,12 +5328,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nim/mistralai/mixtral-8x22b-instruct-v01",
@@ -5354,12 +5354,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nim/mistralai/mixtral-8x7b-instruct-v01",
@@ -5380,12 +5380,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nim/nv-mistralai/mistral-nemo-12b-instruct",
@@ -5406,12 +5406,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nim/nvidia/llama-3.1-nemotron-70b-instruct",
@@ -5432,12 +5432,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nim/nvidia/llama-3.3-nemotron-super-49b-v1",
@@ -5458,12 +5458,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
@@ -5484,12 +5484,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
@@ -5510,12 +5510,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
@@ -5536,12 +5536,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
@@ -5562,12 +5562,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
@@ -5588,12 +5588,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nvidia/nemotron-3-asr-streaming-0.6b",
@@ -5614,12 +5614,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-fp8",
@@ -5640,12 +5640,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -5666,12 +5666,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
@@ -5692,12 +5692,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "nvidia/parakeet-tdt-0.6b-v3",
@@ -5718,12 +5718,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "openai/gpt-image-1.5",
@@ -5741,12 +5741,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "openai/gpt-image-2",
@@ -5764,12 +5764,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "openai/gpt-oss-120b",
@@ -5790,12 +5790,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "openai/gpt-oss-20b",
@@ -5816,12 +5816,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "openai/sora-2",
@@ -5837,7 +5837,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "openai/sora-2-pro",
@@ -5853,7 +5853,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "openai/whisper-large-v3",
@@ -5874,12 +5874,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "pearl-ai/gemma-4-31b-it",
@@ -5900,12 +5900,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "pixverse/pixverse-v5",
@@ -5921,7 +5921,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "pixverse/pixverse-v5.6",
@@ -5937,7 +5937,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "pixverse/pixverse-v6",
@@ -5953,7 +5953,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "rime-labs/rime-arcana-v2",
@@ -5971,12 +5971,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "rime-labs/rime-arcana-v3",
@@ -5994,12 +5994,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "rime-labs/rime-arcana-v3-turbo",
@@ -6020,12 +6020,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "rime-labs/rime-mist-v2",
@@ -6043,12 +6043,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "rime-labs/rime-mist-v3",
@@ -6069,12 +6069,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "rime-labs/rime-mist-v3-omni",
@@ -6095,12 +6095,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "sarvamai/sarvam-m",
@@ -6121,12 +6121,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "stabilityai/stable-diffusion-xl-base-1.0",
@@ -6144,12 +6144,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "togethercomputer/EssentialAI-RNJ-1-Instruct",
@@ -6170,12 +6170,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "togethercomputer/meta-llama-3.1-8B-Instruct-AWQ-INT4",
@@ -6196,12 +6196,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "vidu/vidu-2.0",
@@ -6217,7 +6217,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "vidu/vidu-q1",
@@ -6233,7 +6233,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "vidu/vidu-q3",
@@ -6249,7 +6249,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "vidu/vidu-q3-turbo",
@@ -6265,7 +6265,7 @@
       "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "zai-org/GLM-4.5-Air-FP8",
@@ -6286,12 +6286,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "zai-org/GLM-4.5V",
@@ -6312,12 +6312,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "zai-org/GLM-4.6",
@@ -6338,12 +6338,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "zai-org/GLM-4.7",
@@ -6364,12 +6364,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "zai-org/GLM-4.7-FP8",
@@ -6390,12 +6390,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "zai-org/GLM-4.7-fp4",
@@ -6416,12 +6416,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "zai-org/GLM-5",
@@ -6442,12 +6442,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "zai-org/GLM-5-FP4",
@@ -6468,12 +6468,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "zai-org/GLM-5.1",
@@ -6494,12 +6494,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "zai-org/GLM-5.2",
@@ -6520,12 +6520,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     },
     {
       "id": "zai-org/GLM-OCR",
@@ -6546,12 +6546,12 @@
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-02T18:17:44Z"
+          "lastChecked": "2026-07-05T05:29:29Z"
         }
       },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-02T18:17:44Z"
+      "lastChecked": "2026-07-05T05:29:29Z"
     }
   ]
 }
