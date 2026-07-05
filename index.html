@@ -32,7 +32,6 @@
     th { background: var(--panel); }
     td.num { text-align: right; font-variant-numeric: tabular-nums; }
     .free { color: var(--good); font-weight: 600; }
-    .trial { color: #b5730f; font-weight: 600; }
     .pill { display: inline-block; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; font-size: .8rem; }
     .note { background: var(--panel); border-left: 4px solid var(--accent); border-radius: 6px; padding: 10px 14px; }
     .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 18px 0; }
@@ -66,10 +65,8 @@
 which models are free, what they can do, and exactly how to connect — so you can skip writing that plumbing yourself.</p>
 
 <div class="stats" id="stats">
-  <div class="stat"><b id="stat-providers">–</b><span>providers</span></div>
-  <div class="stat"><b id="stat-models">–</b><span>models</span></div>
+  <div class="stat"><b id="stat-providers">–</b><span>free providers</span></div>
   <div class="stat"><b id="stat-free" class="free">–</b><span>free models</span></div>
-  <div class="stat"><b id="stat-trial" class="trial">–</b><span>trial (free to start)</span></div>
   <div class="stat"><b id="stat-updated">–</b><span>last updated (UTC)</span></div>
 </div>
 
@@ -80,10 +77,10 @@ each one can do, and the exact address and rules for calling it. The whole thing
 and published as plain config files anyone can download — <strong>no account, no API key, no sign-up.</strong>
 The goal is simple: make the scattered world of free AI easy to use, in one standard format.</p>
 
-<p class="note"><strong>How we know what's actually free:</strong> this project pays for nothing. Every provider is
-checked with a <strong>free-tier or keyless account only</strong> — never a paid plan — so the catalog is a live
-map of what you can genuinely reach and run for free right now. Paid models that show up are still listed and
-clearly flagged, so you see the whole picture — but the mission is the free tier.</p>
+<p class="note"><strong>Free means free.</strong> This catalog lists <strong>only models with a standing free tier</strong>
+— sign up, get a key, use them at no cost (rate limits are fine). This project pays for nothing and checks every
+provider with a free-tier or keyless account only. Anything that's paid, or only free as an expiring trial credit,
+is left out on purpose — so every model you see here is one you can actually start using for free.</p>
 
 <h2 id="problem">The problem it solves</h2>
 <p>Say you're building something that uses AI — a chatbot, a tool, an app with a "pick a model" dropdown.
@@ -111,9 +108,9 @@ exactly that — and hands you standardized, always-current config so you can de
   <div class="after">
     <h3>With this catalog</h3>
     <ul>
-      <li>Download one small file to see every provider</li>
+      <li>Download one small file to see every free provider</li>
       <li>Download one file per provider for the details</li>
-      <li>Prices, free/paid, and capabilities already sorted</li>
+      <li>Only free models, capabilities already sorted</li>
       <li>Kept current for you, automatically</li>
       <li>Reuse it across every project — it's just data</li>
     </ul>
@@ -135,7 +132,7 @@ Your API keys, your account, your usage — all of that stays on your own machin
 <div class="cards">
   <div class="card"><h3>App builders</h3><p>Anyone who needs a "choose a model" menu and doesn't want to hand-maintain the list.</p></div>
   <div class="card"><h3>AI routers &amp; tools</h3><p>Software that picks the best (or cheapest, or free) model for a job automatically.</p></div>
-  <div class="card"><h3>Bargain hunters</h3><p>People who just want to find the free models, or compare prices across providers.</p></div>
+  <div class="card"><h3>Budget builders</h3><p>People who want models they can start using for free, without a paid plan or a credit card.</p></div>
   <div class="card"><h3>The curious</h3><p>Anyone who wants an honest, current snapshot of what's out there — no marketing spin.</p></div>
 </div>
 
@@ -145,21 +142,20 @@ what you'd get.</p>
 
 <table id="provider-table">
   <thead>
-    <tr><th>Provider</th><th>API type</th><th class="num">Models</th><th class="num">Free</th><th class="num">Trial</th><th>Last checked</th><th>Files</th></tr>
+    <tr><th>Provider</th><th>API type</th><th class="num">Free models</th><th>Last checked</th><th>Files</th></tr>
   </thead>
   <tbody id="provider-rows">
-    <tr><td colspan="7">Loading the provider list…</td></tr>
+    <tr><td colspan="5">Loading the provider list…</td></tr>
   </tbody>
 </table>
 <p id="load-error" class="note">Couldn't load the list automatically. You can still browse the files directly:
 <a href="https://github.com/SoylentAquamarine/AI-Model-Catalog/tree/main/providers">providers/ on GitHub</a> or the
 <a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/catalog-index.json">raw index</a>.</p>
-<p class="note"><strong>Free</strong> = a standing free tier: sign up, get a key, use it at no cost (rate-limited is
-fine, e.g. Groq, Gemini, Mistral, Cohere, HuggingFace). <strong>Trial</strong> = free credits on signup that expire,
-then you pay (e.g. DeepSeek, Fireworks, Anthropic). A provider with <strong>0 in both</strong> has no reliable
-free-on-signup access (e.g. OpenAI — its data-sharing free tier needs a paid Usage Tier first) or is waiting on an
-API key in this project's automation. A provider showing <strong>0 models</strong> doesn't publish a
-machine-readable list, or hasn't been keyed yet — it doesn't mean the provider is unavailable.</p>
+<p class="note">Every model listed here has a <strong>standing free tier</strong> — sign up, get a key, use it at
+no cost (rate limits are fine). Providers that are paid, or only free via an expiring trial credit (OpenAI,
+Anthropic, DeepSeek, Fireworks, and others), are deliberately not in this catalog. A provider showing
+<strong>0 models</strong> just means it doesn't publish a machine-readable list yet, or is waiting on an API key in
+this project's automation — not that it's unavailable.</p>
 
 <h2 id="how">How to use it</h2>
 <p>There are three levels, from "just look" to "build it into your app." Pick the one that fits.</p>
@@ -254,18 +250,17 @@ $key = [Runtime.InteropServices.Marshal]::PtrToStringAuto(
   </div>
   <div class="card">
     <h3>What it offers</h3>
-    <p style="color:var(--ink)">The <code>models</code> list gives each model's cost (<code>costClass</code>:
-    free / paid / trial / local), price when known, size limits, and capabilities like chat, vision, tools, and
-    JSON — each tagged with how confident we are.</p>
+    <p style="color:var(--ink)">The <code>models</code> list gives each model — all <code>costClass: free</code>
+    in this catalog — with its size limits and capabilities like chat, vision, tools, and JSON, each tagged with
+    how confident we are.</p>
   </div>
 </div>
 
 <details>
   <summary>The exact connection rules (for developers)</summary>
-  <p>Three API styles cover every provider in the catalog (a fourth, <code>ollama</code>, is supported for
-  local models — see below):</p>
+  <p>Two API styles cover every provider in this catalog; the schema also defines <code>anthropic</code> and
+  <code>ollama</code> drivers for providers or local runtimes outside it (see the Ollama section below):</p>
 <pre><code>openai-compatible  POST {apiBase}/chat/completions
-anthropic          POST {apiBase}/messages
 gemini             POST {apiBase}/models/{model}:generateContent</code></pre>
   <p>The <code>auth</code> block says how to attach your key. The catalog never contains keys — only the shape:</p>
 <pre><code>"auth": { "scheme": "bearer" }          → Authorization: Bearer &lt;key&gt;
@@ -276,8 +271,8 @@ gemini             POST {apiBase}/models/{model}:generateContent</code></pre>
           "name": "key" }                → ?key=&lt;key&gt;
 "auth": { "scheme": "none" }            → no credential needed</code></pre>
   <p>And the fields on each model entry:</p>
-<pre><code>costClass    free | paid | trial | local | unknown
-pricing      USD per million tokens, when known
+<pre><code>costClass    free (this catalog publishes only free models)
+pricing      USD per million tokens, when known (null for free)
 limits       contextTokens / maxOutputTokens
 status       available | preview | deprecated
 capabilities chat, vision, tools, json, reasoning, embeddings, …
@@ -407,13 +402,9 @@ async function syncCatalog(store) {                     // store = your app's pe
     const index = await (await fetch("catalog-index.json", { cache: "no-cache" })).json();
     const providers = (index.providers || []).slice().sort((a, b) => (b.modelCount || 0) - (a.modelCount || 0));
 
-    const total = index.totalModels ?? providers.reduce((n, p) => n + (p.modelCount || 0), 0);
-    const free = index.totalFreeModels ?? providers.reduce((n, p) => n + (p.freeModelCount || 0), 0);
-    const trial = index.totalTrialModels ?? providers.reduce((n, p) => n + (p.trialModelCount || 0), 0);
+    const free = index.totalFreeModels ?? providers.reduce((n, p) => n + (p.freeModelCount || p.modelCount || 0), 0);
     document.getElementById("stat-providers").textContent = providers.length;
-    document.getElementById("stat-models").textContent = total.toLocaleString();
     document.getElementById("stat-free").textContent = free.toLocaleString();
-    document.getElementById("stat-trial").textContent = trial.toLocaleString();
     document.getElementById("stat-updated").textContent = (index.generatedAt || "").slice(0, 10);
 
     rows.innerHTML = "";
@@ -423,9 +414,7 @@ async function syncCatalog(store) {                     // store = your app's pe
       tr.innerHTML =
         "<td><strong>" + p.id + "</strong></td>" +
         '<td><span class="pill">' + (p.apiType || "?") + "</span></td>" +
-        '<td class="num">' + (p.modelCount ?? 0) + "</td>" +
-        '<td class="num free">' + (p.freeModelCount ?? "—") + "</td>" +
-        '<td class="num trial">' + (p.trialModelCount ?? "—") + "</td>" +
+        '<td class="num free">' + (p.freeModelCount ?? p.modelCount ?? "—") + "</td>" +
         "<td>" + checked + "</td>" +
         '<td><a href="' + RAW + p.file + '">raw</a> · <a href="' + p.file + '">view</a></td>';
       rows.appendChild(tr);

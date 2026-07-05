@@ -70,18 +70,6 @@ jobs:
         continue-on-error: true
         run: python scripts/update_pollinations.py
 
-      - name: Update openai
-        continue-on-error: true
-        env:
-          OPENAI_API_KEY_FREE: ${{ secrets.OPENAI_API_KEY_FREE }}
-        run: python scripts/update_openai.py
-
-      - name: Update anthropic
-        continue-on-error: true
-        env:
-          ANTHROPIC_API_KEY_FREE: ${{ secrets.ANTHROPIC_API_KEY_FREE }}
-        run: python scripts/update_anthropic.py
-
       - name: Update gemini
         continue-on-error: true
         env:
@@ -117,18 +105,6 @@ jobs:
         env:
           CEREBRAS_API_KEY_FREE: ${{ secrets.CEREBRAS_API_KEY_FREE }}
         run: python scripts/update_cerebras.py
-
-      - name: Update deepseek
-        continue-on-error: true
-        env:
-          DEEPSEEK_API_KEY_FREE: ${{ secrets.DEEPSEEK_API_KEY_FREE }}
-        run: python scripts/update_deepseek.py
-
-      - name: Update fireworks
-        continue-on-error: true
-        env:
-          FIREWORKS_API_KEY_FREE: ${{ secrets.FIREWORKS_API_KEY_FREE }}
-        run: python scripts/update_fireworks.py
 
       - name: Update sambanova
         continue-on-error: true

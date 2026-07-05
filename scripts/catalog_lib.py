@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
 """Shared helpers for AI Model Catalog updater and build scripts.
 
+This catalog is FREE-ONLY: it publishes only models whose costClass is "free"
+(a standing, no-cost tier). finish() drops everything else (paid, trial,
+unknown) centrally, so individual updaters can build models normally and the
+free-only policy is enforced in one place. Providers with no free models are
+not part of the catalog.
+
 Updater contract (every update_<provider>.py follows it):
 - Missing API key      -> print a skip note, exit 0, existing file untouched.
 - Remote fetch failure -> exit nonzero so the workflow fails loudly.
-- Empty model list     -> exit nonzero rather than wiping a good file.
-- Success              -> rewrite providers/<id>.json with sorted models and
-                          a fresh provider.lastChecked.
+- No free models found  -> exit nonzero rather than wiping a good file.
+- Success              -> rewrite providers/<id>.json with sorted free models
+                          and a fresh provider.lastChecked.
 
 Secrets are never printed, logged, or written into catalog files.
 """
@@ -122,15 +128,23 @@ def update_openai_style(
 
 
 def finish(provider_id: str, models: list[dict]) -> None:
-    """Write the provider file with refreshed models, keeping the provider block."""
-    if not models:
+    """Write the provider file with refreshed models, keeping the provider block.
+
+    Free-only policy: any model whose costClass is not "free" is dropped here,
+    so the published catalog contains only no-cost models.
+    """
+    total = len(models)
+    free_models = [m for m in models if m.get("costClass") == "free"]
+    dropped = total - len(free_models)
+    if not free_models:
         raise SystemExit(
-            f"{provider_id}: updater produced zero models; "
-            "refusing to overwrite the existing file."
+            f"{provider_id}: no free models found "
+            f"({total} fetched, all non-free); refusing to overwrite the existing file."
         )
     data = load_provider(provider_id)
     data["schemaVersion"] = SCHEMA_VERSION
     data["provider"]["lastChecked"] = now_iso()
-    data["models"] = sorted(models, key=lambda m: m["id"])
+    data["models"] = sorted(free_models, key=lambda m: m["id"])
     save_provider(provider_id, data)
-    print(f"{provider_id}: wrote {len(models)} models.")
+    note = f" ({dropped} non-free dropped)" if dropped else ""
+    print(f"{provider_id}: wrote {len(free_models)} free models{note}.")

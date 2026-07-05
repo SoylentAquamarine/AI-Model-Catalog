@@ -16,32 +16,6 @@
   },
   "models": [
     {
-      "id": "BAAI/bge-base-en-v1.5",
-      "providerModelId": "BAAI/bge-base-en-v1.5",
-      "displayName": "BAAI-Bge-Base-1.5",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.008,
-        "outputPerMTokens": 0.008
-      },
-      "limits": {
-        "contextTokens": 512,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "embeddings": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "ByteDance-Seed/Seedream-3.0",
       "providerModelId": "ByteDance-Seed/Seedream-3.0",
       "displayName": "ByteDance Seedream 3.0",
@@ -201,32 +175,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "LiquidAI/LFM2-24B-A2B",
-      "providerModelId": "LiquidAI/LFM2-24B-A2B",
-      "displayName": "LFM2-24B-A2B",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.030000000000000002,
-        "outputPerMTokens": 0.12000000000000001
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "MiniMaxAI/MiniMax-M1-40k",
       "providerModelId": "MiniMaxAI/MiniMax-M1-40k",
       "displayName": "Minimax M1 40K",
@@ -316,110 +264,6 @@
       },
       "limits": {
         "contextTokens": 8192,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "MiniMaxAI/MiniMax-M2.7",
-      "providerModelId": "MiniMaxAI/MiniMax-M2.7",
-      "displayName": "MiniMax M2.7 FP4",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.3,
-        "outputPerMTokens": 1.2
-      },
-      "limits": {
-        "contextTokens": 196608,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "MiniMaxAI/MiniMax-M3",
-      "providerModelId": "MiniMaxAI/MiniMax-M3",
-      "displayName": "MiniMax M3",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.3,
-        "outputPerMTokens": 1.2
-      },
-      "limits": {
-        "contextTokens": 524288,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
-      "providerModelId": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
-      "displayName": "Nous Hermes 2 Mixtral 8X7B Dpo",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.6,
-        "outputPerMTokens": 0.6
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/QwQ-32B",
-      "providerModelId": "Qwen/QwQ-32B",
-      "displayName": "Qwen QwQ-32B",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.2,
-        "outputPerMTokens": 1.2
-      },
-      "limits": {
-        "contextTokens": 131072,
         "maxOutputTokens": null
       },
       "capabilities": {
@@ -530,32 +374,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "Qwen/Qwen2-1.5B-Instruct",
-      "providerModelId": "Qwen/Qwen2-1.5B-Instruct",
-      "displayName": "Qwen 2 Instruct (1.5B)",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.02,
-        "outputPerMTokens": 0.02
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "Qwen/Qwen2-72B",
       "providerModelId": "Qwen/Qwen2-72B",
       "displayName": "Qwen 2 (72B)",
@@ -582,32 +400,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "Qwen/Qwen2-72B-Instruct",
-      "providerModelId": "Qwen/Qwen2-72B-Instruct",
-      "displayName": "Qwen2 72B Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.9,
-        "outputPerMTokens": 0.9
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "Qwen/Qwen2-7B",
       "providerModelId": "Qwen/Qwen2-7B",
       "displayName": "Qwen 2 (7B)",
@@ -623,32 +415,6 @@
       },
       "capabilities": {
         "completion": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen2-VL-72B-Instruct",
-      "providerModelId": "Qwen/Qwen2-VL-72B-Instruct",
-      "displayName": "Qwen2-VL (72B) Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.2,
-        "outputPerMTokens": 1.2
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
@@ -723,32 +489,6 @@
       },
       "limits": {
         "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen2.5-14B-Instruct",
-      "providerModelId": "Qwen/Qwen2.5-14B-Instruct",
-      "displayName": "Qwen 2.5 14B Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.8,
-        "outputPerMTokens": 0.8
-      },
-      "limits": {
-        "contextTokens": 32768,
         "maxOutputTokens": null
       },
       "capabilities": {
@@ -868,58 +608,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "Qwen/Qwen2.5-72B-Instruct",
-      "providerModelId": "Qwen/Qwen2.5-72B-Instruct",
-      "displayName": "Qwen2.5 72B Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.2,
-        "outputPerMTokens": 1.2
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen2.5-72B-Instruct-Turbo",
-      "providerModelId": "Qwen/Qwen2.5-72B-Instruct-Turbo",
-      "displayName": "Qwen2.5 72B Instruct Turbo",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.2,
-        "outputPerMTokens": 1.2
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "Qwen/Qwen2.5-7B",
       "providerModelId": "Qwen/Qwen2.5-7B",
       "displayName": "Qwen2.5 7B",
@@ -954,84 +642,6 @@
         "currency": "USD",
         "inputPerMTokens": 0,
         "outputPerMTokens": 0
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen2.5-7B-Instruct-Turbo",
-      "providerModelId": "Qwen/Qwen2.5-7B-Instruct-Turbo",
-      "displayName": "Qwen2.5 7B Instruct Turbo",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.3,
-        "outputPerMTokens": 0.3
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen2.5-Coder-32B-Instruct",
-      "providerModelId": "Qwen/Qwen2.5-Coder-32B-Instruct",
-      "displayName": "Qwen 2.5 Coder 32B Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.8,
-        "outputPerMTokens": 0.8
-      },
-      "limits": {
-        "contextTokens": 16384,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen2.5-VL-72B-Instruct",
-      "providerModelId": "Qwen/Qwen2.5-VL-72B-Instruct",
-      "displayName": "Qwen2.5-VL (72B) Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.95,
-        "outputPerMTokens": 8
       },
       "limits": {
         "contextTokens": 32768,
@@ -1214,32 +824,6 @@
         "currency": "USD",
         "inputPerMTokens": 0,
         "outputPerMTokens": 0
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-tput",
-      "providerModelId": "Qwen/Qwen3-235B-A22B-Instruct-2507-tput",
-      "displayName": "Qwen3 235B A22B Instruct 2507 FP8 Throughput",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.2,
-        "outputPerMTokens": 0.6
       },
       "limits": {
         "contextTokens": 262144,
@@ -1518,84 +1102,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
-      "providerModelId": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
-      "displayName": "Qwen3 Coder 480B A35B Instruct Fp8",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 2,
-        "outputPerMTokens": 2
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen3-Coder-Next-FP8",
-      "providerModelId": "Qwen/Qwen3-Coder-Next-FP8",
-      "displayName": "Qwen3 Coder Next Fp8",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.5,
-        "outputPerMTokens": 1.2
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
-      "providerModelId": "Qwen/Qwen3-Next-80B-A3B-Instruct",
-      "displayName": "Qwen3 Next 80B A3b Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.15,
-        "outputPerMTokens": 1.5
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "Qwen/Qwen3-Next-80B-A3B-Instruct-FP8",
       "providerModelId": "Qwen/Qwen3-Next-80B-A3B-Instruct-FP8",
       "displayName": "Qwen3 Next 80B A3b Instruct Fp8",
@@ -1619,32 +1125,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
-      "providerModelId": "Qwen/Qwen3-Next-80B-A3B-Thinking",
-      "displayName": "Qwen3 Next 80B A3b Thinking",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.15,
-        "outputPerMTokens": 1.5
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
       "providerModelId": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
       "displayName": "Qwen3-VL-235B-A22B-Instruct-FP8",
@@ -1653,58 +1133,6 @@
         "currency": "USD",
         "inputPerMTokens": 0,
         "outputPerMTokens": 0
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen3-VL-32B-Instruct",
-      "providerModelId": "Qwen/Qwen3-VL-32B-Instruct",
-      "displayName": "Qwen3-VL-32B-Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.5,
-        "outputPerMTokens": 1.5
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen3-VL-8B-Instruct",
-      "providerModelId": "Qwen/Qwen3-VL-8B-Instruct",
-      "displayName": "Qwen3-VL-8B-Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.18000000000000002,
-        "outputPerMTokens": 0.68
       },
       "limits": {
         "contextTokens": 262144,
@@ -1827,58 +1255,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "Qwen/Qwen3.5-397B-A17B",
-      "providerModelId": "Qwen/Qwen3.5-397B-A17B",
-      "displayName": "Qwen3.5 397B A17b",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.6,
-        "outputPerMTokens": 3.6
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen3.5-9B",
-      "providerModelId": "Qwen/Qwen3.5-9B",
-      "displayName": "Qwen3.5 9B FP8",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.17,
-        "outputPerMTokens": 0.25
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "Qwen/Qwen3.5-9B-FP8",
       "providerModelId": "Qwen/Qwen3.5-9B-FP8",
       "displayName": "Qwen3.5 9B Fp8",
@@ -1957,84 +1333,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "Qwen/Qwen3.6-Plus",
-      "providerModelId": "Qwen/Qwen3.6-Plus",
-      "displayName": "Qwen3.6 Plus",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.5,
-        "outputPerMTokens": 3
-      },
-      "limits": {
-        "contextTokens": 1000000,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen3.7-Max",
-      "providerModelId": "Qwen/Qwen3.7-Max",
-      "displayName": "Qwen3.7 Max",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.25,
-        "outputPerMTokens": 3.75
-      },
-      "limits": {
-        "contextTokens": 1000000,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Qwen/Qwen3.7-Plus",
-      "providerModelId": "Qwen/Qwen3.7-Plus",
-      "displayName": "Qwen3.7 Plus",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.32,
-        "outputPerMTokens": 1.28
-      },
-      "limits": {
-        "contextTokens": 1000000,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "RunDiffusion/Juggernaut-pro-flux",
       "providerModelId": "RunDiffusion/Juggernaut-pro-flux",
       "displayName": "Juggernaut Pro Flux by RunDiffusion 1.0.0",
@@ -2070,32 +1368,6 @@
       "limits": null,
       "capabilities": {
         "image_generation": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "Salesforce/Llama-Rank-V1",
-      "providerModelId": "Salesforce/Llama-Rank-V1",
-      "displayName": "Salesforce Llama Rank V1 (8B)",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.1,
-        "outputPerMTokens": 0.1
-      },
-      "limits": {
-        "contextTokens": 8192,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "rerank": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
@@ -2358,58 +1630,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "arcee-ai/trinity-mini",
-      "providerModelId": "arcee-ai/trinity-mini",
-      "displayName": "Trinity Mini",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.045000000000000005,
-        "outputPerMTokens": 0.15
-      },
-      "limits": {
-        "contextTokens": 128000,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "arize-ai/qwen-2-1.5b-instruct",
-      "providerModelId": "arize-ai/qwen-2-1.5b-instruct",
-      "displayName": "Arize AI Qwen 2 1.5B Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.1,
-        "outputPerMTokens": 0.1
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "black-forest-labs/FLUX.1-kontext-max",
       "providerModelId": "black-forest-labs/FLUX.1-kontext-max",
       "displayName": "FLUX.1 Kontext [max]",
@@ -2594,104 +1814,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "canopylabs/orpheus-3b-0.1-ft",
-      "providerModelId": "canopylabs/orpheus-3b-0.1-ft",
-      "displayName": "Orpheus 3B 0.1 FT",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 15,
-        "outputPerMTokens": 0
-      },
-      "limits": null,
-      "capabilities": {
-        "text_to_speech": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "cartesia/sonic",
-      "providerModelId": "cartesia/sonic",
-      "displayName": "Cartesia Sonic",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 65,
-        "outputPerMTokens": 0
-      },
-      "limits": null,
-      "capabilities": {
-        "text_to_speech": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "cartesia/sonic-2",
-      "providerModelId": "cartesia/sonic-2",
-      "displayName": "Cartesia Sonic 2",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 65,
-        "outputPerMTokens": 0
-      },
-      "limits": {
-        "contextTokens": 448,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "text_to_speech": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "cartesia/sonic-3",
-      "providerModelId": "cartesia/sonic-3",
-      "displayName": "Cartesia Sonic 3",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 65,
-        "outputPerMTokens": 0
-      },
-      "limits": {
-        "contextTokens": 448,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "text_to_speech": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "cartesia/sonic-3.5",
       "providerModelId": "cartesia/sonic-3.5",
       "displayName": "Cartesia Sonic 3.5",
@@ -2848,32 +1970,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "deepcogito/cogito-v2-1-671b",
-      "providerModelId": "deepcogito/cogito-v2-1-671b",
-      "displayName": "Cogito v2.1 671B",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.25,
-        "outputPerMTokens": 1.25
-      },
-      "limits": {
-        "contextTokens": 163840,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "deepgram/aura-2",
       "providerModelId": "deepgram/aura-2",
       "displayName": "Deepgram Aura 2",
@@ -3004,110 +2100,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "deepseek-ai/DeepSeek-R1-0528",
-      "providerModelId": "deepseek-ai/DeepSeek-R1-0528",
-      "displayName": "DeepSeek R1 0528 NVFP4",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 3,
-        "outputPerMTokens": 7
-      },
-      "limits": {
-        "contextTokens": 163840,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-      "providerModelId": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-      "displayName": "DeepSeek R1 Distill Llama 70B",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 2,
-        "outputPerMTokens": 2
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-      "providerModelId": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-      "displayName": "DeepSeek R1 Distill Qwen 1.5B",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.18000000000000002,
-        "outputPerMTokens": 0.18000000000000002
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-      "providerModelId": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-      "displayName": "DeepSeek R1 Distill Qwen 14B",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.6,
-        "outputPerMTokens": 1.6
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
       "providerModelId": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
       "displayName": "DeepSeek R1 Distill Qwen 7B",
@@ -3119,84 +2111,6 @@
       },
       "limits": {
         "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "deepseek-ai/DeepSeek-V3.1",
-      "providerModelId": "deepseek-ai/DeepSeek-V3.1",
-      "displayName": "Deepseek V3.1 NVFP4",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.6,
-        "outputPerMTokens": 1.7
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "deepseek-ai/DeepSeek-V4-Pro",
-      "providerModelId": "deepseek-ai/DeepSeek-V4-Pro",
-      "displayName": "Deepseek V4 Pro",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.74,
-        "outputPerMTokens": 3.48
-      },
-      "limits": {
-        "contextTokens": 512000,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "deepseek-ai/deepseek-coder-33b-instruct",
-      "providerModelId": "deepseek-ai/deepseek-coder-33b-instruct",
-      "displayName": "Deepseek Coder 33B Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.8,
-        "outputPerMTokens": 0.8
-      },
-      "limits": {
-        "contextTokens": 16384,
         "maxOutputTokens": null
       },
       "capabilities": {
@@ -3312,32 +2226,6 @@
       "limits": null,
       "capabilities": {
         "image_generation": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "google/gemma-2-27b-it",
-      "providerModelId": "google/gemma-2-27b-it",
-      "displayName": "Gemma-2 Instruct (27B)",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.8,
-        "outputPerMTokens": 0.8
-      },
-      "limits": {
-        "contextTokens": 8192,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
@@ -3603,32 +2491,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "google/gemma-3n-E4B-it",
-      "providerModelId": "google/gemma-3n-E4B-it",
-      "displayName": "Gemma 3N E4B Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.060000000000000005,
-        "outputPerMTokens": 0.12000000000000001
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "google/gemma-4-26B-A4B-it",
       "providerModelId": "google/gemma-4-26B-A4B-it",
       "displayName": "Gemma 4 26B A4b It",
@@ -3637,32 +2499,6 @@
         "currency": "USD",
         "inputPerMTokens": 0,
         "outputPerMTokens": 0
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "google/gemma-4-31B-it",
-      "providerModelId": "google/gemma-4-31B-it",
-      "displayName": "Gemma 4 31B-it FP8",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.39,
-        "outputPerMTokens": 0.9700000000000001
       },
       "limits": {
         "contextTokens": 262144,
@@ -3982,29 +2818,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "hexgrad/Kokoro-82M",
-      "providerModelId": "hexgrad/Kokoro-82M",
-      "displayName": "Kokoro 82M",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 4,
-        "outputPerMTokens": 0
-      },
-      "limits": null,
-      "capabilities": {
-        "text_to_speech": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "ideogram/ideogram-3.0",
       "providerModelId": "ideogram/ideogram-3.0",
       "displayName": "Ideogram 3.0",
@@ -4040,32 +2853,6 @@
       "limits": null,
       "capabilities": {
         "image_generation": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "intfloat/multilingual-e5-large-instruct",
-      "providerModelId": "intfloat/multilingual-e5-large-instruct",
-      "displayName": "Multilingual E5 Large Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.02,
-        "outputPerMTokens": 0.02
-      },
-      "limits": {
-        "contextTokens": 514,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "embeddings": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
@@ -4167,32 +2954,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "meta-llama/Llama-3-8b-chat-hf",
-      "providerModelId": "meta-llama/Llama-3-8b-chat-hf",
-      "displayName": "Meta Llama 3 8B Instruct Reference",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.2,
-        "outputPerMTokens": 0.2
-      },
-      "limits": {
-        "contextTokens": 8192,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "meta-llama/Llama-3.1-405B",
       "providerModelId": "meta-llama/Llama-3.1-405B",
       "displayName": "Llama 3.1 405B",
@@ -4204,32 +2965,6 @@
       },
       "limits": {
         "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "meta-llama/Llama-3.1-405B-Instruct",
-      "providerModelId": "meta-llama/Llama-3.1-405B-Instruct",
-      "displayName": "Meta Llama 3.1 405B Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 3.5,
-        "outputPerMTokens": 3.5
-      },
-      "limits": {
-        "contextTokens": 4096,
         "maxOutputTokens": null
       },
       "capabilities": {
@@ -4271,32 +3006,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "providerModelId": "meta-llama/Llama-3.2-1B-Instruct",
-      "displayName": "Meta Llama 3.2 1B Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.060000000000000005,
-        "outputPerMTokens": 0.060000000000000005
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "meta-llama/Llama-3.2-3B",
       "providerModelId": "meta-llama/Llama-3.2-3B",
       "displayName": "Meta Llama 3.2 3B",
@@ -4312,32 +3021,6 @@
       },
       "capabilities": {
         "completion": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "providerModelId": "meta-llama/Llama-3.2-3B-Instruct",
-      "displayName": "Meta Llama 3.2 3B Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.060000000000000005,
-        "outputPerMTokens": 0.060000000000000005
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
@@ -4383,32 +3066,6 @@
         "currency": "USD",
         "inputPerMTokens": 0,
         "outputPerMTokens": 0
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
-      "providerModelId": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
-      "displayName": "Meta Llama 3.3 70B Instruct Turbo",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.0399999999999998,
-        "outputPerMTokens": 1.0399999999999998
       },
       "limits": {
         "contextTokens": 131072,
@@ -4479,32 +3136,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
-      "providerModelId": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
-      "displayName": "Llama 4 Scout Instruct (17Bx16E)",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.18000000000000002,
-        "outputPerMTokens": 0.5900000000000001
-      },
-      "limits": {
-        "contextTokens": 1048576,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora",
       "providerModelId": "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora",
       "displayName": "Llama 4 Scout 17B 16E Instruct Fp8 Lora",
@@ -4531,103 +3162,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "meta-llama/Llama-Guard-4-12B",
-      "providerModelId": "meta-llama/Llama-Guard-4-12B",
-      "displayName": "Llama Guard 4 12B",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.2,
-        "outputPerMTokens": 0.2
-      },
-      "limits": {
-        "contextTokens": 1048576,
-        "maxOutputTokens": null
-      },
-      "capabilities": {},
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
-      "providerModelId": "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
-      "displayName": "Meta Llama 3 70B Instruct Turbo",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.88,
-        "outputPerMTokens": 0.88
-      },
-      "limits": {
-        "contextTokens": 8192,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "providerModelId": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "displayName": "Meta Llama 3 8B Instruct",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.2,
-        "outputPerMTokens": 0.2
-      },
-      "limits": {
-        "contextTokens": 8192,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
-      "providerModelId": "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
-      "displayName": "Meta Llama 3 8B Instruct Lite",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.13999999999999999,
-        "outputPerMTokens": 0.13999999999999999
-      },
-      "limits": {
-        "contextTokens": 8192,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "meta-llama/Meta-Llama-3.1-70B",
       "providerModelId": "meta-llama/Meta-Llama-3.1-70B",
       "displayName": "Llama 3.1 70B",
@@ -4636,84 +3170,6 @@
         "currency": "USD",
         "inputPerMTokens": 0,
         "outputPerMTokens": 0
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
-      "providerModelId": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
-      "displayName": "Meta Llama 3.1 70B Instruct Turbo",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.88,
-        "outputPerMTokens": 0.88
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "meta-llama/Meta-Llama-3.1-8B",
-      "providerModelId": "meta-llama/Meta-Llama-3.1-8B",
-      "displayName": "Meta Llama 3.1 8B",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.2,
-        "outputPerMTokens": 0.2
-      },
-      "limits": {
-        "contextTokens": 16384,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "completion": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-      "providerModelId": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-      "displayName": "Meta Llama 3.1 8B Instruct Turbo",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.18000000000000002,
-        "outputPerMTokens": 0.18000000000000002
       },
       "limits": {
         "contextTokens": 131072,
@@ -4868,84 +3324,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "mistralai/Ministral-3-14B-Instruct-2512",
-      "providerModelId": "mistralai/Ministral-3-14B-Instruct-2512",
-      "displayName": "Ministral 3 14B Instruct 2512",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.2,
-        "outputPerMTokens": 0.2
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "mistralai/Mistral-7B-Instruct-v0.1",
-      "providerModelId": "mistralai/Mistral-7B-Instruct-v0.1",
-      "displayName": "Mistral (7B) Instruct v0.1",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.2,
-        "outputPerMTokens": 0.2
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "mistralai/Mistral-7B-Instruct-v0.3",
-      "providerModelId": "mistralai/Mistral-7B-Instruct-v0.3",
-      "displayName": "Mistral (7B) Instruct v0.3",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.2,
-        "outputPerMTokens": 0.2
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "mistralai/Mistral-7B-v0.1",
       "providerModelId": "mistralai/Mistral-7B-v0.1",
       "displayName": "Mistral 7B v0.1",
@@ -4954,32 +3332,6 @@
         "currency": "USD",
         "inputPerMTokens": 0,
         "outputPerMTokens": 0
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "mistralai/Mistral-Small-24B-Instruct-2501",
-      "providerModelId": "mistralai/Mistral-Small-24B-Instruct-2501",
-      "displayName": "Mistral Small (24B) Instruct 25.01",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.1,
-        "outputPerMTokens": 0.3
       },
       "limits": {
         "contextTokens": 32768,
@@ -5009,32 +3361,6 @@
       },
       "limits": {
         "contextTokens": 65536,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "providerModelId": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "displayName": "Mixtral-8x7B Instruct v0.1",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.6,
-        "outputPerMTokens": 0.6
-      },
-      "limits": {
-        "contextTokens": 32768,
         "maxOutputTokens": null
       },
       "capabilities": {
@@ -5117,84 +3443,6 @@
       },
       "capabilities": {
         "rerank": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "moonshotai/Kimi-K2.5-fp4",
-      "providerModelId": "moonshotai/Kimi-K2.5-fp4",
-      "displayName": "Kimi K2.5 Fp4",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.5,
-        "outputPerMTokens": 2.8
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "moonshotai/Kimi-K2.6",
-      "providerModelId": "moonshotai/Kimi-K2.6",
-      "displayName": "Kimi K2.6 Fp4",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.2,
-        "outputPerMTokens": 4.5
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "moonshotai/Kimi-K2.7-Code",
-      "providerModelId": "moonshotai/Kimi-K2.7-Code",
-      "displayName": "Kimi K2.7 Code",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.95,
-        "outputPerMTokens": 4
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
@@ -5466,32 +3714,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
-      "providerModelId": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
-      "displayName": "Llama 3.1 Nemotron 70B Instruct HF",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.88,
-        "outputPerMTokens": 0.88
-      },
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
       "providerModelId": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
       "displayName": "Nvidia Nemotron 3 Nano 30B A3b Bf16",
@@ -5570,58 +3792,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-      "providerModelId": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-      "displayName": "Nvidia Nemotron Nano 9B V2",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.060000000000000005,
-        "outputPerMTokens": 0.25
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "nvidia/nemotron-3-asr-streaming-0.6b",
-      "providerModelId": "nvidia/nemotron-3-asr-streaming-0.6b",
-      "displayName": "Nvidia Nemotron 3 ASR Streaming 0.6B",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.45,
-        "outputPerMTokens": 0
-      },
-      "limits": {
-        "contextTokens": 448,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "speech_to_text": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-fp8",
       "providerModelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-fp8",
       "displayName": "Nemotron 3 Nano Omni 30B A3b Reasoning Fp8",
@@ -5633,32 +3803,6 @@
       },
       "limits": {
         "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "nvidia/nemotron-3-ultra-550b-a55b",
-      "providerModelId": "nvidia/nemotron-3-ultra-550b-a55b",
-      "displayName": "NVIDIA Nemotron 3 Ultra 550B A55B NVFP4",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.6,
-        "outputPerMTokens": 3.6
-      },
-      "limits": {
-        "contextTokens": 512288,
         "maxOutputTokens": null
       },
       "capabilities": {
@@ -5772,58 +3916,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "openai/gpt-oss-120b",
-      "providerModelId": "openai/gpt-oss-120b",
-      "displayName": "OpenAI GPT-OSS 120B",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.15,
-        "outputPerMTokens": 0.6
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "openai/gpt-oss-20b",
-      "providerModelId": "openai/gpt-oss-20b",
-      "displayName": "OpenAI GPT-OSS 20B",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.05,
-        "outputPerMTokens": 0.2
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "openai/sora-2",
       "providerModelId": "openai/sora-2",
       "displayName": "Sora 2",
@@ -5851,58 +3943,6 @@
       },
       "limits": null,
       "capabilities": {},
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "openai/whisper-large-v3",
-      "providerModelId": "openai/whisper-large-v3",
-      "displayName": "Whisper large-v3",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.27,
-        "outputPerMTokens": 0.85
-      },
-      "limits": {
-        "contextTokens": 1,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "speech_to_text": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "pearl-ai/gemma-4-31b-it",
-      "providerModelId": "pearl-ai/gemma-4-31b-it",
-      "displayName": "Pearl-ai Gemma-4-31B-it-pearl",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.27999999999999997,
-        "outputPerMTokens": 0.86
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
       "status": "available",
       "source": "together_models_api",
       "lastChecked": "2026-07-05T08:52:20Z"
@@ -5951,29 +3991,6 @@
       },
       "limits": null,
       "capabilities": {},
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "rime-labs/rime-arcana-v2",
-      "providerModelId": "rime-labs/rime-arcana-v2",
-      "displayName": "Rime Labs Arcana v2",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.27,
-        "outputPerMTokens": 0
-      },
-      "limits": null,
-      "capabilities": {
-        "text_to_speech": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
       "status": "available",
       "source": "together_models_api",
       "lastChecked": "2026-07-05T08:52:20Z"
@@ -6268,32 +4285,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "zai-org/GLM-4.5-Air-FP8",
-      "providerModelId": "zai-org/GLM-4.5-Air-FP8",
-      "displayName": "Glm 4.5 Air Fp8",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.2,
-        "outputPerMTokens": 1.1
-      },
-      "limits": {
-        "contextTokens": 131072,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "zai-org/GLM-4.5V",
       "providerModelId": "zai-org/GLM-4.5V",
       "displayName": "GLM 4.5V",
@@ -6305,58 +4296,6 @@
       },
       "limits": {
         "contextTokens": 65536,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "zai-org/GLM-4.6",
-      "providerModelId": "zai-org/GLM-4.6",
-      "displayName": "GLM 4.6 Fp8",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.6,
-        "outputPerMTokens": 2.2
-      },
-      "limits": {
-        "contextTokens": 202752,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "zai-org/GLM-4.7",
-      "providerModelId": "zai-org/GLM-4.7",
-      "displayName": "GLM 4.7 FP8",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.45,
-        "outputPerMTokens": 2
-      },
-      "limits": {
-        "contextTokens": 202752,
         "maxOutputTokens": null
       },
       "capabilities": {
@@ -6424,32 +4363,6 @@
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
-      "id": "zai-org/GLM-5",
-      "providerModelId": "zai-org/GLM-5",
-      "displayName": "GLM 5 Fp4",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1,
-        "outputPerMTokens": 3.2
-      },
-      "limits": {
-        "contextTokens": 202752,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
       "id": "zai-org/GLM-5-FP4",
       "providerModelId": "zai-org/GLM-5-FP4",
       "displayName": "GLM 5 Fp4",
@@ -6461,58 +4374,6 @@
       },
       "limits": {
         "contextTokens": 202752,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "zai-org/GLM-5.1",
-      "providerModelId": "zai-org/GLM-5.1",
-      "displayName": "GLM 5.1 FP4",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.4,
-        "outputPerMTokens": 4.4
-      },
-      "limits": {
-        "contextTokens": 202752,
-        "maxOutputTokens": null
-      },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "together_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
-        }
-      },
-      "status": "available",
-      "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "zai-org/GLM-5.2",
-      "providerModelId": "zai-org/GLM-5.2",
-      "displayName": "GLM 5.2",
-      "costClass": "paid",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 1.4,
-        "outputPerMTokens": 4.4
-      },
-      "limits": {
-        "contextTokens": 262144,
         "maxOutputTokens": null
       },
       "capabilities": {

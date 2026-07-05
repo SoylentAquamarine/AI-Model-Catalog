@@ -1,6 +1,11 @@
 # Free and Paid Classification
 
-Free vs paid is not enough by itself.
+**This catalog is free-only.** It publishes only models whose cost class is `free`
+(a standing, no-cost tier). Paid and trial-credit models are dropped by
+`catalog_lib.finish()` before anything is written, and providers with no free
+models are not included. The other cost classes below are retained in the schema
+so the contract stays stable and consumers can classify data from other sources,
+but published provider files will only ever contain `free` (or `local`).
 
 The catalog uses a cost class plus pricing fields.
 

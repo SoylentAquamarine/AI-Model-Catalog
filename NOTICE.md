@@ -7,11 +7,9 @@ This catalog may incorporate, normalize, or reference data from provider APIs, p
 Initial planned sources include:
 
 ```text
-OpenRouter public model API
-OpenAI model API and documentation
+OpenRouter public model API (free models)
 Google Gemini model API and documentation
 Groq model list and documentation
-Anthropic model documentation
 LiteLLM model pricing/context data where license-compatible
 manual project-maintained overrides
 ```

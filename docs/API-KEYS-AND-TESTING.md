@@ -12,26 +12,17 @@ The repository may use these GitHub Actions secrets:
 CEREBRAS_API_KEY_FREE
 CLOUDFLARE_API_KEY_FREE
 COHERE_API_KEY_FREE
-DEEPSEEK_API_KEY_FREE
-FIREWORKS_API_KEY_FREE
 GEMINI_API_KEY_FREE
 GROQ_API_KEY_FREE
 HUGGINGFACE_API_KEY_FREE
 MISTRAL_API_KEY_FREE
-OPENAI_API_KEY_FREE
 OPENROUTER_API_KEY_FREE
 POLLINATIONS_API_KEY_FREE
 SAMBANOVA_API_KEY_FREE
 TOGETHER_API_KEY_FREE
 ```
 
-Paid testing keys should use the same pattern later:
-
-```text
-OPENROUTER_API_KEY_PAID
-OPENAI_API_KEY_PAID
-GEMINI_API_KEY_PAID
-```
+This is a free-only catalog: it uses `*_API_KEY_FREE` (free-tier or keyless) secrets exclusively. There are no paid testing keys — the project never spends money on a provider.
 
 ## Testing Tiers
 
@@ -57,26 +48,13 @@ update tested capability metadata
 avoid paid models
 ```
 
-### Paid-light test
-
-Future optional workflow.
-
-```text
-runs weekly or manually only
-uses *_API_KEY_PAID secrets
-sets a hard cost budget
-uses tiny prompts/files
-uploads debug artifacts instead of committing raw outputs
-```
-
 ## Safety Rules
 
 ```text
 Never print secret values.
 Never write secret values to JSON output.
-Never run paid tests on pull_request from forks.
+Only free-tier keys are used; never add a paid billing key.
 Prefer workflow_dispatch for token-burning tests.
-Keep scheduled paid tests small and budgeted.
 ```
 
 ## What GitHub Actions Can Test

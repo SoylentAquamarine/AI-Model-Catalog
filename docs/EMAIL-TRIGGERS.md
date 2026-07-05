@@ -24,8 +24,8 @@ Anyone with repo access can fire the same trigger from a shell:
 ```bash
 gh api repos/SoylentAquamarine/AI-Model-Catalog/dispatches \
   -f event_type=provider-announcement \
-  -f 'client_payload[provider]=openai' \
-  -f 'client_payload[subject]=Deprecation notice for gpt-4-0613'
+  -f 'client_payload[provider]=groq' \
+  -f 'client_payload[subject]=New free model available'
 ```
 
 Or just run the workflow from the Actions tab (`workflow_dispatch`) if you don't need the announcement recorded.
@@ -38,9 +38,9 @@ All optional; whatever is present gets recorded in the issue:
 {
   "event_type": "provider-announcement",
   "client_payload": {
-    "provider": "openai",
+    "provider": "groq",
     "subject": "the email subject line",
-    "from": "noreply@openai.com",
+    "from": "noreply@groq.com",
     "received": "2026-07-02T12:00:00Z",
     "summary": "optional extracted/parsed announcement text"
   }
@@ -53,10 +53,10 @@ Cloudflare Email Routing can forward a dedicated address (e.g. `announcements@yo
 
 ```js
 const PROVIDER_DOMAINS = {
-  "openai.com": "openai",
-  "anthropic.com": "anthropic",
   "google.com": "gemini",
   "groq.com": "groq",
+  "mistral.ai": "mistral",
+  "cohere.com": "cohere",
   "openrouter.ai": "openrouter",
 };
 

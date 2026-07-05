@@ -1,26 +1,15 @@
 {
-  "schemaVersion": "1.2.0",
-  "generatedAt": "2026-07-05T08:52:24Z",
-  "totalModels": 1102,
+  "schemaVersion": "1.3.0",
+  "generatedAt": "2026-07-05T13:11:08Z",
+  "totalModels": 562,
   "totalFreeModels": 562,
-  "totalTrialModels": 9,
   "providers": [
-    {
-      "id": "anthropic",
-      "file": "providers/anthropic.json",
-      "apiType": "anthropic",
-      "modelCount": 0,
-      "freeModelCount": 0,
-      "trialModelCount": 0,
-      "lastChecked": null
-    },
     {
       "id": "cerebras",
       "file": "providers/cerebras.json",
       "apiType": "openai-compatible",
       "modelCount": 3,
       "freeModelCount": 3,
-      "trialModelCount": 0,
       "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
@@ -29,7 +18,6 @@
       "apiType": "openai-compatible",
       "modelCount": 60,
       "freeModelCount": 60,
-      "trialModelCount": 0,
       "lastChecked": "2026-07-05T08:52:24Z"
     },
     {
@@ -38,34 +26,14 @@
       "apiType": "openai-compatible",
       "modelCount": 31,
       "freeModelCount": 31,
-      "trialModelCount": 0,
       "lastChecked": "2026-07-05T08:52:20Z"
-    },
-    {
-      "id": "deepseek",
-      "file": "providers/deepseek.json",
-      "apiType": "openai-compatible",
-      "modelCount": 2,
-      "freeModelCount": 0,
-      "trialModelCount": 2,
-      "lastChecked": "2026-07-05T08:52:21Z"
-    },
-    {
-      "id": "fireworks",
-      "file": "providers/fireworks.json",
-      "apiType": "openai-compatible",
-      "modelCount": 7,
-      "freeModelCount": 0,
-      "trialModelCount": 7,
-      "lastChecked": "2026-07-05T08:52:21Z"
     },
     {
       "id": "gemini",
       "file": "providers/gemini.json",
       "apiType": "gemini",
-      "modelCount": 54,
+      "modelCount": 40,
       "freeModelCount": 40,
-      "trialModelCount": 0,
       "lastChecked": "2026-07-05T08:52:19Z"
     },
     {
@@ -74,7 +42,6 @@
       "apiType": "openai-compatible",
       "modelCount": 17,
       "freeModelCount": 17,
-      "trialModelCount": 0,
       "lastChecked": "2026-07-05T08:52:19Z"
     },
     {
@@ -83,7 +50,6 @@
       "apiType": "openai-compatible",
       "modelCount": 118,
       "freeModelCount": 118,
-      "trialModelCount": 0,
       "lastChecked": "2026-07-05T08:52:21Z"
     },
     {
@@ -92,25 +58,14 @@
       "apiType": "openai-compatible",
       "modelCount": 72,
       "freeModelCount": 72,
-      "trialModelCount": 0,
-      "lastChecked": "2026-07-05T08:52:19Z"
-    },
-    {
-      "id": "openai",
-      "file": "providers/openai.json",
-      "apiType": "openai-compatible",
-      "modelCount": 120,
-      "freeModelCount": 0,
-      "trialModelCount": 0,
       "lastChecked": "2026-07-05T08:52:19Z"
     },
     {
       "id": "openrouter",
       "file": "providers/openrouter.json",
       "apiType": "openai-compatible",
-      "modelCount": 340,
+      "modelCount": 26,
       "freeModelCount": 26,
-      "trialModelCount": 0,
       "lastChecked": "2026-07-05T08:52:17Z"
     },
     {
@@ -119,7 +74,6 @@
       "apiType": "openai-compatible",
       "modelCount": 1,
       "freeModelCount": 1,
-      "trialModelCount": 0,
       "lastChecked": "2026-07-05T08:52:18Z"
     },
     {
@@ -128,16 +82,14 @@
       "apiType": "openai-compatible",
       "modelCount": 6,
       "freeModelCount": 6,
-      "trialModelCount": 0,
       "lastChecked": "2026-07-05T08:52:21Z"
     },
     {
       "id": "together",
       "file": "providers/together.json",
       "apiType": "openai-compatible",
-      "modelCount": 271,
+      "modelCount": 188,
       "freeModelCount": 188,
-      "trialModelCount": 0,
       "lastChecked": "2026-07-05T08:52:20Z"
     }
   ]

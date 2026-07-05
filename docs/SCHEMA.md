@@ -32,18 +32,18 @@ evidence
 {
   "schemaVersion": "1.0.0",
   "provider": {
-    "id": "anthropic",
-    "displayName": "Anthropic",
-    "homepage": "https://anthropic.com",
-    "apiBase": "https://api.anthropic.com/v1",
-    "apiType": "anthropic",
+    "id": "gemini",
+    "displayName": "Google Gemini",
+    "homepage": "https://ai.google.dev",
+    "apiBase": "https://generativelanguage.googleapis.com/v1beta",
+    "apiType": "gemini",
     "auth": {
-      "scheme": "header",
-      "name": "x-api-key",
-      "extraHeaders": { "anthropic-version": "2023-06-01" }
+      "scheme": "query",
+      "name": "key",
+      "extraHeaders": null
     },
-    "notes": null,
-    "lastChecked": "2026-07-02T17:53:48Z"
+    "notes": "Google documents a rate-limited free tier for Gemini and Gemma API models.",
+    "lastChecked": "2026-07-05T08:52:19Z"
   },
   "models": [ ... ]
 }
@@ -54,10 +54,10 @@ evidence
 Which client driver a consumer should use:
 
 ```text
-openai-compatible   /chat/completions style (OpenAI, Groq, OpenRouter, many others)
-anthropic           Anthropic Messages API
+openai-compatible   /chat/completions style (Groq, OpenRouter, Cohere, many others)
 gemini              Google Generative Language API
-ollama              local Ollama runtime
+anthropic           Anthropic Messages API (driver defined; no free provider uses it)
+ollama              local Ollama runtime (for models you host yourself)
 ```
 
 New values are additive (minor version bump). A consumer that implements these drivers can talk to any provider in the catalog without provider-specific code.

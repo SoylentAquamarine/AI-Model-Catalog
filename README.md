@@ -28,22 +28,20 @@ This project standardizes that: it normalizes the free providers into simple, co
 
 ```text
 providers/
-  openrouter.json    public models API - richest data, no key needed
+  openrouter.json    public models API - richest data, no key needed (free models only)
   pollinations.json  public models API - free keyless service, no key needed
-  openai.json        models API (key) - model presence; pricing curated later
-  anthropic.json     models API (key) - model presence
   gemini.json        models API (key) - token limits, generation methods
   groq.json          models API (key) - context windows, free tier
   mistral.json       models API (key) - per-model capabilities, free tier
-  together.json      models API (key) - per-model pricing and types
+  together.json      models API (key) - free models only, per-model types
   cohere.json        models API (key) - endpoint lists (chat/embed/rerank)
   cerebras.json      models API (key) - model presence, free tier
-  deepseek.json      models API (key) - model presence
-  fireworks.json     models API (key) - model presence
   sambanova.json     models API (key) - model presence, free tier
-  huggingface.json   router models API (key) - model presence
+  huggingface.json   router models API (key) - free inference allowance
   cloudflare.json    Workers AI search API (key + account id)
 ```
+
+Only models with a standing free tier are published. Providers that are paid, or only free via an expiring trial credit (OpenAI, Anthropic, DeepSeek, Fireworks, and others), are intentionally excluded. Providers whose model API returns paid/trial models (OpenRouter, Together) are filtered to their free models only.
 
 One updater script per provider (`scripts/update_<provider>.py`). They run weekly via GitHub Actions, on demand from the Actions tab, and on provider announcement emails via `repository_dispatch` — see `docs/EMAIL-TRIGGERS.md`. Key-based updaters skip gracefully when their key is not configured.
 

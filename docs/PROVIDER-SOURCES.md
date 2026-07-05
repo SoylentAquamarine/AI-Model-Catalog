@@ -15,11 +15,12 @@ Provider source adapters should prefer official machine-readable APIs when avail
 ## Current Providers
 
 ```text
-openrouter    pollinations    openai      anthropic
-gemini        groq            mistral     together
-cohere        cerebras        deepseek    fireworks
+openrouter    pollinations    gemini      groq
+mistral       together        cohere      cerebras
 sambanova     huggingface     cloudflare
 ```
+
+Free-only: only providers with a standing free tier are listed. Paid and trial-credit providers (e.g. OpenAI, Anthropic, DeepSeek, Fireworks) are excluded.
 
 ## Source Metadata
 
@@ -42,20 +43,18 @@ One script per provider under `scripts/`:
 ```text
 update_openrouter.py    public models API, no key needed
 update_pollinations.py  public models API, no key needed
-update_openai.py        needs OPENAI_API_KEY_FREE
-update_anthropic.py     needs ANTHROPIC_API_KEY_FREE
 update_gemini.py        needs GEMINI_API_KEY_FREE
 update_groq.py          needs GROQ_API_KEY_FREE
 update_mistral.py       needs MISTRAL_API_KEY_FREE
 update_together.py      needs TOGETHER_API_KEY_FREE
 update_cohere.py        needs COHERE_API_KEY_FREE
 update_cerebras.py      needs CEREBRAS_API_KEY_FREE
-update_deepseek.py      needs DEEPSEEK_API_KEY_FREE
-update_fireworks.py     needs FIREWORKS_API_KEY_FREE
 update_sambanova.py     needs SAMBANOVA_API_KEY_FREE
 update_huggingface.py   needs HUGGINGFACE_API_KEY_FREE
 update_cloudflare.py    needs CLOUDFLARE_API_KEY_FREE + CLOUDFLARE_ACCOUNT_ID
 ```
+
+`catalog_lib.finish()` drops any non-free model before writing, so the published files contain only free models regardless of what each API returns.
 
 Key-based updaters skip gracefully when their key is missing, keeping the existing file. An updater that fetches zero models aborts rather than wiping a good file. In the update workflow each provider runs as its own tolerant step, so one provider's outage never blocks the rest.
 
