@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "Account-scoped API: consumers must substitute their own {account_id} in apiBase. Workers AI documents a daily free allocation.",
-    "lastChecked": "2026-07-05T05:29:34Z"
+    "lastChecked": "2026-07-05T08:52:24Z"
   },
   "models": [
     {
@@ -25,7 +25,7 @@
       "capabilities": {},
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Translation"
     },
     {
@@ -40,12 +40,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -60,12 +60,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Embeddings"
     },
     {
@@ -80,12 +80,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Embeddings"
     },
     {
@@ -100,12 +100,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Embeddings"
     },
     {
@@ -118,7 +118,7 @@
       "capabilities": {},
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Classification"
     },
     {
@@ -133,12 +133,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Embeddings"
     },
     {
@@ -153,12 +153,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Image"
     },
     {
@@ -173,12 +173,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Image"
     },
     {
@@ -193,12 +193,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Image"
     },
     {
@@ -213,12 +213,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Image"
     },
     {
@@ -233,12 +233,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Image"
     },
     {
@@ -253,12 +253,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Speech"
     },
     {
@@ -273,12 +273,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Speech"
     },
     {
@@ -293,12 +293,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Speech"
     },
     {
@@ -313,12 +313,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Automatic Speech Recognition"
     },
     {
@@ -333,12 +333,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Automatic Speech Recognition"
     },
     {
@@ -353,12 +353,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -373,12 +373,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Embeddings"
     },
     {
@@ -393,12 +393,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -413,12 +413,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -433,12 +433,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -451,7 +451,7 @@
       "capabilities": {},
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Classification"
     },
     {
@@ -466,12 +466,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -486,12 +486,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Image"
     },
     {
@@ -506,12 +506,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Image"
     },
     {
@@ -526,12 +526,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Image-to-Text"
     },
     {
@@ -546,12 +546,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Image"
     },
     {
@@ -566,12 +566,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -586,12 +586,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -606,12 +606,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -626,12 +626,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -646,12 +646,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -666,12 +666,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -686,12 +686,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -706,12 +706,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -724,7 +724,7 @@
       "capabilities": {},
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Translation"
     },
     {
@@ -737,7 +737,7 @@
       "capabilities": {},
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Image Classification"
     },
     {
@@ -752,12 +752,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -772,12 +772,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -792,12 +792,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -812,12 +812,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -832,12 +832,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Speech"
     },
     {
@@ -852,12 +852,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -872,12 +872,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -892,12 +892,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -912,12 +912,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Automatic Speech Recognition"
     },
     {
@@ -932,12 +932,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Automatic Speech Recognition"
     },
     {
@@ -952,12 +952,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Automatic Speech Recognition"
     },
     {
@@ -972,12 +972,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Embeddings"
     },
     {
@@ -990,7 +990,7 @@
       "capabilities": {},
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Dumb Pipe"
     },
     {
@@ -1005,12 +1005,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -1025,12 +1025,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -1045,12 +1045,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Embeddings"
     },
     {
@@ -1065,12 +1065,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -1085,12 +1085,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Image"
     },
     {
@@ -1105,12 +1105,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Image"
     },
     {
@@ -1125,12 +1125,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text-to-Image"
     },
     {
@@ -1145,12 +1145,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     },
     {
@@ -1165,12 +1165,12 @@
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T05:29:34Z"
+          "lastChecked": "2026-07-05T08:52:24Z"
         }
       },
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-05T05:29:34Z",
+      "lastChecked": "2026-07-05T08:52:24Z",
       "notes": "Workers AI task: Text Generation"
     }
   ]

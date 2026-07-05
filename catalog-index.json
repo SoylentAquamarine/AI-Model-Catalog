@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.2.0",
-  "generatedAt": "2026-07-05T05:29:34Z",
-  "totalModels": 1103,
-  "totalFreeModels": 563,
+  "generatedAt": "2026-07-05T08:52:24Z",
+  "totalModels": 1102,
+  "totalFreeModels": 562,
   "totalTrialModels": 9,
   "providers": [
     {
@@ -21,7 +21,7 @@
       "modelCount": 3,
       "freeModelCount": 3,
       "trialModelCount": 0,
-      "lastChecked": "2026-07-05T05:29:30Z"
+      "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
       "id": "cloudflare",
@@ -30,7 +30,7 @@
       "modelCount": 60,
       "freeModelCount": 60,
       "trialModelCount": 0,
-      "lastChecked": "2026-07-05T05:29:34Z"
+      "lastChecked": "2026-07-05T08:52:24Z"
     },
     {
       "id": "cohere",
@@ -39,7 +39,7 @@
       "modelCount": 31,
       "freeModelCount": 31,
       "trialModelCount": 0,
-      "lastChecked": "2026-07-05T05:29:30Z"
+      "lastChecked": "2026-07-05T08:52:20Z"
     },
     {
       "id": "deepseek",
@@ -48,7 +48,7 @@
       "modelCount": 2,
       "freeModelCount": 0,
       "trialModelCount": 2,
-      "lastChecked": "2026-07-05T05:29:30Z"
+      "lastChecked": "2026-07-05T08:52:21Z"
     },
     {
       "id": "fireworks",
@@ -57,7 +57,7 @@
       "modelCount": 7,
       "freeModelCount": 0,
       "trialModelCount": 7,
-      "lastChecked": "2026-07-05T05:29:30Z"
+      "lastChecked": "2026-07-05T08:52:21Z"
     },
     {
       "id": "gemini",
@@ -66,7 +66,7 @@
       "modelCount": 54,
       "freeModelCount": 40,
       "trialModelCount": 0,
-      "lastChecked": "2026-07-05T05:29:28Z"
+      "lastChecked": "2026-07-05T08:52:19Z"
     },
     {
       "id": "groq",
@@ -75,16 +75,16 @@
       "modelCount": 17,
       "freeModelCount": 17,
       "trialModelCount": 0,
-      "lastChecked": "2026-07-05T05:29:29Z"
+      "lastChecked": "2026-07-05T08:52:19Z"
     },
     {
       "id": "huggingface",
       "file": "providers/huggingface.json",
       "apiType": "openai-compatible",
-      "modelCount": 119,
-      "freeModelCount": 119,
+      "modelCount": 118,
+      "freeModelCount": 118,
       "trialModelCount": 0,
-      "lastChecked": "2026-07-05T05:29:31Z"
+      "lastChecked": "2026-07-05T08:52:21Z"
     },
     {
       "id": "mistral",
@@ -93,7 +93,7 @@
       "modelCount": 72,
       "freeModelCount": 72,
       "trialModelCount": 0,
-      "lastChecked": "2026-07-05T05:29:29Z"
+      "lastChecked": "2026-07-05T08:52:19Z"
     },
     {
       "id": "openai",
@@ -102,7 +102,7 @@
       "modelCount": 120,
       "freeModelCount": 0,
       "trialModelCount": 0,
-      "lastChecked": "2026-07-05T05:29:28Z"
+      "lastChecked": "2026-07-05T08:52:19Z"
     },
     {
       "id": "openrouter",
@@ -111,7 +111,7 @@
       "modelCount": 340,
       "freeModelCount": 26,
       "trialModelCount": 0,
-      "lastChecked": "2026-07-05T05:29:27Z"
+      "lastChecked": "2026-07-05T08:52:17Z"
     },
     {
       "id": "pollinations",
@@ -120,7 +120,7 @@
       "modelCount": 1,
       "freeModelCount": 1,
       "trialModelCount": 0,
-      "lastChecked": "2026-07-05T05:29:27Z"
+      "lastChecked": "2026-07-05T08:52:18Z"
     },
     {
       "id": "sambanova",
@@ -129,7 +129,7 @@
       "modelCount": 6,
       "freeModelCount": 6,
       "trialModelCount": 0,
-      "lastChecked": "2026-07-05T05:29:31Z"
+      "lastChecked": "2026-07-05T08:52:21Z"
     },
     {
       "id": "together",
@@ -138,7 +138,7 @@
       "modelCount": 271,
       "freeModelCount": 188,
       "trialModelCount": 0,
-      "lastChecked": "2026-07-05T05:29:29Z"
+      "lastChecked": "2026-07-05T08:52:20Z"
     }
   ]
 }
