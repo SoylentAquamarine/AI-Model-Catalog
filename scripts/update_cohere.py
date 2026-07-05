@@ -3,8 +3,9 @@
 
 Source: https://api.cohere.com/v1/models — requires COHERE_API_KEY_FREE.
 Each model lists its supported endpoints (chat, embed, rerank), which
-ground capability claims at high confidence. Cohere trial keys are free
-with rate limits, so models are classed as trial.
+ground capability claims at high confidence. Cohere offers a standing
+free tier (free API keys, rate-limited, no expiry), so models are classed
+as free. Verified against Cohere pricing/docs, 2026-07.
 """
 
 from __future__ import annotations
@@ -59,7 +60,7 @@ def build_model(entry: dict) -> dict | None:
         "id": model_id,
         "providerModelId": model_id,
         "displayName": model_id,
-        "costClass": "trial",
+        "costClass": "free",
         "pricing": None,
         "limits": limits,
         "capabilities": capabilities,

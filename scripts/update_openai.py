@@ -35,7 +35,11 @@ def main() -> int:
                 "id": model_id,
                 "providerModelId": model_id,
                 "displayName": model_id,
-                # The OpenAI API has no free tier (provider_docs).
+                # No reliable free access on signup: starter credits are not
+                # guaranteed, and OpenAI's data-sharing free tier (free daily
+                # tokens) requires reaching Usage Tier 1 (~$5 prior spend).
+                # Classed as paid; the conditional free option is noted on the
+                # provider record. Verified 2026-07.
                 "costClass": "paid",
                 "pricing": None,
                 "limits": None,

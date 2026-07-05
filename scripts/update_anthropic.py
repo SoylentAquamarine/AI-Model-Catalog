@@ -55,8 +55,10 @@ def main() -> int:
                 "id": model_id,
                 "providerModelId": model_id,
                 "displayName": entry.get("display_name") or model_id,
-                # The Anthropic API has no free tier (provider_docs).
-                "costClass": "paid",
+                # Anthropic gives new API accounts small one-time starter
+                # credits (~$5), then pay-as-you-go — a trial, not a standing
+                # free tier. Verified 2026-07.
+                "costClass": "trial",
                 "pricing": None,
                 "limits": None,
                 "capabilities": {},

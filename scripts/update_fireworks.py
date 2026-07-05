@@ -2,8 +2,9 @@
 """Update providers/fireworks.json from the Fireworks AI models API.
 
 Source: https://api.fireworks.ai/inference/v1/models — requires
-FIREWORKS_API_KEY_FREE. Fireworks is pay-as-you-go (intro credits are not
-a standing free tier).
+FIREWORKS_API_KEY_FREE. New accounts get ~$1 in free starter credits (usable
+without a card, capped at 10 RPM), then pay-as-you-go — a trial, not a
+standing free tier. Verified 2026-07.
 """
 
 from __future__ import annotations
@@ -16,7 +17,7 @@ def main() -> int:
         provider_id="fireworks",
         models_url="https://api.fireworks.ai/inference/v1/models",
         env_var="FIREWORKS_API_KEY_FREE",
-        cost_class="paid",
+        cost_class="trial",
         source="fireworks_models_api",
     )
 

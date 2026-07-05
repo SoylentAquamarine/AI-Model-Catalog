@@ -13,7 +13,7 @@
         "anthropic-version": "2023-06-01"
       }
     },
-    "notes": null,
+    "notes": "New API accounts receive small one-time starter credits (~$5), then pay-as-you-go. No standing free tier; classed as trial.",
     "lastChecked": null
   },
   "models": []

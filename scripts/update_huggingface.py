@@ -2,8 +2,9 @@
 """Update providers/huggingface.json from the HF Inference Providers router.
 
 Source: https://router.huggingface.co/v1/models — requires
-HUGGINGFACE_API_KEY_FREE. Hugging Face accounts include a small monthly
-free inference allowance, so models are classed as trial.
+HUGGINGFACE_API_KEY_FREE. Hugging Face accounts include a recurring monthly
+free inference allowance (a standing free tier that resets, not a one-time
+trial), so models are classed as free. Verified against HF docs, 2026-07.
 """
 
 from __future__ import annotations
@@ -16,7 +17,7 @@ def main() -> int:
         provider_id="huggingface",
         models_url="https://router.huggingface.co/v1/models",
         env_var="HUGGINGFACE_API_KEY_FREE",
-        cost_class="trial",
+        cost_class="free",
         source="huggingface_router_models_api",
     )
 
