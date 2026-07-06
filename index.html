@@ -32,6 +32,12 @@
     th { background: var(--panel); }
     td.num { text-align: right; font-variant-numeric: tabular-nums; }
     .free { color: var(--good); font-weight: 600; }
+    .caps { margin: 16px 0; }
+    .caprow { display: grid; grid-template-columns: 140px 1fr 52px; align-items: center; gap: 10px; margin: 6px 0; }
+    .caprow .name { font-weight: 600; text-transform: capitalize; }
+    .caprow .track { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; height: 20px; overflow: hidden; }
+    .caprow .fill { background: var(--accent); height: 100%; }
+    .caprow .cnt { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
     .pill { display: inline-block; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; font-size: .8rem; }
     .note { background: var(--panel); border-left: 4px solid var(--accent); border-radius: 6px; padding: 10px 14px; }
     .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 18px 0; }
@@ -156,6 +162,18 @@ no cost (rate limits are fine). Providers that are paid, or only free via an exp
 Anthropic, DeepSeek, Fireworks, and others), are deliberately not in this catalog. A provider showing
 <strong>0 models</strong> just means it doesn't publish a machine-readable list yet, or is waiting on an API key in
 this project's automation — not that it's unavailable.</p>
+
+<h2 id="capabilities">Verified capabilities</h2>
+<p>Capabilities here are <strong>not taken from provider marketing or model-list metadata</strong> — every one is
+confirmed by a tiny live test the catalog runs weekly (recorded as <code>tested_by_catalog</code>). Only proven
+capabilities are published, so these counts start low and grow as testing rotates through all the models.</p>
+<div class="caps" id="cap-bars">
+  <p class="note" id="cap-empty">Capability testing is warming up — counts will appear here as the weekly harness verifies models.</p>
+</div>
+<p class="note">How many free models are verified for each capability, live from the catalog. The full per-capability
+model lists are in <code>capabilities.json</code>:
+<a href="https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/capabilities.json">raw</a> ·
+<a href="capabilities.json">view</a>.</p>
 
 <h2 id="how">How to use it</h2>
 <p>There are three levels, from "just look" to "build it into your app." Pick the one that fits.</p>
@@ -418,6 +436,20 @@ async function syncCatalog(store) {                     // store = your app's pe
         "<td>" + checked + "</td>" +
         '<td><a href="' + RAW + p.file + '">raw</a> · <a href="' + p.file + '">view</a></td>';
       rows.appendChild(tr);
+    }
+
+    const summary = index.capabilitySummary || {};
+    const caps = Object.entries(summary).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]);
+    const box = document.getElementById("cap-bars");
+    const empty = document.getElementById("cap-empty");
+    if (caps.length) {
+      if (empty) empty.remove();
+      const max = caps[0][1];
+      box.innerHTML = caps.map(([name, n]) =>
+        '<div class="caprow"><div class="name">' + name + '</div>' +
+        '<div class="track"><div class="fill" style="width:' + Math.max(2, Math.round(n / max * 100)) + '%"></div></div>' +
+        '<div class="cnt">' + n.toLocaleString() + "</div></div>"
+      ).join("");
     }
   } catch (err) {
     rows.innerHTML = "";

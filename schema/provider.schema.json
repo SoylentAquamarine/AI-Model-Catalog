@@ -102,7 +102,12 @@
         },
         "capabilities": {
           "type": ["object", "null"],
-          "description": "Keys from docs/CAPABILITY-FLAGS.md. Every claim carries evidence.",
+          "description": "Keys from docs/CAPABILITY-FLAGS.md. PUBLISHED ONLY when verified by a live catalog test (source tested_by_catalog). Empty until tested.",
+          "additionalProperties": { "$ref": "#/$defs/capability" }
+        },
+        "hints": {
+          "type": ["object", "null"],
+          "description": "Provider-declared capability flags from the model-list API, kept only to decide what to live-test. NOT verified — never treat as confirmed. Same shape as capabilities.",
           "additionalProperties": { "$ref": "#/$defs/capability" }
         },
         "status": {

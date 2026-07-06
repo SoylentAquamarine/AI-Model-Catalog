@@ -24,6 +24,28 @@ TOGETHER_API_KEY_FREE
 
 This is a free-only catalog: it uses `*_API_KEY_FREE` (free-tier or keyless) secrets exclusively. There are no paid testing keys — the project never spends money on a provider.
 
+## Capability Test Harness
+
+`scripts/test_capabilities.py` verifies model capabilities with tiny live calls and publishes only
+proven results (`source: tested_by_catalog`). See `docs/CAPABILITY-FLAGS.md` for the data model.
+
+```text
+Probes (core 5):  chat, json, streaming (every model);  tools, vision (only where a hint suggests support)
+Adapters:         one per apiType -- openai-compatible and gemini (scripts/probes.py)
+Cadence:          weekly (.github/workflows/test-capabilities.yml, Wed 06:00 UTC) + workflow_dispatch
+Cooldown:         per provider (scripts/test_config.py); low-RPM providers up to 300s between model rounds
+Budget:           --max-minutes wall-clock guard; least-recently-tested models run first (rotation)
+State:            state/tested_capabilities.json (results), state/capability_test_state.json (rotation)
+```
+
+Tune per-provider cooldowns and the probe policy in `scripts/test_config.py`. Handy invocations:
+
+```text
+python scripts/test_capabilities.py --dry-run                 # list planned probes, no calls
+python scripts/test_capabilities.py --provider pollinations --once
+python scripts/test_capabilities.py --max-minutes 60
+```
+
 ## Testing Tiers
 
 ### Public metadata update

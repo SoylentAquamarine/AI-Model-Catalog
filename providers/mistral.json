@@ -25,7 +25,11 @@
         "contextTokens": 256000,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -50,10 +54,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "codestral-embed",
@@ -65,7 +66,11 @@
         "contextTokens": 8192,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -90,10 +95,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "codestral-embed-2505",
@@ -105,7 +107,11 @@
         "contextTokens": 8192,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -130,10 +136,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "codestral-latest",
@@ -145,7 +148,11 @@
         "contextTokens": 256000,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -170,10 +177,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "devstral-2512",
@@ -185,7 +189,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -210,10 +218,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "devstral-latest",
@@ -225,7 +230,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -250,10 +259,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "devstral-medium-latest",
@@ -265,7 +271,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -290,10 +300,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "labs-leanstral-1-5",
@@ -305,7 +312,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -330,10 +341,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "labs-leanstral-1-5-1",
@@ -345,7 +353,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -370,10 +382,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "magistral-medium-2509",
@@ -385,7 +394,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -410,10 +423,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "magistral-medium-latest",
@@ -425,7 +435,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -450,10 +464,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "magistral-small-2509",
@@ -465,7 +476,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -490,10 +505,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "magistral-small-latest",
@@ -505,7 +517,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -530,10 +546,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "ministral-14b-2512",
@@ -545,7 +558,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -570,10 +587,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "ministral-14b-latest",
@@ -585,7 +599,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -610,10 +628,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "ministral-3b-2512",
@@ -625,7 +640,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -650,10 +669,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "ministral-3b-latest",
@@ -665,7 +681,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -690,10 +710,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "ministral-8b-2512",
@@ -705,7 +722,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -730,10 +751,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "ministral-8b-latest",
@@ -745,7 +763,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -770,10 +792,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-code-agent-latest",
@@ -785,7 +804,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -810,10 +833,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-code-fim-latest",
@@ -825,7 +845,11 @@
         "contextTokens": 256000,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -850,10 +874,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-code-latest",
@@ -865,7 +886,11 @@
         "contextTokens": 256000,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -890,10 +915,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-embed",
@@ -905,7 +927,11 @@
         "contextTokens": 8192,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -930,10 +956,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-embed-2312",
@@ -945,7 +968,11 @@
         "contextTokens": 8192,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -970,10 +997,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-large-2512",
@@ -985,7 +1009,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1010,10 +1038,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-large-2512",
@@ -1025,7 +1050,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1050,10 +1079,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-large-latest",
@@ -1065,7 +1091,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1090,10 +1120,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-large-latest",
@@ -1105,7 +1132,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1130,10 +1161,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium",
@@ -1145,7 +1173,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1170,10 +1202,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium",
@@ -1185,7 +1214,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1210,10 +1243,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium-2505",
@@ -1225,7 +1255,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1250,10 +1284,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium-2508",
@@ -1265,7 +1296,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1290,10 +1325,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium-2604",
@@ -1305,7 +1337,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1330,10 +1366,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium-2604",
@@ -1345,7 +1378,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1370,10 +1407,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium-3",
@@ -1385,7 +1419,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1410,10 +1448,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium-3",
@@ -1425,7 +1460,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1450,10 +1489,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium-3-5",
@@ -1465,7 +1501,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1490,10 +1530,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium-3-5",
@@ -1505,7 +1542,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1530,10 +1571,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium-3.5",
@@ -1545,7 +1583,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1570,10 +1612,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium-3.5",
@@ -1585,7 +1624,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1610,10 +1653,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium-latest",
@@ -1625,7 +1665,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1650,10 +1694,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-medium-latest",
@@ -1665,7 +1706,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -1690,10 +1735,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-moderation-2603",
@@ -1705,7 +1747,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -1730,10 +1776,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-ocr-2512",
@@ -1745,7 +1788,11 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -1770,10 +1817,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-ocr-3",
@@ -1785,7 +1829,11 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -1810,10 +1858,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-ocr-3-0",
@@ -1825,7 +1870,11 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -1850,10 +1899,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-ocr-4",
@@ -1865,7 +1911,11 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -1890,10 +1940,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-ocr-4-0",
@@ -1905,7 +1952,11 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -1930,10 +1981,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-ocr-latest",
@@ -1945,7 +1993,11 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -1970,10 +2022,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-small-2506",
@@ -1985,7 +2034,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2010,10 +2063,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-small-2603",
@@ -2025,7 +2075,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2050,10 +2104,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-small-latest",
@@ -2065,7 +2116,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2090,10 +2145,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-tiny-2407",
@@ -2105,7 +2157,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2130,10 +2186,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-tiny-latest",
@@ -2145,7 +2198,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2170,10 +2227,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-vibe-cli-fast",
@@ -2185,7 +2239,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2210,10 +2268,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-vibe-cli-latest",
@@ -2225,7 +2280,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2250,10 +2309,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-vibe-cli-latest",
@@ -2265,7 +2321,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2290,10 +2350,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-vibe-cli-with-tools",
@@ -2305,7 +2362,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2330,10 +2391,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "mistral-vibe-cli-with-tools",
@@ -2345,7 +2403,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2370,10 +2432,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "open-mistral-nemo",
@@ -2385,7 +2444,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2410,10 +2473,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "open-mistral-nemo-2407",
@@ -2425,7 +2485,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2450,10 +2514,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "voxtral-mini-2507",
@@ -2465,7 +2526,11 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2490,10 +2555,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "voxtral-mini-2602",
@@ -2505,7 +2567,11 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -2530,10 +2596,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "voxtral-mini-latest",
@@ -2545,7 +2608,11 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2570,10 +2637,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "voxtral-mini-latest",
@@ -2585,7 +2649,11 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -2610,10 +2678,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "voxtral-mini-realtime-2602",
@@ -2625,7 +2690,11 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -2650,10 +2719,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "voxtral-mini-realtime-latest",
@@ -2665,7 +2731,11 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -2690,10 +2760,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "voxtral-mini-transcribe-realtime-2602",
@@ -2705,7 +2772,11 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -2730,10 +2801,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "voxtral-mini-tts-2603",
@@ -2745,7 +2813,11 @@
         "contextTokens": 4096,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -2770,10 +2842,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "voxtral-mini-tts-latest",
@@ -2785,7 +2854,11 @@
         "contextTokens": 4096,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
@@ -2810,10 +2883,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "voxtral-small-2507",
@@ -2825,7 +2895,11 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2850,10 +2924,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "voxtral-small-latest",
@@ -2865,7 +2936,11 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "mistral_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
@@ -2890,10 +2965,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     }
   ]
 }

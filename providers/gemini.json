@@ -25,7 +25,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 8192
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -45,10 +49,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.0-flash-001",
@@ -60,7 +61,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 8192
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -80,10 +85,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.0-flash-lite",
@@ -95,7 +97,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 8192
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -115,10 +121,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.0-flash-lite-001",
@@ -130,7 +133,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 8192
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -150,10 +157,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.5-computer-use-preview-10-2025",
@@ -165,7 +169,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -185,10 +193,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.5-flash",
@@ -200,7 +205,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -220,10 +229,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.5-flash-image",
@@ -235,7 +241,11 @@
         "contextTokens": 32768,
         "maxOutputTokens": 32768
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -255,10 +265,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.5-flash-lite",
@@ -270,7 +277,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -290,10 +301,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.5-flash-native-audio-latest",
@@ -305,7 +313,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": 8192
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
@@ -325,10 +337,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.5-flash-native-audio-preview-09-2025",
@@ -340,7 +349,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": 8192
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
@@ -360,10 +373,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.5-flash-native-audio-preview-12-2025",
@@ -375,7 +385,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": 8192
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
@@ -395,10 +409,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.5-flash-preview-tts",
@@ -410,7 +421,11 @@
         "contextTokens": 8192,
         "maxOutputTokens": 16384
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -430,10 +445,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.5-pro",
@@ -445,7 +457,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -465,10 +481,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-2.5-pro-preview-tts",
@@ -480,7 +493,11 @@
         "contextTokens": 8192,
         "maxOutputTokens": 16384
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -500,10 +517,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3-flash-preview",
@@ -515,7 +529,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -535,10 +553,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3-pro-image",
@@ -550,7 +565,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": 32768
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -570,10 +589,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3-pro-image-preview",
@@ -585,7 +601,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": 32768
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -605,10 +625,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3-pro-preview",
@@ -620,7 +637,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -640,10 +661,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3.1-flash-image",
@@ -655,7 +673,11 @@
         "contextTokens": 65536,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -675,10 +697,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3.1-flash-image-preview",
@@ -690,7 +709,11 @@
         "contextTokens": 65536,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -710,10 +733,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3.1-flash-lite",
@@ -725,7 +745,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -745,10 +769,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3.1-flash-lite-image",
@@ -760,7 +781,11 @@
         "contextTokens": 65536,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -780,10 +805,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3.1-flash-lite-preview",
@@ -795,7 +817,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -815,10 +841,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3.1-flash-live-preview",
@@ -830,7 +853,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
@@ -850,10 +877,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3.1-flash-tts-preview",
@@ -865,7 +889,11 @@
         "contextTokens": 8192,
         "maxOutputTokens": 16384
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -885,10 +913,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3.1-pro-preview",
@@ -900,7 +925,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -920,10 +949,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3.1-pro-preview-customtools",
@@ -935,7 +961,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -955,10 +985,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3.5-flash",
@@ -970,7 +997,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -990,10 +1021,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-3.5-live-translate-preview",
@@ -1005,7 +1033,11 @@
         "contextTokens": 16384,
         "maxOutputTokens": 32768
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
@@ -1025,10 +1057,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-embedding-001",
@@ -1040,7 +1069,11 @@
         "contextTokens": 2048,
         "maxOutputTokens": 1
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
@@ -1060,10 +1093,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-embedding-2",
@@ -1075,7 +1105,11 @@
         "contextTokens": 8192,
         "maxOutputTokens": 1
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
@@ -1095,10 +1129,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-embedding-2-preview",
@@ -1110,7 +1141,11 @@
         "contextTokens": 8192,
         "maxOutputTokens": 1
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
@@ -1130,10 +1165,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-flash-latest",
@@ -1145,7 +1177,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -1165,10 +1201,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-flash-lite-latest",
@@ -1180,7 +1213,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -1200,10 +1237,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-omni-flash-preview",
@@ -1215,7 +1249,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -1235,10 +1273,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-pro-latest",
@@ -1250,7 +1285,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -1270,10 +1309,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-robotics-er-1.5-preview",
@@ -1285,7 +1321,11 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -1305,10 +1345,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemini-robotics-er-1.6-preview",
@@ -1320,7 +1357,11 @@
         "contextTokens": 131072,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -1340,10 +1381,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemma-4-26b-a4b-it",
@@ -1355,7 +1393,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": 32768
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -1375,10 +1417,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     },
     {
       "id": "gemma-4-31b-it",
@@ -1390,7 +1429,11 @@
         "contextTokens": 262144,
         "maxOutputTokens": 32768
       },
-      "capabilities": {
+      "capabilities": {},
+      "status": "available",
+      "source": "gemini_models_api",
+      "lastChecked": "2026-07-05T08:52:19Z",
+      "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
@@ -1410,10 +1453,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:19Z"
         }
-      },
-      "status": "available",
-      "source": "gemini_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      }
     }
   ]
 }

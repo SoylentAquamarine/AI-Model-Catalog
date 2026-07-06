@@ -25,6 +25,23 @@
       "capabilities": {
         "chat": {
           "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-06T01:24:28Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-06T01:25:28Z"
+        }
+      },
+      "status": "available",
+      "source": "pollinations_models_api",
+      "lastChecked": "2026-07-05T08:52:18Z",
+      "hints": {
+        "chat": {
+          "value": true,
           "source": "pollinations_models_api",
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:18Z"
@@ -41,10 +58,7 @@
           "confidence": "high",
           "lastChecked": "2026-07-05T08:52:18Z"
         }
-      },
-      "status": "available",
-      "source": "pollinations_models_api",
-      "lastChecked": "2026-07-05T08:52:18Z"
+      }
     }
   ]
 }

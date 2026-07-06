@@ -137,4 +137,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update provider model catalog
-          file_pattern: 'providers/*.json catalog-index.json'
+          file_pattern: 'providers/*.json catalog-index.json capabilities.json'

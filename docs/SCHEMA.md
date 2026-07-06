@@ -83,7 +83,8 @@ none     no credential required
   "costClass": "free",
   "pricing": { "currency": "USD", "inputPerMTokens": 0.0, "outputPerMTokens": 0.0 },
   "limits": { "contextTokens": 32768, "maxOutputTokens": 8192 },
-  "capabilities": { "chat": { "value": true, "source": "openrouter_models_api", "confidence": "high", "lastChecked": "..." } },
+  "capabilities": { "chat": { "value": true, "source": "tested_by_catalog", "confidence": "high", "lastChecked": "..." } },
+  "hints": { "vision": { "value": true, "source": "openrouter_models_api", "confidence": "high", "lastChecked": "..." } },
   "status": "available",
   "source": "openrouter_models_api",
   "lastChecked": "2026-07-02T17:53:48Z"
@@ -95,8 +96,21 @@ costClass    free | paid | trial | local | unknown   (docs/FREE-PAID-CLASSIFICAT
 pricing      USD per million tokens, when known; null when not
 limits       token limits, when known; null when not
 status       available | preview | deprecated | unknown
-capabilities keys from docs/CAPABILITY-FLAGS.md; absent key = no claim made
+capabilities VERIFIED only (source tested_by_catalog); absent key = not verified. docs/CAPABILITY-FLAGS.md
+hints        provider-declared flags kept only to decide what to live-test; NOT confirmed, do not rely on
 ```
+
+## Capability rollups
+
+Two generated files summarise verified capabilities across all models:
+
+```text
+catalog-index.json  ->  capabilitySummary: { "<capability>": <verified model count> }
+capabilities.json   ->  { generatedAt, capabilities: { "<capability>": { count, models: ["<provider>:<id>"] } } }
+```
+
+Both count only capabilities with `source: tested_by_catalog` and `value: true`. See
+`schema/capabilities.schema.json`.
 
 ## Capability Values
 

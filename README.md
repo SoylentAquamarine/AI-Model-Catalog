@@ -12,9 +12,14 @@ Two files kinds, plain HTTPS, no account needed:
 # which providers exist, when the catalog was built
 curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/catalog-index.json
 
-# a provider's models, pricing, capabilities, and how to talk to its API
+# a provider's models, capabilities, and how to talk to its API
 curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/providers/openrouter.json
+
+# how many free models are verified for each capability (chat, json, tools, vision, streaming)
+curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/capabilities.json
 ```
+
+Capabilities are **verified, not declared**: each is confirmed by a tiny live test the catalog runs weekly (`source: tested_by_catalog`) and only proven capabilities are published — so counts start low and grow as testing rotates through the models.
 
 Start with `docs/CONSUMING.md`. The contract: files validate against `schema/`, versioned by semver (`docs/VERSIONING.md`), consumers ignore unknown fields. Everything else in this repo is maintenance machinery.
 

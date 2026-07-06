@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-07-06T01:25:57Z",
+  "note": "Counts reflect capabilities verified by live test (source tested_by_catalog).",
+  "capabilities": {
+    "chat": {
+      "count": 1,
+      "models": [
+        "pollinations:openai-fast"
+      ]
+    },
+    "streaming": {
+      "count": 1,
+      "models": [
+        "pollinations:openai-fast"
+      ]
+    }
+  }
+}

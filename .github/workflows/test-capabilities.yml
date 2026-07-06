@@ -1,0 +1,62 @@
+name: Test Capabilities
+
+on:
+  # Manual run from the Actions tab.
+  workflow_dispatch:
+    inputs:
+      max_minutes:
+        description: "Wall-clock budget for the test harness (minutes)"
+        required: false
+        default: "300"
+  # Weekly, Wednesday 06:00 UTC (offset from the Sunday model-list refresh).
+  schedule:
+    - cron: '0 6 * * 3'
+
+permissions:
+  contents: write
+
+jobs:
+  test-capabilities:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install validation dependency
+        run: pip install jsonschema
+
+      # Live probes verify capabilities. Interleaved across providers with
+      # per-provider cooldowns (scripts/test_config.py); a global budget plus
+      # least-recently-tested rotation keeps token usage bounded and fair.
+      - name: Run capability tests
+        env:
+          CEREBRAS_API_KEY_FREE: ${{ secrets.CEREBRAS_API_KEY_FREE }}
+          CLOUDFLARE_API_KEY_FREE: ${{ secrets.CLOUDFLARE_API_KEY_FREE }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          COHERE_API_KEY_FREE: ${{ secrets.COHERE_API_KEY_FREE }}
+          GEMINI_API_KEY_FREE: ${{ secrets.GEMINI_API_KEY_FREE }}
+          GROQ_API_KEY_FREE: ${{ secrets.GROQ_API_KEY_FREE }}
+          HUGGINGFACE_API_KEY_FREE: ${{ secrets.HUGGINGFACE_API_KEY_FREE }}
+          MISTRAL_API_KEY_FREE: ${{ secrets.MISTRAL_API_KEY_FREE }}
+          OPENROUTER_API_KEY_FREE: ${{ secrets.OPENROUTER_API_KEY_FREE }}
+          SAMBANOVA_API_KEY_FREE: ${{ secrets.SAMBANOVA_API_KEY_FREE }}
+          TOGETHER_API_KEY_FREE: ${{ secrets.TOGETHER_API_KEY_FREE }}
+        run: python scripts/test_capabilities.py --max-minutes ${{ github.event.inputs.max_minutes || '300' }}
+
+      - name: Rebuild catalog index and capabilities
+        run: python scripts/build_catalog.py
+
+      - name: Validate
+        run: python scripts/validate.py
+
+      - name: Commit verified capabilities
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update verified capabilities
+          file_pattern: 'providers/*.json catalog-index.json capabilities.json state/*.json'

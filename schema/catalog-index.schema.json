@@ -22,6 +22,11 @@
       "type": "integer",
       "description": "Count of models with costClass=free across all providers (added in 1.1.0). This catalog is free-only, so it equals totalModels."
     },
+    "capabilitySummary": {
+      "type": "object",
+      "description": "Per-capability count of models whose support was verified by a live catalog test (added in 1.4.0). See capabilities.json for the model lists.",
+      "additionalProperties": { "type": "integer" }
+    },
     "providers": {
       "type": "array",
       "items": {

@@ -10,9 +10,19 @@ curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/mai
 
 # 2. Fetch the provider files it lists
 curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/providers/openrouter.json
+
+# 3. (optional) Verified capability rollup: how many models do what, with model lists
+curl -s https://raw.githubusercontent.com/SoylentAquamarine/AI-Model-Catalog/main/capabilities.json
 ```
 
-That is the entire consumption surface. Scripts, workflows, and docs in this repo are maintenance machinery — consumers never need them.
+That is the entire consumption surface.
+
+## Capabilities are verified, not declared
+
+A model's `capabilities` are published **only after a live test confirms them** (`source: tested_by_catalog`).
+Provider-declared flags live under `hints` on each model and are not confirmed — do not rely on them.
+`catalog-index.json.capabilitySummary` gives per-capability counts; `capabilities.json` gives the model lists.
+Counts grow over time as the weekly harness rotates through every model. Scripts, workflows, and docs in this repo are maintenance machinery — consumers never need them.
 
 ## Recommended Sync Flow
 

@@ -1,0 +1,21 @@
+{
+  "pollinations": {
+    "openai-fast": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-06T01:24:28Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-06T01:25:28Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-06T01:25:28Z"
+    }
+  }
+}

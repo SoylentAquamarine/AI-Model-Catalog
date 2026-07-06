@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PROVIDERS_DIR = ROOT / "providers"
 SCHEMA_DIR = ROOT / "schema"
 INDEX_PATH = ROOT / "catalog-index.json"
+CAPABILITIES_PATH = ROOT / "capabilities.json"
 
 API_TYPES = {"openai-compatible", "anthropic", "gemini", "ollama"}
 AUTH_SCHEMES = {"bearer", "header", "query", "none"}
@@ -87,6 +88,7 @@ def main() -> int:
 
     provider_schema = load_json(SCHEMA_DIR / "provider.schema.json")
     index_schema = load_json(SCHEMA_DIR / "catalog-index.schema.json")
+    capabilities_schema = load_json(SCHEMA_DIR / "capabilities.schema.json")
 
     provider_paths = sorted(PROVIDERS_DIR.glob("*.json")) if PROVIDERS_DIR.exists() else []
     if not provider_paths:
@@ -119,13 +121,28 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001
             errors.append(f"catalog-index.json: invalid JSON: {exc}")
 
+    if CAPABILITIES_PATH.exists():
+        try:
+            caps_data = load_json(CAPABILITIES_PATH)
+            if have_jsonschema:
+                for err in jsonschema.Draft202012Validator(capabilities_schema).iter_errors(caps_data):
+                    errors.append(f"capabilities.json: {'/'.join(str(p) for p in err.path) or '(root)'}: {err.message}")
+            elif "capabilities" not in caps_data or "generatedAt" not in caps_data:
+                errors.append("capabilities.json: missing required key 'capabilities' or 'generatedAt'")
+        except Exception as exc:  # noqa: BLE001
+            errors.append(f"capabilities.json: invalid JSON: {exc}")
+
     if errors:
         for error in errors:
             print(error, file=sys.stderr)
         print(f"Validation FAILED with {len(errors)} error(s).", file=sys.stderr)
         return 1
 
-    checked = len(provider_paths) + (1 if INDEX_PATH.exists() else 0)
+    checked = (
+        len(provider_paths)
+        + (1 if INDEX_PATH.exists() else 0)
+        + (1 if CAPABILITIES_PATH.exists() else 0)
+    )
     mode = "jsonschema" if have_jsonschema else "structural"
     print(f"Validation passed: {checked} file(s), {mode} mode.")
     return 0

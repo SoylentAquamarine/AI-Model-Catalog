@@ -12,7 +12,8 @@ AI-Model-Catalog/
   NOTICE.md
   CONTRIBUTING.md
   index.html
-  catalog-index.json        # generated - consumer entry point
+  catalog-index.json        # generated - consumer entry point (incl. capabilitySummary)
+  capabilities.json         # generated - verified capability counts + model lists
 
   providers/                # the published data, one file per provider
     openrouter.json
@@ -27,9 +28,14 @@ AI-Model-Catalog/
     huggingface.json
     cloudflare.json
 
+  state/                    # machine-managed test state (committed by the harness)
+    tested_capabilities.json      # verified results, source of truth for capabilities
+    capability_test_state.json    # per-model last-tested timestamps (rotation)
+
   schema/                   # machine-readable contract; CI validates against these
     provider.schema.json
     catalog-index.schema.json
+    capabilities.schema.json
 
   docs/
     CONSUMING.md            # start here as a consumer
@@ -56,13 +62,17 @@ AI-Model-Catalog/
     update_sambanova.py
     update_huggingface.py
     update_cloudflare.py
-    build_catalog.py        # generates catalog-index.json + summary
+    build_catalog.py        # generates catalog-index.json + capabilities.json
     validate.py             # schema validation (jsonschema, structural fallback)
     check_provider_secrets.py
+    probes.py               # live capability probes (openai-compatible + gemini)
+    test_config.py          # per-provider cooldowns + probe policy
+    test_capabilities.py    # weekly capability test harness (scheduler)
 
   .github/
     workflows/
       validate.yml          # every push/PR: schema validation
       update-catalog.yml    # weekly + manual + provider-announcement dispatch
+      test-capabilities.yml # weekly + manual: live capability verification
       check-free-keys.yml   # manual: report which key secrets are configured
 ```
