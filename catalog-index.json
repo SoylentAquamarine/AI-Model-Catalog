@@ -1,12 +1,14 @@
 {
   "schemaVersion": "1.4.0",
-  "generatedAt": "2026-07-10T18:45:50Z",
+  "generatedAt": "2026-07-10T19:19:03Z",
   "totalModels": 562,
   "totalFreeModels": 562,
   "capabilitySummary": {
-    "chat": 1,
-    "json": 1,
-    "streaming": 1
+    "chat": 48,
+    "json": 30,
+    "streaming": 58,
+    "tools": 6,
+    "vision": 2
   },
   "providers": [
     {

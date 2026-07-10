@@ -205,7 +205,26 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:39Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:41Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:43Z"
+        }
+      },
       "status": "available",
       "source": "gemini_models_api",
       "lastChecked": "2026-07-05T08:52:19Z",
@@ -277,7 +296,26 @@
         "contextTokens": 1048576,
         "maxOutputTokens": 65536
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:12Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:14Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:16Z"
+        }
+      },
       "status": "available",
       "source": "gemini_models_api",
       "lastChecked": "2026-07-05T08:52:19Z",
@@ -421,7 +459,20 @@
         "contextTokens": 8192,
         "maxOutputTokens": 16384
       },
-      "capabilities": {},
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:38Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:40Z"
+        }
+      },
       "status": "available",
       "source": "gemini_models_api",
       "lastChecked": "2026-07-05T08:52:19Z",

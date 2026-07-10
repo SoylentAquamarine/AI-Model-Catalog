@@ -27,19 +27,19 @@
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-10T18:45:27Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:45:36Z"
+          "lastChecked": "2026-07-10T18:46:53Z"
         },
         "json": {
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-10T18:45:29Z"
+          "lastChecked": "2026-07-10T18:46:54Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:58Z"
         }
       },
       "status": "available",

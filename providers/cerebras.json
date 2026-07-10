@@ -22,7 +22,26 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:22Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:24Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:25Z"
+        }
+      },
       "status": "available",
       "source": "cerebras_models_api",
       "lastChecked": "2026-07-05T08:52:20Z"
@@ -34,7 +53,26 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:47Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:49Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:50Z"
+        }
+      },
       "status": "available",
       "source": "cerebras_models_api",
       "lastChecked": "2026-07-05T08:52:20Z"
@@ -46,7 +84,26 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:05Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:07Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:09Z"
+        }
+      },
       "status": "available",
       "source": "cerebras_models_api",
       "lastChecked": "2026-07-05T08:52:20Z"

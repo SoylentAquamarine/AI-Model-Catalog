@@ -1,27 +1,2111 @@
 {
-  "pollinations": {
-    "openai-fast": {
+  "cerebras": {
+    "gemma-4-31b": {
       "capabilities": {
         "chat": {
           "confidence": "high",
-          "lastChecked": "2026-07-10T18:45:27Z",
+          "lastChecked": "2026-07-10T18:46:22Z",
           "source": "tested_by_catalog",
           "value": true
         },
         "json": {
           "confidence": "high",
-          "lastChecked": "2026-07-10T18:45:29Z",
+          "lastChecked": "2026-07-10T18:46:24Z",
           "source": "tested_by_catalog",
           "value": true
         },
         "streaming": {
           "confidence": "high",
-          "lastChecked": "2026-07-10T18:45:36Z",
+          "lastChecked": "2026-07-10T18:46:25Z",
           "source": "tested_by_catalog",
           "value": true
         }
       },
-      "lastTested": "2026-07-10T18:45:36Z"
+      "lastTested": "2026-07-10T18:46:25Z"
+    },
+    "gpt-oss-120b": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:47Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:49Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:50Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:51:50Z"
+    },
+    "zai-glm-4.7": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:05Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:07Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:09Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:57:09Z"
+    }
+  },
+  "cloudflare": {
+    "@cf/ai4bharat/indictrans2-en-indic-1B": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:27Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:29Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:46:29Z"
+    },
+    "@cf/aisingapore/gemma-sea-lion-v4-27b-it": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:30Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:32Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:33Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:47:33Z"
+    },
+    "@cf/baai/bge-base-en-v1.5": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:55Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:57Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:47:57Z"
+    },
+    "@cf/baai/bge-large-en-v1.5": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:10Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:11Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:48:11Z"
+    },
+    "@cf/baai/bge-m3": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:23Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:25Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:48:25Z"
+    },
+    "@cf/baai/bge-reranker-base": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:41Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:43Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:48:43Z"
+    },
+    "@cf/baai/bge-small-en-v1.5": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:08Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:10Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:49:10Z"
+    },
+    "@cf/black-forest-labs/flux-1-schnell": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:40Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:42Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:49:42Z"
+    },
+    "@cf/black-forest-labs/flux-2-dev": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:57Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:59Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:49:59Z"
+    },
+    "@cf/black-forest-labs/flux-2-klein-4b": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:17Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:19Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:50:19Z"
+    },
+    "@cf/black-forest-labs/flux-2-klein-9b": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:37Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:38Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:50:38Z"
+    },
+    "@cf/bytedance/stable-diffusion-xl-lightning": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:56Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:58Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:50:58Z"
+    },
+    "@cf/deepgram/aura-1": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:13Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:15Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:51:15Z"
+    },
+    "@cf/deepgram/aura-2-en": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:27Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:28Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:51:28Z"
+    },
+    "@cf/deepgram/aura-2-es": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:52Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:54Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:51:54Z"
+    },
+    "@cf/deepgram/flux": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:11Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:12Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:52:12Z"
+    },
+    "@cf/deepgram/nova-3": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:29Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:30Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:52:30Z"
+    },
+    "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:53:58Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:03Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:05Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:54:05Z"
+    },
+    "@cf/google/embeddinggemma-300m": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:44Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:45Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:54:45Z"
+    },
+    "@cf/google/gemma-2b-it-lora": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:58Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:55:00Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:55:02Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:55:02Z"
+    },
+    "@cf/google/gemma-4-26b-a4b-it": {
+      "capabilities": {
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:22Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:56:22Z"
+    },
+    "@cf/google/gemma-7b-it-lora": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:38Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:41Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:45Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:56:45Z"
+    },
+    "@cf/huggingface/distilbert-sst-2-int8": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:10Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:12Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:57:12Z"
+    },
+    "@cf/ibm-granite/granite-4.0-h-micro": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:28Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:31Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:33Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:57:33Z"
+    }
+  },
+  "cohere": {
+    "c4ai-aya-expanse-32b": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:29Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:31Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:32Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:46:32Z"
+    },
+    "c4ai-aya-vision-32b": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:57Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:59Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:00Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:48:00Z"
+    },
+    "cohere-transcribe-03-2026": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:12Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:13Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:49:13Z"
+    },
+    "command-a-03-2025": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:19Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:21Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:22Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:50:22Z"
+    },
+    "command-a-plus-05-2026": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:29Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:31Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:32Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:51:32Z"
+    },
+    "command-a-reasoning-08-2025": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:08Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:10Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:12Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:54:12Z"
+    },
+    "command-a-translate-08-2025": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:22Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:24Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:26Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:56:26Z"
+    },
+    "command-a-vision-07-2025": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:33Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:35Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:36Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:57:36Z"
+    }
+  },
+  "gemini": {
+    "gemini-2.0-flash": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:46:36Z"
+    },
+    "gemini-2.0-flash-001": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:47:37Z"
+    },
+    "gemini-2.0-flash-lite": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:48:15Z"
+    },
+    "gemini-2.0-flash-lite-001": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:49:16Z"
+    },
+    "gemini-2.5-computer-use-preview-10-2025": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:50:02Z"
+    },
+    "gemini-2.5-flash": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:39Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:41Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:43Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:50:43Z"
+    },
+    "gemini-2.5-flash-image": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:51:36Z"
+    },
+    "gemini-2.5-flash-lite": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:12Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:14Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:16Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:52:16Z"
+    },
+    "gemini-2.5-flash-native-audio-latest": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:54:15Z"
+    },
+    "gemini-2.5-flash-native-audio-preview-09-2025": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:55:05Z"
+    },
+    "gemini-2.5-flash-native-audio-preview-12-2025": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:56:48Z"
+    },
+    "gemini-2.5-flash-preview-tts": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:38Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:40Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:57:40Z"
+    }
+  },
+  "groq": {
+    "allam-2-7b": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:36Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:38Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:39Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:46:39Z"
+    },
+    "canopylabs/orpheus-arabic-saudi": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:38Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:40Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:47:40Z"
+    },
+    "canopylabs/orpheus-v1-english": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:16Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:18Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:48:18Z"
+    },
+    "groq/compound": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:44Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:50Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:48:50Z"
+    },
+    "groq/compound-mini": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:17Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:19Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:21Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:49:21Z"
+    },
+    "llama-3.1-8b-instant": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:42Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:43Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:45Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:49:45Z"
+    },
+    "llama-3.3-70b-versatile": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:22Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:24Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:26Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:50:26Z"
+    },
+    "meta-llama/llama-4-scout-17b-16e-instruct": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:59Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:00Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:02Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:51:02Z"
+    },
+    "meta-llama/llama-prompt-guard-2-22m": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:36Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:37Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:39Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:51:39Z"
+    },
+    "meta-llama/llama-prompt-guard-2-86m": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:16Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:18Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:19Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:52:19Z"
+    },
+    "openai/gpt-oss-120b": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:15Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:17Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:19Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:54:19Z"
+    },
+    "openai/gpt-oss-20b": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:46Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:47Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:49Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:54:49Z"
+    },
+    "openai/gpt-oss-safeguard-20b": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:26Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:27Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:29Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:56:29Z"
+    },
+    "qwen/qwen3-32b": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:12Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:14Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:16Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:57:16Z"
+    }
+  },
+  "huggingface": {
+    "CohereLabs/aya-expanse-32b": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:40Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:41Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:43Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:46:43Z"
+    },
+    "CohereLabs/aya-vision-32b": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:40Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:42Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:43Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:47:43Z"
+    },
+    "CohereLabs/c4ai-command-a-03-2025": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:01Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:02Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:04Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:48:04Z"
+    },
+    "CohereLabs/c4ai-command-r-08-2024": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:25Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:27Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:28Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:48:28Z"
+    },
+    "CohereLabs/c4ai-command-r7b-12-2024": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:50Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:52Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:54Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:48:54Z"
+    },
+    "CohereLabs/c4ai-command-r7b-arabic-02-2025": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:21Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:23Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:24Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:49:24Z"
+    },
+    "CohereLabs/command-a-reasoning-08-2025": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:45Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:48Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:49Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:49:49Z"
+    },
+    "CohereLabs/command-a-translate-08-2025": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:02Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:04Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:06Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:50:06Z"
+    },
+    "CohereLabs/command-a-vision-07-2025": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:50:29Z"
+    },
+    "CohereLabs/tiny-aya-earth": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:43Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:45Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:46Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:50:46Z"
+    },
+    "CohereLabs/tiny-aya-global": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:02Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:04Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:06Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:51:06Z"
+    },
+    "CohereLabs/tiny-aya-water": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:15Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:17Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:18Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:51:18Z"
+    },
+    "MiniMaxAI/MiniMax-M1-80k": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:41Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:44Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:47Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:51:47Z"
+    },
+    "MiniMaxAI/MiniMax-M2": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:21Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:24Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:27Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:52:27Z"
+    },
+    "MiniMaxAI/MiniMax-M2.1": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:21Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:24Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:27Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:54:27Z"
+    },
+    "MiniMaxAI/MiniMax-M2.5": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:50Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:52Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:54Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:54:54Z"
+    },
+    "MiniMaxAI/MiniMax-M2.7": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:29Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:31Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:33Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:56:33Z"
+    },
+    "MiniMaxAI/MiniMax-M3": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:19Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:21Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:24Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:57:24Z"
+    }
+  },
+  "mistral": {
+    "codestral-2508": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:43Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:45Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:47Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:49Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:46:49Z"
+    },
+    "codestral-embed": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:45Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:47Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:47:47Z"
+    },
+    "codestral-embed-2505": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:20Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:21Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:48:21Z"
+    },
+    "codestral-latest": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:54Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:56Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:05Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:06Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:49:06Z"
+    },
+    "devstral-2512": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:50Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:52Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:53Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:55Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:49:55Z"
+    },
+    "devstral-latest": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:29Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:31Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:33Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:35Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:50:35Z"
+    },
+    "devstral-medium-latest": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:06Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:08Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:10Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:12Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:51:12Z"
+    },
+    "labs-leanstral-1-5": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:52:00Z"
+    },
+    "labs-leanstral-1-5-1": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:52:37Z"
+    },
+    "magistral-medium-2509": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:28Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:30Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:32Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:35Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:37Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:54:37Z"
+    },
+    "magistral-medium-latest": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:55:06Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:55:08Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:55:10Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:55:13Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:55:15Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:55:15Z"
+    },
+    "magistral-small-2509": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:48Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:50Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:56:55Z"
+    },
+    "magistral-small-latest": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:40Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:42Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:44Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:46Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:48Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:57:48Z"
+    }
+  },
+  "openrouter": {
+    "cognitivecomputations/dolphin-mistral-24b-venice-edition:free": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:46:52Z"
+    },
+    "cohere/north-mini-code:free": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:47Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:50Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:51Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:54Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:47:54Z"
+    },
+    "google/gemma-4-26b-a4b-it:free": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:48:36Z"
+    },
+    "google/gemma-4-31b-it:free": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:25Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:27Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:30Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:35Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:49:35Z"
+    },
+    "google/lyria-3-clip-preview": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:50:11Z"
+    },
+    "google/lyria-3-pro-preview": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:50:51Z"
+    },
+    "liquid/lfm-2.5-1.2b-instruct:free": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:51:22Z"
+    },
+    "liquid/lfm-2.5-1.2b-thinking:free": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:52:05Z"
+    },
+    "meta-llama/llama-3.2-3b-instruct:free": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:52:41Z"
+    },
+    "meta-llama/llama-3.3-70b-instruct:free": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:54:42Z"
+    },
+    "nousresearch/hermes-3-llama-3.1-405b:free": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:55:18Z"
+    },
+    "nvidia/nemotron-3-nano-30b-a3b:free": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:56Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:58Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:00Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:05Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:57:05Z"
+    },
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T19:02:48Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T19:07:49Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T19:09:00Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T19:14:02Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T19:19:03Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T19:19:03Z"
+    }
+  },
+  "pollinations": {
+    "openai-fast": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:53Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:54Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:58Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:46:58Z"
+    }
+  },
+  "sambanova": {
+    "DeepSeek-V3.1": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:01Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:24Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:25Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:47:25Z"
+    },
+    "DeepSeek-V3.2": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:53Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:53:24Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:53:54Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-10T18:53:54Z"
+    }
+  },
+  "together": {
+    "ByteDance-Seed/Seedream-3.0": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:47:30Z"
+    },
+    "ByteDance-Seed/Seedream-4.0": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:48:08Z"
+    },
+    "ByteDance/Seedance-1.0-lite": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:48:39Z"
+    },
+    "ByteDance/Seedance-1.0-pro": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:49:38Z"
+    },
+    "ByteDance/Seedance-2.0": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:50:14Z"
+    },
+    "ByteDance/Seedream-5.0-lite": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:50:55Z"
+    },
+    "HappyHorse/HappyHorse-1.0-T2V": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:51:25Z"
+    },
+    "Hcompany/Holo3-35B-A3B": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:52:09Z"
+    },
+    "MiniMaxAI/MiniMax-M1-40k": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:53:56Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:53:58Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:53:58Z"
+    },
+    "MiniMaxAI/MiniMax-M1-80k": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:56Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:57Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-10T18:54:57Z"
+    },
+    "MiniMaxAI/MiniMax-M2": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:56:37Z"
+    },
+    "MiniMaxAI/MiniMax-M2.5-FP4": {
+      "capabilities": {},
+      "lastTested": "2026-07-10T18:57:28Z"
     }
   }
 }

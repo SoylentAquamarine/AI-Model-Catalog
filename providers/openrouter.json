@@ -87,7 +87,32 @@
         "contextTokens": 256000,
         "maxOutputTokens": 64000
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:47Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:50Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:51Z"
+        },
+        "tools": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:54Z"
+        }
+      },
       "status": "available",
       "source": "openrouter_models_api",
       "lastChecked": "2026-07-05T08:52:17Z",
@@ -203,7 +228,32 @@
         "contextTokens": 262144,
         "maxOutputTokens": 8192
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:25Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:27Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:30Z"
+        },
+        "vision": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:35Z"
+        }
+      },
       "status": "available",
       "source": "openrouter_models_api",
       "lastChecked": "2026-07-05T08:52:17Z",
@@ -667,7 +717,32 @@
         "contextTokens": 256000,
         "maxOutputTokens": null
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:56Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:58Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:00Z"
+        },
+        "tools": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:05Z"
+        }
+      },
       "status": "available",
       "source": "openrouter_models_api",
       "lastChecked": "2026-07-05T08:52:17Z",
@@ -725,7 +800,38 @@
         "contextTokens": 256000,
         "maxOutputTokens": 65536
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T19:02:48Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T19:07:49Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T19:09:00Z"
+        },
+        "tools": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T19:14:02Z"
+        },
+        "vision": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T19:19:03Z"
+        }
+      },
       "status": "available",
       "source": "openrouter_models_api",
       "lastChecked": "2026-07-05T08:52:17Z",

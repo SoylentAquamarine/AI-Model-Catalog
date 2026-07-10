@@ -22,7 +22,26 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:01Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:24Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:25Z"
+        }
+      },
       "status": "available",
       "source": "sambanova_models_api",
       "lastChecked": "2026-07-05T08:52:21Z"
@@ -34,7 +53,26 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:53Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:53:24Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:53:54Z"
+        }
+      },
       "status": "available",
       "source": "sambanova_models_api",
       "lastChecked": "2026-07-05T08:52:21Z"

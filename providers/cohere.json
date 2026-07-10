@@ -25,7 +25,26 @@
         "contextTokens": 128000,
         "maxOutputTokens": null
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:29Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:31Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:32Z"
+        }
+      },
       "status": "available",
       "source": "cohere_models_api",
       "lastChecked": "2026-07-05T08:52:20Z",
@@ -60,7 +79,26 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:57Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:59Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:00Z"
+        }
+      },
       "status": "available",
       "source": "cohere_models_api",
       "lastChecked": "2026-07-05T08:52:20Z",
@@ -95,7 +133,20 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:12Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:13Z"
+        }
+      },
       "status": "available",
       "source": "cohere_models_api",
       "lastChecked": "2026-07-05T08:52:20Z",
@@ -130,7 +181,26 @@
         "contextTokens": 288000,
         "maxOutputTokens": null
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:19Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:21Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:22Z"
+        }
+      },
       "status": "available",
       "source": "cohere_models_api",
       "lastChecked": "2026-07-05T08:52:20Z",
@@ -165,7 +235,26 @@
         "contextTokens": 436000,
         "maxOutputTokens": null
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:29Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:31Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:32Z"
+        }
+      },
       "status": "available",
       "source": "cohere_models_api",
       "lastChecked": "2026-07-05T08:52:20Z",
@@ -200,7 +289,26 @@
         "contextTokens": 288768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:08Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:10Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:12Z"
+        }
+      },
       "status": "available",
       "source": "cohere_models_api",
       "lastChecked": "2026-07-05T08:52:20Z",
@@ -235,7 +343,26 @@
         "contextTokens": 8992,
         "maxOutputTokens": null
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:22Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:24Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:26Z"
+        }
+      },
       "status": "available",
       "source": "cohere_models_api",
       "lastChecked": "2026-07-05T08:52:20Z",
@@ -270,7 +397,26 @@
         "contextTokens": 128000,
         "maxOutputTokens": null
       },
-      "capabilities": {},
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:33Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:35Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:36Z"
+        }
+      },
       "status": "available",
       "source": "cohere_models_api",
       "lastChecked": "2026-07-05T08:52:20Z",

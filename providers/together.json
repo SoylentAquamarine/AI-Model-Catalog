@@ -192,7 +192,20 @@
         "contextTokens": 1048576,
         "maxOutputTokens": null
       },
-      "capabilities": {},
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:53:56Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:53:58Z"
+        }
+      },
       "status": "available",
       "source": "together_models_api",
       "lastChecked": "2026-07-05T08:52:20Z",
@@ -219,7 +232,20 @@
         "contextTokens": 1048576,
         "maxOutputTokens": null
       },
-      "capabilities": {},
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:56Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:57Z"
+        }
+      },
       "status": "available",
       "source": "together_models_api",
       "lastChecked": "2026-07-05T08:52:20Z",
