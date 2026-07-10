@@ -4,18 +4,24 @@
       "capabilities": {
         "chat": {
           "confidence": "high",
-          "lastChecked": "2026-07-06T01:24:28Z",
+          "lastChecked": "2026-07-10T18:45:27Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:45:29Z",
           "source": "tested_by_catalog",
           "value": true
         },
         "streaming": {
           "confidence": "high",
-          "lastChecked": "2026-07-06T01:25:28Z",
+          "lastChecked": "2026-07-10T18:45:36Z",
           "source": "tested_by_catalog",
           "value": true
         }
       },
-      "lastTested": "2026-07-06T01:25:28Z"
+      "lastTested": "2026-07-10T18:45:36Z"
     }
   }
 }

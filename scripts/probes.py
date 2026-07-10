@@ -201,12 +201,34 @@ def _openai(provider: dict, model: dict, capability: str, key: str | None) -> st
     raise ValueError(f"unknown capability {capability!r}")
 
 
+def _coerce_text(content) -> str:
+    """Normalise an OpenAI message `content` to text.
+
+    Providers return content either as a plain string or as a list of content
+    parts (e.g. [{"type": "text", "text": "..."}]). Handle both.
+    """
+    if content is None:
+        return ""
+    if isinstance(content, str):
+        return content.strip()
+    if isinstance(content, list):
+        out = []
+        for part in content:
+            if isinstance(part, dict):
+                out.append(part.get("text") or part.get("content") or "")
+            elif isinstance(part, str):
+                out.append(part)
+        return "".join(out).strip()
+    return str(content).strip()
+
+
 def _openai_text(text: str) -> str:
     try:
         data = json.loads(text)
-        return (data["choices"][0]["message"].get("content") or "").strip()
+        content = data["choices"][0]["message"].get("content")
     except (ValueError, KeyError, IndexError, TypeError):
         return ""
+    return _coerce_text(content)
 
 
 def _openai_has_tool_call(text: str) -> bool:
@@ -289,10 +311,18 @@ def _gemini_text(text: str) -> str:
 # Public entry point
 # --------------------------------------------------------------------------- #
 def run_probe(provider: dict, model: dict, capability: str, key: str | None) -> str:
-    """Run one capability probe. Returns PASS / FAIL / ERROR."""
-    api_type = provider.get("apiType")
-    if api_type == "gemini":
-        return _gemini(provider, model, capability, key)
-    if api_type == "openai-compatible":
-        return _openai(provider, model, capability, key)
-    return ERROR  # unknown driver: never fabricate a result
+    """Run one capability probe. Returns PASS / FAIL / ERROR.
+
+    A probe must never crash the weekly run: any unexpected error (unusual
+    response shape, decode failure, etc.) is treated as ERROR and retried on the
+    next rotation, never recorded and never fatal.
+    """
+    try:
+        api_type = provider.get("apiType")
+        if api_type == "gemini":
+            return _gemini(provider, model, capability, key)
+        if api_type == "openai-compatible":
+            return _openai(provider, model, capability, key)
+        return ERROR  # unknown driver: never fabricate a result
+    except Exception:  # noqa: BLE001  -- resilience: skip, do not abort the run
+        return ERROR
