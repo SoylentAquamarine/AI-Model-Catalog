@@ -1,34 +1,36 @@
 {
-  "generatedAt": "2026-07-12T14:44:24Z",
+  "generatedAt": "2026-07-12T14:53:34Z",
   "providers": {
-    "pollinations": {
+    "together": {
       "byCapability": {
         "chat": {
-          "error": 0,
+          "error": 57,
           "fail": 0,
-          "pass": 1
+          "pass": 0
         },
         "json": {
-          "error": 0,
-          "fail": 0,
-          "pass": 1
+          "error": 56,
+          "fail": 1,
+          "pass": 0
         },
         "streaming": {
-          "error": 0,
-          "fail": 0,
-          "pass": 1
+          "error": 56,
+          "fail": 1,
+          "pass": 0
         }
       },
       "byDetail": {
-        "ok": 3
+        "http_400": 1,
+        "http_402": 168,
+        "unsupported_param": 2
       },
-      "modelsTested": 1,
+      "modelsTested": 57,
       "outcomes": {
-        "error": 0,
-        "fail": 0,
-        "pass": 3
+        "error": 169,
+        "fail": 2,
+        "pass": 0
       },
-      "probes": 3
+      "probes": 171
     }
   }
 }

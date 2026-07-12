@@ -3576,6 +3576,1216 @@
           "outcome": "error"
         }
       }
+    },
+    "Qwen/Qwen2-1.5B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:45:38Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:45:35Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:45:36Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:45:38Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen2-72B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:45:46Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:45:43Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:45:45Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:45:46Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen2-7B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:45:55Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:45:52Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:45:53Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:45:55Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-1.5B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:46:03Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:46:00Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:46:02Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:46:03Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:46:12Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:46:09Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:46:10Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:46:12Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-14B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:46:20Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:46:17Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:46:19Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:46:20Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-32B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:46:29Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:46:25Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:46:27Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:46:29Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-32B-Instruct": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:46:37Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:46:34Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:46:35Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:46:37Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-3B-Instruct": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:46:46Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:46:42Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:46:44Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:46:46Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-72B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:46:54Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:46:51Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:46:52Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:46:54Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-7B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:47:02Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:46:59Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:47:01Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:47:02Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-7B-Instruct": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:47:11Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:47:08Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:47:09Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:47:11Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-0.6B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:47:19Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:47:16Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:47:18Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:47:19Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-0.6B-Base": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:47:28Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:47:24Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:47:26Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:47:28Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-1.7B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:47:36Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:47:33Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:47:35Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:47:36Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-1.7B-Base": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:47:45Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:47:41Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:47:43Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:47:45Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-14B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:47:53Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:47:50Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:47:51Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:47:53Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-14B-Base": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:48:02Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:47:58Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:48:00Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:48:02Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:48:10Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:48:07Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:48:09Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:48:10Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-30B-A3B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:48:19Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:48:15Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:48:17Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:48:19Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-30B-A3B-Base": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:48:27Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:48:24Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:48:25Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:48:27Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-30B-A3B-Instruct-2507-Lora": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:48:35Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:48:32Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:48:34Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:48:35Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-32B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:48:44Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:48:41Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:48:42Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:48:44Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-4B-Base": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:48:52Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:48:49Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:48:51Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:48:52Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-4B-Instruct-2507": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:49:01Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:48:57Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:48:59Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:49:01Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-8B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:49:09Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:49:06Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:49:08Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:49:09Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-8B-Base": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:49:18Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:49:14Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:49:16Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:49:18Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-8B-Lora": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:49:26Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:49:23Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:49:24Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:49:26Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-Coder-30B-A3B-Instruct": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:49:34Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:49:31Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:49:33Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:49:34Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-Next-80B-A3B-Instruct-FP8": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:49:43Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:49:40Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:49:41Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:49:43Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:49:51Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:49:48Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:49:50Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:49:51Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3.5-122B-A10B-FP8": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:50:00Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:49:56Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:49:58Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:50:00Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3.5-2B-Lora": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:50:08Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:50:05Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:50:07Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:50:08Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3.5-35B-A3B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:50:17Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:50:13Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:50:15Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:50:17Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3.5-35B-A3B-Lora": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:50:25Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:50:22Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:50:23Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:50:25Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3.5-9B-FP8": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:50:33Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:50:30Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:50:32Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:50:33Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3.6-35B-A3B-FP8": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:50:42Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:50:39Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:50:40Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:50:42Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen3.6-35B-A3B-Lora": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:50:50Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:50:47Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:50:49Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:50:50Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "RunDiffusion/Juggernaut-pro-flux": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:50:59Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:50:56Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:50:57Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:50:59Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Rundiffusion/Juggernaut-Lightning-Flux": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:51:07Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:51:04Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:51:06Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:51:07Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Wan-AI/Wan2.2-I2V-A14B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:51:16Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:51:12Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:51:14Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:51:16Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Wan-AI/Wan2.2-T2V-A14B": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:51:24Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:51:21Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:51:23Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:51:24Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Wan-AI/Wan2.6-image": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:51:33Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:51:29Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:51:31Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:51:33Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Wan-AI/wan2.7-i2v": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:51:41Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:51:38Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:51:39Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:51:41Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Wan-AI/wan2.7-r2v": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:51:49Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:51:46Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:51:48Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:51:49Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Wan-AI/wan2.7-t2v": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:51:58Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:51:55Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:51:56Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:51:58Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "agentica-org/DeepCoder-14B-Preview": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:52:05Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:52:06Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-12T14:52:06Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:52:03Z",
+          "detail": "http_400",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:52:05Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:52:06Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        }
+      }
+    },
+    "alibaba/happyhorse-1.0-i2v": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:52:15Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:52:12Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:52:13Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:52:15Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "alibaba/happyhorse-1.0-r2v": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:52:23Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:52:20Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:52:22Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:52:23Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "alibaba/happyhorse-1.0-t2v": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:52:32Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:52:29Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:52:30Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:52:32Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "alibaba/happyhorse-1.1-i2v": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:52:40Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:52:37Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:52:39Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:52:40Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "alibaba/happyhorse-1.1-r2v": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:52:49Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:52:45Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:52:47Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:52:49Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "alibaba/happyhorse-1.1-t2v": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:52:57Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:52:54Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:52:55Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:52:57Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "allenai/Molmo-7B-D-0924": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:53:05Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:53:02Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:53:04Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:53:05Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "black-forest-labs/FLUX.1-kontext-max": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:53:14Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:53:11Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:53:12Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:53:14Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "black-forest-labs/FLUX.1-kontext-pro": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:53:22Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:53:19Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:53:21Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:53:22Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "black-forest-labs/FLUX.1-schnell": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:53:31Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:53:28Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:53:30Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:53:31Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
     }
   }
 }

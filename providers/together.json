@@ -1584,7 +1584,20 @@
           "lastChecked": "2026-07-12T08:16:09Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:52:05Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:52:06Z"
+        }
+      }
     },
     {
       "id": "alibaba/happyhorse-1.0-i2v",
