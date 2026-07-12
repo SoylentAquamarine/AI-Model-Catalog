@@ -850,7 +850,20 @@
           "lastChecked": "2026-07-12T08:16:14Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:19Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:21Z"
+        }
+      }
     },
     {
       "id": "@cf/leonardo/phoenix-1.0",
@@ -871,7 +884,20 @@
           "lastChecked": "2026-07-12T08:16:14Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:09Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:10Z"
+        }
+      }
     },
     {
       "id": "@cf/llava-hf/llava-1.5-7b-hf",
@@ -892,7 +918,20 @@
           "lastChecked": "2026-07-12T08:16:14Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:31Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:32Z"
+        }
+      }
     },
     {
       "id": "@cf/lykon/dreamshaper-8-lcm",
@@ -913,7 +952,20 @@
           "lastChecked": "2026-07-12T08:16:14Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:25Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:27Z"
+        }
+      }
     },
     {
       "id": "@cf/meta-llama/llama-2-7b-chat-hf-lora",
@@ -934,7 +986,26 @@
           "lastChecked": "2026-07-12T08:16:14Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:58Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:03Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:05Z"
+        }
+      }
     },
     {
       "id": "@cf/meta/llama-3.1-8b-instruct-fp8",
@@ -955,7 +1026,26 @@
           "lastChecked": "2026-07-12T08:16:14Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:22Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:24Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:26Z"
+        }
+      }
     },
     {
       "id": "@cf/meta/llama-3.2-11b-vision-instruct",

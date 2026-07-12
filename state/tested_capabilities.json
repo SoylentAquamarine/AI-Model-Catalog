@@ -4,24 +4,41 @@
       "capabilities": {
         "chat": {
           "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:22Z",
+          "lastChecked": "2026-07-12T14:23:13Z",
           "source": "tested_by_catalog",
           "value": true
         },
         "json": {
           "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:24Z",
+          "lastChecked": "2026-07-12T14:23:15Z",
           "source": "tested_by_catalog",
           "value": true
         },
         "streaming": {
           "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:25Z",
+          "lastChecked": "2026-07-12T14:23:17Z",
           "source": "tested_by_catalog",
           "value": true
         }
       },
-      "lastTested": "2026-07-10T18:46:25Z"
+      "lastTested": "2026-07-12T14:23:17Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:23:13Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:23:15Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:23:17Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
     },
     "gpt-oss-120b": {
       "capabilities": {
@@ -502,6 +519,248 @@
         }
       },
       "lastTested": "2026-07-10T18:57:33Z"
+    },
+    "@cf/leonardo/lucid-origin": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:19Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:21Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-12T14:23:21Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:23:18Z",
+          "detail": "http_400",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:23:19Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:23:21Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        }
+      }
+    },
+    "@cf/leonardo/phoenix-1.0": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:09Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:10Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-12T14:24:10Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:24:07Z",
+          "detail": "http_400",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:24:09Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:24:10Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        }
+      }
+    },
+    "@cf/llava-hf/llava-1.5-7b-hf": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:31Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:32Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-12T14:25:04Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:24:29Z",
+          "detail": "http_400",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:24:31Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:24:32Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        },
+        "vision": {
+          "at": "2026-07-12T14:25:04Z",
+          "detail": "timeout",
+          "outcome": "error"
+        }
+      }
+    },
+    "@cf/lykon/dreamshaper-8-lcm": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:25Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:27Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-12T14:25:27Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:25:24Z",
+          "detail": "http_400",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:25:25Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:25:27Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        }
+      }
+    },
+    "@cf/meta-llama/llama-2-7b-chat-hf-lora": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:58Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:03Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:05Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:26:05Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:25:58Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:26:03Z",
+          "detail": "bad_json",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:26:05Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "@cf/meta/llama-3.1-8b-instruct-fp8": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:22Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:24Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:26Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:26:26Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:26:22Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:26:24Z",
+          "detail": "bad_json",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:26:26Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "@cf/meta/llama-3.2-11b-vision-instruct": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:26:54Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:26:50Z",
+          "detail": "http_403",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:26:52Z",
+          "detail": "http_403",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:26:54Z",
+          "detail": "http_403",
+          "outcome": "error"
+        }
+      }
     }
   },
   "cohere": {
@@ -682,6 +941,126 @@
         }
       },
       "lastTested": "2026-07-10T18:57:36Z"
+    },
+    "command-r-08-2024": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:21Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:23Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:25Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:23:25Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:23:21Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:23:23Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:23:25Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "command-r-plus-08-2024": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:04Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:06Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:07Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:25:07Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:25:04Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:25:06Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:25:07Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "command-r7b-12-2024": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:26Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:28Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:30Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:26:30Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:26:26Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:26:28Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:26:30Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
     }
   },
   "gemini": {
@@ -783,6 +1162,109 @@
         }
       },
       "lastTested": "2026-07-10T18:57:40Z"
+    },
+    "gemini-2.5-pro": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:23:28Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:23:25Z",
+          "detail": "http_429",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:23:26Z",
+          "detail": "http_429",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:23:28Z",
+          "detail": "http_429",
+          "outcome": "error"
+        }
+      }
+    },
+    "gemini-2.5-pro-preview-tts": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:24:13Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:24:10Z",
+          "detail": "http_429",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:24:12Z",
+          "detail": "http_429",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:24:13Z",
+          "detail": "http_429",
+          "outcome": "error"
+        }
+      }
+    },
+    "gemini-3-flash-preview": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:28Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:38Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:40Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:25:40Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:25:28Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:25:38Z",
+          "detail": "empty",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:25:40Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "gemini-3-pro-image": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:26:33Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:26:30Z",
+          "detail": "http_429",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:26:32Z",
+          "detail": "http_429",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:26:33Z",
+          "detail": "http_429",
+          "outcome": "error"
+        }
+      }
     }
   },
   "groq": {
@@ -790,24 +1272,41 @@
       "capabilities": {
         "chat": {
           "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:36Z",
+          "lastChecked": "2026-07-12T14:26:33Z",
           "source": "tested_by_catalog",
           "value": true
         },
         "json": {
           "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:38Z",
+          "lastChecked": "2026-07-12T14:26:35Z",
           "source": "tested_by_catalog",
           "value": true
         },
         "streaming": {
           "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:39Z",
+          "lastChecked": "2026-07-12T14:26:37Z",
           "source": "tested_by_catalog",
           "value": true
         }
       },
-      "lastTested": "2026-07-10T18:46:39Z"
+      "lastTested": "2026-07-12T14:26:37Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:26:33Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:26:35Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:26:37Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
     },
     "canopylabs/orpheus-arabic-saudi": {
       "capabilities": {
@@ -1089,6 +1588,114 @@
         }
       },
       "lastTested": "2026-07-10T18:57:16Z"
+    },
+    "qwen/qwen3.6-27b": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:28Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:30Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:32Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:23:32Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:23:28Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:23:30Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:23:32Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "whisper-large-v3": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:15Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:17Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-12T14:24:17Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:24:14Z",
+          "detail": "http_400",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:24:15Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:24:17Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        }
+      }
+    },
+    "whisper-large-v3-turbo": {
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:42Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:44Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-12T14:25:44Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:25:41Z",
+          "detail": "http_400",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:25:42Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:25:44Z",
+          "detail": "unsupported_param",
+          "outcome": "fail"
+        }
+      }
     }
   },
   "huggingface": {
@@ -1486,6 +2093,286 @@
         }
       },
       "lastTested": "2026-07-10T18:57:24Z"
+    },
+    "Qwen/Qwen2.5-72B-Instruct": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:32Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:34Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:36Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:23:36Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:23:32Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:23:34Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:23:36Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-7B-Instruct": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:17Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:19Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:21Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:24:21Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:24:17Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:24:19Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:24:21Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-Coder-32B-Instruct": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:08Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:10Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:12Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:25:12Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:25:08Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:25:10Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:25:12Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-Coder-3B-Instruct": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:44Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:47Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:49Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:25:49Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:25:44Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:25:47Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:25:49Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-Coder-7B-Instruct": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:06Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:08Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:10Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:26:10Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:26:06Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:26:08Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:26:10Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:38Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:40Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:42Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:26:42Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:26:38Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:26:40Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:26:42Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "Qwen/Qwen3-14B": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:54Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:57Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:59Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:26:59Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:26:54Z",
+          "detail": "empty",
+          "outcome": "fail"
+        },
+        "json": {
+          "at": "2026-07-12T14:26:57Z",
+          "detail": "empty",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:26:59Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
     }
   },
   "mistral": {
@@ -1797,6 +2684,254 @@
         }
       },
       "lastTested": "2026-07-10T18:57:48Z"
+    },
+    "ministral-14b-2512": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:36Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:38Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:40Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:42Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:44Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:23:44Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:23:36Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:23:38Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:23:40Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "tools": {
+          "at": "2026-07-12T14:23:42Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "vision": {
+          "at": "2026-07-12T14:23:44Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "ministral-14b-latest": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:21Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:23Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:25Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:27Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:29Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:24:29Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:24:21Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:24:23Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:24:25Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "tools": {
+          "at": "2026-07-12T14:24:27Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "vision": {
+          "at": "2026-07-12T14:24:29Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "ministral-3b-2512": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:49Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:51Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:53Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:55Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:57Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:25:57Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:25:49Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:25:51Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:25:53Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "tools": {
+          "at": "2026-07-12T14:25:55Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "vision": {
+          "at": "2026-07-12T14:25:57Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "ministral-3b-latest": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:42Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:44Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:46Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:48Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:50Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:26:50Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:26:42Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:26:44Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:26:46Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "tools": {
+          "at": "2026-07-12T14:26:48Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "vision": {
+          "at": "2026-07-12T14:26:50Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
     }
   },
   "openrouter": {
@@ -1957,6 +3092,221 @@
         }
       },
       "lastTested": "2026-07-10T19:19:03Z"
+    },
+    "nvidia/nemotron-3-super-120b-a12b:free": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:46Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:48Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:50Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:53Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:23:53Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:23:46Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:23:48Z",
+          "detail": "bad_json",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:23:50Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "tools": {
+          "at": "2026-07-12T14:23:53Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "nvidia/nemotron-3-ultra-550b-a55b:free": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:13Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:16Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:18Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:20Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:25:20Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:25:13Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:25:16Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:25:18Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "tools": {
+          "at": "2026-07-12T14:25:20Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
+    },
+    "nvidia/nemotron-3.5-content-safety:free": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:11Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:14Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:16Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:18Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-12T14:26:18Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:26:11Z",
+          "detail": "empty",
+          "outcome": "fail"
+        },
+        "json": {
+          "at": "2026-07-12T14:26:14Z",
+          "detail": "bad_json",
+          "outcome": "fail"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:26:16Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "vision": {
+          "at": "2026-07-12T14:26:18Z",
+          "detail": "empty",
+          "outcome": "fail"
+        }
+      }
+    },
+    "nvidia/nemotron-nano-12b-v2-vl:free": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:29:00Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:29:02Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:30:12Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:32:14Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:34:16Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      },
+      "lastTested": "2026-07-12T14:34:16Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:29:00Z",
+          "detail": "empty",
+          "outcome": "fail"
+        },
+        "json": {
+          "at": "2026-07-12T14:29:02Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:30:12Z",
+          "detail": "no_stream",
+          "outcome": "fail"
+        },
+        "tools": {
+          "at": "2026-07-12T14:32:14Z",
+          "detail": "no_tool_call",
+          "outcome": "fail"
+        },
+        "vision": {
+          "at": "2026-07-12T14:34:16Z",
+          "detail": "empty",
+          "outcome": "fail"
+        }
+      }
     }
   },
   "pollinations": {
@@ -1964,37 +3314,37 @@
       "capabilities": {
         "chat": {
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:20:25Z",
+          "lastChecked": "2026-07-12T14:23:53Z",
           "source": "tested_by_catalog",
           "value": true
         },
         "json": {
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:20:27Z",
+          "lastChecked": "2026-07-12T14:23:55Z",
           "source": "tested_by_catalog",
           "value": true
         },
         "streaming": {
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:20:30Z",
+          "lastChecked": "2026-07-12T14:23:58Z",
           "source": "tested_by_catalog",
           "value": true
         }
       },
-      "lastTested": "2026-07-12T14:20:30Z",
+      "lastTested": "2026-07-12T14:23:58Z",
       "probes": {
         "chat": {
-          "at": "2026-07-12T14:20:25Z",
+          "at": "2026-07-12T14:23:53Z",
           "detail": "ok",
           "outcome": "pass"
         },
         "json": {
-          "at": "2026-07-12T14:20:27Z",
+          "at": "2026-07-12T14:23:55Z",
           "detail": "ok",
           "outcome": "pass"
         },
         "streaming": {
-          "at": "2026-07-12T14:20:30Z",
+          "at": "2026-07-12T14:23:58Z",
           "detail": "ok",
           "outcome": "pass"
         }
@@ -2047,6 +3397,46 @@
         }
       },
       "lastTested": "2026-07-10T18:53:54Z"
+    },
+    "Meta-Llama-3.3-70B-Instruct": {
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:59Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:01Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:03Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      },
+      "lastTested": "2026-07-12T14:24:03Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:23:59Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "json": {
+          "at": "2026-07-12T14:24:01Z",
+          "detail": "ok",
+          "outcome": "pass"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:24:03Z",
+          "detail": "ok",
+          "outcome": "pass"
+        }
+      }
     }
   },
   "together": {
@@ -2123,6 +3513,69 @@
     "MiniMaxAI/MiniMax-M2.5-FP4": {
       "capabilities": {},
       "lastTested": "2026-07-10T18:57:28Z"
+    },
+    "Qwen/Qwen-Image": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:24:07Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:24:04Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:24:05Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:24:07Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen-Image-2.0": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:25:24Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:25:20Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:25:22Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:25:24Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
+    },
+    "Qwen/Qwen-Image-2.0-Pro": {
+      "capabilities": {},
+      "lastTested": "2026-07-12T14:26:21Z",
+      "probes": {
+        "chat": {
+          "at": "2026-07-12T14:26:18Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "json": {
+          "at": "2026-07-12T14:26:20Z",
+          "detail": "http_402",
+          "outcome": "error"
+        },
+        "streaming": {
+          "at": "2026-07-12T14:26:21Z",
+          "detail": "http_402",
+          "outcome": "error"
+        }
+      }
     }
   }
 }

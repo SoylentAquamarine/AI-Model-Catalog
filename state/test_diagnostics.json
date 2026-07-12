@@ -1,6 +1,277 @@
 {
-  "generatedAt": "2026-07-12T14:20:30Z",
+  "generatedAt": "2026-07-12T14:34:16Z",
   "providers": {
+    "cerebras": {
+      "byCapability": {
+        "chat": {
+          "error": 0,
+          "fail": 0,
+          "pass": 1
+        },
+        "json": {
+          "error": 0,
+          "fail": 0,
+          "pass": 1
+        },
+        "streaming": {
+          "error": 0,
+          "fail": 0,
+          "pass": 1
+        }
+      },
+      "byDetail": {
+        "ok": 3
+      },
+      "modelsTested": 1,
+      "outcomes": {
+        "error": 0,
+        "fail": 0,
+        "pass": 3
+      },
+      "probes": 3
+    },
+    "cloudflare": {
+      "byCapability": {
+        "chat": {
+          "error": 5,
+          "fail": 0,
+          "pass": 2
+        },
+        "json": {
+          "error": 1,
+          "fail": 6,
+          "pass": 0
+        },
+        "streaming": {
+          "error": 1,
+          "fail": 4,
+          "pass": 2
+        },
+        "vision": {
+          "error": 1,
+          "fail": 0,
+          "pass": 0
+        }
+      },
+      "byDetail": {
+        "bad_json": 2,
+        "http_400": 4,
+        "http_403": 3,
+        "ok": 4,
+        "timeout": 1,
+        "unsupported_param": 8
+      },
+      "modelsTested": 7,
+      "outcomes": {
+        "error": 8,
+        "fail": 10,
+        "pass": 4
+      },
+      "probes": 22
+    },
+    "cohere": {
+      "byCapability": {
+        "chat": {
+          "error": 0,
+          "fail": 0,
+          "pass": 3
+        },
+        "json": {
+          "error": 0,
+          "fail": 0,
+          "pass": 3
+        },
+        "streaming": {
+          "error": 0,
+          "fail": 0,
+          "pass": 3
+        }
+      },
+      "byDetail": {
+        "ok": 9
+      },
+      "modelsTested": 3,
+      "outcomes": {
+        "error": 0,
+        "fail": 0,
+        "pass": 9
+      },
+      "probes": 9
+    },
+    "gemini": {
+      "byCapability": {
+        "chat": {
+          "error": 3,
+          "fail": 0,
+          "pass": 1
+        },
+        "json": {
+          "error": 3,
+          "fail": 1,
+          "pass": 0
+        },
+        "streaming": {
+          "error": 3,
+          "fail": 0,
+          "pass": 1
+        }
+      },
+      "byDetail": {
+        "empty": 1,
+        "http_429": 9,
+        "ok": 2
+      },
+      "modelsTested": 4,
+      "outcomes": {
+        "error": 9,
+        "fail": 1,
+        "pass": 2
+      },
+      "probes": 12
+    },
+    "groq": {
+      "byCapability": {
+        "chat": {
+          "error": 2,
+          "fail": 0,
+          "pass": 2
+        },
+        "json": {
+          "error": 0,
+          "fail": 3,
+          "pass": 1
+        },
+        "streaming": {
+          "error": 0,
+          "fail": 2,
+          "pass": 2
+        }
+      },
+      "byDetail": {
+        "http_400": 2,
+        "ok": 5,
+        "unsupported_param": 5
+      },
+      "modelsTested": 4,
+      "outcomes": {
+        "error": 2,
+        "fail": 5,
+        "pass": 5
+      },
+      "probes": 12
+    },
+    "huggingface": {
+      "byCapability": {
+        "chat": {
+          "error": 0,
+          "fail": 1,
+          "pass": 6
+        },
+        "json": {
+          "error": 0,
+          "fail": 1,
+          "pass": 6
+        },
+        "streaming": {
+          "error": 0,
+          "fail": 0,
+          "pass": 7
+        }
+      },
+      "byDetail": {
+        "empty": 2,
+        "ok": 19
+      },
+      "modelsTested": 7,
+      "outcomes": {
+        "error": 0,
+        "fail": 2,
+        "pass": 19
+      },
+      "probes": 21
+    },
+    "mistral": {
+      "byCapability": {
+        "chat": {
+          "error": 0,
+          "fail": 0,
+          "pass": 4
+        },
+        "json": {
+          "error": 0,
+          "fail": 0,
+          "pass": 4
+        },
+        "streaming": {
+          "error": 0,
+          "fail": 0,
+          "pass": 4
+        },
+        "tools": {
+          "error": 0,
+          "fail": 0,
+          "pass": 4
+        },
+        "vision": {
+          "error": 0,
+          "fail": 0,
+          "pass": 4
+        }
+      },
+      "byDetail": {
+        "ok": 20
+      },
+      "modelsTested": 4,
+      "outcomes": {
+        "error": 0,
+        "fail": 0,
+        "pass": 20
+      },
+      "probes": 20
+    },
+    "openrouter": {
+      "byCapability": {
+        "chat": {
+          "error": 0,
+          "fail": 2,
+          "pass": 2
+        },
+        "json": {
+          "error": 0,
+          "fail": 2,
+          "pass": 2
+        },
+        "streaming": {
+          "error": 0,
+          "fail": 1,
+          "pass": 3
+        },
+        "tools": {
+          "error": 0,
+          "fail": 1,
+          "pass": 2
+        },
+        "vision": {
+          "error": 0,
+          "fail": 2,
+          "pass": 0
+        }
+      },
+      "byDetail": {
+        "bad_json": 2,
+        "empty": 4,
+        "no_stream": 1,
+        "no_tool_call": 1,
+        "ok": 9
+      },
+      "modelsTested": 4,
+      "outcomes": {
+        "error": 0,
+        "fail": 8,
+        "pass": 9
+      },
+      "probes": 17
+    },
     "pollinations": {
       "byCapability": {
         "chat": {
@@ -29,6 +300,64 @@
         "pass": 3
       },
       "probes": 3
+    },
+    "sambanova": {
+      "byCapability": {
+        "chat": {
+          "error": 0,
+          "fail": 0,
+          "pass": 1
+        },
+        "json": {
+          "error": 0,
+          "fail": 0,
+          "pass": 1
+        },
+        "streaming": {
+          "error": 0,
+          "fail": 0,
+          "pass": 1
+        }
+      },
+      "byDetail": {
+        "ok": 3
+      },
+      "modelsTested": 1,
+      "outcomes": {
+        "error": 0,
+        "fail": 0,
+        "pass": 3
+      },
+      "probes": 3
+    },
+    "together": {
+      "byCapability": {
+        "chat": {
+          "error": 3,
+          "fail": 0,
+          "pass": 0
+        },
+        "json": {
+          "error": 3,
+          "fail": 0,
+          "pass": 0
+        },
+        "streaming": {
+          "error": 3,
+          "fail": 0,
+          "pass": 0
+        }
+      },
+      "byDetail": {
+        "http_402": 9
+      },
+      "modelsTested": 3,
+      "outcomes": {
+        "error": 9,
+        "fail": 0,
+        "pass": 0
+      },
+      "probes": 9
     }
   }
 }

@@ -844,7 +844,38 @@
           "lastChecked": "2026-07-12T08:16:09Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:36Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:38Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:40Z"
+        },
+        "tools": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:42Z"
+        },
+        "vision": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:44Z"
+        }
+      }
     },
     {
       "id": "ministral-14b-latest",
@@ -885,7 +916,38 @@
           "lastChecked": "2026-07-12T08:16:09Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:21Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:23Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:25Z"
+        },
+        "tools": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:27Z"
+        },
+        "vision": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:29Z"
+        }
+      }
     },
     {
       "id": "ministral-3b-2512",
@@ -926,7 +988,38 @@
           "lastChecked": "2026-07-12T08:16:09Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:49Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:51Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:53Z"
+        },
+        "tools": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:55Z"
+        },
+        "vision": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:57Z"
+        }
+      }
     },
     {
       "id": "ministral-3b-latest",
@@ -967,7 +1060,38 @@
           "lastChecked": "2026-07-12T08:16:09Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:42Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:44Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:46Z"
+        },
+        "tools": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:48Z"
+        },
+        "vision": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:50Z"
+        }
+      }
     },
     {
       "id": "ministral-8b-2512",

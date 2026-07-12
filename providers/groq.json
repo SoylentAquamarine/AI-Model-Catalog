@@ -30,22 +30,22 @@
       "lastChecked": "2026-07-12T08:16:08Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:36Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:33Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:38Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:35Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:39Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:37Z"
         }
       }
     },
@@ -486,7 +486,26 @@
       "status": "available",
       "source": "groq_models_api",
       "lastChecked": "2026-07-12T08:16:08Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:28Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:30Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:32Z"
+        }
+      }
     },
     {
       "id": "whisper-large-v3",
@@ -501,7 +520,20 @@
       "status": "available",
       "source": "groq_models_api",
       "lastChecked": "2026-07-12T08:16:08Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:15Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:17Z"
+        }
+      }
     },
     {
       "id": "whisper-large-v3-turbo",
@@ -516,7 +548,20 @@
       "status": "available",
       "source": "groq_models_api",
       "lastChecked": "2026-07-12T08:16:08Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:42Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:44Z"
+        }
+      }
     }
   ]
 }

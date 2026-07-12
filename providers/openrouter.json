@@ -937,7 +937,32 @@
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:46Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:48Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:50Z"
+        },
+        "tools": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:53Z"
+        }
+      }
     },
     {
       "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -995,7 +1020,32 @@
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:13Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:16Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:18Z"
+        },
+        "tools": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:25:20Z"
+        }
+      }
     },
     {
       "id": "nvidia/nemotron-3.5-content-safety:free",
@@ -1053,7 +1103,32 @@
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:11Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:14Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:16Z"
+        },
+        "vision": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:26:18Z"
+        }
+      }
     },
     {
       "id": "nvidia/nemotron-nano-12b-v2-vl:free",
@@ -1111,7 +1186,38 @@
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:29:00Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:29:02Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:30:12Z"
+        },
+        "tools": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:32:14Z"
+        },
+        "vision": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:34:16Z"
+        }
+      }
     },
     {
       "id": "nvidia/nemotron-nano-9b-v2:free",

@@ -27,19 +27,19 @@
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:20:25Z"
+          "lastChecked": "2026-07-12T14:23:53Z"
         },
         "json": {
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:20:27Z"
+          "lastChecked": "2026-07-12T14:23:55Z"
         },
         "streaming": {
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:20:30Z"
+          "lastChecked": "2026-07-12T14:23:58Z"
         }
       },
       "status": "available",

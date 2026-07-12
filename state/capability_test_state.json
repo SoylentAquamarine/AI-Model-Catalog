@@ -1,6 +1,6 @@
 {
   "cerebras": {
-    "gemma-4-31b": "2026-07-10T18:46:25Z",
+    "gemma-4-31b": "2026-07-12T14:23:17Z",
     "gpt-oss-120b": "2026-07-10T18:51:50Z",
     "zai-glm-4.7": "2026-07-10T18:57:09Z"
   },
@@ -28,7 +28,14 @@
     "@cf/google/gemma-4-26b-a4b-it": "2026-07-10T18:56:22Z",
     "@cf/google/gemma-7b-it-lora": "2026-07-10T18:56:45Z",
     "@cf/huggingface/distilbert-sst-2-int8": "2026-07-10T18:57:12Z",
-    "@cf/ibm-granite/granite-4.0-h-micro": "2026-07-10T18:57:33Z"
+    "@cf/ibm-granite/granite-4.0-h-micro": "2026-07-10T18:57:33Z",
+    "@cf/leonardo/lucid-origin": "2026-07-12T14:23:21Z",
+    "@cf/leonardo/phoenix-1.0": "2026-07-12T14:24:10Z",
+    "@cf/llava-hf/llava-1.5-7b-hf": "2026-07-12T14:25:04Z",
+    "@cf/lykon/dreamshaper-8-lcm": "2026-07-12T14:25:27Z",
+    "@cf/meta-llama/llama-2-7b-chat-hf-lora": "2026-07-12T14:26:05Z",
+    "@cf/meta/llama-3.1-8b-instruct-fp8": "2026-07-12T14:26:26Z",
+    "@cf/meta/llama-3.2-11b-vision-instruct": "2026-07-12T14:26:54Z"
   },
   "cohere": {
     "c4ai-aya-expanse-32b": "2026-07-10T18:46:32Z",
@@ -38,7 +45,10 @@
     "command-a-plus-05-2026": "2026-07-10T18:51:32Z",
     "command-a-reasoning-08-2025": "2026-07-10T18:54:12Z",
     "command-a-translate-08-2025": "2026-07-10T18:56:26Z",
-    "command-a-vision-07-2025": "2026-07-10T18:57:36Z"
+    "command-a-vision-07-2025": "2026-07-10T18:57:36Z",
+    "command-r-08-2024": "2026-07-12T14:23:25Z",
+    "command-r-plus-08-2024": "2026-07-12T14:25:07Z",
+    "command-r7b-12-2024": "2026-07-12T14:26:30Z"
   },
   "gemini": {
     "gemini-2.0-flash": "2026-07-10T18:46:36Z",
@@ -52,10 +62,14 @@
     "gemini-2.5-flash-native-audio-latest": "2026-07-10T18:54:15Z",
     "gemini-2.5-flash-native-audio-preview-09-2025": "2026-07-10T18:55:05Z",
     "gemini-2.5-flash-native-audio-preview-12-2025": "2026-07-10T18:56:48Z",
-    "gemini-2.5-flash-preview-tts": "2026-07-10T18:57:40Z"
+    "gemini-2.5-flash-preview-tts": "2026-07-10T18:57:40Z",
+    "gemini-2.5-pro": "2026-07-12T14:23:28Z",
+    "gemini-2.5-pro-preview-tts": "2026-07-12T14:24:13Z",
+    "gemini-3-flash-preview": "2026-07-12T14:25:40Z",
+    "gemini-3-pro-image": "2026-07-12T14:26:33Z"
   },
   "groq": {
-    "allam-2-7b": "2026-07-10T18:46:39Z",
+    "allam-2-7b": "2026-07-12T14:26:37Z",
     "canopylabs/orpheus-arabic-saudi": "2026-07-10T18:47:40Z",
     "canopylabs/orpheus-v1-english": "2026-07-10T18:48:18Z",
     "groq/compound": "2026-07-10T18:48:50Z",
@@ -68,7 +82,10 @@
     "openai/gpt-oss-120b": "2026-07-10T18:54:19Z",
     "openai/gpt-oss-20b": "2026-07-10T18:54:49Z",
     "openai/gpt-oss-safeguard-20b": "2026-07-10T18:56:29Z",
-    "qwen/qwen3-32b": "2026-07-10T18:57:16Z"
+    "qwen/qwen3-32b": "2026-07-10T18:57:16Z",
+    "qwen/qwen3.6-27b": "2026-07-12T14:23:32Z",
+    "whisper-large-v3": "2026-07-12T14:24:17Z",
+    "whisper-large-v3-turbo": "2026-07-12T14:25:44Z"
   },
   "huggingface": {
     "CohereLabs/aya-expanse-32b": "2026-07-10T18:46:43Z",
@@ -88,7 +105,14 @@
     "MiniMaxAI/MiniMax-M2.1": "2026-07-10T18:54:27Z",
     "MiniMaxAI/MiniMax-M2.5": "2026-07-10T18:54:54Z",
     "MiniMaxAI/MiniMax-M2.7": "2026-07-10T18:56:33Z",
-    "MiniMaxAI/MiniMax-M3": "2026-07-10T18:57:24Z"
+    "MiniMaxAI/MiniMax-M3": "2026-07-10T18:57:24Z",
+    "Qwen/Qwen2.5-72B-Instruct": "2026-07-12T14:23:36Z",
+    "Qwen/Qwen2.5-7B-Instruct": "2026-07-12T14:24:21Z",
+    "Qwen/Qwen2.5-Coder-32B-Instruct": "2026-07-12T14:25:12Z",
+    "Qwen/Qwen2.5-Coder-3B-Instruct": "2026-07-12T14:25:49Z",
+    "Qwen/Qwen2.5-Coder-7B-Instruct": "2026-07-12T14:26:10Z",
+    "Qwen/Qwen2.5-VL-72B-Instruct": "2026-07-12T14:26:42Z",
+    "Qwen/Qwen3-14B": "2026-07-12T14:26:59Z"
   },
   "mistral": {
     "codestral-2508": "2026-07-10T18:46:49Z",
@@ -103,7 +127,11 @@
     "magistral-medium-2509": "2026-07-10T18:54:37Z",
     "magistral-medium-latest": "2026-07-10T18:55:15Z",
     "magistral-small-2509": "2026-07-10T18:56:55Z",
-    "magistral-small-latest": "2026-07-10T18:57:48Z"
+    "magistral-small-latest": "2026-07-10T18:57:48Z",
+    "ministral-14b-2512": "2026-07-12T14:23:44Z",
+    "ministral-14b-latest": "2026-07-12T14:24:29Z",
+    "ministral-3b-2512": "2026-07-12T14:25:57Z",
+    "ministral-3b-latest": "2026-07-12T14:26:50Z"
   },
   "openrouter": {
     "cognitivecomputations/dolphin-mistral-24b-venice-edition:free": "2026-07-10T18:46:52Z",
@@ -118,14 +146,19 @@
     "meta-llama/llama-3.3-70b-instruct:free": "2026-07-10T18:54:42Z",
     "nousresearch/hermes-3-llama-3.1-405b:free": "2026-07-10T18:55:18Z",
     "nvidia/nemotron-3-nano-30b-a3b:free": "2026-07-10T18:57:05Z",
-    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": "2026-07-10T19:19:03Z"
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": "2026-07-10T19:19:03Z",
+    "nvidia/nemotron-3-super-120b-a12b:free": "2026-07-12T14:23:53Z",
+    "nvidia/nemotron-3-ultra-550b-a55b:free": "2026-07-12T14:25:20Z",
+    "nvidia/nemotron-3.5-content-safety:free": "2026-07-12T14:26:18Z",
+    "nvidia/nemotron-nano-12b-v2-vl:free": "2026-07-12T14:34:16Z"
   },
   "pollinations": {
-    "openai-fast": "2026-07-12T14:20:30Z"
+    "openai-fast": "2026-07-12T14:23:58Z"
   },
   "sambanova": {
     "DeepSeek-V3.1": "2026-07-10T18:47:25Z",
-    "DeepSeek-V3.2": "2026-07-10T18:53:54Z"
+    "DeepSeek-V3.2": "2026-07-10T18:53:54Z",
+    "Meta-Llama-3.3-70B-Instruct": "2026-07-12T14:24:03Z"
   },
   "together": {
     "ByteDance-Seed/Seedream-3.0": "2026-07-10T18:47:30Z",
@@ -139,6 +172,9 @@
     "MiniMaxAI/MiniMax-M1-40k": "2026-07-10T18:53:58Z",
     "MiniMaxAI/MiniMax-M1-80k": "2026-07-10T18:54:57Z",
     "MiniMaxAI/MiniMax-M2": "2026-07-10T18:56:37Z",
-    "MiniMaxAI/MiniMax-M2.5-FP4": "2026-07-10T18:57:28Z"
+    "MiniMaxAI/MiniMax-M2.5-FP4": "2026-07-10T18:57:28Z",
+    "Qwen/Qwen-Image": "2026-07-12T14:24:07Z",
+    "Qwen/Qwen-Image-2.0": "2026-07-12T14:25:24Z",
+    "Qwen/Qwen-Image-2.0-Pro": "2026-07-12T14:26:21Z"
   }
 }

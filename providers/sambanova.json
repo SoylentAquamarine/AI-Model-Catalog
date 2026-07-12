@@ -87,7 +87,26 @@
       "status": "available",
       "source": "sambanova_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:23:59Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:01Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:24:03Z"
+        }
+      }
     },
     {
       "id": "MiniMax-M2.7",
