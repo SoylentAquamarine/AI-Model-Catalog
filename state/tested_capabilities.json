@@ -3314,37 +3314,37 @@
       "capabilities": {
         "chat": {
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:53Z",
+          "lastChecked": "2026-07-12T14:44:19Z",
           "source": "tested_by_catalog",
           "value": true
         },
         "json": {
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:55Z",
+          "lastChecked": "2026-07-12T14:44:21Z",
           "source": "tested_by_catalog",
           "value": true
         },
         "streaming": {
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:58Z",
+          "lastChecked": "2026-07-12T14:44:24Z",
           "source": "tested_by_catalog",
           "value": true
         }
       },
-      "lastTested": "2026-07-12T14:23:58Z",
+      "lastTested": "2026-07-12T14:44:24Z",
       "probes": {
         "chat": {
-          "at": "2026-07-12T14:23:53Z",
+          "at": "2026-07-12T14:44:19Z",
           "detail": "ok",
           "outcome": "pass"
         },
         "json": {
-          "at": "2026-07-12T14:23:55Z",
+          "at": "2026-07-12T14:44:21Z",
           "detail": "ok",
           "outcome": "pass"
         },
         "streaming": {
-          "at": "2026-07-12T14:23:58Z",
+          "at": "2026-07-12T14:44:24Z",
           "detail": "ok",
           "outcome": "pass"
         }

@@ -8,6 +8,10 @@ on:
         description: "Wall-clock budget for the test harness (minutes)"
         required: false
         default: "300"
+      provider:
+        description: "Restrict to a single provider id (blank = all)"
+        required: false
+        default: ""
   # Weekly, Wednesday 06:00 UTC (offset from the Sunday model-list refresh).
   schedule:
     - cron: '0 6 * * 3'
@@ -47,7 +51,7 @@ jobs:
           OPENROUTER_API_KEY_FREE: ${{ secrets.OPENROUTER_API_KEY_FREE }}
           SAMBANOVA_API_KEY_FREE: ${{ secrets.SAMBANOVA_API_KEY_FREE }}
           TOGETHER_API_KEY_FREE: ${{ secrets.TOGETHER_API_KEY_FREE }}
-        run: python scripts/test_capabilities.py --max-minutes ${{ github.event.inputs.max_minutes || '300' }}
+        run: python scripts/test_capabilities.py --max-minutes ${{ github.event.inputs.max_minutes || '300' }} ${{ github.event.inputs.provider && format('--provider {0}', github.event.inputs.provider) || '' }}
 
       - name: Rebuild catalog index and capabilities
         run: python scripts/build_catalog.py

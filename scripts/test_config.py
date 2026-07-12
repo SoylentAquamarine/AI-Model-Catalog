@@ -31,18 +31,24 @@ POSITIVE_HINTS = {True, "likely", "partial"}
 
 # ---- Timing defaults ---------------------------------------------------------
 DEFAULT_COOLDOWN_SECONDS = 30
-INTER_PROBE_DELAY_SECONDS = 1.5   # small gap between probes within one model's burst
+INTER_PROBE_DELAY_SECONDS = 1.5   # default gap between probes within one model's burst
 DEFAULT_MAX_MINUTES = 300         # global wall-clock budget guard for a run
+# When a provider returns http_429 (rate limit) during a model's burst, its next
+# model round is pushed out by this penalty on top of its normal cooldown.
+RATE_LIMIT_PENALTY_SECONDS = 90
 
 # ---- Per-provider config -----------------------------------------------------
 # keyEnv: environment variable holding that provider's free key (None = keyless).
 # apiBaseVars: {placeholder: ENV_VAR} substituted into apiBase before calling.
+# interProbeDelaySeconds: override the burst spacing for rate-sensitive providers.
 PROVIDERS: dict[str, dict] = {
     "cerebras":     {"keyEnv": "CEREBRAS_API_KEY_FREE",    "cooldownSeconds": 300},
     "cloudflare":   {"keyEnv": "CLOUDFLARE_API_KEY_FREE",  "cooldownSeconds": 10,
                      "apiBaseVars": {"account_id": "CLOUDFLARE_ACCOUNT_ID"}},
     "cohere":       {"keyEnv": "COHERE_API_KEY_FREE",      "cooldownSeconds": 60},
-    "gemini":       {"keyEnv": "GEMINI_API_KEY_FREE",      "cooldownSeconds": 30},
+    # Gemini's free tier is strict on RPM; space the burst out and rest longer.
+    "gemini":       {"keyEnv": "GEMINI_API_KEY_FREE",      "cooldownSeconds": 90,
+                     "interProbeDelaySeconds": 8},
     "groq":         {"keyEnv": "GROQ_API_KEY_FREE",        "cooldownSeconds": 15},
     "huggingface":  {"keyEnv": "HUGGINGFACE_API_KEY_FREE", "cooldownSeconds": 5},
     "mistral":      {"keyEnv": "MISTRAL_API_KEY_FREE",     "cooldownSeconds": 15},
@@ -55,6 +61,10 @@ PROVIDERS: dict[str, dict] = {
 
 def provider_config(provider_id: str) -> dict:
     return PROVIDERS.get(provider_id, {"keyEnv": None, "cooldownSeconds": DEFAULT_COOLDOWN_SECONDS})
+
+
+def inter_probe_delay(provider_id: str) -> float:
+    return provider_config(provider_id).get("interProbeDelaySeconds", INTER_PROBE_DELAY_SECONDS)
 
 
 def capabilities_for(hints: dict | None) -> list[str]:

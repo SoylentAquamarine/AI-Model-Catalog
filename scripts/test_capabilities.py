@@ -125,12 +125,13 @@ def gather(only_provider: str | None, limit: int | None):
             "provider": resolved,
             "key": key,
             "cooldown": conf.get("cooldownSeconds", cfg.DEFAULT_COOLDOWN_SECONDS),
+            "interProbeDelay": cfg.inter_probe_delay(pid),
             "models": entries,
         }
     return work, skipped, rotation
 
 
-def test_one(provider: dict, model: dict, key: str | None, caps: list[str]):
+def test_one(provider: dict, model: dict, key: str | None, caps: list[str], delay: float):
     """Run a model's probe burst.
 
     Returns (verified, probe_log):
@@ -142,7 +143,7 @@ def test_one(provider: dict, model: dict, key: str | None, caps: list[str]):
     probe_log: dict[str, dict] = {}
     for i, cap in enumerate(caps):
         if i:
-            time.sleep(cfg.INTER_PROBE_DELAY_SECONDS)
+            time.sleep(delay)
         outcome, detail = probes.run_probe(provider, model, cap, key)
         probe_log[cap] = {"outcome": outcome, "detail": detail, "at": lib.now_iso()}
         if outcome == probes.PASS:
@@ -204,7 +205,7 @@ def run(work: dict, rotation: dict, max_minutes: float, once: bool):
             w = work[pid]
             model, caps = w["models"][cursor[pid]]
             cursor[pid] += 1
-            verified, probe_log = test_one(w["provider"], model, w["key"], caps)
+            verified, probe_log = test_one(w["provider"], model, w["key"], caps, w["interProbeDelay"])
             probes_done += len(caps)
             models_done += 1
 
@@ -213,7 +214,10 @@ def run(work: dict, rotation: dict, max_minutes: float, once: bool):
             entry["probes"] = probe_log  # raw last result of every probe, errors included
             entry["lastTested"] = lib.now_iso()
             rotation.setdefault(pid, {})[model["id"]] = lib.now_iso()
-            next_ready[pid] = time.monotonic() + w["cooldown"]
+            # Adaptive backoff: if this burst got rate-limited, rest longer.
+            rate_limited = any(r["detail"] == "http_429" for r in probe_log.values())
+            penalty = cfg.RATE_LIMIT_PENALTY_SECONDS if rate_limited else 0
+            next_ready[pid] = time.monotonic() + w["cooldown"] + penalty
             touched.add(pid)
 
             diag = diagnostics.setdefault(pid, _new_diag())
