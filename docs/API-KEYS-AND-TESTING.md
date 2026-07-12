@@ -35,8 +35,17 @@ Adapters:         one per apiType -- openai-compatible and gemini (scripts/probe
 Cadence:          weekly (.github/workflows/test-capabilities.yml, Wed 06:00 UTC) + workflow_dispatch
 Cooldown:         per provider (scripts/test_config.py); low-RPM providers up to 300s between model rounds
 Budget:           --max-minutes wall-clock guard; least-recently-tested models run first (rotation)
-State:            state/tested_capabilities.json (results), state/capability_test_state.json (rotation)
+State:            state/tested_capabilities.json (results + raw per-probe log),
+                  state/capability_test_state.json (rotation),
+                  state/test_diagnostics.json (per-provider comms health each run)
 ```
+
+Every probe records an outcome (`pass`/`fail`/`error`) AND a detail code, so nothing is guessed:
+`ok`, `empty`, `unsupported_param`, `bad_json`, `no_tool_call`, `no_stream`, `http_404`, `http_429`,
+`http_500`, `timeout`, `conn_error`, `exception:<Type>`. The run log prints one line per model
+(`provider: model  chat=pass(ok) json=error(http_429) ...`) and a per-provider summary table, so a
+provider that is genuinely failing (auth/rate-limit/outage) is immediately distinguishable from one
+merely serving non-chat models (which cleanly fail a chat-style probe).
 
 Tune per-provider cooldowns and the probe policy in `scripts/test_config.py`. Handy invocations:
 

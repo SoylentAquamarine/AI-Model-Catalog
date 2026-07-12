@@ -35,6 +35,7 @@ import probes
 import test_config as cfg
 
 ROTATION_PATH = lib.STATE_DIR / "capability_test_state.json"
+DIAG_PATH = lib.STATE_DIR / "test_diagnostics.json"
 TESTED_SOURCE = "tested_by_catalog"
 
 
@@ -129,23 +130,50 @@ def gather(only_provider: str | None, limit: int | None):
     return work, skipped, rotation
 
 
-def test_one(provider: dict, model: dict, key: str | None, caps: list[str]) -> dict:
-    """Run a model's probe burst. Returns {cap: cap_entry} for pass/fail only."""
-    out: dict[str, dict] = {}
+def test_one(provider: dict, model: dict, key: str | None, caps: list[str]):
+    """Run a model's probe burst.
+
+    Returns (verified, probe_log):
+      verified:  {cap: cap_entry} for pass/fail only (publish-eligible).
+      probe_log: {cap: {outcome, detail, at}} for EVERY probe, errors included,
+                 so nothing is ever guessed -- the raw last result is on record.
+    """
+    verified: dict[str, dict] = {}
+    probe_log: dict[str, dict] = {}
     for i, cap in enumerate(caps):
         if i:
             time.sleep(cfg.INTER_PROBE_DELAY_SECONDS)
-        result = probes.run_probe(provider, model, cap, key)
-        if result == probes.PASS:
-            out[cap] = _cap_entry(True)
-        elif result == probes.FAIL:
-            out[cap] = _cap_entry(False)
-        # ERROR -> record nothing; retried next rotation.
-    return out
+        outcome, detail = probes.run_probe(provider, model, cap, key)
+        probe_log[cap] = {"outcome": outcome, "detail": detail, "at": lib.now_iso()}
+        if outcome == probes.PASS:
+            verified[cap] = _cap_entry(True)
+        elif outcome == probes.FAIL:
+            verified[cap] = _cap_entry(False)
+        # ERROR -> not verified; the probe_log still records why.
+    return verified, probe_log
 
 
-def run(work: dict, rotation: dict, max_minutes: float, once: bool) -> tuple[int, int]:
+def _new_diag() -> dict:
+    return {
+        "modelsTested": 0,
+        "probes": 0,
+        "outcomes": {probes.PASS: 0, probes.FAIL: 0, probes.ERROR: 0},
+        "byDetail": {},
+        "byCapability": {},
+    }
+
+
+def _record_diag(diag: dict, cap: str, outcome: str, detail: str) -> None:
+    diag["probes"] += 1
+    diag["outcomes"][outcome] = diag["outcomes"].get(outcome, 0) + 1
+    diag["byDetail"][detail] = diag["byDetail"].get(detail, 0) + 1
+    per_cap = diag["byCapability"].setdefault(cap, {probes.PASS: 0, probes.FAIL: 0, probes.ERROR: 0})
+    per_cap[outcome] = per_cap.get(outcome, 0) + 1
+
+
+def run(work: dict, rotation: dict, max_minutes: float, once: bool):
     store = lib.load_tested_store()
+    diagnostics: dict[str, dict] = {}
     deadline = time.monotonic() + max_minutes * 60
     next_ready = {pid: 0.0 for pid in work}
     cursor = {pid: 0 for pid in work}
@@ -176,25 +204,47 @@ def run(work: dict, rotation: dict, max_minutes: float, once: bool) -> tuple[int
             w = work[pid]
             model, caps = w["models"][cursor[pid]]
             cursor[pid] += 1
-            results = test_one(w["provider"], model, w["key"], caps)
+            verified, probe_log = test_one(w["provider"], model, w["key"], caps)
             probes_done += len(caps)
             models_done += 1
+
             entry = store.setdefault(pid, {}).setdefault(model["id"], {})
-            entry.setdefault("capabilities", {}).update(results)
+            entry.setdefault("capabilities", {}).update(verified)
+            entry["probes"] = probe_log  # raw last result of every probe, errors included
             entry["lastTested"] = lib.now_iso()
             rotation.setdefault(pid, {})[model["id"]] = lib.now_iso()
             next_ready[pid] = time.monotonic() + w["cooldown"]
             touched.add(pid)
-            passes = sum(1 for c in results.values() if c["value"] is True)
-            print(f"  {pid}: {model['id']} -> {len(results)} verified ({passes} supported)")
+
+            diag = diagnostics.setdefault(pid, _new_diag())
+            diag["modelsTested"] += 1
+            for cap, r in probe_log.items():
+                _record_diag(diag, cap, r["outcome"], r["detail"])
+
+            summary = " ".join(f"{c}={r['outcome']}({r['detail']})" for c, r in probe_log.items())
+            print(f"  {pid}: {model['id']}  {summary}")
 
         if once:
             break
 
     lib.save_tested_store(store)
     _save_json(ROTATION_PATH, rotation)
+    _save_json(DIAG_PATH, {"generatedAt": lib.now_iso(), "providers": diagnostics})
     _write_back(store, touched)
+    _print_diag_summary(diagnostics)
     return models_done, probes_done
+
+
+def _print_diag_summary(diagnostics: dict) -> None:
+    print("\nComms diagnostics (this run):")
+    print(f"  {'provider':12} {'models':>6} {'pass':>5} {'fail':>5} {'error':>5}  top error details")
+    for pid in sorted(diagnostics):
+        d = diagnostics[pid]
+        o = d["outcomes"]
+        err_details = {k: v for k, v in d["byDetail"].items()
+                       if k not in ("ok", "empty", "unsupported_param", "bad_json", "no_tool_call", "no_stream")}
+        top = ", ".join(f"{k}:{v}" for k, v in sorted(err_details.items(), key=lambda x: -x[1])[:4])
+        print(f"  {pid:12} {d['modelsTested']:6} {o.get('pass',0):5} {o.get('fail',0):5} {o.get('error',0):5}  {top}")
 
 
 def _write_back(store: dict, touched: set[str]) -> None:

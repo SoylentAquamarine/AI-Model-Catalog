@@ -29,8 +29,9 @@ AI-Model-Catalog/
     cloudflare.json
 
   state/                    # machine-managed test state (committed by the harness)
-    tested_capabilities.json      # verified results, source of truth for capabilities
+    tested_capabilities.json      # verified results + raw per-probe log (outcome/detail)
     capability_test_state.json    # per-model last-tested timestamps (rotation)
+    test_diagnostics.json         # per-provider comms health per run (pass/fail/error by detail)
 
   schema/                   # machine-readable contract; CI validates against these
     provider.schema.json

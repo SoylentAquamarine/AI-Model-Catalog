@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-07-12T14:20:30Z",
+  "providers": {
+    "pollinations": {
+      "byCapability": {
+        "chat": {
+          "error": 0,
+          "fail": 0,
+          "pass": 1
+        },
+        "json": {
+          "error": 0,
+          "fail": 0,
+          "pass": 1
+        },
+        "streaming": {
+          "error": 0,
+          "fail": 0,
+          "pass": 1
+        }
+      },
+      "byDetail": {
+        "ok": 3
+      },
+      "modelsTested": 1,
+      "outcomes": {
+        "error": 0,
+        "fail": 0,
+        "pass": 3
+      },
+      "probes": 3
+    }
+  }
+}
