@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "Mistral documents a rate-limited free tier on La Plateforme.",
-    "lastChecked": "2026-07-05T08:52:19Z"
+    "lastChecked": "2026-07-12T08:16:09Z"
   },
   "models": [
     {
@@ -25,59 +25,59 @@
         "contextTokens": 256000,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:43Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:45Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:47Z"
-        },
-        "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:49Z"
-        }
-      },
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:43Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:45Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:47Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:49Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -91,47 +91,47 @@
         "contextTokens": 8192,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:45Z"
-        },
-        "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:47Z"
-        }
-      },
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:45Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:47Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -145,47 +145,47 @@
         "contextTokens": 8192,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:20Z"
-        },
-        "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:21Z"
-        }
-      },
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:20Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:21Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -199,59 +199,59 @@
         "contextTokens": 256000,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:54Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:56Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:05Z"
-        },
-        "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:06Z"
-        }
-      },
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:54Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:56Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:05Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:06Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -265,59 +265,59 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:50Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:52Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:53Z"
-        },
-        "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:55Z"
-        }
-      },
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:50Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:52Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:53Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:55Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -331,59 +331,59 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:29Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:31Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:33Z"
-        },
-        "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:35Z"
-        }
-      },
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:29Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:31Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:33Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:35Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -397,59 +397,59 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:06Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:08Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:10Z"
-        },
-        "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:12Z"
-        }
-      },
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:06Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:08Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:10Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:12Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -463,36 +463,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "labs-leanstral-1-5-1",
@@ -504,36 +504,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "magistral-medium-2509",
@@ -545,65 +545,65 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:28Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:30Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:32Z"
-        },
-        "tools": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:35Z"
-        },
-        "vision": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:37Z"
-        }
-      },
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:28Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:30Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:32Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:35Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:37Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -617,65 +617,65 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:55:06Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:55:08Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:55:10Z"
-        },
-        "tools": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:55:13Z"
-        },
-        "vision": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:55:15Z"
-        }
-      },
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:55:06Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:55:08Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:55:10Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:55:13Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:55:15Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -689,47 +689,47 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:56:48Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:56:50Z"
-        }
-      },
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:48Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:50Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -743,65 +743,65 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:40Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:42Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:44Z"
-        },
-        "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:46Z"
-        },
-        "vision": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:48Z"
-        }
-      },
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:40Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:42Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:44Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "tools": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:46Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:48Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -815,36 +815,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "ministral-14b-latest",
@@ -856,36 +856,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "ministral-3b-2512",
@@ -897,36 +897,36 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "ministral-3b-latest",
@@ -938,36 +938,36 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "ministral-8b-2512",
@@ -979,36 +979,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "ministral-8b-latest",
@@ -1020,36 +1020,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-code-agent-latest",
@@ -1061,36 +1061,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-code-fim-latest",
@@ -1102,36 +1102,36 @@
         "contextTokens": 256000,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-code-latest",
@@ -1143,36 +1143,36 @@
         "contextTokens": 256000,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-embed",
@@ -1184,36 +1184,36 @@
         "contextTokens": 8192,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-embed-2312",
@@ -1225,36 +1225,36 @@
         "contextTokens": 8192,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-large-2512",
@@ -1266,36 +1266,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-large-2512",
@@ -1307,36 +1307,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-large-latest",
@@ -1348,36 +1348,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-large-latest",
@@ -1389,36 +1389,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium",
@@ -1430,36 +1430,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium",
@@ -1471,36 +1471,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium-2505",
@@ -1512,36 +1512,36 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium-2508",
@@ -1553,36 +1553,36 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium-2604",
@@ -1594,36 +1594,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium-2604",
@@ -1635,36 +1635,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium-3",
@@ -1676,36 +1676,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium-3",
@@ -1717,36 +1717,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium-3-5",
@@ -1758,36 +1758,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium-3-5",
@@ -1799,36 +1799,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium-3.5",
@@ -1840,36 +1840,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium-3.5",
@@ -1881,36 +1881,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium-latest",
@@ -1922,36 +1922,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-medium-latest",
@@ -1963,36 +1963,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-moderation-2603",
@@ -2004,36 +2004,36 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-ocr-2512",
@@ -2045,36 +2045,36 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-ocr-3",
@@ -2086,36 +2086,36 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-ocr-3-0",
@@ -2127,36 +2127,36 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-ocr-4",
@@ -2168,36 +2168,36 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-ocr-4-0",
@@ -2209,36 +2209,36 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-ocr-latest",
@@ -2250,36 +2250,36 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-small-2506",
@@ -2291,36 +2291,36 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-small-2603",
@@ -2332,36 +2332,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-small-latest",
@@ -2373,36 +2373,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-tiny-2407",
@@ -2414,36 +2414,36 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-tiny-latest",
@@ -2455,36 +2455,36 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-vibe-cli-fast",
@@ -2496,36 +2496,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-vibe-cli-latest",
@@ -2537,36 +2537,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-vibe-cli-latest",
@@ -2578,36 +2578,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-vibe-cli-with-tools",
@@ -2619,36 +2619,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistral-vibe-cli-with-tools",
@@ -2660,36 +2660,36 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "open-mistral-nemo",
@@ -2701,36 +2701,36 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "open-mistral-nemo-2407",
@@ -2742,77 +2742,36 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
-    },
-    {
-      "id": "voxtral-mini-2507",
-      "providerModelId": "voxtral-mini-2507",
-      "displayName": "voxtral-mini-2507",
-      "costClass": "free",
-      "pricing": null,
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
       },
-      "capabilities": {},
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
-      "hints": {
-        "chat": {
-          "value": true,
-          "source": "mistral_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
-        },
-        "tools": {
-          "value": false,
-          "source": "mistral_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
-        },
-        "vision": {
-          "value": false,
-          "source": "mistral_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
-        },
-        "fine_tuning": {
-          "value": false,
-          "source": "mistral_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
-        }
-      }
+      "capabilities": {}
     },
     {
       "id": "voxtral-mini-2602",
@@ -2824,77 +2783,36 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
-    },
-    {
-      "id": "voxtral-mini-latest",
-      "providerModelId": "voxtral-mini-latest",
-      "displayName": "voxtral-mini-2507",
-      "costClass": "free",
-      "pricing": null,
-      "limits": {
-        "contextTokens": 32768,
-        "maxOutputTokens": null
       },
-      "capabilities": {},
-      "status": "available",
-      "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
-      "hints": {
-        "chat": {
-          "value": true,
-          "source": "mistral_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
-        },
-        "tools": {
-          "value": false,
-          "source": "mistral_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
-        },
-        "vision": {
-          "value": false,
-          "source": "mistral_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
-        },
-        "fine_tuning": {
-          "value": false,
-          "source": "mistral_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
-        }
-      }
+      "capabilities": {}
     },
     {
       "id": "voxtral-mini-latest",
@@ -2906,36 +2824,36 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "voxtral-mini-realtime-2602",
@@ -2947,36 +2865,36 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "voxtral-mini-realtime-latest",
@@ -2988,36 +2906,36 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "voxtral-mini-transcribe-realtime-2602",
@@ -3029,36 +2947,36 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "voxtral-mini-tts-2603",
@@ -3070,36 +2988,36 @@
         "contextTokens": 4096,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "voxtral-mini-tts-latest",
@@ -3111,36 +3029,36 @@
         "contextTokens": 4096,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "voxtral-small-2507",
@@ -3152,36 +3070,36 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "voxtral-small-latest",
@@ -3193,36 +3111,36 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "mistral_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "tools": {
           "value": true,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "vision": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         },
         "fine_tuning": {
           "value": false,
           "source": "mistral_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:19Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     }
   ]
 }

@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "Groq documents a rate-limited free tier covering its API models.",
-    "lastChecked": "2026-07-05T08:52:19Z"
+    "lastChecked": "2026-07-12T08:16:08Z"
   },
   "models": [
     {
@@ -25,29 +25,29 @@
         "contextTokens": 4096,
         "maxOutputTokens": 4096
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:36Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:38Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:39Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:36Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:38Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:39Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "canopylabs/orpheus-arabic-saudi",
@@ -59,23 +59,23 @@
         "contextTokens": 4000,
         "maxOutputTokens": 50000
       },
-      "capabilities": {
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:38Z"
-        },
-        "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:40Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:38Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:40Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      }
     },
     {
       "id": "canopylabs/orpheus-v1-english",
@@ -87,23 +87,23 @@
         "contextTokens": 4000,
         "maxOutputTokens": 50000
       },
-      "capabilities": {
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:16Z"
-        },
-        "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:18Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:16Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:18Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      }
     },
     {
       "id": "groq/compound",
@@ -115,23 +115,23 @@
         "contextTokens": 131072,
         "maxOutputTokens": 8192
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:44Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:50Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:44Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:50Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "groq/compound-mini",
@@ -143,29 +143,29 @@
         "contextTokens": 131072,
         "maxOutputTokens": 8192
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:17Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:19Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:21Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:17Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:19Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:21Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "llama-3.1-8b-instant",
@@ -177,29 +177,29 @@
         "contextTokens": 131072,
         "maxOutputTokens": 131072
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:42Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:43Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:45Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:42Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:43Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:45Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "llama-3.3-70b-versatile",
@@ -211,29 +211,29 @@
         "contextTokens": 131072,
         "maxOutputTokens": 32768
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:22Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:24Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:26Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:22Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:24Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:26Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "meta-llama/llama-4-scout-17b-16e-instruct",
@@ -245,29 +245,29 @@
         "contextTokens": 131072,
         "maxOutputTokens": 8192
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:59Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:00Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:02Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:59Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:00Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:02Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "meta-llama/llama-prompt-guard-2-22m",
@@ -279,29 +279,29 @@
         "contextTokens": 512,
         "maxOutputTokens": 512
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:36Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:37Z"
-        },
-        "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:39Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:36Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:37Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:39Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      }
     },
     {
       "id": "meta-llama/llama-prompt-guard-2-86m",
@@ -313,29 +313,29 @@
         "contextTokens": 512,
         "maxOutputTokens": 512
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:52:16Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:52:18Z"
-        },
-        "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:52:19Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:16Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:18Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:19Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      }
     },
     {
       "id": "openai/gpt-oss-120b",
@@ -347,29 +347,29 @@
         "contextTokens": 131072,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
-        "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:15Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:17Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:19Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:15Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:17Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:19Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "openai/gpt-oss-20b",
@@ -381,29 +381,29 @@
         "contextTokens": 131072,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
-        "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:46Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:47Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:49Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:46Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:47Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:49Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "openai/gpt-oss-safeguard-20b",
@@ -415,29 +415,29 @@
         "contextTokens": 131072,
         "maxOutputTokens": 65536
       },
-      "capabilities": {
-        "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:56:26Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:56:27Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:56:29Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:26Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:27Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:29Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "qwen/qwen3-32b",
@@ -449,29 +449,29 @@
         "contextTokens": 131072,
         "maxOutputTokens": 40960
       },
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:12Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:14Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:16Z"
-        }
-      },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:12Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:14Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:16Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "qwen/qwen3.6-27b",
@@ -483,10 +483,10 @@
         "contextTokens": 131072,
         "maxOutputTokens": 32768
       },
-      "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {}
     },
     {
       "id": "whisper-large-v3",
@@ -498,10 +498,10 @@
         "contextTokens": 448,
         "maxOutputTokens": 448
       },
-      "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {}
     },
     {
       "id": "whisper-large-v3-turbo",
@@ -513,10 +513,10 @@
         "contextTokens": 448,
         "maxOutputTokens": 448
       },
-      "capabilities": {},
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-05T08:52:19Z"
+      "lastChecked": "2026-07-12T08:16:08Z",
+      "capabilities": {}
     }
   ]
 }

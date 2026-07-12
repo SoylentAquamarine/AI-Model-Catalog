@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "Together offers a small set of zero-cost models alongside paid ones; pricing comes from the models API.",
-    "lastChecked": "2026-07-05T08:52:20Z"
+    "lastChecked": "2026-07-12T08:16:09Z"
   },
   "models": [
     {
@@ -26,18 +26,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "ByteDance-Seed/Seedream-4.0",
@@ -50,18 +50,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "ByteDance/Seedance-1.0-lite",
@@ -74,10 +74,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "ByteDance/Seedance-1.0-pro",
@@ -90,10 +90,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "ByteDance/Seedance-2.0",
@@ -106,10 +106,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "ByteDance/Seedream-5.0-lite",
@@ -122,18 +122,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "HappyHorse/HappyHorse-1.0-T2V",
@@ -146,10 +146,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "Hcompany/Holo3-35B-A3B",
@@ -165,18 +165,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "MiniMaxAI/MiniMax-M1-40k",
@@ -192,29 +192,29 @@
         "contextTokens": 1048576,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:53:56Z"
-        },
-        "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:53:58Z"
-        }
-      },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:53:56Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:53:58Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -232,29 +232,29 @@
         "contextTokens": 1048576,
         "maxOutputTokens": null
       },
-      "capabilities": {
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:56Z"
-        },
-        "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:57Z"
-        }
-      },
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
+        }
+      },
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:56Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:57Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -272,18 +272,18 @@
         "contextTokens": 196608,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "MiniMaxAI/MiniMax-M2.5-FP4",
@@ -299,18 +299,18 @@
         "contextTokens": 8192,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen-Image",
@@ -323,18 +323,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen-Image-2.0",
@@ -347,18 +347,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen-Image-2.0-Pro",
@@ -371,18 +371,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2-1.5B",
@@ -398,18 +398,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2-72B",
@@ -425,18 +425,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2-7B",
@@ -452,18 +452,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-1.5B",
@@ -479,18 +479,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-1.5B-Instruct",
@@ -506,18 +506,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-14B",
@@ -533,18 +533,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-32B",
@@ -560,18 +560,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-32B-Instruct",
@@ -587,18 +587,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-3B-Instruct",
@@ -614,18 +614,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-72B",
@@ -641,18 +641,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-7B",
@@ -668,18 +668,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-7B-Instruct",
@@ -695,18 +695,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-0.6B",
@@ -722,18 +722,18 @@
         "contextTokens": 40960,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-0.6B-Base",
@@ -749,18 +749,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-1.7B",
@@ -776,18 +776,18 @@
         "contextTokens": 40960,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-1.7B-Base",
@@ -803,18 +803,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-14B",
@@ -830,18 +830,18 @@
         "contextTokens": 2048,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-14B-Base",
@@ -857,18 +857,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
@@ -884,18 +884,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-30B-A3B",
@@ -911,18 +911,18 @@
         "contextTokens": 40960,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-30B-A3B-Base",
@@ -938,18 +938,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-30B-A3B-Instruct-2507-Lora",
@@ -965,18 +965,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-32B",
@@ -992,18 +992,18 @@
         "contextTokens": 40960,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-4B-Base",
@@ -1019,18 +1019,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-4B-Instruct-2507",
@@ -1046,18 +1046,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-8B",
@@ -1073,18 +1073,18 @@
         "contextTokens": 40960,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-8B-Base",
@@ -1100,18 +1100,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-8B-Lora",
@@ -1127,18 +1127,18 @@
         "contextTokens": 40960,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
@@ -1154,18 +1154,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-Next-80B-A3B-Instruct-FP8",
@@ -1178,18 +1178,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
@@ -1205,18 +1205,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.5-122B-A10B-FP8",
@@ -1232,18 +1232,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.5-2B-Lora",
@@ -1259,18 +1259,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.5-35B-A3B",
@@ -1286,18 +1286,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.5-35B-A3B-Lora",
@@ -1313,18 +1313,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.5-9B-FP8",
@@ -1340,18 +1340,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.6-35B-A3B-FP8",
@@ -1367,18 +1367,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.6-35B-A3B-Lora",
@@ -1394,18 +1394,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "RunDiffusion/Juggernaut-pro-flux",
@@ -1418,18 +1418,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Rundiffusion/Juggernaut-Lightning-Flux",
@@ -1442,18 +1442,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Wan-AI/Wan2.2-I2V-A14B",
@@ -1466,10 +1466,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "Wan-AI/Wan2.2-T2V-A14B",
@@ -1482,10 +1482,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "Wan-AI/Wan2.6-image",
@@ -1498,18 +1498,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "Wan-AI/wan2.7-i2v",
@@ -1522,10 +1522,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "Wan-AI/wan2.7-r2v",
@@ -1538,10 +1538,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "Wan-AI/wan2.7-t2v",
@@ -1554,10 +1554,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "agentica-org/DeepCoder-14B-Preview",
@@ -1573,18 +1573,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "alibaba/happyhorse-1.0-i2v",
@@ -1597,10 +1597,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "alibaba/happyhorse-1.0-r2v",
@@ -1613,10 +1613,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "alibaba/happyhorse-1.0-t2v",
@@ -1629,10 +1629,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "alibaba/happyhorse-1.1-i2v",
@@ -1645,10 +1645,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "alibaba/happyhorse-1.1-r2v",
@@ -1661,10 +1661,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "alibaba/happyhorse-1.1-t2v",
@@ -1677,10 +1677,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "allenai/Molmo-7B-D-0924",
@@ -1696,18 +1696,18 @@
         "contextTokens": 4096,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "black-forest-labs/FLUX.1-kontext-max",
@@ -1720,18 +1720,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "black-forest-labs/FLUX.1-kontext-pro",
@@ -1744,18 +1744,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "black-forest-labs/FLUX.1-schnell",
@@ -1768,18 +1768,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "black-forest-labs/FLUX.1.1-pro",
@@ -1792,18 +1792,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "black-forest-labs/FLUX.2-dev",
@@ -1816,18 +1816,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "black-forest-labs/FLUX.2-flex",
@@ -1840,18 +1840,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "black-forest-labs/FLUX.2-max",
@@ -1864,18 +1864,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "black-forest-labs/FLUX.2-pro",
@@ -1888,18 +1888,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "cartesia/sonic-3.5",
@@ -1915,18 +1915,18 @@
         "contextTokens": 448,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "deepcogito/cogito-v1-preview-llama-70B",
@@ -1942,18 +1942,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "deepcogito/cogito-v1-preview-llama-70B-Turbo",
@@ -1969,18 +1969,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "deepcogito/cogito-v1-preview-llama-8B",
@@ -1996,18 +1996,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "deepcogito/cogito-v1-preview-qwen-14B",
@@ -2023,18 +2023,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "deepcogito/cogito-v1-preview-qwen-32B",
@@ -2050,18 +2050,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "deepgram/aura-2",
@@ -2077,18 +2077,18 @@
         "contextTokens": 448,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "deepgram/flux",
@@ -2104,18 +2104,18 @@
         "contextTokens": 448,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "speech_to_text": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "deepgram/nova-3-en",
@@ -2131,18 +2131,18 @@
         "contextTokens": 448,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "speech_to_text": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "deepgram/nova-3-multi",
@@ -2158,18 +2158,18 @@
         "contextTokens": 448,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "speech_to_text": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-OCR-2",
@@ -2185,18 +2185,18 @@
         "contextTokens": 8192,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
@@ -2212,18 +2212,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "facebook/cwm",
@@ -2239,10 +2239,10 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "google/flash-image-2.5",
@@ -2255,18 +2255,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/flash-image-3.1",
@@ -2279,18 +2279,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/flash-image-3.1-lite",
@@ -2303,18 +2303,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemini-3-pro-image",
@@ -2327,18 +2327,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-2-9b-it",
@@ -2354,18 +2354,18 @@
         "contextTokens": 8192,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-2b-it",
@@ -2381,18 +2381,18 @@
         "contextTokens": 8192,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-3-1b-it",
@@ -2408,18 +2408,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-3-1b-pt",
@@ -2435,18 +2435,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-3-270m-it",
@@ -2462,18 +2462,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-3-270m-it-lora",
@@ -2489,18 +2489,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-3-27b-it",
@@ -2516,18 +2516,18 @@
         "contextTokens": 65536,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-3-27b-it-lora",
@@ -2540,18 +2540,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-3-27b-pt",
@@ -2564,18 +2564,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-3-4b-it",
@@ -2591,18 +2591,18 @@
         "contextTokens": 65536,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-4-26B-A4B-it",
@@ -2618,18 +2618,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-4-31B-it-lora",
@@ -2645,18 +2645,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-4-E2B-it",
@@ -2672,18 +2672,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/gemma-4-E4B-it",
@@ -2699,18 +2699,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/imagen-4.0-fast",
@@ -2723,18 +2723,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/imagen-4.0-preview",
@@ -2747,18 +2747,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/imagen-4.0-ultra",
@@ -2771,18 +2771,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/medgemma-27b-text-it",
@@ -2798,18 +2798,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "google/veo-2.0",
@@ -2822,10 +2822,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "google/veo-3.0",
@@ -2838,10 +2838,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "google/veo-3.0-audio",
@@ -2854,10 +2854,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "google/veo-3.0-fast",
@@ -2870,10 +2870,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "google/veo-3.0-fast-audio",
@@ -2886,10 +2886,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "google/veo-3.1",
@@ -2902,10 +2902,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "google/veo-3.1-lite",
@@ -2918,10 +2918,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "google/veo-3.1-test-debug",
@@ -2934,10 +2934,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "ideogram/ideogram-3.0",
@@ -2950,18 +2950,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "ideogram/ideogram-4.0",
@@ -2974,18 +2974,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "kwaivgI/kling-1.6-standard",
@@ -2998,10 +2998,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "kwaivgI/kling-2.1-master",
@@ -3014,10 +3014,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "kwaivgI/kling-2.1-pro",
@@ -3030,10 +3030,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "kwaivgI/kling-2.1-standard",
@@ -3046,10 +3046,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-2-7b-chat-hf",
@@ -3065,18 +3065,18 @@
         "contextTokens": 4096,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-3.1-405B",
@@ -3092,18 +3092,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-3.2-1B",
@@ -3119,18 +3119,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-3.2-3B",
@@ -3146,18 +3146,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -3173,18 +3173,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-3.3-70B-Instruct-FP8-Lora",
@@ -3200,18 +3200,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4",
@@ -3227,18 +3227,18 @@
         "contextTokens": 1048576,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-4-Scout-17B-16E",
@@ -3254,18 +3254,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora",
@@ -3281,18 +3281,18 @@
         "contextTokens": 10485760,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Meta-Llama-3.1-70B",
@@ -3308,18 +3308,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "minimax/hailuo-02",
@@ -3332,10 +3332,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "minimax/speech-2.6-turbo",
@@ -3351,18 +3351,18 @@
         "contextTokens": 448,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "minimax/speech-2.8-turbo",
@@ -3378,18 +3378,18 @@
         "contextTokens": 448,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "minimax/video-01-director",
@@ -3402,10 +3402,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "mistralai/Devstral-Small-2505",
@@ -3421,18 +3421,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistralai/Magistral-Small-2506",
@@ -3448,18 +3448,18 @@
         "contextTokens": 40960,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistralai/Mistral-7B-v0.1",
@@ -3475,18 +3475,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
@@ -3502,18 +3502,18 @@
         "contextTokens": 65536,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistralai/Mixtral-8x7B-Instruct-v0.1-FP8-Lora",
@@ -3529,18 +3529,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mistralai/Mixtral-8x7B-v0.1",
@@ -3556,18 +3556,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "completion": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "mixedbread-ai/mxbai-rerank-large-v2",
@@ -3583,18 +3583,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "rerank": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nim/meta/llama-3.1-70b-instruct",
@@ -3610,18 +3610,18 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nim/meta/llama-3.1-8b-instruct",
@@ -3637,18 +3637,18 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nim/meta/llama-3.2-11b-vision-instruct",
@@ -3664,18 +3664,18 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nim/meta/llama-3.2-90b-vision-instruct",
@@ -3691,18 +3691,18 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nim/meta/llama-3.3-70b-instruct",
@@ -3718,18 +3718,18 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nim/mistralai/mixtral-8x22b-instruct-v01",
@@ -3745,18 +3745,18 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nim/mistralai/mixtral-8x7b-instruct-v01",
@@ -3772,18 +3772,18 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nim/nv-mistralai/mistral-nemo-12b-instruct",
@@ -3799,18 +3799,18 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nim/nvidia/llama-3.1-nemotron-70b-instruct",
@@ -3826,18 +3826,18 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nim/nvidia/llama-3.3-nemotron-super-49b-v1",
@@ -3853,18 +3853,18 @@
         "contextTokens": 16384,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
@@ -3880,18 +3880,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
@@ -3907,18 +3907,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
@@ -3934,18 +3934,18 @@
         "contextTokens": 262144,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-fp8",
@@ -3961,18 +3961,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
@@ -3988,18 +3988,18 @@
         "contextTokens": 448,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "speech_to_text": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "nvidia/parakeet-tdt-0.6b-v3",
@@ -4015,18 +4015,18 @@
         "contextTokens": 448,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "speech_to_text": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "openai/gpt-image-1.5",
@@ -4039,18 +4039,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "openai/gpt-image-2",
@@ -4063,18 +4063,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "openai/sora-2",
@@ -4087,10 +4087,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "openai/sora-2-pro",
@@ -4103,10 +4103,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "pixverse/pixverse-v5",
@@ -4119,10 +4119,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "pixverse/pixverse-v5.6",
@@ -4135,10 +4135,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "pixverse/pixverse-v6",
@@ -4151,10 +4151,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "rime-labs/rime-arcana-v3",
@@ -4167,18 +4167,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "rime-labs/rime-arcana-v3-turbo",
@@ -4194,18 +4194,18 @@
         "contextTokens": 448,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "rime-labs/rime-mist-v2",
@@ -4218,18 +4218,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "rime-labs/rime-mist-v3",
@@ -4245,18 +4245,18 @@
         "contextTokens": 448,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "rime-labs/rime-mist-v3-omni",
@@ -4272,18 +4272,18 @@
         "contextTokens": 448,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "sarvamai/sarvam-m",
@@ -4299,18 +4299,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "stabilityai/stable-diffusion-xl-base-1.0",
@@ -4323,18 +4323,18 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "togethercomputer/EssentialAI-RNJ-1-Instruct",
@@ -4350,18 +4350,18 @@
         "contextTokens": 32768,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "togethercomputer/meta-llama-3.1-8B-Instruct-AWQ-INT4",
@@ -4377,18 +4377,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "vidu/vidu-2.0",
@@ -4401,10 +4401,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "vidu/vidu-q1",
@@ -4417,10 +4417,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "vidu/vidu-q3",
@@ -4433,10 +4433,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "vidu/vidu-q3-turbo",
@@ -4449,10 +4449,10 @@
         "outputPerMTokens": 0
       },
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z"
+      "lastChecked": "2026-07-12T08:16:09Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.5V",
@@ -4468,18 +4468,18 @@
         "contextTokens": 65536,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.7-FP8",
@@ -4495,18 +4495,18 @@
         "contextTokens": 202752,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.7-fp4",
@@ -4522,18 +4522,18 @@
         "contextTokens": 202752,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5-FP4",
@@ -4549,18 +4549,18 @@
         "contextTokens": 202752,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-OCR",
@@ -4576,18 +4576,18 @@
         "contextTokens": 131072,
         "maxOutputTokens": null
       },
-      "capabilities": {},
       "status": "available",
       "source": "together_models_api",
-      "lastChecked": "2026-07-05T08:52:20Z",
+      "lastChecked": "2026-07-12T08:16:09Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "together_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:20Z"
+          "lastChecked": "2026-07-12T08:16:09Z"
         }
-      }
+      },
+      "capabilities": {}
     }
   ]
 }

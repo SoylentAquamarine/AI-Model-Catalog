@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "The HF router proxies many upstream providers. Hugging Face accounts include a small monthly free inference allowance.",
-    "lastChecked": "2026-07-05T08:52:21Z"
+    "lastChecked": "2026-07-12T08:16:10Z"
   },
   "models": [
     {
@@ -22,29 +22,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:40Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:41Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:46:43Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:40Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:41Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:46:43Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "CohereLabs/aya-vision-32b",
@@ -53,29 +53,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:40Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:42Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:43Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:40Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:42Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:47:43Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "CohereLabs/c4ai-command-a-03-2025",
@@ -84,29 +84,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:01Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:02Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:04Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:01Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:02Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:04Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "CohereLabs/c4ai-command-r-08-2024",
@@ -115,29 +115,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:25Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:27Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:28Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:25Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:27Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:28Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "CohereLabs/c4ai-command-r7b-12-2024",
@@ -146,29 +146,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:50Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:52Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:54Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:50Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:52Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:48:54Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "CohereLabs/c4ai-command-r7b-arabic-02-2025",
@@ -177,29 +177,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:21Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:23Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:24Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:21Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:23Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:24Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "CohereLabs/command-a-reasoning-08-2025",
@@ -208,29 +208,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:45Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:48Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:49Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:45Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:48Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:49:49Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "CohereLabs/command-a-translate-08-2025",
@@ -239,29 +239,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:02Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:04Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:06Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:02Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:04Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:06Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "CohereLabs/command-a-vision-07-2025",
@@ -270,10 +270,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "CohereLabs/tiny-aya-earth",
@@ -282,29 +282,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:43Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:45Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:46Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:43Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:45Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:50:46Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "CohereLabs/tiny-aya-global",
@@ -313,29 +313,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:02Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:04Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:06Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:02Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:04Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:06Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "CohereLabs/tiny-aya-water",
@@ -344,29 +344,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:15Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:17Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:18Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:15Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:17Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:18Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "MiniMaxAI/MiniMax-M1-80k",
@@ -375,29 +375,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:41Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:44Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:47Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:41Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:44Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:51:47Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "MiniMaxAI/MiniMax-M2",
@@ -406,29 +406,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:52:21Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:52:24Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:52:27Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:21Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:24Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:52:27Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "MiniMaxAI/MiniMax-M2.1",
@@ -437,29 +437,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:21Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:24Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:27Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:21Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:24Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:27Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "MiniMaxAI/MiniMax-M2.5",
@@ -468,29 +468,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:50Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:52Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:54:54Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:50Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:52Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:54:54Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "MiniMaxAI/MiniMax-M2.7",
@@ -499,29 +499,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:56:29Z"
-        },
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:56:31Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:56:33Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:29Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:31Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:56:33Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "MiniMaxAI/MiniMax-M3",
@@ -530,29 +530,29 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:19Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:21Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:24Z"
-        }
-      },
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:19Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:21Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-10T18:57:24Z",
+          "source": "tested_by_catalog",
+          "value": true
+        }
+      }
     },
     {
       "id": "Qwen/Qwen2.5-72B-Instruct",
@@ -561,10 +561,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-7B-Instruct",
@@ -573,10 +573,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-Coder-32B-Instruct",
@@ -585,10 +585,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-Coder-3B-Instruct",
@@ -597,10 +597,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
@@ -609,10 +609,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen2.5-VL-72B-Instruct",
@@ -621,10 +621,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-14B",
@@ -633,10 +633,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-235B-A22B",
@@ -645,10 +645,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
@@ -657,10 +657,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
@@ -669,10 +669,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-32B",
@@ -681,10 +681,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-4B-Instruct-2507",
@@ -693,10 +693,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-4B-Thinking-2507",
@@ -705,10 +705,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-8B",
@@ -717,10 +717,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
@@ -729,10 +729,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
@@ -741,10 +741,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-Coder-Next",
@@ -753,10 +753,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
@@ -765,10 +765,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
@@ -777,10 +777,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
@@ -789,10 +789,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
@@ -801,10 +801,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.5-122B-A10B",
@@ -813,10 +813,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.5-27B",
@@ -825,10 +825,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.5-35B-A3B",
@@ -837,10 +837,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.5-397B-A17B",
@@ -849,10 +849,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.5-9B",
@@ -861,10 +861,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.6-27B",
@@ -873,10 +873,22 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
+    },
+    {
+      "id": "Qwen/Qwen3.6-35B-A3B",
+      "providerModelId": "Qwen/Qwen3.6-35B-A3B",
+      "displayName": "Qwen/Qwen3.6-35B-A3B",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "status": "available",
+      "source": "huggingface_router_models_api",
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Sao10K/L3-8B-Lunaris-v1",
@@ -885,10 +897,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "Sao10K/L3-8B-Stheno-v3.2",
@@ -897,10 +909,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "XiaomiMiMo/MiMo-V2.5-Pro",
@@ -909,10 +921,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
@@ -921,10 +933,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
@@ -933,10 +945,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "allenai/Olmo-3-7B-Instruct",
@@ -945,10 +957,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "alpindale/WizardLM-2-8x22B",
@@ -957,10 +969,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
@@ -969,10 +981,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepcogito/cogito-671b-v2.1",
@@ -981,10 +993,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepcogito/cogito-671b-v2.1-FP8",
@@ -993,10 +1005,34 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
+    },
+    {
+      "id": "deepreinforce-ai/Ornith-1.0-35B",
+      "providerModelId": "deepreinforce-ai/Ornith-1.0-35B",
+      "displayName": "deepreinforce-ai/Ornith-1.0-35B",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "status": "available",
+      "source": "huggingface_router_models_api",
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
+    },
+    {
+      "id": "deepreinforce-ai/Ornith-1.0-35B-FP8",
+      "providerModelId": "deepreinforce-ai/Ornith-1.0-35B-FP8",
+      "displayName": "deepreinforce-ai/Ornith-1.0-35B-FP8",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "status": "available",
+      "source": "huggingface_router_models_api",
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-R1",
@@ -1005,10 +1041,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-0528",
@@ -1017,10 +1053,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
@@ -1029,10 +1065,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
@@ -1041,10 +1077,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
@@ -1053,10 +1089,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V3",
@@ -1065,10 +1101,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V3-0324",
@@ -1077,10 +1113,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V3.1",
@@ -1089,10 +1125,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
@@ -1101,10 +1137,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V3.2",
@@ -1113,10 +1149,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V3.2-Exp",
@@ -1125,10 +1161,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Flash",
@@ -1137,10 +1173,22 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Pro",
+      "providerModelId": "deepseek-ai/DeepSeek-V4-Pro",
+      "displayName": "deepseek-ai/DeepSeek-V4-Pro",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "status": "available",
+      "source": "huggingface_router_models_api",
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "google/gemma-3-12b-it",
@@ -1149,10 +1197,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "google/gemma-3-27b-it",
@@ -1161,10 +1209,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "google/gemma-3-4b-it",
@@ -1173,10 +1221,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "google/gemma-3n-E4B-it",
@@ -1185,10 +1233,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "google/gemma-4-26B-A4B-it",
@@ -1197,10 +1245,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "google/gemma-4-31B-it",
@@ -1209,10 +1257,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "inclusionAI/Ling-2.6-1T",
@@ -1221,22 +1269,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
-    },
-    {
-      "id": "meta-llama/Llama-3.1-70B-Instruct",
-      "providerModelId": "meta-llama/Llama-3.1-70B-Instruct",
-      "displayName": "meta-llama/Llama-3.1-70B-Instruct",
-      "costClass": "free",
-      "pricing": null,
-      "limits": null,
-      "capabilities": {},
-      "status": "available",
-      "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-3.1-8B-Instruct",
@@ -1245,10 +1281,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -1257,10 +1293,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
@@ -1269,10 +1305,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
@@ -1281,10 +1317,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-Guard-4-12B",
@@ -1293,22 +1329,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
-    },
-    {
-      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "providerModelId": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "displayName": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "costClass": "free",
-      "pricing": null,
-      "limits": null,
-      "capabilities": {},
-      "status": "available",
-      "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "microsoft/phi-4",
@@ -1317,10 +1341,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K2-Instruct",
@@ -1329,10 +1353,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K2-Instruct-0905",
@@ -1341,10 +1365,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K2.5",
@@ -1353,10 +1377,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K2.6",
@@ -1365,10 +1389,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K2.7-Code",
@@ -1377,10 +1401,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
@@ -1389,10 +1413,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
@@ -1401,10 +1425,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "openai/gpt-oss-120b",
@@ -1413,10 +1437,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "openai/gpt-oss-20b",
@@ -1425,10 +1449,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "openai/gpt-oss-safeguard-20b",
@@ -1437,10 +1461,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "pearl-ai/Gemma-4-31B-it-pearl",
@@ -1449,10 +1473,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "speakleash/Bielik-11B-v3.0-Instruct",
@@ -1461,10 +1485,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "stepfun-ai/Step-3.5-Flash",
@@ -1473,10 +1497,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "stepfun-ai/Step-3.7-Flash",
@@ -1485,10 +1509,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "swiss-ai/Apertus-70B-Instruct-2509",
@@ -1497,10 +1521,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "swiss-ai/Apertus-8B-Instruct-2509",
@@ -1509,10 +1533,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "utter-project/EuroLLM-22B-Instruct-2512",
@@ -1521,10 +1545,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/AutoGLM-Phone-9B-Multilingual",
@@ -1533,10 +1557,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4-32B-0414",
@@ -1545,10 +1569,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.5",
@@ -1557,10 +1581,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.5-Air",
@@ -1569,10 +1593,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.5V",
@@ -1581,10 +1605,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.5V-FP8",
@@ -1593,10 +1617,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.6",
@@ -1605,10 +1629,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.6-FP8",
@@ -1617,10 +1641,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.6V",
@@ -1629,10 +1653,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.6V-FP8",
@@ -1641,10 +1665,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.6V-Flash",
@@ -1653,10 +1677,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.7",
@@ -1665,10 +1689,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.7-FP8",
@@ -1677,10 +1701,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.7-Flash",
@@ -1689,10 +1713,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5",
@@ -1701,10 +1725,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.1",
@@ -1713,10 +1737,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.1-FP8",
@@ -1725,10 +1749,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.2",
@@ -1737,10 +1761,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.2-FP8",
@@ -1749,10 +1773,10 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {},
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-05T08:52:21Z"
+      "lastChecked": "2026-07-12T08:16:10Z",
+      "capabilities": {}
     }
   ]
 }
