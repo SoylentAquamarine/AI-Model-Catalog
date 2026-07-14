@@ -1,36 +1,4 @@
 {
   "generatedAt": "2026-07-12T14:53:34Z",
-  "providers": {
-    "together": {
-      "byCapability": {
-        "chat": {
-          "error": 57,
-          "fail": 0,
-          "pass": 0
-        },
-        "json": {
-          "error": 56,
-          "fail": 1,
-          "pass": 0
-        },
-        "streaming": {
-          "error": 56,
-          "fail": 1,
-          "pass": 0
-        }
-      },
-      "byDetail": {
-        "http_400": 1,
-        "http_402": 168,
-        "unsupported_param": 2
-      },
-      "modelsTested": 57,
-      "outcomes": {
-        "error": 169,
-        "fail": 2,
-        "pass": 0
-      },
-      "probes": 171
-    }
-  }
+  "providers": {}
 }

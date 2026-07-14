@@ -55,7 +55,6 @@ PROVIDERS: dict[str, dict] = {
     "openrouter":   {"keyEnv": "OPENROUTER_API_KEY_FREE",  "cooldownSeconds": 15},
     "pollinations": {"keyEnv": None,                       "cooldownSeconds": 15},
     "sambanova":    {"keyEnv": "SAMBANOVA_API_KEY_FREE",   "cooldownSeconds": 300},
-    "together":     {"keyEnv": "TOGETHER_API_KEY_FREE",    "cooldownSeconds": 5},
 }
 
 

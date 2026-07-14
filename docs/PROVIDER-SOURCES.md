@@ -16,11 +16,11 @@ Provider source adapters should prefer official machine-readable APIs when avail
 
 ```text
 openrouter    pollinations    gemini      groq
-mistral       together        cohere      cerebras
-sambanova     huggingface     cloudflare
+mistral       cohere          cerebras    sambanova
+huggingface   cloudflare
 ```
 
-Free-only: only providers with a standing free tier are listed. Paid and trial-credit providers (e.g. OpenAI, Anthropic, DeepSeek, Fireworks) are excluded.
+Free-only: only providers with a standing free tier are listed. Excluded: paid or trial-credit providers (OpenAI, Anthropic, DeepSeek, Fireworks) and providers whose free-priced models actually return HTTP 402 Payment Required when called (Together — confirmed by live capability tests).
 
 ## Source Metadata
 
@@ -46,7 +46,6 @@ update_pollinations.py  public models API, no key needed
 update_gemini.py        needs GEMINI_API_KEY_FREE
 update_groq.py          needs GROQ_API_KEY_FREE
 update_mistral.py       needs MISTRAL_API_KEY_FREE
-update_together.py      needs TOGETHER_API_KEY_FREE
 update_cohere.py        needs COHERE_API_KEY_FREE
 update_cerebras.py      needs CEREBRAS_API_KEY_FREE
 update_sambanova.py     needs SAMBANOVA_API_KEY_FREE

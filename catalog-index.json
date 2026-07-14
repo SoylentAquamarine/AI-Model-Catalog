@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.4.0",
-  "generatedAt": "2026-07-12T14:53:35Z",
-  "totalModels": 563,
-  "totalFreeModels": 563,
+  "generatedAt": "2026-07-14T16:34:24Z",
+  "totalModels": 375,
+  "totalFreeModels": 375,
   "capabilitySummary": {
     "chat": 68,
     "json": 46,
@@ -90,14 +90,6 @@
       "modelCount": 6,
       "freeModelCount": 6,
       "lastChecked": "2026-07-12T08:16:10Z"
-    },
-    {
-      "id": "together",
-      "file": "providers/together.json",
-      "apiType": "openai-compatible",
-      "modelCount": 188,
-      "freeModelCount": 188,
-      "lastChecked": "2026-07-12T08:16:09Z"
     }
   ]
 }

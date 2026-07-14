@@ -19,7 +19,6 @@ MISTRAL_API_KEY_FREE
 OPENROUTER_API_KEY_FREE
 POLLINATIONS_API_KEY_FREE
 SAMBANOVA_API_KEY_FREE
-TOGETHER_API_KEY_FREE
 ```
 
 This is a free-only catalog: it uses `*_API_KEY_FREE` (free-tier or keyless) secrets exclusively. There are no paid testing keys — the project never spends money on a provider.

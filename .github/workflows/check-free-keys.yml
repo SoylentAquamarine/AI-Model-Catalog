@@ -27,5 +27,4 @@ jobs:
           OPENROUTER_API_KEY_FREE: ${{ secrets.OPENROUTER_API_KEY_FREE }}
           POLLINATIONS_API_KEY_FREE: ${{ secrets.POLLINATIONS_API_KEY_FREE }}
           SAMBANOVA_API_KEY_FREE: ${{ secrets.SAMBANOVA_API_KEY_FREE }}
-          TOGETHER_API_KEY_FREE: ${{ secrets.TOGETHER_API_KEY_FREE }}
         run: python scripts/check_provider_secrets.py

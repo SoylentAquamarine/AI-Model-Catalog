@@ -88,12 +88,6 @@ jobs:
           MISTRAL_API_KEY_FREE: ${{ secrets.MISTRAL_API_KEY_FREE }}
         run: python scripts/update_mistral.py
 
-      - name: Update together
-        continue-on-error: true
-        env:
-          TOGETHER_API_KEY_FREE: ${{ secrets.TOGETHER_API_KEY_FREE }}
-        run: python scripts/update_together.py
-
       - name: Update cohere
         continue-on-error: true
         env:

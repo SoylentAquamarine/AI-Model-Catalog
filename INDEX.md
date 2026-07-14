@@ -21,7 +21,6 @@ AI-Model-Catalog/
     gemini.json
     groq.json
     mistral.json
-    together.json
     cohere.json
     cerebras.json
     sambanova.json
@@ -57,7 +56,6 @@ AI-Model-Catalog/
     update_gemini.py
     update_groq.py
     update_mistral.py
-    update_together.py
     update_cohere.py
     update_cerebras.py
     update_sambanova.py
