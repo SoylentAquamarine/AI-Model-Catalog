@@ -58,22 +58,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:40Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:47:14Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:42Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:47:16Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:43Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:47:17Z"
         }
       }
     },
@@ -89,16 +89,16 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:01Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:47:23Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:48:02Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:47:25Z"
         },
         "streaming": {
           "confidence": "high",
@@ -213,22 +213,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:45Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:48:15Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:48Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:48:17Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:49:49Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:48:18Z"
         }
       }
     },
@@ -244,16 +244,16 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:02Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:48:24Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:50:04Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:48:25Z"
         },
         "streaming": {
           "confidence": "high",
@@ -355,16 +355,16 @@
           "value": true
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:17Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:49:04Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:18Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:49:06Z"
         }
       }
     },
@@ -380,22 +380,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:41Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:49:13Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:44Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:49:16Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:47Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:49:19Z"
         }
       }
     },
@@ -504,16 +504,16 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:56:29Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:50:06Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:56:31Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:50:08Z"
         },
         "streaming": {
           "confidence": "high",
@@ -535,22 +535,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:19Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:50:19Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:21Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:50:26Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:24Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:50:31Z"
         }
       }
     },
@@ -566,22 +566,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:32Z"
+          "lastChecked": "2026-07-12T14:23:32Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:34Z"
+          "lastChecked": "2026-07-12T14:23:34Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:36Z"
+          "lastChecked": "2026-07-12T14:23:36Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -597,22 +597,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:24:17Z"
+          "lastChecked": "2026-07-12T14:24:17Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:24:19Z"
+          "lastChecked": "2026-07-12T14:24:19Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:24:21Z"
+          "lastChecked": "2026-07-12T14:24:21Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -628,22 +628,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:25:08Z"
+          "lastChecked": "2026-07-12T14:25:08Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
+          "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:25:10Z"
+          "lastChecked": "2026-07-15T08:51:00Z"
         },
         "streaming": {
-          "value": true,
+          "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:25:12Z"
+          "lastChecked": "2026-07-15T08:51:02Z"
         }
       }
     },
@@ -659,22 +659,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:25:44Z"
+          "lastChecked": "2026-07-12T14:25:44Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
+          "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:25:47Z"
+          "lastChecked": "2026-07-15T08:51:08Z"
         },
         "streaming": {
-          "value": true,
+          "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:25:49Z"
+          "lastChecked": "2026-07-15T08:51:10Z"
         }
       }
     },
@@ -690,22 +690,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:06Z"
+          "lastChecked": "2026-07-12T14:26:06Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
+          "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:08Z"
+          "lastChecked": "2026-07-15T08:51:19Z"
         },
         "streaming": {
-          "value": true,
+          "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:10Z"
+          "lastChecked": "2026-07-15T08:51:20Z"
         }
       }
     },
@@ -721,22 +721,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:38Z"
+          "lastChecked": "2026-07-12T14:26:38Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:40Z"
+          "lastChecked": "2026-07-12T14:26:40Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:42Z"
+          "lastChecked": "2026-07-12T14:26:42Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -752,22 +752,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "value": false,
+          "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:54Z"
+          "lastChecked": "2026-07-15T08:51:46Z"
         },
         "json": {
           "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:57Z"
+          "lastChecked": "2026-07-15T08:51:49Z"
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:59Z"
+          "lastChecked": "2026-07-12T14:26:59Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -781,7 +781,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:10:24Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:10:27Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:10:31Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
@@ -793,7 +812,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:11:05Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:11:07Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:11:09Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
@@ -805,7 +843,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:11:32Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:11:34Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:11:36Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-32B",
@@ -829,7 +886,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:20Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:22Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-4B-Thinking-2507",
@@ -841,7 +911,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:30Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:31Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-8B",
@@ -853,7 +936,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:15:49Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:15:51Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
@@ -877,7 +973,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:16:33Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:16:36Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:16:38Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-Coder-Next",
@@ -889,7 +1004,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:17:28Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:17:30Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:17:34Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
@@ -901,7 +1035,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:18:47Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:18:49Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:18:51Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
@@ -913,7 +1066,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:19:37Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:19:39Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:19:41Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
@@ -925,7 +1097,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:19:50Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:19:51Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:19:54Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
@@ -937,7 +1128,14 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:20:05Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3.5-122B-A10B",
@@ -949,7 +1147,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:20:21Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:20:28Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:20:31Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3.5-27B",
@@ -961,7 +1178,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:20:50Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:20:53Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3.5-35B-A3B",
@@ -997,7 +1227,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:22:11Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:22:13Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3.6-27B",
@@ -1009,7 +1252,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:22:40Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:22:43Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:22:45Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3.6-35B-A3B",
@@ -1033,7 +1295,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:23:09Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:23:11Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:23:13Z"
+        }
+      }
     },
     {
       "id": "Sao10K/L3-8B-Stheno-v3.2",
@@ -1045,7 +1326,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:23:34Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:23:36Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:23:38Z"
+        }
+      }
     },
     {
       "id": "XiaomiMiMo/MiMo-V2.5-Pro",
@@ -1069,7 +1369,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:24:01Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:24:03Z"
+        }
+      }
     },
     {
       "id": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
@@ -1081,7 +1394,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:24:12Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:24:13Z"
+        }
+      }
     },
     {
       "id": "allenai/Olmo-3-7B-Instruct",
@@ -1093,7 +1419,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:24:21Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:24:22Z"
+        }
+      }
     },
     {
       "id": "alpindale/WizardLM-2-8x22B",
@@ -1105,7 +1444,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:24:29Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:24:31Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:24:33Z"
+        }
+      }
     },
     {
       "id": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
@@ -1117,7 +1475,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:24:49Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:24:51Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:24:54Z"
+        }
+      }
     },
     {
       "id": "deepcogito/cogito-671b-v2.1",
@@ -1141,7 +1518,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:25:20Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:25:22Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:25:24Z"
+        }
+      }
     },
     {
       "id": "deepreinforce-ai/Ornith-1.0-35B",
@@ -1177,7 +1573,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:26:11Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:26:17Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:26:20Z"
+        }
+      }
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-0528",
@@ -1189,7 +1604,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:26:31Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:26:34Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:26:37Z"
+        }
+      }
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
@@ -1213,7 +1647,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:27:31Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:27:33Z"
+        }
+      }
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
@@ -1225,7 +1672,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:28:02Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:28:04Z"
+        }
+      }
     },
     {
       "id": "deepseek-ai/DeepSeek-V3",
@@ -1237,7 +1697,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:28:14Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:28:17Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:28:20Z"
+        }
+      }
     },
     {
       "id": "deepseek-ai/DeepSeek-V3-0324",
@@ -1249,7 +1728,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:28:40Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:28:42Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:28:44Z"
+        }
+      }
     },
     {
       "id": "deepseek-ai/DeepSeek-V3.1",
@@ -1285,7 +1783,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:29:22Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:29:25Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:29:28Z"
+        }
+      }
     },
     {
       "id": "deepseek-ai/DeepSeek-V3.2-Exp",
@@ -1297,7 +1814,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:29:35Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:29:38Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:29:41Z"
+        }
+      }
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Flash",
@@ -1333,7 +1869,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:30:20Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:30:22Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:30:24Z"
+        }
+      }
     },
     {
       "id": "google/gemma-3-27b-it",
@@ -1393,7 +1948,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:31:55Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:31:57Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:31:59Z"
+        }
+      }
     },
     {
       "id": "inclusionAI/Ling-2.6-1T",
@@ -1405,7 +1979,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:32:16Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:32:18Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:32:21Z"
+        }
+      }
     },
     {
       "id": "meta-llama/Llama-3.1-8B-Instruct",
@@ -1417,7 +2010,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:32:38Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:32:40Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:32:42Z"
+        }
+      }
     },
     {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -1441,7 +2053,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:33:21Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:33:23Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:33:26Z"
+        }
+      }
     },
     {
       "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
@@ -1453,7 +2084,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:33:45Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:33:47Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:33:49Z"
+        }
+      }
     },
     {
       "id": "meta-llama/Llama-Guard-4-12B",
@@ -1465,7 +2115,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:35:17Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:35:19Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:35:21Z"
+        }
+      }
     },
     {
       "id": "microsoft/phi-4",
@@ -1477,7 +2146,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:36:12Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:36:14Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:36:16Z"
+        }
+      }
     },
     {
       "id": "moonshotai/Kimi-K2-Instruct",
@@ -1489,7 +2177,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:36:28Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:36:29Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:36:33Z"
+        }
+      }
     },
     {
       "id": "moonshotai/Kimi-K2-Instruct-0905",
@@ -1513,7 +2220,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:37:18Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:37:21Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:37:23Z"
+        }
+      }
     },
     {
       "id": "moonshotai/Kimi-K2.6",
@@ -1525,7 +2251,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:37:42Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:37:44Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:37:46Z"
+        }
+      }
     },
     {
       "id": "moonshotai/Kimi-K2.7-Code",
@@ -1573,7 +2318,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:38:23Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:38:25Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:38:27Z"
+        }
+      }
     },
     {
       "id": "openai/gpt-oss-20b",
@@ -1585,7 +2349,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:38:34Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:38:36Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:38:38Z"
+        }
+      }
     },
     {
       "id": "openai/gpt-oss-safeguard-20b",
@@ -1621,7 +2404,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:08Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:10Z"
+        }
+      }
     },
     {
       "id": "stepfun-ai/Step-3.5-Flash",
@@ -1633,7 +2429,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:15Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:19Z"
+        }
+      }
     },
     {
       "id": "stepfun-ai/Step-3.7-Flash",
@@ -1645,7 +2454,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:30Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:33Z"
+        }
+      }
     },
     {
       "id": "swiss-ai/Apertus-70B-Instruct-2509",
@@ -1657,7 +2479,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:47Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:48Z"
+        }
+      }
     },
     {
       "id": "swiss-ai/Apertus-8B-Instruct-2509",
@@ -1669,7 +2504,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:58Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:59Z"
+        }
+      }
     },
     {
       "id": "utter-project/EuroLLM-22B-Instruct-2512",
@@ -1681,7 +2529,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:40:41Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:40:43Z"
+        }
+      }
     },
     {
       "id": "zai-org/AutoGLM-Phone-9B-Multilingual",
@@ -1693,7 +2554,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:40:55Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:40:56Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:40:58Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-4-32B-0414",
@@ -1705,7 +2585,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:41:07Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:41:11Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:41:13Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-4.5",
@@ -1717,7 +2616,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:41:24Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:41:26Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-4.5-Air",
@@ -1729,7 +2641,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:41:32Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:41:34Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:41:36Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-4.5V",
@@ -1753,7 +2684,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:42:05Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:42:07Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-4.6",
@@ -1765,7 +2709,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:42:16Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:42:19Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:42:29Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-4.6-FP8",
@@ -1777,7 +2740,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:42:40Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:42:41Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-4.6V",
@@ -1789,7 +2765,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:42:48Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:42:49Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-4.6V-FP8",
@@ -1801,7 +2790,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:44:25Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:44:27Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-4.6V-Flash",
@@ -1813,7 +2815,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:44:36Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:44:39Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:44:42Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-4.7",
@@ -1825,7 +2846,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:44:53Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:44:55Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:44:57Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-4.7-FP8",
@@ -1837,7 +2877,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:45:06Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:45:08Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-4.7-Flash",
@@ -1849,7 +2902,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:45:16Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:45:19Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:45:21Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-5",
@@ -1861,7 +2933,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:45:40Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:45:52Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-5.1",
@@ -1873,7 +2958,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:46:22Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:46:26Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:46:28Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-5.1-FP8",
@@ -1885,7 +2989,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:46:38Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:46:42Z"
+        }
+      }
     },
     {
       "id": "zai-org/GLM-5.2",
@@ -1909,7 +3026,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-12T08:16:10Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:46:58Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:47:00Z"
+        }
+      }
     }
   ]
 }

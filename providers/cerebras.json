@@ -30,19 +30,19 @@
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:13Z"
+          "lastChecked": "2026-07-15T08:20:31Z"
         },
         "json": {
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:15Z"
+          "lastChecked": "2026-07-15T08:20:33Z"
         },
         "streaming": {
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:17Z"
+          "lastChecked": "2026-07-15T08:20:34Z"
         }
       }
     },
@@ -58,22 +58,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:47Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:09:53Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:49Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:09:55Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:51:50Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:09:57Z"
         }
       }
     },
@@ -89,22 +89,22 @@
       "lastChecked": "2026-07-12T08:16:10Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:05Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:15:13Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:07Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:15:14Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:09Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:15:18Z"
         }
       }
     }

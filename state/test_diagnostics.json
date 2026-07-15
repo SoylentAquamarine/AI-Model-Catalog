@@ -1,4 +1,366 @@
 {
-  "generatedAt": "2026-07-12T14:53:34Z",
-  "providers": {}
+  "generatedAt": "2026-07-15T09:50:11Z",
+  "providers": {
+    "cerebras": {
+      "byCapability": {
+        "chat": {
+          "error": 0,
+          "fail": 2,
+          "pass": 1
+        },
+        "json": {
+          "error": 0,
+          "fail": 2,
+          "pass": 1
+        },
+        "streaming": {
+          "error": 0,
+          "fail": 0,
+          "pass": 3
+        }
+      },
+      "byDetail": {
+        "empty": 4,
+        "ok": 5
+      },
+      "modelsTested": 3,
+      "outcomes": {
+        "error": 0,
+        "fail": 4,
+        "pass": 5
+      },
+      "probes": 9
+    },
+    "cloudflare": {
+      "byCapability": {
+        "chat": {
+          "error": 36,
+          "fail": 9,
+          "pass": 16
+        },
+        "json": {
+          "error": 2,
+          "fail": 52,
+          "pass": 7
+        },
+        "streaming": {
+          "error": 2,
+          "fail": 35,
+          "pass": 24
+        },
+        "vision": {
+          "error": 1,
+          "fail": 1,
+          "pass": 0
+        }
+      },
+      "byDetail": {
+        "bad_json": 11,
+        "empty": 16,
+        "http_400": 34,
+        "http_403": 6,
+        "ok": 47,
+        "timeout": 1,
+        "unsupported_param": 70
+      },
+      "modelsTested": 61,
+      "outcomes": {
+        "error": 41,
+        "fail": 97,
+        "pass": 47
+      },
+      "probes": 185
+    },
+    "cohere": {
+      "byCapability": {
+        "chat": {
+          "error": 15,
+          "fail": 0,
+          "pass": 16
+        },
+        "json": {
+          "error": 0,
+          "fail": 24,
+          "pass": 7
+        },
+        "streaming": {
+          "error": 0,
+          "fail": 15,
+          "pass": 16
+        }
+      },
+      "byDetail": {
+        "bad_json": 2,
+        "http_400": 15,
+        "ok": 39,
+        "unsupported_param": 37
+      },
+      "modelsTested": 31,
+      "outcomes": {
+        "error": 15,
+        "fail": 39,
+        "pass": 39
+      },
+      "probes": 93
+    },
+    "gemini": {
+      "byCapability": {
+        "chat": {
+          "error": 29,
+          "fail": 4,
+          "pass": 7
+        },
+        "json": {
+          "error": 28,
+          "fail": 12,
+          "pass": 0
+        },
+        "streaming": {
+          "error": 27,
+          "fail": 3,
+          "pass": 10
+        }
+      },
+      "byDetail": {
+        "bad_json": 4,
+        "empty": 10,
+        "http_400": 2,
+        "http_404": 27,
+        "http_429": 54,
+        "http_503": 1,
+        "no_stream": 1,
+        "ok": 17,
+        "unsupported_param": 4
+      },
+      "modelsTested": 40,
+      "outcomes": {
+        "error": 84,
+        "fail": 19,
+        "pass": 17
+      },
+      "probes": 120
+    },
+    "groq": {
+      "byCapability": {
+        "chat": {
+          "error": 4,
+          "fail": 3,
+          "pass": 10
+        },
+        "json": {
+          "error": 1,
+          "fail": 10,
+          "pass": 6
+        },
+        "streaming": {
+          "error": 0,
+          "fail": 6,
+          "pass": 11
+        }
+      },
+      "byDetail": {
+        "empty": 3,
+        "http_400": 4,
+        "http_429": 1,
+        "ok": 27,
+        "unsupported_param": 16
+      },
+      "modelsTested": 17,
+      "outcomes": {
+        "error": 5,
+        "fail": 19,
+        "pass": 27
+      },
+      "probes": 51
+    },
+    "huggingface": {
+      "byCapability": {
+        "chat": {
+          "error": 64,
+          "fail": 17,
+          "pass": 39
+        },
+        "json": {
+          "error": 43,
+          "fail": 50,
+          "pass": 27
+        },
+        "streaming": {
+          "error": 48,
+          "fail": 22,
+          "pass": 50
+        }
+      },
+      "byDetail": {
+        "bad_json": 7,
+        "empty": 27,
+        "http_400": 22,
+        "http_402": 109,
+        "http_403": 21,
+        "http_405": 2,
+        "ok": 116,
+        "timeout": 1,
+        "unsupported_param": 55
+      },
+      "modelsTested": 120,
+      "outcomes": {
+        "error": 155,
+        "fail": 89,
+        "pass": 116
+      },
+      "probes": 360
+    },
+    "mistral": {
+      "byCapability": {
+        "chat": {
+          "error": 20,
+          "fail": 3,
+          "pass": 47
+        },
+        "json": {
+          "error": 2,
+          "fail": 18,
+          "pass": 50
+        },
+        "streaming": {
+          "error": 3,
+          "fail": 18,
+          "pass": 49
+        },
+        "tools": {
+          "error": 3,
+          "fail": 10,
+          "pass": 47
+        },
+        "vision": {
+          "error": 7,
+          "fail": 8,
+          "pass": 29
+        }
+      },
+      "byDetail": {
+        "empty": 5,
+        "http_400": 18,
+        "http_403": 10,
+        "http_429": 7,
+        "no_tool_call": 2,
+        "ok": 222,
+        "unsupported_param": 50
+      },
+      "modelsTested": 70,
+      "outcomes": {
+        "error": 35,
+        "fail": 57,
+        "pass": 222
+      },
+      "probes": 314
+    },
+    "openrouter": {
+      "byCapability": {
+        "chat": {
+          "error": 13,
+          "fail": 7,
+          "pass": 6
+        },
+        "json": {
+          "error": 13,
+          "fail": 11,
+          "pass": 2
+        },
+        "streaming": {
+          "error": 13,
+          "fail": 0,
+          "pass": 13
+        },
+        "tools": {
+          "error": 7,
+          "fail": 6,
+          "pass": 6
+        },
+        "vision": {
+          "error": 4,
+          "fail": 2,
+          "pass": 2
+        }
+      },
+      "byDetail": {
+        "bad_json": 4,
+        "empty": 15,
+        "http_402": 8,
+        "http_404": 11,
+        "http_429": 31,
+        "no_tool_call": 6,
+        "ok": 29,
+        "unsupported_param": 1
+      },
+      "modelsTested": 26,
+      "outcomes": {
+        "error": 50,
+        "fail": 26,
+        "pass": 29
+      },
+      "probes": 105
+    },
+    "pollinations": {
+      "byCapability": {
+        "chat": {
+          "error": 0,
+          "fail": 0,
+          "pass": 1
+        },
+        "json": {
+          "error": 0,
+          "fail": 0,
+          "pass": 1
+        },
+        "streaming": {
+          "error": 0,
+          "fail": 0,
+          "pass": 1
+        }
+      },
+      "byDetail": {
+        "ok": 3
+      },
+      "modelsTested": 1,
+      "outcomes": {
+        "error": 0,
+        "fail": 0,
+        "pass": 3
+      },
+      "probes": 3
+    },
+    "sambanova": {
+      "byCapability": {
+        "chat": {
+          "error": 2,
+          "fail": 1,
+          "pass": 3
+        },
+        "json": {
+          "error": 2,
+          "fail": 0,
+          "pass": 4
+        },
+        "streaming": {
+          "error": 1,
+          "fail": 0,
+          "pass": 5
+        }
+      },
+      "byDetail": {
+        "empty": 1,
+        "http_402": 3,
+        "ok": 12,
+        "timeout": 2
+      },
+      "modelsTested": 6,
+      "outcomes": {
+        "error": 5,
+        "fail": 1,
+        "pass": 12
+      },
+      "probes": 18
+    }
+  }
 }

@@ -131,28 +131,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:47Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:26:20Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:50Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:26:23Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:51Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:26:25Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:47:54Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:26:27Z"
         }
       }
     },
@@ -212,7 +212,38 @@
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:26:48Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:27:02Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:27:04Z"
+        },
+        "tools": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:27:13Z"
+        },
+        "vision": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:27:23Z"
+        }
+      }
     },
     {
       "id": "google/gemma-4-31b-it:free",
@@ -761,28 +792,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:56:56Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:34Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:56:58Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:36Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:00Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:39Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T18:57:05Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:39:42Z"
         }
       }
     },
@@ -850,34 +881,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T19:02:48Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:40:04Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T19:07:49Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:40:06Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T19:09:00Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:40:08Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T19:14:02Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:40:17Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-10T19:19:03Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:40:24Z"
         }
       }
     },
@@ -939,28 +970,28 @@
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:46Z"
+          "lastChecked": "2026-07-12T14:23:46Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
           "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:48Z"
+          "lastChecked": "2026-07-15T08:41:01Z"
         },
         "streaming": {
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:50Z"
+          "lastChecked": "2026-07-15T08:41:05Z"
         },
         "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:23:53Z"
+          "lastChecked": "2026-07-12T14:23:53Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1025,25 +1056,25 @@
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:25:13Z"
+          "lastChecked": "2026-07-15T08:43:07Z"
         },
         "json": {
-          "value": true,
+          "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:25:16Z"
+          "lastChecked": "2026-07-15T08:43:10Z"
         },
         "streaming": {
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:25:18Z"
+          "lastChecked": "2026-07-15T08:43:12Z"
         },
         "tools": {
-          "value": true,
+          "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:25:20Z"
+          "lastChecked": "2026-07-15T08:43:43Z"
         }
       }
     },
@@ -1108,25 +1139,25 @@
           "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:11Z"
+          "lastChecked": "2026-07-15T08:44:42Z"
         },
         "json": {
           "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:14Z"
+          "lastChecked": "2026-07-15T08:44:45Z"
         },
         "streaming": {
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:16Z"
+          "lastChecked": "2026-07-15T08:44:47Z"
         },
         "vision": {
           "value": false,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:18Z"
+          "lastChecked": "2026-07-15T08:44:49Z"
         }
       }
     },
@@ -1188,34 +1219,34 @@
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-12T14:29:00Z"
-        },
-        "json": {
           "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:29:02Z"
+          "lastChecked": "2026-07-15T08:45:08Z"
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-12T14:29:02Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:30:12Z"
+          "lastChecked": "2026-07-12T14:30:12Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "tools": {
-          "value": false,
+          "value": true,
           "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:32:14Z"
+          "lastChecked": "2026-07-15T08:45:14Z"
         },
         "vision": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-12T14:34:16Z"
+          "lastChecked": "2026-07-12T14:34:16Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1275,7 +1306,32 @@
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:10:40Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:10:43Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:10:46Z"
+        },
+        "tools": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:10:48Z"
+        }
+      }
     },
     {
       "id": "openai/gpt-oss-120b:free",
@@ -1391,7 +1447,32 @@
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:08Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:11Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:13Z"
+        },
+        "tools": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:15Z"
+        }
+      }
     },
     {
       "id": "openrouter/free",
@@ -1449,7 +1530,38 @@
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:44Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:46Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:49Z"
+        },
+        "tools": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:51Z"
+        },
+        "vision": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:15:12Z"
+        }
+      }
     },
     {
       "id": "poolside/laguna-m.1:free",
@@ -1507,7 +1619,32 @@
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:16:10Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:16:15Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:16:17Z"
+        },
+        "tools": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:16:21Z"
+        }
+      }
     },
     {
       "id": "poolside/laguna-xs-2.1:free",
@@ -1565,7 +1702,32 @@
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:17:38Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:17:39Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:17:43Z"
+        },
+        "tools": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:17:45Z"
+        }
+      }
     },
     {
       "id": "qwen/qwen3-coder:free",
@@ -1739,7 +1901,32 @@
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:23:39Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:23:41Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:23:44Z"
+        },
+        "tools": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:23:48Z"
+        }
+      }
     }
   ]
 }
