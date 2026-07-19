@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-15T09:50:11Z",
+  "generatedAt": "2026-07-19T08:17:06Z",
   "note": "Counts reflect capabilities verified by live test (source tested_by_catalog).",
   "capabilities": {
     "chat": {
-      "count": 162,
+      "count": 160,
       "models": [
         "cerebras:gemma-4-31b",
         "cloudflare:@cf/aisingapore/gemma-sea-lion-v4-27b-it",
@@ -50,10 +50,8 @@
         "groq:groq/compound-mini",
         "groq:llama-3.1-8b-instant",
         "groq:llama-3.3-70b-versatile",
-        "groq:meta-llama/llama-4-scout-17b-16e-instruct",
         "groq:meta-llama/llama-prompt-guard-2-22m",
         "groq:meta-llama/llama-prompt-guard-2-86m",
-        "groq:qwen/qwen3-32b",
         "groq:qwen/qwen3.6-27b",
         "huggingface:CohereLabs/aya-expanse-32b",
         "huggingface:CohereLabs/aya-vision-32b",
@@ -170,7 +168,7 @@
       ]
     },
     "json": {
-      "count": 114,
+      "count": 113,
       "models": [
         "cerebras:gemma-4-31b",
         "cloudflare:@cf/google/gemma-2b-it-lora",
@@ -191,7 +189,6 @@
         "groq:groq/compound-mini",
         "groq:llama-3.1-8b-instant",
         "groq:llama-3.3-70b-versatile",
-        "groq:meta-llama/llama-4-scout-17b-16e-instruct",
         "groq:openai/gpt-oss-20b",
         "huggingface:CohereLabs/c4ai-command-a-03-2025",
         "huggingface:CohereLabs/c4ai-command-r-08-2024",
@@ -289,7 +286,7 @@
       ]
     },
     "streaming": {
-      "count": 199,
+      "count": 197,
       "models": [
         "cerebras:gemma-4-31b",
         "cerebras:gpt-oss-120b",
@@ -349,11 +346,9 @@
         "groq:groq/compound-mini",
         "groq:llama-3.1-8b-instant",
         "groq:llama-3.3-70b-versatile",
-        "groq:meta-llama/llama-4-scout-17b-16e-instruct",
         "groq:openai/gpt-oss-120b",
         "groq:openai/gpt-oss-20b",
         "groq:openai/gpt-oss-safeguard-20b",
-        "groq:qwen/qwen3-32b",
         "groq:qwen/qwen3.6-27b",
         "huggingface:CohereLabs/aya-expanse-32b",
         "huggingface:CohereLabs/aya-vision-32b",

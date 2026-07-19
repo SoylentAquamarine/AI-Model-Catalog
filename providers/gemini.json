@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "Google documents a rate-limited free tier for Gemini and Gemma API models.",
-    "lastChecked": "2026-07-12T08:16:08Z"
+    "lastChecked": "2026-07-19T08:17:01Z"
   },
   "models": [
     {
@@ -27,26 +27,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -63,26 +63,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -99,26 +99,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -135,26 +135,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -171,26 +171,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -207,46 +207,46 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:27:18Z"
+          "lastChecked": "2026-07-15T09:27:18Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:27:26Z"
+          "lastChecked": "2026-07-15T09:27:26Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:27:35Z"
+          "lastChecked": "2026-07-15T09:27:35Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -262,26 +262,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -298,46 +298,46 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:32:22Z"
+          "lastChecked": "2026-07-15T09:32:22Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:32:30Z"
+          "lastChecked": "2026-07-15T09:32:30Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:32:39Z"
+          "lastChecked": "2026-07-15T09:32:39Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -353,26 +353,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -389,26 +389,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -425,26 +425,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -461,40 +461,40 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:39:36Z"
+          "lastChecked": "2026-07-15T09:39:36Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:39:44Z"
+          "lastChecked": "2026-07-15T09:39:44Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -510,26 +510,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -546,26 +546,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -582,46 +582,46 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:47:57Z"
+          "lastChecked": "2026-07-15T09:47:57Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:48:16Z"
+          "lastChecked": "2026-07-15T09:48:16Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:48:25Z"
+          "lastChecked": "2026-07-15T09:48:25Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -637,26 +637,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -673,26 +673,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -709,26 +709,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -745,26 +745,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -781,26 +781,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -817,46 +817,46 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:25:41Z"
+          "lastChecked": "2026-07-15T08:25:41Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:25:49Z"
+          "lastChecked": "2026-07-15T08:25:49Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:25:58Z"
+          "lastChecked": "2026-07-15T08:25:58Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -872,26 +872,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -908,46 +908,46 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:31:11Z"
+          "lastChecked": "2026-07-15T08:31:11Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:31:20Z"
+          "lastChecked": "2026-07-15T08:31:20Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:31:28Z"
+          "lastChecked": "2026-07-15T08:31:28Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -963,26 +963,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -999,40 +999,40 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:35:09Z"
+          "lastChecked": "2026-07-15T08:35:09Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:35:17Z"
+          "lastChecked": "2026-07-15T08:35:17Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1048,26 +1048,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -1084,26 +1084,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -1120,46 +1120,46 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:43:56Z"
+          "lastChecked": "2026-07-15T08:43:56Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:44:08Z"
+          "lastChecked": "2026-07-15T08:44:08Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:44:24Z"
+          "lastChecked": "2026-07-15T08:44:24Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1175,26 +1175,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -1211,26 +1211,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -1247,26 +1247,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -1283,26 +1283,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -1319,40 +1319,40 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:53:21Z"
+          "lastChecked": "2026-07-15T08:53:21Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:53:54Z"
+          "lastChecked": "2026-07-15T08:53:54Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1368,46 +1368,46 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:55:25Z"
+          "lastChecked": "2026-07-15T08:55:25Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:55:33Z"
+          "lastChecked": "2026-07-15T08:55:33Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:55:41Z"
+          "lastChecked": "2026-07-15T08:55:41Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1423,26 +1423,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -1459,26 +1459,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -1495,26 +1495,26 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {}
@@ -1531,46 +1531,46 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:05:31Z"
+          "lastChecked": "2026-07-15T09:05:31Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:05:40Z"
+          "lastChecked": "2026-07-15T09:05:40Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:05:49Z"
+          "lastChecked": "2026-07-15T09:05:49Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1586,46 +1586,46 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:07:19Z"
+          "lastChecked": "2026-07-15T09:07:19Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:07:28Z"
+          "lastChecked": "2026-07-15T09:07:28Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:07:37Z"
+          "lastChecked": "2026-07-15T09:07:37Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1641,46 +1641,46 @@
       },
       "status": "available",
       "source": "gemini_models_api",
-      "lastChecked": "2026-07-12T08:16:08Z",
+      "lastChecked": "2026-07-19T08:17:01Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         },
         "streaming": {
           "value": "unknown",
           "source": "not_confirmed",
           "confidence": "unknown",
-          "lastChecked": "2026-07-12T08:16:08Z",
+          "lastChecked": "2026-07-19T08:17:01Z",
           "notes": "Model method list did not mention streamGenerateContent."
         },
         "embeddings": {
           "value": false,
           "source": "gemini_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:08Z"
+          "lastChecked": "2026-07-19T08:17:01Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:09:07Z"
+          "lastChecked": "2026-07-15T09:09:07Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:09:16Z"
+          "lastChecked": "2026-07-15T09:09:16Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T09:09:25Z"
+          "lastChecked": "2026-07-15T09:09:25Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     }

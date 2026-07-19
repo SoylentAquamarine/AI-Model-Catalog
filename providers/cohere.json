@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "apiBase is Cohere's OpenAI-compatible endpoint; the native Cohere API differs. Cohere trial keys are free with rate limits.",
-    "lastChecked": "2026-07-12T08:16:10Z"
+    "lastChecked": "2026-07-19T08:17:02Z"
   },
   "models": [
     {
@@ -27,45 +27,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:38:31Z"
+          "lastChecked": "2026-07-15T08:38:31Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:38:33Z"
+          "lastChecked": "2026-07-15T08:38:33Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:38:34Z"
+          "lastChecked": "2026-07-15T08:38:34Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -81,45 +81,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:39:42Z"
+          "lastChecked": "2026-07-15T08:39:42Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:39:43Z"
+          "lastChecked": "2026-07-15T08:39:43Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:39:45Z"
+          "lastChecked": "2026-07-15T08:39:45Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -135,39 +135,39 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:40:52Z"
+          "lastChecked": "2026-07-15T08:40:52Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:40:54Z"
+          "lastChecked": "2026-07-15T08:40:54Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -183,45 +183,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:41:56Z"
+          "lastChecked": "2026-07-15T08:41:56Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:42:01Z"
+          "lastChecked": "2026-07-15T08:42:01Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:42:04Z"
+          "lastChecked": "2026-07-15T08:42:04Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -237,45 +237,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:43:43Z"
+          "lastChecked": "2026-07-15T08:43:43Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:43:45Z"
+          "lastChecked": "2026-07-15T08:43:45Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:43:47Z"
+          "lastChecked": "2026-07-15T08:43:47Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -291,45 +291,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:44:49Z"
+          "lastChecked": "2026-07-15T08:44:49Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:44:51Z"
+          "lastChecked": "2026-07-15T08:44:51Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:44:53Z"
+          "lastChecked": "2026-07-15T08:44:53Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -345,45 +345,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:45:53Z"
+          "lastChecked": "2026-07-15T08:45:53Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:45:55Z"
+          "lastChecked": "2026-07-15T08:45:55Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:45:57Z"
+          "lastChecked": "2026-07-15T08:45:57Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -399,45 +399,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:47:00Z"
+          "lastChecked": "2026-07-15T08:47:00Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:47:02Z"
+          "lastChecked": "2026-07-15T08:47:02Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:47:03Z"
+          "lastChecked": "2026-07-15T08:47:03Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -453,45 +453,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:48:11Z"
+          "lastChecked": "2026-07-15T08:48:11Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:48:13Z"
+          "lastChecked": "2026-07-15T08:48:13Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:48:14Z"
+          "lastChecked": "2026-07-15T08:48:14Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -507,45 +507,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:49:20Z"
+          "lastChecked": "2026-07-15T08:49:20Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:49:22Z"
+          "lastChecked": "2026-07-15T08:49:22Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:49:23Z"
+          "lastChecked": "2026-07-15T08:49:23Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -561,45 +561,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:50:31Z"
+          "lastChecked": "2026-07-15T08:50:31Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:50:32Z"
+          "lastChecked": "2026-07-15T08:50:32Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:50:34Z"
+          "lastChecked": "2026-07-15T08:50:34Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -615,45 +615,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:10:01Z"
+          "lastChecked": "2026-07-15T08:10:01Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:10:03Z"
+          "lastChecked": "2026-07-15T08:10:03Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:10:04Z"
+          "lastChecked": "2026-07-15T08:10:04Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -669,39 +669,39 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:11:30Z"
+          "lastChecked": "2026-07-15T08:11:30Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:11:32Z"
+          "lastChecked": "2026-07-15T08:11:32Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -714,39 +714,39 @@
       "limits": null,
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:15:25Z"
+          "lastChecked": "2026-07-15T08:15:25Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:15:27Z"
+          "lastChecked": "2026-07-15T08:15:27Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -762,39 +762,39 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:17:22Z"
+          "lastChecked": "2026-07-15T08:17:22Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:17:23Z"
+          "lastChecked": "2026-07-15T08:17:23Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -807,39 +807,39 @@
       "limits": null,
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:18:56Z"
+          "lastChecked": "2026-07-15T08:18:56Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:18:58Z"
+          "lastChecked": "2026-07-15T08:18:58Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -855,39 +855,39 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:20:03Z"
+          "lastChecked": "2026-07-15T08:20:03Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:20:05Z"
+          "lastChecked": "2026-07-15T08:20:05Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -900,39 +900,39 @@
       "limits": null,
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:21:07Z"
+          "lastChecked": "2026-07-15T08:21:07Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:21:08Z"
+          "lastChecked": "2026-07-15T08:21:08Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -948,39 +948,39 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:22:19Z"
+          "lastChecked": "2026-07-15T08:22:19Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:22:20Z"
+          "lastChecked": "2026-07-15T08:22:20Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -993,39 +993,39 @@
       "limits": null,
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:23:29Z"
+          "lastChecked": "2026-07-15T08:23:29Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:23:30Z"
+          "lastChecked": "2026-07-15T08:23:30Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1041,39 +1041,39 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:24:46Z"
+          "lastChecked": "2026-07-15T08:24:46Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:24:48Z"
+          "lastChecked": "2026-07-15T08:24:48Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1089,45 +1089,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:26:02Z"
+          "lastChecked": "2026-07-15T08:26:02Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:26:04Z"
+          "lastChecked": "2026-07-15T08:26:04Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:26:07Z"
+          "lastChecked": "2026-07-15T08:26:07Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1143,39 +1143,39 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:27:28Z"
+          "lastChecked": "2026-07-15T08:27:28Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:27:29Z"
+          "lastChecked": "2026-07-15T08:27:29Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1191,39 +1191,39 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:28:37Z"
+          "lastChecked": "2026-07-15T08:28:37Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:28:39Z"
+          "lastChecked": "2026-07-15T08:28:39Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1239,39 +1239,39 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:29:43Z"
+          "lastChecked": "2026-07-15T08:29:43Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:29:45Z"
+          "lastChecked": "2026-07-15T08:29:45Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1287,39 +1287,39 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:30:52Z"
+          "lastChecked": "2026-07-15T08:30:52Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:30:53Z"
+          "lastChecked": "2026-07-15T08:30:53Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1335,39 +1335,39 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:32:00Z"
+          "lastChecked": "2026-07-15T08:32:00Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:32:02Z"
+          "lastChecked": "2026-07-15T08:32:02Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1383,45 +1383,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:33:30Z"
+          "lastChecked": "2026-07-15T08:33:30Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:33:31Z"
+          "lastChecked": "2026-07-15T08:33:31Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:33:33Z"
+          "lastChecked": "2026-07-15T08:33:33Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1437,45 +1437,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:34:57Z"
+          "lastChecked": "2026-07-15T08:34:57Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:34:58Z"
+          "lastChecked": "2026-07-15T08:34:58Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:35:00Z"
+          "lastChecked": "2026-07-15T08:35:00Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1491,45 +1491,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:36:16Z"
+          "lastChecked": "2026-07-15T08:36:16Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:36:17Z"
+          "lastChecked": "2026-07-15T08:36:17Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:36:19Z"
+          "lastChecked": "2026-07-15T08:36:19Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1545,45 +1545,45 @@
       },
       "status": "available",
       "source": "cohere_models_api",
-      "lastChecked": "2026-07-12T08:16:10Z",
+      "lastChecked": "2026-07-19T08:17:02Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "embeddings": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         },
         "rerank": {
           "value": false,
           "source": "cohere_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-12T08:16:10Z"
+          "lastChecked": "2026-07-19T08:17:02Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:37:27Z"
+          "lastChecked": "2026-07-15T08:37:27Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:37:29Z"
+          "lastChecked": "2026-07-15T08:37:29Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:37:31Z"
+          "lastChecked": "2026-07-15T08:37:31Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     }

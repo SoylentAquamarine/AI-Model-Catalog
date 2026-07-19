@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "Free, keyless service; an optional token/referrer raises rate limits. apiBase is the OpenAI-compatible text endpoint.",
-    "lastChecked": "2026-07-05T08:52:18Z"
+    "lastChecked": "2026-07-19T08:17:00Z"
   },
   "models": [
     {
@@ -22,47 +22,47 @@
       "costClass": "free",
       "pricing": null,
       "limits": null,
-      "capabilities": {
-        "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-15T08:10:49Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-15T08:10:51Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-15T08:10:54Z"
-        }
-      },
       "status": "available",
       "source": "pollinations_models_api",
-      "lastChecked": "2026-07-05T08:52:18Z",
+      "lastChecked": "2026-07-19T08:17:00Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "pollinations_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:18Z"
+          "lastChecked": "2026-07-19T08:17:00Z"
         },
         "vision": {
           "value": false,
           "source": "pollinations_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:18Z"
+          "lastChecked": "2026-07-19T08:17:00Z"
         },
         "reasoning": {
           "value": true,
           "source": "pollinations_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-05T08:52:18Z"
+          "lastChecked": "2026-07-19T08:17:00Z"
+        }
+      },
+      "capabilities": {
+        "chat": {
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:10:49Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:10:51Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:10:54Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     }

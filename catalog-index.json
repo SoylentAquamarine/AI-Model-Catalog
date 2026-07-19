@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.4.0",
-  "generatedAt": "2026-07-15T09:50:11Z",
-  "totalModels": 375,
-  "totalFreeModels": 375,
+  "generatedAt": "2026-07-19T08:17:06Z",
+  "totalModels": 376,
+  "totalFreeModels": 376,
   "capabilitySummary": {
-    "chat": 162,
-    "json": 114,
-    "streaming": 199,
+    "chat": 160,
+    "json": 113,
+    "streaming": 197,
     "tools": 54,
     "vision": 32
   },
@@ -17,7 +17,7 @@
       "apiType": "openai-compatible",
       "modelCount": 3,
       "freeModelCount": 3,
-      "lastChecked": "2026-07-12T08:16:10Z"
+      "lastChecked": "2026-07-19T08:17:02Z"
     },
     {
       "id": "cloudflare",
@@ -25,7 +25,7 @@
       "apiType": "openai-compatible",
       "modelCount": 61,
       "freeModelCount": 61,
-      "lastChecked": "2026-07-12T08:16:14Z"
+      "lastChecked": "2026-07-19T08:17:06Z"
     },
     {
       "id": "cohere",
@@ -33,7 +33,7 @@
       "apiType": "openai-compatible",
       "modelCount": 31,
       "freeModelCount": 31,
-      "lastChecked": "2026-07-12T08:16:10Z"
+      "lastChecked": "2026-07-19T08:17:02Z"
     },
     {
       "id": "gemini",
@@ -41,39 +41,39 @@
       "apiType": "gemini",
       "modelCount": 40,
       "freeModelCount": 40,
-      "lastChecked": "2026-07-12T08:16:08Z"
+      "lastChecked": "2026-07-19T08:17:01Z"
     },
     {
       "id": "groq",
       "file": "providers/groq.json",
       "apiType": "openai-compatible",
-      "modelCount": 17,
-      "freeModelCount": 17,
-      "lastChecked": "2026-07-12T08:16:08Z"
+      "modelCount": 15,
+      "freeModelCount": 15,
+      "lastChecked": "2026-07-19T08:17:01Z"
     },
     {
       "id": "huggingface",
       "file": "providers/huggingface.json",
       "apiType": "openai-compatible",
-      "modelCount": 120,
-      "freeModelCount": 120,
-      "lastChecked": "2026-07-12T08:16:10Z"
+      "modelCount": 124,
+      "freeModelCount": 124,
+      "lastChecked": "2026-07-19T08:17:03Z"
     },
     {
       "id": "mistral",
       "file": "providers/mistral.json",
       "apiType": "openai-compatible",
-      "modelCount": 70,
-      "freeModelCount": 70,
-      "lastChecked": "2026-07-12T08:16:09Z"
+      "modelCount": 72,
+      "freeModelCount": 72,
+      "lastChecked": "2026-07-19T08:17:02Z"
     },
     {
       "id": "openrouter",
       "file": "providers/openrouter.json",
       "apiType": "openai-compatible",
-      "modelCount": 26,
-      "freeModelCount": 26,
-      "lastChecked": "2026-07-12T08:16:07Z"
+      "modelCount": 23,
+      "freeModelCount": 23,
+      "lastChecked": "2026-07-19T08:17:00Z"
     },
     {
       "id": "pollinations",
@@ -81,7 +81,7 @@
       "apiType": "openai-compatible",
       "modelCount": 1,
       "freeModelCount": 1,
-      "lastChecked": "2026-07-05T08:52:18Z"
+      "lastChecked": "2026-07-19T08:17:00Z"
     },
     {
       "id": "sambanova",
@@ -89,7 +89,7 @@
       "apiType": "openai-compatible",
       "modelCount": 6,
       "freeModelCount": 6,
-      "lastChecked": "2026-07-12T08:16:10Z"
+      "lastChecked": "2026-07-19T08:17:03Z"
     }
   ]
 }
