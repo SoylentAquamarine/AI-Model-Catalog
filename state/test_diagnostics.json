@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T09:50:11Z",
+  "generatedAt": "2026-07-22T10:08:43Z",
   "providers": {
     "cerebras": {
       "byCapability": {
@@ -39,9 +39,9 @@
           "pass": 16
         },
         "json": {
-          "error": 2,
-          "fail": 52,
-          "pass": 7
+          "error": 3,
+          "fail": 53,
+          "pass": 5
         },
         "streaming": {
           "error": 2,
@@ -56,18 +56,18 @@
       },
       "byDetail": {
         "bad_json": 11,
-        "empty": 16,
+        "empty": 17,
         "http_400": 34,
         "http_403": 6,
-        "ok": 47,
-        "timeout": 1,
+        "ok": 45,
+        "timeout": 2,
         "unsupported_param": 70
       },
       "modelsTested": 61,
       "outcomes": {
-        "error": 41,
-        "fail": 97,
-        "pass": 47
+        "error": 42,
+        "fail": 98,
+        "pass": 45
       },
       "probes": 185
     },
@@ -80,8 +80,8 @@
         },
         "json": {
           "error": 0,
-          "fail": 24,
-          "pass": 7
+          "fail": 25,
+          "pass": 6
         },
         "streaming": {
           "error": 0,
@@ -90,16 +90,16 @@
         }
       },
       "byDetail": {
-        "bad_json": 2,
+        "bad_json": 3,
         "http_400": 15,
-        "ok": 39,
+        "ok": 38,
         "unsupported_param": 37
       },
       "modelsTested": 31,
       "outcomes": {
         "error": 15,
-        "fail": 39,
-        "pass": 39
+        "fail": 40,
+        "pass": 38
       },
       "probes": 93
     },
@@ -107,13 +107,13 @@
       "byCapability": {
         "chat": {
           "error": 29,
-          "fail": 4,
-          "pass": 7
+          "fail": 5,
+          "pass": 6
         },
         "json": {
-          "error": 28,
+          "error": 27,
           "fail": 12,
-          "pass": 0
+          "pass": 1
         },
         "streaming": {
           "error": 27,
@@ -122,20 +122,19 @@
         }
       },
       "byDetail": {
-        "bad_json": 4,
-        "empty": 10,
+        "bad_json": 6,
+        "empty": 9,
         "http_400": 2,
         "http_404": 27,
         "http_429": 54,
-        "http_503": 1,
         "no_stream": 1,
         "ok": 17,
         "unsupported_param": 4
       },
       "modelsTested": 40,
       "outcomes": {
-        "error": 84,
-        "fail": 19,
+        "error": 83,
+        "fail": 20,
         "pass": 17
       },
       "probes": 120
@@ -145,161 +144,157 @@
         "chat": {
           "error": 4,
           "fail": 3,
-          "pass": 10
+          "pass": 8
         },
         "json": {
           "error": 1,
           "fail": 10,
-          "pass": 6
+          "pass": 4
         },
         "streaming": {
           "error": 0,
           "fail": 6,
-          "pass": 11
+          "pass": 9
         }
       },
       "byDetail": {
         "empty": 3,
         "http_400": 4,
         "http_429": 1,
-        "ok": 27,
+        "ok": 21,
         "unsupported_param": 16
       },
-      "modelsTested": 17,
+      "modelsTested": 15,
       "outcomes": {
         "error": 5,
         "fail": 19,
-        "pass": 27
+        "pass": 21
       },
-      "probes": 51
+      "probes": 45
     },
     "huggingface": {
       "byCapability": {
         "chat": {
-          "error": 64,
-          "fail": 17,
-          "pass": 39
+          "error": 122,
+          "fail": 1,
+          "pass": 1
         },
         "json": {
-          "error": 43,
-          "fail": 50,
-          "pass": 27
+          "error": 121,
+          "fail": 3,
+          "pass": 0
         },
         "streaming": {
-          "error": 48,
-          "fail": 22,
-          "pass": 50
+          "error": 122,
+          "fail": 1,
+          "pass": 1
         }
       },
       "byDetail": {
-        "bad_json": 7,
-        "empty": 27,
-        "http_400": 22,
-        "http_402": 109,
-        "http_403": 21,
-        "http_405": 2,
-        "ok": 116,
-        "timeout": 1,
-        "unsupported_param": 55
+        "empty": 2,
+        "http_400": 1,
+        "http_402": 364,
+        "ok": 2,
+        "unsupported_param": 3
       },
-      "modelsTested": 120,
+      "modelsTested": 124,
       "outcomes": {
-        "error": 155,
-        "fail": 89,
-        "pass": 116
+        "error": 365,
+        "fail": 5,
+        "pass": 2
       },
-      "probes": 360
+      "probes": 372
     },
     "mistral": {
       "byCapability": {
         "chat": {
-          "error": 20,
+          "error": 22,
           "fail": 3,
           "pass": 47
         },
         "json": {
           "error": 2,
-          "fail": 18,
+          "fail": 20,
           "pass": 50
         },
         "streaming": {
-          "error": 3,
-          "fail": 18,
-          "pass": 49
+          "error": 2,
+          "fail": 20,
+          "pass": 50
         },
         "tools": {
-          "error": 3,
-          "fail": 10,
-          "pass": 47
+          "error": 4,
+          "fail": 11,
+          "pass": 45
         },
         "vision": {
-          "error": 7,
+          "error": 6,
           "fail": 8,
-          "pass": 29
+          "pass": 30
         }
       },
       "byDetail": {
         "empty": 5,
-        "http_400": 18,
+        "http_400": 20,
         "http_403": 10,
-        "http_429": 7,
-        "no_tool_call": 2,
+        "http_429": 6,
+        "no_tool_call": 3,
         "ok": 222,
-        "unsupported_param": 50
+        "unsupported_param": 54
       },
-      "modelsTested": 70,
+      "modelsTested": 72,
       "outcomes": {
-        "error": 35,
-        "fail": 57,
+        "error": 36,
+        "fail": 62,
         "pass": 222
       },
-      "probes": 314
+      "probes": 320
     },
     "openrouter": {
       "byCapability": {
         "chat": {
-          "error": 13,
-          "fail": 7,
-          "pass": 6
+          "error": 11,
+          "fail": 5,
+          "pass": 7
         },
         "json": {
-          "error": 13,
-          "fail": 11,
-          "pass": 2
+          "error": 9,
+          "fail": 7,
+          "pass": 7
         },
         "streaming": {
-          "error": 13,
-          "fail": 0,
-          "pass": 13
+          "error": 12,
+          "fail": 1,
+          "pass": 10
         },
         "tools": {
           "error": 7,
-          "fail": 6,
-          "pass": 6
+          "fail": 7,
+          "pass": 3
         },
         "vision": {
-          "error": 4,
-          "fail": 2,
+          "error": 3,
+          "fail": 3,
           "pass": 2
         }
       },
       "byDetail": {
-        "bad_json": 4,
-        "empty": 15,
+        "bad_json": 3,
+        "empty": 12,
         "http_402": 8,
-        "http_404": 11,
-        "http_429": 31,
-        "no_tool_call": 6,
-        "ok": 29,
-        "unsupported_param": 1
+        "http_404": 25,
+        "http_429": 9,
+        "no_stream": 1,
+        "no_tool_call": 7,
+        "ok": 29
       },
-      "modelsTested": 26,
+      "modelsTested": 23,
       "outcomes": {
-        "error": 50,
-        "fail": 26,
+        "error": 42,
+        "fail": 23,
         "pass": 29
       },
-      "probes": 105
+      "probes": 94
     },
     "pollinations": {
       "byCapability": {
@@ -333,32 +328,29 @@
     "sambanova": {
       "byCapability": {
         "chat": {
-          "error": 2,
-          "fail": 1,
-          "pass": 3
+          "error": 6,
+          "fail": 0,
+          "pass": 0
         },
         "json": {
-          "error": 2,
+          "error": 6,
           "fail": 0,
-          "pass": 4
+          "pass": 0
         },
         "streaming": {
-          "error": 1,
+          "error": 6,
           "fail": 0,
-          "pass": 5
+          "pass": 0
         }
       },
       "byDetail": {
-        "empty": 1,
-        "http_402": 3,
-        "ok": 12,
-        "timeout": 2
+        "http_402": 18
       },
       "modelsTested": 6,
       "outcomes": {
-        "error": 5,
-        "fail": 1,
-        "pass": 12
+        "error": 18,
+        "fail": 0,
+        "pass": 0
       },
       "probes": 18
     }

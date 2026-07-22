@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T08:17:06Z",
+  "generatedAt": "2026-07-22T10:08:44Z",
   "note": "Counts reflect capabilities verified by live test (source tested_by_catalog).",
   "capabilities": {
     "chat": {
@@ -41,7 +41,6 @@
         "gemini:gemini-2.5-flash-lite",
         "gemini:gemini-3.1-flash-lite",
         "gemini:gemini-3.1-flash-lite-preview",
-        "gemini:gemini-flash-latest",
         "gemini:gemini-flash-lite-latest",
         "gemini:gemma-4-26b-a4b-it",
         "gemini:gemma-4-31b-it",
@@ -62,6 +61,7 @@
         "huggingface:CohereLabs/command-a-reasoning-08-2025",
         "huggingface:CohereLabs/command-a-translate-08-2025",
         "huggingface:CohereLabs/tiny-aya-earth",
+        "huggingface:CohereLabs/tiny-aya-fire",
         "huggingface:CohereLabs/tiny-aya-global",
         "huggingface:CohereLabs/tiny-aya-water",
         "huggingface:MiniMaxAI/MiniMax-M1-80k",
@@ -168,7 +168,7 @@
       ]
     },
     "json": {
-      "count": 113,
+      "count": 114,
       "models": [
         "cerebras:gemma-4-31b",
         "cloudflare:@cf/google/gemma-2b-it-lora",
@@ -176,20 +176,18 @@
         "cloudflare:@cf/meta/llama-3.2-3b-instruct",
         "cloudflare:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
         "cloudflare:@cf/mistralai/mistral-small-3.1-24b-instruct",
-        "cloudflare:@cf/moonshotai/kimi-k2.6",
         "cloudflare:@cf/moonshotai/kimi-k2.7-code",
-        "cohere:command-a-03-2025",
         "cohere:command-a-translate-08-2025",
         "cohere:command-a-vision-07-2025",
         "cohere:command-r-08-2024",
         "cohere:command-r-plus-08-2024",
         "cohere:command-r7b-12-2024",
         "cohere:command-r7b-arabic-02-2025",
+        "gemini:gemini-flash-lite-latest",
         "groq:allam-2-7b",
         "groq:groq/compound-mini",
         "groq:llama-3.1-8b-instant",
         "groq:llama-3.3-70b-versatile",
-        "groq:openai/gpt-oss-20b",
         "huggingface:CohereLabs/c4ai-command-a-03-2025",
         "huggingface:CohereLabs/c4ai-command-r-08-2024",
         "huggingface:CohereLabs/c4ai-command-r7b-12-2024",
@@ -276,7 +274,10 @@
         "openrouter:google/gemma-4-26b-a4b-it:free",
         "openrouter:google/gemma-4-31b-it:free",
         "openrouter:nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+        "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
         "openrouter:nvidia/nemotron-nano-12b-v2-vl:free",
+        "openrouter:openai/gpt-oss-20b:free",
         "pollinations:openai-fast",
         "sambanova:DeepSeek-V3.1",
         "sambanova:DeepSeek-V3.2",
@@ -286,7 +287,7 @@
       ]
     },
     "streaming": {
-      "count": 197,
+      "count": 199,
       "models": [
         "cerebras:gemma-4-31b",
         "cerebras:gpt-oss-120b",
@@ -359,6 +360,7 @@
         "huggingface:CohereLabs/command-a-reasoning-08-2025",
         "huggingface:CohereLabs/command-a-translate-08-2025",
         "huggingface:CohereLabs/tiny-aya-earth",
+        "huggingface:CohereLabs/tiny-aya-fire",
         "huggingface:CohereLabs/tiny-aya-global",
         "huggingface:CohereLabs/tiny-aya-water",
         "huggingface:MiniMaxAI/MiniMax-M1-80k",
@@ -423,6 +425,7 @@
         "mistral:devstral-medium-latest",
         "mistral:magistral-medium-2509",
         "mistral:magistral-medium-latest",
+        "mistral:magistral-small-2509",
         "mistral:magistral-small-latest",
         "mistral:ministral-14b-2512",
         "mistral:ministral-14b-latest",
@@ -488,7 +491,7 @@
       ]
     },
     "tools": {
-      "count": 54,
+      "count": 52,
       "models": [
         "mistral:codestral-2508",
         "mistral:codestral-latest",
@@ -534,20 +537,18 @@
         "mistral:mistral-vibe-cli-with-tools",
         "mistral:mistral-vibe-cli-with-tools",
         "mistral:open-mistral-nemo",
-        "mistral:open-mistral-nemo-2407",
         "mistral:voxtral-small-2507",
         "mistral:voxtral-small-latest",
         "openrouter:google/gemma-4-26b-a4b-it:free",
         "openrouter:nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-        "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+        "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
         "openrouter:nvidia/nemotron-nano-12b-v2-vl:free",
-        "openrouter:openrouter/free",
         "openrouter:poolside/laguna-xs-2.1:free",
         "openrouter:tencent/hy3:free"
       ]
     },
     "vision": {
-      "count": 32,
+      "count": 34,
       "models": [
         "mistral:magistral-small-latest",
         "mistral:ministral-14b-2512",
@@ -556,6 +557,8 @@
         "mistral:ministral-3b-latest",
         "mistral:ministral-8b-2512",
         "mistral:ministral-8b-latest",
+        "mistral:mistral-large-2512",
+        "mistral:mistral-large-2512",
         "mistral:mistral-medium",
         "mistral:mistral-medium",
         "mistral:mistral-medium-2505",

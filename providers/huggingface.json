@@ -316,7 +316,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-19T08:17:03Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-22T08:29:45Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-22T08:29:47Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-22T08:29:49Z"
+        }
+      }
     },
     {
       "id": "CohereLabs/tiny-aya-global",
@@ -1684,7 +1703,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-19T08:17:03Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-22T08:30:17Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-22T08:30:20Z"
+        }
+      }
     },
     {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
@@ -2678,16 +2710,16 @@
       "lastChecked": "2026-07-19T08:17:03Z",
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-15T08:41:24Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-22T08:58:22Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-15T08:41:26Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-22T08:58:24Z"
         }
       }
     },
