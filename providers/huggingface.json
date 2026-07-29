@@ -273,7 +273,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-26T08:25:11Z",
-      "capabilities": {}
+      "capabilities": {
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:13:40Z"
+        },
+        "streaming": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:13:42Z"
+        }
+      }
     },
     {
       "id": "CohereLabs/tiny-aya-earth",
@@ -318,22 +331,22 @@
       "lastChecked": "2026-07-26T08:25:11Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:29:45Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:45:29Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:29:47Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:45:31Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:29:49Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:45:32Z"
         }
       }
     },
@@ -752,22 +765,22 @@
       "lastChecked": "2026-07-26T08:25:11Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:38Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:16:26Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:40Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:16:30Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-12T14:26:42Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:16:32Z"
         }
       }
     },
@@ -1363,7 +1376,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-26T08:25:11Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:41:30Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:41:33Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:41:37Z"
+        }
+      }
     },
     {
       "id": "XiaomiMiMo/MiMo-V2.5-Pro",
@@ -1692,16 +1724,16 @@
       "lastChecked": "2026-07-26T08:25:11Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:30:17Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:45:51Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:30:20Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:45:54Z"
         }
       }
     },
@@ -2447,7 +2479,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-26T08:25:11Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:46:09Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:46:11Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:46:12Z"
+        }
+      }
     },
     {
       "id": "prism-ml/Ternary-Bonsai-27B-gguf",
@@ -2459,7 +2510,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-26T08:25:11Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:46:55Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:46:57Z"
+        }
+      }
     },
     {
       "id": "speakleash/Bielik-11B-v3.0-Instruct",
@@ -2596,7 +2660,20 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-26T08:25:11Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:42:03Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:42:05Z"
+        }
+      }
     },
     {
       "id": "swiss-ai/Apertus-v1.5-8B",
@@ -2608,7 +2685,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-26T08:25:11Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:42:25Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:42:27Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:42:29Z"
+        }
+      }
     },
     {
       "id": "tencent/Hy3",
@@ -2620,7 +2716,14 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-07-26T08:25:11Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:42:45Z"
+        }
+      }
     },
     {
       "id": "thinkingmachines/Inkling",
@@ -2994,16 +3097,22 @@
       "lastChecked": "2026-07-26T08:25:11Z",
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-15T08:45:06Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:43:45Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-15T08:45:08Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:43:48Z"
+        },
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:43:26Z"
         }
       }
     },

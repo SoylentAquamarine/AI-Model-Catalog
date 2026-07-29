@@ -231,22 +231,22 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:46:09Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:58:42Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:46:18Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:58:51Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:46:26Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:59:00Z"
         }
       }
     },
@@ -322,22 +322,22 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:51:13Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T10:03:49Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:51:21Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T10:03:59Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:51:30Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T10:04:10Z"
         }
       }
     },
@@ -485,16 +485,16 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:58:27Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T10:11:07Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:58:35Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T10:11:15Z"
         }
       }
     },
@@ -606,22 +606,22 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T10:06:39Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T10:19:19Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T10:06:48Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T10:19:28Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T10:06:57Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T10:19:36Z"
         }
       }
     },
@@ -841,22 +841,22 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:42:57Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:58:40Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:43:06Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:58:48Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:43:14Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:58:57Z"
         }
       }
     },
@@ -932,22 +932,22 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:48:19Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:03:57Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:48:27Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:04:05Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:48:36Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:04:14Z"
         }
       }
     },
@@ -1023,16 +1023,16 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:54:38Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:07:40Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:54:46Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:07:48Z"
         }
       }
     },
@@ -1144,22 +1144,22 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:02:58Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:16:03Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:03:25Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:16:13Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:03:46Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:16:25Z"
         }
       }
     },
@@ -1197,7 +1197,26 @@
           "lastChecked": "2026-07-26T08:25:09Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:41:07Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:41:16Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:41:24Z"
+        }
+      }
     },
     {
       "id": "gemini-3.5-live-translate-preview",
@@ -1269,7 +1288,26 @@
           "lastChecked": "2026-07-26T08:25:09Z"
         }
       },
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:43:02Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:43:10Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:43:19Z"
+        }
+      }
     },
     {
       "id": "gemini-embedding-001",
@@ -1415,22 +1453,22 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:12:27Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:25:01Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:12:36Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:25:10Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:12:45Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:25:19Z"
         }
       }
     },
@@ -1470,22 +1508,22 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:14:15Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:26:49Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:14:24Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:26:58Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:14:32Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:27:06Z"
         }
       }
     },
@@ -1633,22 +1671,22 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:24:22Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:36:56Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:24:31Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:37:05Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:24:40Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:37:13Z"
         }
       }
     },
@@ -1688,22 +1726,22 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:26:10Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:38:44Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:26:19Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:38:53Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:26:28Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:39:01Z"
         }
       }
     },
@@ -1743,22 +1781,22 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:27:59Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:40:32Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:28:08Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:40:41Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T09:28:16Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-07-29T09:40:50Z"
         }
       }
     }
