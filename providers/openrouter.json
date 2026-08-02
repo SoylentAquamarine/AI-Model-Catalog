@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": null,
-    "lastChecked": "2026-07-26T08:25:09Z"
+    "lastChecked": "2026-08-02T08:23:05Z"
   },
   "models": [
     {
@@ -31,70 +31,70 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:38Z"
+          "lastChecked": "2026-07-29T08:49:38Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:43Z"
+          "lastChecked": "2026-07-29T08:49:43Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:45Z"
+          "lastChecked": "2026-07-29T08:49:45Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "tools": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:49Z"
+          "lastChecked": "2026-07-29T08:49:49Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -114,76 +114,76 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:13Z"
+          "lastChecked": "2026-07-29T08:50:13Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:16Z"
+          "lastChecked": "2026-07-29T08:50:16Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:24Z"
+          "lastChecked": "2026-07-29T08:50:24Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:30Z"
+          "lastChecked": "2026-07-29T08:50:30Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "vision": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:34Z"
+          "lastChecked": "2026-07-29T08:50:34Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -203,43 +203,43 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
@@ -263,10 +263,10 @@
           "value": true
         },
         "vision": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:08Z"
+          "lastChecked": "2026-07-29T08:51:08Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -286,43 +286,43 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
@@ -344,43 +344,43 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
@@ -402,70 +402,70 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:41:41Z"
+          "lastChecked": "2026-07-29T08:41:41Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:41:43Z"
+          "lastChecked": "2026-07-29T08:41:43Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:41:45Z"
+          "lastChecked": "2026-07-29T08:41:45Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:41:47Z"
+          "lastChecked": "2026-07-29T08:41:47Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -485,70 +485,70 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:02Z"
+          "lastChecked": "2026-07-29T08:54:02Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:04Z"
+          "lastChecked": "2026-07-29T08:54:04Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:06Z"
+          "lastChecked": "2026-07-29T08:54:06Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "tools": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:08Z"
+          "lastChecked": "2026-07-29T08:54:08Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -568,82 +568,82 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         },
         "audio_input": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:39Z"
+          "lastChecked": "2026-07-29T08:54:39Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:41Z"
+          "lastChecked": "2026-07-29T08:54:41Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:43Z"
+          "lastChecked": "2026-07-29T08:54:43Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:57Z"
+          "lastChecked": "2026-07-29T08:54:57Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "vision": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:00Z"
+          "lastChecked": "2026-07-29T08:55:00Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -663,70 +663,70 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:53Z"
+          "lastChecked": "2026-07-29T08:55:53Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:03Z"
+          "lastChecked": "2026-07-29T08:56:03Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:05Z"
+          "lastChecked": "2026-07-29T08:56:05Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:11Z"
+          "lastChecked": "2026-07-29T08:56:11Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -746,70 +746,70 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:36Z"
+          "lastChecked": "2026-07-29T08:56:36Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:39Z"
+          "lastChecked": "2026-07-29T08:56:39Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:45Z"
+          "lastChecked": "2026-07-29T08:56:45Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:47Z"
+          "lastChecked": "2026-07-29T08:56:47Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -829,70 +829,70 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:11Z"
+          "lastChecked": "2026-07-29T08:57:11Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:14Z"
+          "lastChecked": "2026-07-29T08:57:14Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:16Z"
+          "lastChecked": "2026-07-29T08:57:16Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "vision": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:18Z"
+          "lastChecked": "2026-07-29T08:57:18Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -912,64 +912,64 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:40Z"
+          "lastChecked": "2026-07-29T08:57:40Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:52Z"
+          "lastChecked": "2026-07-29T08:57:52Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:58Z"
+          "lastChecked": "2026-07-29T08:57:58Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "tools": {
           "confidence": "high",
@@ -1001,70 +1001,70 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:34Z"
+          "lastChecked": "2026-07-29T08:45:34Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:36Z"
+          "lastChecked": "2026-07-29T08:45:36Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:38Z"
+          "lastChecked": "2026-07-29T08:45:38Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "tools": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:41Z"
+          "lastChecked": "2026-07-29T08:45:41Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1084,70 +1084,70 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:16Z"
+          "lastChecked": "2026-07-29T08:46:16Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:24Z"
+          "lastChecked": "2026-07-29T08:46:24Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:29Z"
+          "lastChecked": "2026-07-29T08:46:29Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "tools": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:37Z"
+          "lastChecked": "2026-07-29T08:46:37Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1167,159 +1167,76 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
-          "notes": "OpenRouter documents streaming support for all models."
-        }
-      },
-      "capabilities": {
-        "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:20Z"
-        },
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:28Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:30Z"
-        },
-        "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:33Z"
-        },
-        "vision": {
-          "value": true,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:38Z"
-        }
-      }
-    },
-    {
-      "id": "poolside/laguna-m.1:free",
-      "providerModelId": "poolside/laguna-m.1:free",
-      "displayName": "Poolside: Laguna M.1 (free)",
-      "costClass": "free",
-      "pricing": {
-        "currency": "USD",
-        "inputPerMTokens": 0.0,
-        "outputPerMTokens": 0.0
-      },
-      "limits": {
-        "contextTokens": 262144,
-        "maxOutputTokens": 32768
-      },
-      "status": "available",
-      "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
-      "hints": {
-        "chat": {
-          "value": true,
-          "source": "openrouter_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
-        },
-        "vision": {
-          "value": false,
-          "source": "openrouter_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
-        },
-        "tools": {
-          "value": true,
-          "source": "openrouter_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
-        },
-        "json": {
-          "value": false,
-          "source": "openrouter_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
-        },
-        "reasoning": {
-          "value": true,
-          "source": "openrouter_models_api",
-          "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
-        },
-        "streaming": {
-          "value": true,
-          "source": "provider_docs",
-          "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:16:10Z",
+          "lastChecked": "2026-07-29T08:47:20Z",
           "source": "tested_by_catalog",
           "value": false
         },
         "json": {
           "confidence": "high",
-          "lastChecked": "2026-07-22T08:32:47Z",
+          "lastChecked": "2026-07-29T08:47:28Z",
           "source": "tested_by_catalog",
-          "value": false
+          "value": true
         },
         "streaming": {
           "confidence": "high",
-          "lastChecked": "2026-07-15T08:16:17Z",
+          "lastChecked": "2026-07-29T08:47:30Z",
           "source": "tested_by_catalog",
           "value": true
         },
         "tools": {
           "confidence": "high",
-          "lastChecked": "2026-07-22T08:32:55Z",
+          "lastChecked": "2026-07-29T08:47:33Z",
           "source": "tested_by_catalog",
-          "value": false
+          "value": true
+        },
+        "vision": {
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:47:38Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1339,64 +1256,64 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:29Z"
+          "lastChecked": "2026-07-29T08:42:29Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:33Z"
+          "lastChecked": "2026-07-29T08:42:33Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:35Z"
+          "lastChecked": "2026-07-29T08:42:35Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1416,70 +1333,70 @@
       },
       "status": "available",
       "source": "openrouter_models_api",
-      "lastChecked": "2026-07-26T08:25:09Z",
+      "lastChecked": "2026-08-02T08:23:05Z",
       "hints": {
         "chat": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "vision": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "tools": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "json": {
           "value": false,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "reasoning": {
           "value": true,
           "source": "openrouter_models_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z"
+          "lastChecked": "2026-08-02T08:23:05Z"
         },
         "streaming": {
           "value": true,
           "source": "provider_docs",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:09Z",
+          "lastChecked": "2026-08-02T08:23:05Z",
           "notes": "OpenRouter documents streaming support for all models."
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:50Z"
+          "lastChecked": "2026-07-29T08:48:50Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:54Z"
+          "lastChecked": "2026-07-29T08:48:54Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:56Z"
+          "lastChecked": "2026-07-29T08:48:56Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "tools": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:08Z"
+          "lastChecked": "2026-07-29T08:49:08Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     }

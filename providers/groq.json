@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "Groq documents a rate-limited free tier covering its API models.",
-    "lastChecked": "2026-07-26T08:25:10Z"
+    "lastChecked": "2026-08-02T08:23:06Z"
   },
   "models": [
     {
@@ -27,25 +27,25 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:52:38Z"
+          "lastChecked": "2026-07-29T08:52:38Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:52:39Z"
+          "lastChecked": "2026-07-29T08:52:39Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:52:41Z"
+          "lastChecked": "2026-07-29T08:52:41Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -61,19 +61,19 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:41:26Z"
+          "lastChecked": "2026-07-29T08:41:26Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:41:28Z"
+          "lastChecked": "2026-07-29T08:41:28Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -89,19 +89,19 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:01Z"
+          "lastChecked": "2026-07-29T08:42:01Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:03Z"
+          "lastChecked": "2026-07-29T08:42:03Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -117,19 +117,19 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:40Z"
+          "lastChecked": "2026-07-29T08:42:40Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:45Z"
+          "lastChecked": "2026-07-29T08:42:45Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -145,25 +145,25 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:25Z"
+          "lastChecked": "2026-07-29T08:45:25Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:27Z"
+          "lastChecked": "2026-07-29T08:45:27Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:29Z"
+          "lastChecked": "2026-07-29T08:45:29Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -179,25 +179,25 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:05Z"
+          "lastChecked": "2026-07-29T08:46:05Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:07Z"
+          "lastChecked": "2026-07-29T08:46:07Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:08Z"
+          "lastChecked": "2026-07-29T08:46:08Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -213,25 +213,25 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:52Z"
+          "lastChecked": "2026-07-29T08:46:52Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:53Z"
+          "lastChecked": "2026-07-29T08:46:53Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:55Z"
+          "lastChecked": "2026-07-29T08:46:55Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -247,25 +247,25 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:52Z"
+          "lastChecked": "2026-07-29T08:47:52Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:53Z"
+          "lastChecked": "2026-07-29T08:47:53Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:55Z"
+          "lastChecked": "2026-07-29T08:47:55Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -281,25 +281,25 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:16Z"
+          "lastChecked": "2026-07-29T08:48:16Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:17Z"
+          "lastChecked": "2026-07-29T08:48:17Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:19Z"
+          "lastChecked": "2026-07-29T08:48:19Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -315,25 +315,25 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:15Z"
+          "lastChecked": "2026-07-29T08:49:15Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:17Z"
+          "lastChecked": "2026-07-29T08:49:17Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:19Z"
+          "lastChecked": "2026-07-29T08:49:19Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -349,25 +349,25 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:52Z"
+          "lastChecked": "2026-07-29T08:49:52Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:54Z"
+          "lastChecked": "2026-07-29T08:49:54Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:56Z"
+          "lastChecked": "2026-07-29T08:49:56Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -383,25 +383,25 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:41Z"
+          "lastChecked": "2026-07-29T08:50:41Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:43Z"
+          "lastChecked": "2026-07-29T08:50:43Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:45Z"
+          "lastChecked": "2026-07-29T08:50:45Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -417,25 +417,25 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:11Z"
+          "lastChecked": "2026-07-29T08:51:11Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:13Z"
+          "lastChecked": "2026-07-29T08:51:13Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:15Z"
+          "lastChecked": "2026-07-29T08:51:15Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -451,19 +451,19 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:35Z"
+          "lastChecked": "2026-07-29T08:51:35Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:36Z"
+          "lastChecked": "2026-07-29T08:51:36Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -479,19 +479,19 @@
       },
       "status": "available",
       "source": "groq_models_api",
-      "lastChecked": "2026-07-26T08:25:10Z",
+      "lastChecked": "2026-08-02T08:23:06Z",
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:52:20Z"
+          "lastChecked": "2026-07-29T08:52:20Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:52:22Z"
+          "lastChecked": "2026-07-29T08:52:22Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     }

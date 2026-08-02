@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "The HF router proxies many upstream providers. Hugging Face accounts include a small monthly free inference allowance.",
-    "lastChecked": "2026-07-26T08:25:11Z"
+    "lastChecked": "2026-08-02T08:23:08Z"
   },
   "models": [
     {
@@ -24,7 +24,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -55,7 +55,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -86,7 +86,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -117,7 +117,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -148,7 +148,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -179,7 +179,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -210,7 +210,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -241,7 +241,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -264,31 +264,6 @@
       }
     },
     {
-      "id": "CohereLabs/command-a-vision-07-2025",
-      "providerModelId": "CohereLabs/command-a-vision-07-2025",
-      "displayName": "CohereLabs/command-a-vision-07-2025",
-      "costClass": "free",
-      "pricing": null,
-      "limits": null,
-      "status": "available",
-      "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
-      "capabilities": {
-        "json": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:13:40Z"
-        },
-        "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:13:42Z"
-        }
-      }
-    },
-    {
       "id": "CohereLabs/tiny-aya-earth",
       "providerModelId": "CohereLabs/tiny-aya-earth",
       "displayName": "CohereLabs/tiny-aya-earth",
@@ -297,7 +272,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -328,25 +303,25 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:29Z"
+          "lastChecked": "2026-07-29T08:45:29Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:31Z"
+          "lastChecked": "2026-07-29T08:45:31Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:32Z"
+          "lastChecked": "2026-07-29T08:45:32Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -359,7 +334,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -390,7 +365,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -421,7 +396,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -452,7 +427,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -483,7 +458,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -514,7 +489,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -545,7 +520,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -576,7 +551,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -599,6 +574,18 @@
       }
     },
     {
+      "id": "NousResearch/Hermes-3-Llama-3.1-70B",
+      "providerModelId": "NousResearch/Hermes-3-Llama-3.1-70B",
+      "displayName": "NousResearch/Hermes-3-Llama-3.1-70B",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "status": "available",
+      "source": "huggingface_router_models_api",
+      "lastChecked": "2026-08-02T08:23:08Z",
+      "capabilities": {}
+    },
+    {
       "id": "Qwen/Qwen2.5-72B-Instruct",
       "providerModelId": "Qwen/Qwen2.5-72B-Instruct",
       "displayName": "Qwen/Qwen2.5-72B-Instruct",
@@ -607,7 +594,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -638,7 +625,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -669,7 +656,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -700,7 +687,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -731,7 +718,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -762,25 +749,25 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:16:26Z"
+          "lastChecked": "2026-07-29T09:16:26Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:16:30Z"
+          "lastChecked": "2026-07-29T09:16:30Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:16:32Z"
+          "lastChecked": "2026-07-29T09:16:32Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -793,7 +780,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -824,7 +811,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -855,7 +842,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -886,7 +873,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -909,6 +896,18 @@
       }
     },
     {
+      "id": "Qwen/Qwen3-30B-A3B",
+      "providerModelId": "Qwen/Qwen3-30B-A3B",
+      "displayName": "Qwen/Qwen3-30B-A3B",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "status": "available",
+      "source": "huggingface_router_models_api",
+      "lastChecked": "2026-08-02T08:23:08Z",
+      "capabilities": {}
+    },
+    {
       "id": "Qwen/Qwen3-32B",
       "providerModelId": "Qwen/Qwen3-32B",
       "displayName": "Qwen/Qwen3-32B",
@@ -917,8 +916,33 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
+    },
+    {
+      "id": "Qwen/Qwen3-4B-Instruct-2507",
+      "providerModelId": "Qwen/Qwen3-4B-Instruct-2507",
+      "displayName": "Qwen/Qwen3-4B-Instruct-2507",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "status": "available",
+      "source": "huggingface_router_models_api",
+      "lastChecked": "2026-08-02T08:23:08Z",
+      "capabilities": {
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:20Z",
+          "source": "tested_by_catalog",
+          "value": false
+        },
+        "streaming": {
+          "confidence": "high",
+          "lastChecked": "2026-07-15T08:12:22Z",
+          "source": "tested_by_catalog",
+          "value": false
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-4B-Thinking-2507",
@@ -929,7 +953,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -954,7 +978,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -979,7 +1003,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -991,7 +1015,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1022,7 +1046,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1053,7 +1077,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1084,7 +1108,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1115,7 +1139,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1146,7 +1170,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1165,7 +1189,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1196,7 +1220,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1221,7 +1245,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -1233,7 +1257,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -1245,7 +1269,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -1270,7 +1294,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1301,7 +1325,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -1313,7 +1337,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1344,7 +1368,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1375,25 +1399,25 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:41:30Z"
+          "lastChecked": "2026-07-29T08:41:30Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:41:33Z"
+          "lastChecked": "2026-07-29T08:41:33Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:41:37Z"
+          "lastChecked": "2026-07-29T08:41:37Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1406,7 +1430,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -1418,7 +1442,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -1443,7 +1467,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -1468,7 +1492,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -1493,7 +1517,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1524,7 +1548,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1555,7 +1579,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -1567,7 +1591,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1590,30 +1614,6 @@
       }
     },
     {
-      "id": "deepreinforce-ai/Ornith-1.0-35B",
-      "providerModelId": "deepreinforce-ai/Ornith-1.0-35B",
-      "displayName": "deepreinforce-ai/Ornith-1.0-35B",
-      "costClass": "free",
-      "pricing": null,
-      "limits": null,
-      "status": "available",
-      "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
-      "capabilities": {}
-    },
-    {
-      "id": "deepreinforce-ai/Ornith-1.0-35B-FP8",
-      "providerModelId": "deepreinforce-ai/Ornith-1.0-35B-FP8",
-      "displayName": "deepreinforce-ai/Ornith-1.0-35B-FP8",
-      "costClass": "free",
-      "pricing": null,
-      "limits": null,
-      "status": "available",
-      "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
-      "capabilities": {}
-    },
-    {
       "id": "deepseek-ai/DeepSeek-R1",
       "providerModelId": "deepseek-ai/DeepSeek-R1",
       "displayName": "deepseek-ai/DeepSeek-R1",
@@ -1622,7 +1622,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1653,7 +1653,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1684,7 +1684,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -1696,7 +1696,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -1721,19 +1721,19 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:51Z"
+          "lastChecked": "2026-07-29T08:45:51Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:54Z"
+          "lastChecked": "2026-07-29T08:45:54Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1746,7 +1746,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -1771,7 +1771,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1802,7 +1802,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1833,7 +1833,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -1845,7 +1845,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -1857,7 +1857,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1888,7 +1888,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1919,7 +1919,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -1931,7 +1931,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -1943,7 +1943,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -1974,7 +1974,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -1986,7 +1986,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -1998,7 +1998,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -2010,7 +2010,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -2022,7 +2022,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2053,7 +2053,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2084,7 +2084,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2115,7 +2115,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -2127,7 +2127,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2158,7 +2158,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2189,7 +2189,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2220,7 +2220,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2251,7 +2251,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2282,7 +2282,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -2294,7 +2294,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2325,7 +2325,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2356,7 +2356,19 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
+      "capabilities": {}
+    },
+    {
+      "id": "moonshotai/Kimi-K3",
+      "providerModelId": "moonshotai/Kimi-K3",
+      "displayName": "moonshotai/Kimi-K3",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "status": "available",
+      "source": "huggingface_router_models_api",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -2368,7 +2380,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -2380,7 +2392,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -2392,7 +2404,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2423,7 +2435,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2454,7 +2466,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -2466,7 +2478,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -2478,25 +2490,25 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:09Z"
+          "lastChecked": "2026-07-29T08:46:09Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:11Z"
+          "lastChecked": "2026-07-29T08:46:11Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:12Z"
+          "lastChecked": "2026-07-29T08:46:12Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -2509,19 +2521,19 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:55Z"
+          "lastChecked": "2026-07-29T08:46:55Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:57Z"
+          "lastChecked": "2026-07-29T08:46:57Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -2534,7 +2546,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -2559,7 +2571,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2584,7 +2596,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2609,7 +2621,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -2634,7 +2646,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -2659,19 +2671,19 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:03Z"
+          "lastChecked": "2026-07-29T08:42:03Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:05Z"
+          "lastChecked": "2026-07-29T08:42:05Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -2684,25 +2696,25 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:25Z"
+          "lastChecked": "2026-07-29T08:42:25Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:27Z"
+          "lastChecked": "2026-07-29T08:42:27Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:29Z"
+          "lastChecked": "2026-07-29T08:42:29Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -2715,13 +2727,13 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:45Z"
+          "lastChecked": "2026-07-29T08:42:45Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -2734,7 +2746,19 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
+      "capabilities": {}
+    },
+    {
+      "id": "thinkingmachines/Inkling-Small",
+      "providerModelId": "thinkingmachines/Inkling-Small",
+      "displayName": "thinkingmachines/Inkling-Small",
+      "costClass": "free",
+      "pricing": null,
+      "limits": null,
+      "status": "available",
+      "source": "huggingface_router_models_api",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -2746,7 +2770,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -2771,7 +2795,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2802,7 +2826,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2833,7 +2857,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -2858,7 +2882,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2889,7 +2913,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -2901,7 +2925,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -2926,7 +2950,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -2957,7 +2981,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -2982,7 +3006,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -3007,7 +3031,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",
@@ -3032,7 +3056,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -3063,7 +3087,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -3094,25 +3118,25 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
-        "json": {
-          "value": true,
-          "source": "tested_by_catalog",
+        "chat": {
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:43:45Z"
+          "lastChecked": "2026-07-29T08:43:26Z",
+          "source": "tested_by_catalog",
+          "value": true
+        },
+        "json": {
+          "confidence": "high",
+          "lastChecked": "2026-07-29T08:43:45Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:43:48Z"
-        },
-        "chat": {
-          "value": true,
+          "lastChecked": "2026-07-29T08:43:48Z",
           "source": "tested_by_catalog",
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:43:26Z"
+          "value": true
         }
       }
     },
@@ -3125,7 +3149,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -3156,7 +3180,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -3181,7 +3205,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -3212,7 +3236,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
           "confidence": "high",
@@ -3237,7 +3261,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {}
     },
     {
@@ -3249,7 +3273,7 @@
       "limits": null,
       "status": "available",
       "source": "huggingface_router_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
           "confidence": "high",

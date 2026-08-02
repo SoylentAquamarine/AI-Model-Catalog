@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "Cerebras documents a rate-limited free tier for its inference API.",
-    "lastChecked": "2026-07-26T08:25:11Z"
+    "lastChecked": "2026-08-02T08:23:07Z"
   },
   "models": [
     {
@@ -24,25 +24,25 @@
       "limits": null,
       "status": "available",
       "source": "cerebras_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:07Z",
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:48Z"
+          "lastChecked": "2026-07-29T08:50:48Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:50Z"
+          "lastChecked": "2026-07-29T08:50:50Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:52Z"
+          "lastChecked": "2026-07-29T08:50:52Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -55,25 +55,25 @@
       "limits": null,
       "status": "available",
       "source": "cerebras_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:07Z",
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:40:26Z"
+          "lastChecked": "2026-07-29T08:40:26Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:40:28Z"
+          "lastChecked": "2026-07-29T08:40:28Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:40:29Z"
+          "lastChecked": "2026-07-29T08:40:29Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -86,25 +86,25 @@
       "limits": null,
       "status": "available",
       "source": "cerebras_models_api",
-      "lastChecked": "2026-07-26T08:25:11Z",
+      "lastChecked": "2026-08-02T08:23:07Z",
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:42Z"
+          "lastChecked": "2026-07-29T08:45:42Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:43Z"
+          "lastChecked": "2026-07-29T08:45:43Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:45Z"
+          "lastChecked": "2026-07-29T08:45:45Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     }

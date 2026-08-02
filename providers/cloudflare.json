@@ -12,7 +12,7 @@
       "extraHeaders": null
     },
     "notes": "Account-scoped API: consumers must substitute their own {account_id} in apiBase. Workers AI documents a daily free allocation.",
-    "lastChecked": "2026-07-26T08:25:14Z"
+    "lastChecked": "2026-08-02T08:23:11Z"
   },
   "models": [
     {
@@ -24,20 +24,20 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Translation",
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:10Z"
+          "lastChecked": "2026-07-29T08:54:10Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:12Z"
+          "lastChecked": "2026-07-29T08:54:12Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -50,34 +50,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:27Z"
+          "lastChecked": "2026-07-29T08:54:27Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:29Z"
+          "lastChecked": "2026-07-29T08:54:29Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:30Z"
+          "lastChecked": "2026-07-29T08:54:30Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -90,28 +90,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Embeddings",
       "hints": {
         "embeddings": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:02Z"
+          "lastChecked": "2026-07-29T08:55:02Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:03Z"
+          "lastChecked": "2026-07-29T08:55:03Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -124,28 +124,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Embeddings",
       "hints": {
         "embeddings": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:16Z"
+          "lastChecked": "2026-07-29T08:55:16Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:18Z"
+          "lastChecked": "2026-07-29T08:55:18Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -158,28 +158,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Embeddings",
       "hints": {
         "embeddings": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:39Z"
+          "lastChecked": "2026-07-29T08:55:39Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:41Z"
+          "lastChecked": "2026-07-29T08:55:41Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -192,20 +192,20 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Classification",
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:12Z"
+          "lastChecked": "2026-07-29T08:56:12Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:14Z"
+          "lastChecked": "2026-07-29T08:56:14Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -218,28 +218,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Embeddings",
       "hints": {
         "embeddings": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:27Z"
+          "lastChecked": "2026-07-29T08:56:27Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:29Z"
+          "lastChecked": "2026-07-29T08:56:29Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -252,28 +252,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Image",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:49Z"
+          "lastChecked": "2026-07-29T08:56:49Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:50Z"
+          "lastChecked": "2026-07-29T08:56:50Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -286,28 +286,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Image",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:06Z"
+          "lastChecked": "2026-07-29T08:57:06Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:08Z"
+          "lastChecked": "2026-07-29T08:57:08Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -320,28 +320,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Image",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:20Z"
+          "lastChecked": "2026-07-29T08:57:20Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:22Z"
+          "lastChecked": "2026-07-29T08:57:22Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -354,28 +354,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Image",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:35Z"
+          "lastChecked": "2026-07-29T08:57:35Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:37Z"
+          "lastChecked": "2026-07-29T08:57:37Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -388,28 +388,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Image",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:58:03Z"
+          "lastChecked": "2026-07-29T08:58:03Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:58:04Z"
+          "lastChecked": "2026-07-29T08:58:04Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -422,28 +422,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Speech",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:58:20Z"
+          "lastChecked": "2026-07-29T08:58:20Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:58:21Z"
+          "lastChecked": "2026-07-29T08:58:21Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -456,28 +456,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Speech",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:58:38Z"
+          "lastChecked": "2026-07-29T08:58:38Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:58:39Z"
+          "lastChecked": "2026-07-29T08:58:39Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -490,28 +490,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Speech",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:02Z"
+          "lastChecked": "2026-07-29T08:59:02Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:04Z"
+          "lastChecked": "2026-07-29T08:59:04Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -524,28 +524,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Automatic Speech Recognition",
       "hints": {
         "speech_to_text": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:19Z"
+          "lastChecked": "2026-07-29T08:59:19Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:20Z"
+          "lastChecked": "2026-07-29T08:59:20Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -558,28 +558,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Automatic Speech Recognition",
       "hints": {
         "speech_to_text": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:34Z"
+          "lastChecked": "2026-07-29T08:59:34Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:36Z"
+          "lastChecked": "2026-07-29T08:59:36Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -592,34 +592,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:47Z"
+          "lastChecked": "2026-07-29T08:59:47Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:50Z"
+          "lastChecked": "2026-07-29T08:59:50Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:53Z"
+          "lastChecked": "2026-07-29T08:59:53Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -632,28 +632,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Embeddings",
       "hints": {
         "embeddings": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:08Z"
+          "lastChecked": "2026-07-29T09:00:08Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:10Z"
+          "lastChecked": "2026-07-29T09:00:10Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -666,34 +666,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:26Z"
+          "lastChecked": "2026-07-29T09:00:26Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:28Z"
+          "lastChecked": "2026-07-29T09:00:28Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:30Z"
+          "lastChecked": "2026-07-29T09:00:30Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -706,34 +706,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:52Z"
+          "lastChecked": "2026-07-29T09:00:52Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:54Z"
+          "lastChecked": "2026-07-29T09:00:54Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:58Z"
+          "lastChecked": "2026-07-29T09:00:58Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -746,34 +746,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:12Z"
+          "lastChecked": "2026-07-29T09:01:12Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:16Z"
+          "lastChecked": "2026-07-29T09:01:16Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:19Z"
+          "lastChecked": "2026-07-29T09:01:19Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -786,20 +786,20 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Classification",
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:35Z"
+          "lastChecked": "2026-07-29T09:01:35Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:36Z"
+          "lastChecked": "2026-07-29T09:01:36Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -812,34 +812,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:48Z"
+          "lastChecked": "2026-07-29T09:01:48Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:50Z"
+          "lastChecked": "2026-07-29T09:01:50Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:52Z"
+          "lastChecked": "2026-07-29T09:01:52Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -852,28 +852,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Image",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:02:05Z"
+          "lastChecked": "2026-07-29T09:02:05Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:02:07Z"
+          "lastChecked": "2026-07-29T09:02:07Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -886,28 +886,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Image",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:02:26Z"
+          "lastChecked": "2026-07-29T09:02:26Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:02:27Z"
+          "lastChecked": "2026-07-29T09:02:27Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -920,28 +920,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Image-to-Text",
       "hints": {
         "vision": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:02:39Z"
+          "lastChecked": "2026-07-29T09:02:39Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:02:40Z"
+          "lastChecked": "2026-07-29T09:02:40Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -954,28 +954,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Image",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:03:30Z"
+          "lastChecked": "2026-07-29T09:03:30Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:03:32Z"
+          "lastChecked": "2026-07-29T09:03:32Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -988,34 +988,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:03:46Z"
+          "lastChecked": "2026-07-29T09:03:46Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:03:51Z"
+          "lastChecked": "2026-07-29T09:03:51Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:03:53Z"
+          "lastChecked": "2026-07-29T09:03:53Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1028,34 +1028,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:14Z"
+          "lastChecked": "2026-07-29T09:04:14Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:18Z"
+          "lastChecked": "2026-07-29T09:04:18Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:20Z"
+          "lastChecked": "2026-07-29T09:04:20Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1068,14 +1068,14 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {}
@@ -1089,34 +1089,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:40:30Z"
+          "lastChecked": "2026-07-29T08:40:30Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:40:32Z"
+          "lastChecked": "2026-07-29T08:40:32Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:40:34Z"
+          "lastChecked": "2026-07-29T08:40:34Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1129,34 +1129,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:41:56Z"
+          "lastChecked": "2026-07-29T08:41:56Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:41:58Z"
+          "lastChecked": "2026-07-29T08:41:58Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:00Z"
+          "lastChecked": "2026-07-29T08:42:00Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1169,34 +1169,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:16Z"
+          "lastChecked": "2026-07-29T08:42:16Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:19Z"
+          "lastChecked": "2026-07-29T08:42:19Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:20Z"
+          "lastChecked": "2026-07-29T08:42:20Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1209,34 +1209,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:35Z"
+          "lastChecked": "2026-07-29T08:42:35Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:37Z"
+          "lastChecked": "2026-07-29T08:42:37Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:39Z"
+          "lastChecked": "2026-07-29T08:42:39Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1249,34 +1249,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:57Z"
+          "lastChecked": "2026-07-29T08:42:57Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:59Z"
+          "lastChecked": "2026-07-29T08:42:59Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:43:01Z"
+          "lastChecked": "2026-07-29T08:43:01Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1289,20 +1289,20 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Translation",
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:43:50Z"
+          "lastChecked": "2026-07-29T08:43:50Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:43:52Z"
+          "lastChecked": "2026-07-29T08:43:52Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1315,20 +1315,20 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Image Classification",
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:03Z"
+          "lastChecked": "2026-07-29T08:45:03Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:05Z"
+          "lastChecked": "2026-07-29T08:45:05Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1341,34 +1341,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:46Z"
+          "lastChecked": "2026-07-29T08:45:46Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:48Z"
+          "lastChecked": "2026-07-29T08:45:48Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:50Z"
+          "lastChecked": "2026-07-29T08:45:50Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1381,34 +1381,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:01Z"
+          "lastChecked": "2026-07-29T08:46:01Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:03Z"
+          "lastChecked": "2026-07-29T08:46:03Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:05Z"
+          "lastChecked": "2026-07-29T08:46:05Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1421,40 +1421,40 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Image-to-Text",
       "hints": {
         "vision": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:37Z"
+          "lastChecked": "2026-07-29T08:46:37Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:39Z"
+          "lastChecked": "2026-07-29T08:46:39Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:41Z"
+          "lastChecked": "2026-07-29T08:46:41Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "vision": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:43Z"
+          "lastChecked": "2026-07-29T08:46:43Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1467,34 +1467,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:05Z"
+          "lastChecked": "2026-07-29T08:47:05Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:08Z"
+          "lastChecked": "2026-07-29T08:47:08Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:13Z"
+          "lastChecked": "2026-07-29T08:47:13Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1507,34 +1507,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:44Z"
+          "lastChecked": "2026-07-29T08:47:44Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:49Z"
+          "lastChecked": "2026-07-29T08:47:49Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:52Z"
+          "lastChecked": "2026-07-29T08:47:52Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1547,28 +1547,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Speech",
       "hints": {
         "text_to_speech": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:11Z"
+          "lastChecked": "2026-07-29T08:48:11Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:13Z"
+          "lastChecked": "2026-07-29T08:48:13Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1581,34 +1581,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:26Z"
+          "lastChecked": "2026-07-29T08:48:26Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:28Z"
+          "lastChecked": "2026-07-29T08:48:28Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:30Z"
+          "lastChecked": "2026-07-29T08:48:30Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1621,34 +1621,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:08Z"
+          "lastChecked": "2026-07-29T08:49:08Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:10Z"
+          "lastChecked": "2026-07-29T08:49:10Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:12Z"
+          "lastChecked": "2026-07-29T08:49:12Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1661,34 +1661,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:31Z"
+          "lastChecked": "2026-07-29T08:49:31Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:33Z"
+          "lastChecked": "2026-07-29T08:49:33Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:35Z"
+          "lastChecked": "2026-07-29T08:49:35Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1701,28 +1701,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Automatic Speech Recognition",
       "hints": {
         "speech_to_text": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:51Z"
+          "lastChecked": "2026-07-29T08:49:51Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:52Z"
+          "lastChecked": "2026-07-29T08:49:52Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1735,28 +1735,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Automatic Speech Recognition",
       "hints": {
         "speech_to_text": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:05Z"
+          "lastChecked": "2026-07-29T08:50:05Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:06Z"
+          "lastChecked": "2026-07-29T08:50:06Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1769,28 +1769,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Automatic Speech Recognition",
       "hints": {
         "speech_to_text": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:36Z"
+          "lastChecked": "2026-07-29T08:50:36Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:38Z"
+          "lastChecked": "2026-07-29T08:50:38Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1803,28 +1803,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Embeddings",
       "hints": {
         "embeddings": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:53Z"
+          "lastChecked": "2026-07-29T08:50:53Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:50:55Z"
+          "lastChecked": "2026-07-29T08:50:55Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1837,20 +1837,20 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Dumb Pipe",
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:10Z"
+          "lastChecked": "2026-07-29T08:51:10Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:11Z"
+          "lastChecked": "2026-07-29T08:51:11Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1863,34 +1863,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:26Z"
+          "lastChecked": "2026-07-29T08:51:26Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:28Z"
+          "lastChecked": "2026-07-29T08:51:28Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:30Z"
+          "lastChecked": "2026-07-29T08:51:30Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1903,34 +1903,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:42Z"
+          "lastChecked": "2026-07-29T08:51:42Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:44Z"
+          "lastChecked": "2026-07-29T08:51:44Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:46Z"
+          "lastChecked": "2026-07-29T08:51:46Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -1943,28 +1943,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Embeddings",
       "hints": {
         "embeddings": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:52:14Z"
+          "lastChecked": "2026-07-29T08:52:14Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:52:18Z"
+          "lastChecked": "2026-07-29T08:52:18Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -1977,34 +1977,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:52:29Z"
+          "lastChecked": "2026-07-29T08:52:29Z",
+          "source": "tested_by_catalog",
+          "value": true
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:52:32Z"
+          "lastChecked": "2026-07-29T08:52:32Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:52:34Z"
+          "lastChecked": "2026-07-29T08:52:34Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -2017,28 +2017,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Image",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:52:48Z"
+          "lastChecked": "2026-07-29T08:52:48Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:52:50Z"
+          "lastChecked": "2026-07-29T08:52:50Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -2051,28 +2051,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Image",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:02Z"
+          "lastChecked": "2026-07-29T08:53:02Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:04Z"
+          "lastChecked": "2026-07-29T08:53:04Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -2085,28 +2085,28 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text-to-Image",
       "hints": {
         "image_generation": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:20Z"
+          "lastChecked": "2026-07-29T08:53:20Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:22Z"
+          "lastChecked": "2026-07-29T08:53:22Z",
+          "source": "tested_by_catalog",
+          "value": false
         }
       }
     },
@@ -2119,34 +2119,34 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {
         "chat": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:38Z"
+          "lastChecked": "2026-07-29T08:53:38Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "json": {
-          "value": false,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:41Z"
+          "lastChecked": "2026-07-29T08:53:41Z",
+          "source": "tested_by_catalog",
+          "value": false
         },
         "streaming": {
-          "value": true,
-          "source": "tested_by_catalog",
           "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:43Z"
+          "lastChecked": "2026-07-29T08:53:43Z",
+          "source": "tested_by_catalog",
+          "value": true
         }
       }
     },
@@ -2159,14 +2159,14 @@
       "limits": null,
       "status": "available",
       "source": "cloudflare_models_search_api",
-      "lastChecked": "2026-07-26T08:25:14Z",
+      "lastChecked": "2026-08-02T08:23:11Z",
       "notes": "Workers AI task: Text Generation",
       "hints": {
         "chat": {
           "value": true,
           "source": "cloudflare_models_search_api",
           "confidence": "high",
-          "lastChecked": "2026-07-26T08:25:14Z"
+          "lastChecked": "2026-08-02T08:23:11Z"
         }
       },
       "capabilities": {}
