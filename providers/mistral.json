@@ -56,28 +56,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:09:44Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:01:10Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:09:45Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:01:12Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:09:47Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:01:13Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:09:49Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:01:15Z"
         }
       }
     },
@@ -122,16 +122,16 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:10:06Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:01:32Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:10:07Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:01:34Z"
         }
       }
     },
@@ -176,16 +176,16 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:10:25Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:01:51Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:10:27Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:01:53Z"
         }
       }
     },
@@ -230,28 +230,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:10:42Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:02:08Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:10:44Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:02:10Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:10:46Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:02:12Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:10:48Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:02:14Z"
         }
       }
     },
@@ -296,28 +296,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:11:03Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:02:30Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:11:05Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:02:32Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:11:06Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:02:35Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:11:08Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:02:37Z"
         }
       }
     },
@@ -362,28 +362,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:11:53Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:03:05Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:11:55Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:03:07Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:11:57Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:03:21Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:12:01Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:03:23Z"
         }
       }
     },
@@ -428,28 +428,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:12:22Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:03:39Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:12:24Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:03:42Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:12:29Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:03:44Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:12:31Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:03:46Z"
         }
       }
     },
@@ -576,34 +576,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:16:37Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:04:57Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:16:39Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:04:59Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:16:41Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:01Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:16:43Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:03Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:16:45Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:06Z"
         }
       }
     },
@@ -648,34 +648,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:00Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:21Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:02Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:23Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:04Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:25Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:06Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:27Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:08Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:29Z"
         }
       }
     },
@@ -720,34 +720,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:23Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:44Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:25Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:46Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:27Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:48Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:29Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:51Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:30Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:05:53Z"
         }
       }
     },
@@ -792,34 +792,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:46Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:06:08Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:47Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:06:10Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:49Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:06:12Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:51Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:06:14Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:17:53Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:06:16Z"
         }
       }
     },
@@ -864,34 +864,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:18:12Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:06:44Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:18:14Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:06:46Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:18:16Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:06:47Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:18:17Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:06:49Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:18:19Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:06:51Z"
         }
       }
     },
@@ -936,34 +936,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:07Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:23Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:10Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:24Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:11Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:26Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:14Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:28Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:16Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:30Z"
         }
       }
     },
@@ -1008,34 +1008,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:49Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:56Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:51Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:58Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:53Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:37:00Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:55Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:37:02Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:57Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:37:04Z"
         }
       }
     },
@@ -1080,28 +1080,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:33:20Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:37:42Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:44:53Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:37:44Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:44:55Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:37:46Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:02Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:37:48Z"
         }
       }
     },
@@ -1146,28 +1146,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:56Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:38:31Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:58Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:38:33Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:59Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:38:35Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:01Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:38:37Z"
         }
       }
     },
@@ -1212,28 +1212,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:59Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:39:23Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:01Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:39:25Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:03Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:39:27Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:47:04Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:39:28Z"
         }
       }
     },
@@ -1278,16 +1278,16 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:00Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:40:54Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:02Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:40:56Z"
         }
       }
     },
@@ -1332,16 +1332,16 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:21Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:41:44Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:48:23Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:41:46Z"
         }
       }
     },
@@ -1386,28 +1386,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:23Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:42:44Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:25Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:42:46Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:27Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:42:49Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:49:29Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:42:51Z"
         },
         "vision": {
           "confidence": "high",
@@ -1458,28 +1458,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:18Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:44:45Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:20Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:44:47Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:22Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:44:49Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:51:25Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:44:52Z"
         }
       }
     },
@@ -1524,34 +1524,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:12Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:46:52Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:13Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:46:54Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:15Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:46:55Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:17Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:46:57Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:19Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:46:59Z"
         }
       }
     },
@@ -1596,34 +1596,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:47Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:47:48Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:49Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:47:50Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:51Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:47:52Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:53Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:47:54Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:53:55Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:47:56Z"
         }
       }
     },
@@ -1668,34 +1668,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:31Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:48:32Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:33Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:48:34Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:34Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:48:36Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:36Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:48:39Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:54:38Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:48:43Z"
         }
       }
     },
@@ -1740,34 +1740,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:07Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:49:30Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:08Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:49:32Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:10Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:49:34Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:13Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:49:36Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:15Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:49:38Z"
         }
       }
     },
@@ -1812,34 +1812,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:44Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:50:07Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:46Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:50:09Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:48Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:50:11Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:50Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:50:13Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:55:52Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:50:15Z"
         }
       }
     },
@@ -1884,34 +1884,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:17Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:50:34Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:20Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:50:36Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:22Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:50:38Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:24Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:50:41Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:25Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:50:43Z"
         }
       }
     },
@@ -1956,34 +1956,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:57Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:51:16Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:56:59Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:51:18Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:01Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:51:20Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:03Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:51:22Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:05Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:51:25Z"
         }
       }
     },
@@ -2028,34 +2028,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:26Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:51:45Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:28Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:51:47Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:30Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:51:48Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:31Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:51:50Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:57:33Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:51:52Z"
         }
       }
     },
@@ -2100,16 +2100,16 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:58:13Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:52:09Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:58:14Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:52:11Z"
         }
       }
     },
@@ -2154,28 +2154,28 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:58:31Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:52:31Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:58:33Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:52:33Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:58:35Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:52:34Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:58:36Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:52:36Z"
         }
       }
     },
@@ -2220,28 +2220,28 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:05Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:52:53Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:07Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:52:55Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:09Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:52:56Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:11Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:52:58Z"
         }
       }
     },
@@ -2286,28 +2286,28 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:27Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:53:20Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:29Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:53:22Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:31Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:53:23Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:32Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:53:25Z"
         }
       }
     },
@@ -2352,28 +2352,28 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:59:58Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:53:42Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:00Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:53:44Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:01Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:53:45Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:03Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:53:47Z"
         }
       }
     },
@@ -2418,28 +2418,28 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:20Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:54:04Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:22Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:54:06Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:23Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:54:08Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:00:25Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:54:09Z"
         }
       }
     },
@@ -2484,28 +2484,28 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:03Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:54:42Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:05Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:54:44Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:06Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:54:46Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:08Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:54:47Z"
         }
       }
     },
@@ -2550,34 +2550,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:53Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:55:05Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:54Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:55:07Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:56Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:55:09Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:01:58Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:55:11Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:02:00Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:55:13Z"
         }
       }
     },
@@ -2622,34 +2622,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:02:16Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:55:29Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:02:18Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:55:31Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:02:20Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:55:33Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:02:22Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:55:35Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:02:24Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:55:37Z"
         }
       }
     },
@@ -2694,34 +2694,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:24Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:55:57Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:26Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:55:59Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:28Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:56:01Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:30Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:56:03Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:32Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:56:05Z"
         }
       }
     },
@@ -2766,34 +2766,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:47Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:56:20Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:49Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:56:22Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:51Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:56:24Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:53Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:56:26Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:04:54Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:56:28Z"
         }
       }
     },
@@ -2838,34 +2838,34 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:05:10Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:57:21Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:05:12Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:57:23Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:05:13Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:57:25Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:05:15Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:57:27Z"
         },
         "vision": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:05:17Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:57:29Z"
         }
       }
     },
@@ -2910,16 +2910,16 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:06:28Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:58:10Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:06:30Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:58:11Z"
         }
       }
     },
@@ -2964,16 +2964,16 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:06:47Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:58:28Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:06:48Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:58:30Z"
         }
       }
     },
@@ -3018,16 +3018,16 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:07:05Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:58:47Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:07:07Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:58:49Z"
         }
       }
     },
@@ -3072,16 +3072,16 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:07:24Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:59:06Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:07:25Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:59:07Z"
         }
       }
     },
@@ -3126,16 +3126,16 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:07:53Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:59:25Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:07:55Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:59:26Z"
         }
       }
     },
@@ -3180,22 +3180,22 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:08:12Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:59:48Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:08:14Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:59:50Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:08:15Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:59:51Z"
         }
       }
     },
@@ -3240,22 +3240,22 @@
       },
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:08:37Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:00:08Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:08:39Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:00:10Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:08:41Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:00:12Z"
         }
       }
     },
@@ -3300,28 +3300,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:08:56Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:00:28Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:08:58Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:00:29Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:09:00Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:00:32Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:09:02Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:00:33Z"
         }
       }
     },
@@ -3366,28 +3366,28 @@
       },
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:09:18Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:00:49Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:09:20Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:00:51Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:09:22Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:00:52Z"
         },
         "tools": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T09:09:24Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:00:54Z"
         }
       }
     }

@@ -306,22 +306,22 @@
       "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:29Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:42:40Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:31Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:42:42Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:45:32Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:42:44Z"
         }
       }
     },
@@ -583,7 +583,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-08-02T08:23:08Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:18Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:20Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:22Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen2.5-72B-Instruct",
@@ -905,7 +924,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-08-02T08:23:08Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:52Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:54Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:36:56Z"
+        }
+      }
     },
     {
       "id": "Qwen/Qwen3-32B",
@@ -931,16 +969,22 @@
       "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-15T08:12:20Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:38:28Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-15T08:12:22Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:38:31Z"
+        },
+        "chat": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:38:26Z"
         }
       }
     },
@@ -2369,7 +2413,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-08-02T08:23:08Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:37:36Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:37:39Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:37:41Z"
+        }
+      }
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
@@ -2493,22 +2556,22 @@
       "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:09Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:43:34Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:11Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:43:36Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:46:12Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:43:38Z"
         }
       }
     },
@@ -2674,16 +2737,22 @@
       "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:03Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:39:19Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:05Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:39:21Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:39:23Z"
         }
       }
     },
@@ -2730,10 +2799,22 @@
       "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:42:45Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:40:47Z"
+        },
+        "json": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:40:49Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:40:52Z"
         }
       }
     },
@@ -2759,7 +2840,26 @@
       "status": "available",
       "source": "huggingface_router_models_api",
       "lastChecked": "2026-08-02T08:23:08Z",
-      "capabilities": {}
+      "capabilities": {
+        "chat": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:38:09Z"
+        },
+        "json": {
+          "value": false,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:38:11Z"
+        },
+        "streaming": {
+          "value": true,
+          "source": "tested_by_catalog",
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:38:12Z"
+        }
+      }
     },
     {
       "id": "utter-project/EuroLLM-22B-Instruct-2512",
@@ -2860,16 +2960,16 @@
       "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:58:22Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:03:25Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-22T08:58:24Z",
+          "value": false,
           "source": "tested_by_catalog",
-          "value": false
+          "confidence": "high",
+          "lastChecked": "2026-08-05T09:03:27Z"
         }
       }
     },
@@ -3121,22 +3221,22 @@
       "lastChecked": "2026-08-02T08:23:08Z",
       "capabilities": {
         "chat": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:43:26Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:41:27Z"
         },
         "json": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:43:45Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:41:37Z"
         },
         "streaming": {
-          "confidence": "high",
-          "lastChecked": "2026-07-29T08:43:48Z",
+          "value": true,
           "source": "tested_by_catalog",
-          "value": true
+          "confidence": "high",
+          "lastChecked": "2026-08-05T08:41:42Z"
         }
       }
     },
